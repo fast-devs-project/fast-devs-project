@@ -1,6 +1,6 @@
 {
   "it": {
-    "nav.cta":                   "Scarica gratis",
+    "nav.cta":                   "Download",
     "nav.features":              "Features",
     "nav.kits":                  "Kit Premium",
     "nav.gallery":               "Screenshot",
@@ -86,7 +86,7 @@
   },
 
   "en": {
-    "nav.cta":                   "Download free",
+    "nav.cta":                   "Download",
     "nav.features":              "Features",
     "nav.kits":                  "Premium Kits",
     "nav.gallery":               "Screenshots",
