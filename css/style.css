@@ -747,6 +747,62 @@ body::before {
 
 .form-success.visible { display: block; }
 
+/* ——— EMAIL ALERT ——— */
+.email-alert {
+  position: fixed;
+  inset: 0;
+  z-index: 998;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  pointer-events: none;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.email-alert.visible {
+  opacity: 1;
+  pointer-events: auto;
+  animation: alert-in-out 4s ease forwards;
+}
+
+@keyframes alert-in-out {
+  0%   { opacity: 0; transform: translateY(16px); }
+  10%  { opacity: 1; transform: translateY(0); }
+  80%  { opacity: 1; transform: translateY(0); }
+  100% { opacity: 0; transform: translateY(-8px); }
+}
+
+.email-alert-box {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 1.25rem 2rem;
+  background: var(--bg-secondary);
+  border: 1px solid rgba(16,185,129,0.3);
+  border-radius: var(--radius-xl);
+  box-shadow: 0 20px 60px rgba(0,0,0,0.6);
+  backdrop-filter: blur(20px);
+}
+
+.email-alert-icon {
+  width: 44px; height: 44px;
+  border-radius: 50%;
+  background: rgba(16,185,129,0.15);
+  display: grid;
+  place-items: center;
+  flex-shrink: 0;
+  color: var(--accent-green);
+}
+
+.email-alert-icon svg { width: 24px; height: 24px; }
+
+.email-alert-text {
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--text-primary);
+}
+
 /* ——— FOOTER ——— */
 .footer {
   background: var(--bg-secondary);

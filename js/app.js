@@ -285,13 +285,39 @@ function initContact() {
   const form = document.getElementById('contact-form');
   if (!form) return;
 
-  form.addEventListener('submit', e => {
+  form.addEventListener('submit', async e => {
     e.preventDefault();
-    const success = document.getElementById('form-success');
-    success?.classList.add('visible');
-    form.reset();
-    setTimeout(() => success?.classList.remove('visible'), 4000);
+    const btn = form.querySelector('.btn-submit');
+    btn.disabled = true;
+    btn.style.opacity = '0.6';
+
+    const data = new FormData(form);
+
+    try {
+      const res = await fetch('https://formsubmit.co/ajax/fastdevsproject@gmail.com', {
+        method: 'POST',
+        headers: { 'Accept': 'application/json' },
+        body: data
+      });
+
+      if (res.ok) {
+        form.reset();
+        showEmailAlert();
+      }
+    } catch {
+      /* Silently fail — form reset anyway */
+    } finally {
+      btn.disabled = false;
+      btn.style.opacity = '';
+    }
   });
+}
+
+function showEmailAlert() {
+  const alert = document.getElementById('email-alert');
+  if (!alert) return;
+  alert.classList.add('visible');
+  setTimeout(() => alert.classList.remove('visible'), 4000);
 }
 
 /* ============================================================
@@ -356,6 +382,14 @@ document.addEventListener('DOMContentLoaded', async () => {
   initContact();
   await initI18n();
   observeReveal();
+
+  /* Scroll to hash anchor after all dynamic content is rendered */
+  if (location.hash) {
+    const target = document.querySelector(location.hash);
+    if (target) {
+      setTimeout(() => target.scrollIntoView({ behavior: 'smooth' }), 100);
+    }
+  }
 
   /* Blog modal close */
   const blogModal = document.getElementById('blog-modal');

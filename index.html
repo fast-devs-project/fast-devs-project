@@ -92,7 +92,7 @@
       <img src="images/banner/fdp banner.png" alt="Fast-Devs Project" class="hero-banner reveal">
 
       <p class="hero-tagline reveal reveal-delay-2" data-i18n="hero.subtitle">
-        Sviluppiamo app native per l'ecosistema Apple: iPhone, iPad, Apple Watch e Mac. Privacy-first, con passione.
+        Sviluppiamo app native per l'ecosistema Apple: iPhone, iPad, Apple Watch e Mac.
       </p>
     </div>
   </div>
@@ -156,6 +156,9 @@
     </div>
 
     <form class="contact-form reveal reveal-delay-1" id="contact-form">
+      <input type="hidden" name="_captcha" value="false">
+      <input type="hidden" name="_subject" value="Nuovo messaggio dal sito Fast-Devs Project">
+      <input type="hidden" name="_template" value="table">
       <div class="form-group">
         <label class="form-label" for="contact-name" data-i18n="contact.name">Nome</label>
         <input class="form-input" type="text" id="contact-name" name="name" required
@@ -183,6 +186,20 @@
 </section>
 
 
+<!-- Alert email inviata -->
+<div id="email-alert" class="email-alert" role="alert" aria-live="polite">
+  <div class="email-alert-box">
+    <div class="email-alert-icon">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+        <circle cx="12" cy="12" r="10"/>
+        <polyline points="9 12 11 14 15 10"/>
+      </svg>
+    </div>
+    <p class="email-alert-text" data-i18n="contact.success">Email inviata correttamente!</p>
+  </div>
+</div>
+
+
 <!-- ═══════════════════════════════════════════════
      FOOTER
 ══════════════════════════════════════════════════ -->
@@ -201,8 +218,6 @@
 
       <nav class="footer-links" aria-label="Link footer">
         <a href="#apps" data-i18n="nav.apps">Le nostre App</a>
-        <a href="#blog" data-i18n="nav.blog">Blog</a>
-        <a href="#contact" data-i18n="nav.contact">Contatti</a>
       </nav>
     </div>
 
