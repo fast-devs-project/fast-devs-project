@@ -27,39 +27,25 @@ Static landing pages for the iOS/watchOS apps by **[Fast-Devs Project](https://f
 
 ## Project Structure
 
-Each app has its own self-contained folder:
+The repo root is the main site. Each app landing page lives in its own subfolder:
 
 ```
-├── device-monitor/
-│   ├── index.html
-│   ├── css/style.css
-│   ├── js/
-│   │   ├── app.js
-│   │   └── icons.js
-│   ├── data/
-│   │   ├── i18n.json           # IT / EN translations
-│   │   ├── changelog.json      # App version history
-│   │   ├── features.json       # Main features
-│   │   ├── kits.json           # Premium in-app kits
-│   │   ├── compatibility.json  # Device compatibility
-│   │   ├── gallery.json        # Screenshots per device
-│   │   └── press.json          # External mentions and videos
-│   └── images/
+├── index.html              # Main site (Fast-Devs Project home)
+├── css/style.css           # Main site styles
+├── js/app.js               # Main site logic
+├── data/
+│   ├── i18n.json           # Main site translations
+│   ├── apps.json           # App listings
+│   └── blog.json           # Blog articles
+├── images/                 # Main site images
 │
-└── iwindrose/
+├── device-monitor/         # Device Monitor² landing page
+│   ├── index.html
+│   ├── css/, js/, data/, images/
+│
+└── iwindrose/              # iWindrose² landing page
     ├── index.html
-    ├── css/style.css
-    ├── js/
-    │   ├── app.js
-    │   └── icons.js
-    ├── data/
-    │   ├── i18n.json
-    │   ├── changelog.json
-    │   ├── features.json
-    │   ├── compatibility.json
-    │   ├── gallery.json
-    │   └── press.json
-    └── images/
+    ├── css/, js/, data/, images/
 ```
 
 ---
@@ -77,6 +63,7 @@ pkill -f "python3 -m http.server 8099"
 ```
 
 Then open:
+- `http://localhost:8099/` — Fast-Devs Project (main site)
 - `http://localhost:8099/device-monitor/` — Device Monitor²
 - `http://localhost:8099/iwindrose/` — iWindrose²
 
@@ -94,10 +81,11 @@ For a step-by-step release checklist, see **[RELEASE.md](RELEASE.md)**.
 
 ## GitHub Pages
 
-Both sites are served from the same repo:
+All sites are served from the same repo:
 
-- `https://<user>.github.io/<repo>/device-monitor/`
-- `https://<user>.github.io/<repo>/iwindrose/`
+- `https://<user>.github.io/<repo>/` — Main site
+- `https://<user>.github.io/<repo>/device-monitor/` — Device Monitor²
+- `https://<user>.github.io/<repo>/iwindrose/` — iWindrose²
 
 ---
 
