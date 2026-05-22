@@ -294,7 +294,7 @@ function initContact() {
     const data = new FormData(form);
 
     try {
-      const res = await fetch('https://formsubmit.co/ajax/e7c69cd562e6710e4d663355d5fc7a2e', {
+      const res = await fetch('https://formsubmit.co/ajax/bdc4e7d2b521be14522a9ce2ce867fb1', {
         method: 'POST',
         headers: { 'Accept': 'application/json' },
         body: data
