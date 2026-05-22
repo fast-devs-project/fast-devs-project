@@ -4,7 +4,7 @@
 
 /* ——— CONFIG ——— */
 const APP_STORE_URL = 'https://itunes.apple.com/app/iwindrose/id1403142267';
-const SUPPORT_URL   = 'https://fastdevsproject.altervista.org/contatti/';
+const SUPPORT_URL   = '../#contact';
 const CACHE_VER = '5.7.2';
 
 /* ——— Feature icon colors ——— */

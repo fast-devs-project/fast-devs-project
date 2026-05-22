@@ -4,7 +4,7 @@
 
 /* ——— CONFIG ——— */
 const APP_STORE_URL = 'https://apps.apple.com/app/device-monitor/id1522870046';
-const SUPPORT_URL   = 'https://fastdevsproject.altervista.org/contatti/';
+const SUPPORT_URL   = '../#contact';
 const CACHE_VER = '26.5.0';
 
 /* ——— Feature icon colors ——— */
