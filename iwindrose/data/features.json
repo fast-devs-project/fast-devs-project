@@ -1,0 +1,110 @@
+[
+  {
+    "id": "windrose",
+    "icon": "compass",
+    "title": "Rosa dei Venti",
+    "title_en": "Wind Rose",
+    "description": "Rosa dei venti nautica dinamica e orientabile con informazioni dettagliate su tutti i venti principali e secondari.",
+    "description_en": "Dynamic, orientable nautical wind rose with detailed information about all principal and secondary winds.",
+    "color": "#E86A33"
+  },
+  {
+    "id": "weather",
+    "icon": "cloud",
+    "title": "Meteo in tempo reale",
+    "title_en": "Real-time Weather",
+    "description": "Dati meteo aggiornati alla tua posizione attuale con previsioni dettagliate tramite OpenWeatherMap a 5 giorni.",
+    "description_en": "Updated weather data at your current location with detailed 5-day forecasts via OpenWeatherMap.",
+    "color": "#3B82F6"
+  },
+  {
+    "id": "sun-moon",
+    "icon": "sun",
+    "title": "Sole e Luna",
+    "title_en": "Sun & Moon",
+    "description": "Informazioni complete su alba, tramonto, fasi lunari, eclissi lunari, crepuscoli e Moon Tilt — disponibili offline.",
+    "description_en": "Complete information on sunrise, sunset, moon phases, lunar eclipses, twilights and Moon Tilt — available offline.",
+    "color": "#F59E0B"
+  },
+  {
+    "id": "tides",
+    "icon": "waves",
+    "title": "Maree",
+    "title_en": "Tides",
+    "description": "Informazioni sulle maree per la tua posizione con previsioni aggiornate e indicatori di alta e bassa marea.",
+    "description_en": "Tide information for your location with updated forecasts and high/low tide indicators.",
+    "color": "#06B6D4"
+  },
+  {
+    "id": "meteomar",
+    "icon": "anchor",
+    "title": "Meteomar",
+    "title_en": "Meteomar",
+    "description": "Bollettini meteo del Mar Mediterraneo tramite il servizio Meteomar con notifiche push per nuovi avvisi.",
+    "description_en": "Mediterranean Sea weather bulletins via Meteomar service with push notifications for new alerts.",
+    "color": "#10B981"
+  },
+  {
+    "id": "lamma",
+    "icon": "map",
+    "title": "LaMMA",
+    "title_en": "LaMMA",
+    "description": "Previsioni complete del servizio LaMMA: temperatura del mare, moto ondoso, raffica, altezza onde e molto altro.",
+    "description_en": "Full LaMMA service forecasts: sea temperature, swell, gusts, wave height and much more.",
+    "color": "#8B5CF6"
+  },
+  {
+    "id": "scales",
+    "icon": "bar-chart",
+    "title": "Scale Vento e Mare",
+    "title_en": "Wind & Sea Scales",
+    "description": "Scale Beaufort, Douglas e Fujita per una classificazione completa della forza del vento e dello stato del mare.",
+    "description_en": "Beaufort, Douglas and Fujita scales for a complete classification of wind force and sea state.",
+    "color": "#EC4899"
+  },
+  {
+    "id": "position",
+    "icon": "map-pin",
+    "title": "Posizione",
+    "title_en": "Position",
+    "description": "Informazioni geografiche complete sulla tua posizione con coordinate, altitudine e aggiornamento automatico.",
+    "description_en": "Complete geographic information about your position with coordinates, altitude and auto-update.",
+    "color": "#E86A33"
+  },
+  {
+    "id": "widgets",
+    "icon": "grid",
+    "title": "Widget",
+    "title_en": "Widgets",
+    "description": "Widget per Home Screen (iOS 14+), Notification Center e iMessage stickers per condividere la rosa dei venti.",
+    "description_en": "Widgets for Home Screen (iOS 14+), Notification Center and iMessage stickers to share the wind rose.",
+    "color": "#F59E0B"
+  },
+  {
+    "id": "shortcuts",
+    "icon": "command",
+    "title": "Siri Shortcuts",
+    "title_en": "Siri Shortcuts",
+    "description": "Integrazione con Comandi Rapidi di Siri e ricerca Spotlight per accedere rapidamente alle previsioni.",
+    "description_en": "Integration with Siri Shortcuts and Spotlight search for quick access to forecasts.",
+    "color": "#EC4899"
+  },
+  {
+    "id": "notifications",
+    "icon": "bell",
+    "title": "Notifiche",
+    "title_en": "Notifications",
+    "description": "Notifiche push per aggiornamenti Meteomar con immagini di anteprima nelle Rich Notification.",
+    "description_en": "Push notifications for Meteomar updates with preview images in Rich Notifications.",
+    "color": "#8B5CF6"
+  },
+  {
+    "id": "export",
+    "icon": "file-text",
+    "title": "Export PDF",
+    "title_en": "PDF Export",
+    "description": "Esporta le previsioni Meteomar in formato PDF con supporto AirPrint per stampa diretta.",
+    "description_en": "Export Meteomar forecasts as PDF with AirPrint support for direct printing.",
+    "color": "#06B6D4"
+  }
+]

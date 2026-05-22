@@ -1,0 +1,463 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- SEO -->
+  <title>iWindrose² — La Rosa dei Venti su iPhone, iPad e Apple Watch</title>
+  <meta name="description" content="iWindrose² è l'app per iPhone, iPad e Apple Watch che ti porta la Rosa dei Venti, previsioni meteo, bollettini marini, maree e molto altro. La tua enciclopedia del vento, sempre con te.">
+  <meta name="keywords" content="iwindrose, rosa dei venti, wind rose, meteo, bollettini, maree, vento, mare, ios, iphone, ipad, apple watch">
+  <meta name="author" content="Fast-Devs Project">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="iWindrose² — La Rosa dei Venti su iPhone, iPad e Apple Watch">
+  <meta property="og:description" content="L'app che ti porta la rosa dei venti, previsioni meteo, bollettini marini e maree su iPhone, iPad e Apple Watch.">
+  <meta property="og:image" content="images/icon/app-icon.png">
+  <meta property="og:locale" content="it_IT">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="iWindrose² — La Rosa dei Venti su iPhone, iPad e Apple Watch">
+  <meta name="twitter:description" content="Rosa dei venti, meteo, bollettini, maree e molto altro su iPhone, iPad e Apple Watch.">
+  <meta name="twitter:image" content="images/icon/app-icon.png">
+  <meta name="twitter:site" content="@FastDevsProject">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="images/favicon/favicon.png">
+  <link rel="apple-touch-icon" href="images/favicon/favicon.png">
+
+  <!-- Theme -->
+  <meta name="theme-color" content="#080A0F">
+  <meta name="color-scheme" content="dark">
+
+  <!-- Tailwind CSS -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: { extend: { colors: { primary: '#080A0F', secondary: '#0D1117' } } }
+    }
+  </script>
+
+  <!-- Custom styles -->
+  <link rel="stylesheet" href="css/style.css?v=5.7.2">
+</head>
+<body>
+
+<!-- ═══════════════════════════════════════════════
+     NAVIGATION
+══════════════════════════════════════════════════ -->
+<nav class="nav" role="navigation" aria-label="Navigazione principale">
+  <div class="container nav-inner">
+    <a href="#" class="nav-brand" data-i18n-aria="nav.aria.brand" aria-label="iWindrose² – torna in cima">
+      <img src="images/icon/app-icon.png" alt="" aria-hidden="true" width="30" height="30" style="border-radius:8px;display:block;flex-shrink:0;">
+      <span>iWindrose²</span>
+    </a>
+
+    <ul class="nav-links" role="list">
+      <li><a href="#features" data-i18n="nav.features">Features</a></li>
+      <li><a href="#gallery" data-i18n="nav.gallery">Screenshot</a></li>
+      <li><a href="#changelog" data-i18n="nav.changelog">Changelog</a></li>
+      <li><a href="#press" data-i18n="nav.press">Press</a></li>
+      <li><a href="#privacy" data-i18n="nav.privacy">Privacy</a></li>
+    </ul>
+
+    <a href="#" data-appstore class="nav-cta" target="_blank" rel="noopener"
+       data-i18n="nav.cta" data-i18n-aria="nav.aria.cta"
+       aria-label="Scarica iWindrose² sull'App Store">
+      Scarica
+    </a>
+
+    <button class="nav-mobile-toggle" data-i18n-aria="nav.aria.menu" aria-label="Apri menu" aria-expanded="false">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+  </div>
+</nav>
+
+
+<!-- ═══════════════════════════════════════════════
+     HERO
+══════════════════════════════════════════════════ -->
+<header class="hero" id="top">
+  <div class="hero-bg-orbs" aria-hidden="true">
+    <div class="orb orb-1"></div>
+    <div class="orb orb-2"></div>
+    <div class="orb orb-3"></div>
+  </div>
+
+  <div class="container">
+    <div class="hero-content">
+
+      <!-- Text -->
+      <div class="hero-text">
+        <div class="hero-badge reveal">
+          <span class="hero-badge-dot" aria-hidden="true"></span>
+          <span id="hero-badge-text" data-i18n="hero.badge">Versione <span id="hero-version">…</span> disponibile</span>
+        </div>
+
+        <h1 class="hero-title reveal reveal-delay-1">
+          <span class="gradient-text">iWindrose²</span>
+        </h1>
+
+        <p class="hero-subtitle reveal reveal-delay-2" data-i18n="hero.subtitle">
+          La tua enciclopedia portatile sulla Rosa dei Venti. Venti, meteo, bollettini, maree, scale, sole e luna — tutto a portata di mano per gli appassionati del mare.
+        </p>
+
+        <!-- Rating -->
+        <div class="reveal reveal-delay-2" style="display:flex;align-items:center;gap:8px;">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="#F59E0B" stroke="none" aria-hidden="true" style="flex-shrink:0;margin-right:1px;">
+            <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/>
+          </svg>
+          <span style="font-size:0.9rem;color:var(--text-secondary);">
+            <strong style="color:var(--text-primary);">4,6</strong>
+            <span id="hero-rating-text" data-i18n="hero.rating" data-count="392"> · 392 votazioni</span>
+          </span>
+        </div>
+
+        <div class="hero-actions reveal reveal-delay-3">
+          <a href="#features" class="btn-secondary">
+            <span data-i18n="hero.cta.discover">Scopri le funzionalità</span>
+            <span aria-hidden="true" style="font-size:1.1em;">↓</span>
+          </a>
+        </div>
+
+        <!-- Chips -->
+        <div class="hero-badges reveal reveal-delay-4" aria-label="Piattaforme supportate">
+          <span class="hero-chip">
+            <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="5" y="2" width="14" height="20" rx="2"/><line x1="12" y1="18" x2="12.01" y2="18"/></svg>
+            iPhone
+          </span>
+          <span class="hero-chip">
+            <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="2" width="16" height="20" rx="2"/><line x1="12" y1="18" x2="12.01" y2="18"/></svg>
+            iPad
+          </span>
+          <span class="hero-chip">
+            <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="7"/><polyline points="12 9 12 12 13.5 13.5"/><path d="M16.51 17.35l-.35 3.83a2 2 0 0 1-2 1.82H9.83a2 2 0 0 1-2-1.82l-.35-3.83m.01-10.7l.35-3.83A2 2 0 0 1 9.83 1h4.35a2 2 0 0 1 2 1.82l.35 3.83"/></svg>
+            Apple Watch
+          </span>
+        </div>
+      </div>
+
+      <!-- Visual -->
+      <div class="hero-visual" aria-hidden="true">
+        <div class="hero-screenshot-wrapper">
+          <div class="hero-screenshot-frame">
+            <div style="padding:46.15% 0 0 0;position:relative;">
+              <iframe src="https://player.vimeo.com/video/349940943?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
+                      frameborder="0"
+                      allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media; web-share"
+                      referrerpolicy="strict-origin-when-cross-origin"
+                      style="position:absolute;top:0;left:0;width:100%;height:100%;"
+                      title="iWindRose 3.3.0 - Promo video"></iframe>
+            </div>
+          </div>
+          <div class="hero-glow"></div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</header>
+
+
+<!-- ═══════════════════════════════════════════════
+     STATS
+══════════════════════════════════════════════════ -->
+<section aria-label="Statistiche" style="padding-block:0 clamp(2rem,4vw,4rem);">
+  <div class="container">
+    <div class="stats-row reveal">
+      <div class="stat-item">
+        <div class="stat-value gradient-text">4,6</div>
+        <div class="stat-label" data-i18n="stats.rating.app.store">Rating App Store</div>
+      </div>
+      <div class="stat-item">
+        <div class="stat-value gradient-text">392+</div>
+        <div class="stat-label" data-i18n="stats.rating">Valutazioni</div>
+      </div>
+      <div class="stat-item">
+        <div class="stat-value gradient-text">25+</div>
+        <div class="stat-label" data-i18n="stats.reviews">Recensioni</div>
+      </div>
+      <div class="stat-item">
+        <div class="stat-value gradient-text">2</div>
+        <div class="stat-label" data-i18n="stats.languages">Lingue supportate</div>
+      </div>
+      <div class="stat-item">
+        <div class="stat-value gradient-text">3</div>
+        <div class="stat-label" data-i18n="stats.platforms">Piattaforme Apple</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- ═══════════════════════════════════════════════
+     FEATURES
+══════════════════════════════════════════════════ -->
+<section class="section" id="features" aria-labelledby="features-heading">
+  <div class="container">
+    <div class="reveal">
+      <p class="section-label" data-i18n="features.label">Features</p>
+      <h2 class="section-title" id="features-heading">
+        <span data-i18n="features.title">Tutto il mare</span><br>
+        <span class="gradient-text" data-i18n="features.title.gradient">in una sola app</span>
+      </h2>
+      <p class="section-subtitle" data-i18n="features.subtitle">
+        Dodici funzionalità dedicate per chi vive il mare: dalla rosa dei venti ai bollettini, dalle maree alle previsioni — tutto consultabile offline o in tempo reale.
+      </p>
+    </div>
+    <div class="features-grid" id="features-grid" role="list"></div>
+  </div>
+</section>
+
+
+<!-- ═══════════════════════════════════════════════
+     GALLERY
+══════════════════════════════════════════════════ -->
+<section class="section" id="gallery" aria-labelledby="gallery-heading">
+  <div class="container">
+    <div class="reveal">
+      <p class="section-label" data-i18n="gallery.label">Screenshot</p>
+      <h2 class="section-title" id="gallery-heading">
+        <span data-i18n="gallery.title">Vedi l'app</span><br>
+        <span class="gradient-text" data-i18n="gallery.title.gradient">in azione</span>
+      </h2>
+      <p class="section-subtitle" data-i18n="gallery.subtitle">
+        Sfoglia gli screenshot su iPhone, iPad e Apple Watch. Tocca un'immagine per ingrandirla.
+      </p>
+    </div>
+    <div id="gallery-tabs" class="gallery-tabs reveal reveal-delay-1" role="tablist" aria-label="Galleria screenshot per dispositivo"></div>
+    <div id="gallery-container" class="reveal reveal-delay-2"></div>
+  </div>
+</section>
+
+
+<!-- ═══════════════════════════════════════════════
+     COMPATIBILITY
+══════════════════════════════════════════════════ -->
+<section class="section" id="compatibility" aria-labelledby="compat-heading">
+  <div class="container">
+    <div class="reveal">
+      <p class="section-label" data-i18n="compat.label">Compatibilità</p>
+      <h2 class="section-title" id="compat-heading">
+        <span data-i18n="compat.title">Su tutte le</span><br>
+        <span class="gradient-text" data-i18n="compat.title.gradient">piattaforme Apple</span>
+      </h2>
+      <p class="section-subtitle" data-i18n="compat.subtitle">
+        Un'app, tre piattaforme. Da iPhone ad Apple Watch, iWindrose² ti accompagna ovunque.
+      </p>
+    </div>
+    <div class="compat-grid" id="compat-grid"></div>
+  </div>
+</section>
+
+
+<!-- ═══════════════════════════════════════════════
+     CHANGELOG
+══════════════════════════════════════════════════ -->
+<section class="section" id="changelog" aria-labelledby="changelog-heading">
+  <div class="container">
+    <div class="reveal">
+      <p class="section-label" data-i18n="changelog.label">Changelog</p>
+      <h2 class="section-title" id="changelog-heading">
+        <span data-i18n="changelog.title">Sempre aggiornata,</span><br>
+        <span class="gradient-text" data-i18n="changelog.title.gradient">sempre migliore</span>
+      </h2>
+      <p class="section-subtitle" data-i18n="changelog.subtitle">
+        Le ultime versioni rilasciate, con tutte le novità e i miglioramenti.
+      </p>
+    </div>
+    <div class="changelog-list" id="changelog-list"></div>
+  </div>
+</section>
+
+
+<!-- ═══════════════════════════════════════════════
+     PRESS
+══════════════════════════════════════════════════ -->
+<section class="section" id="press" aria-labelledby="press-heading">
+  <div class="container">
+    <div class="reveal">
+      <p class="section-label" data-i18n="press.label">Press</p>
+      <h2 class="section-title" id="press-heading">
+        <span data-i18n="press.title">iWindrose²</span><br>
+        <span class="gradient-text" data-i18n="press.title.gradient">nel mondo</span>
+      </h2>
+      <p class="section-subtitle" data-i18n="press.subtitle">
+        Articoli, recensioni e video da pubblicazioni e creator.
+      </p>
+    </div>
+    <div class="press-grid" id="press-grid"></div>
+  </div>
+</section>
+
+
+<!-- ═══════════════════════════════════════════════
+     PRIVACY
+══════════════════════════════════════════════════ -->
+<section class="section privacy-section" id="privacy" aria-labelledby="privacy-heading">
+  <div class="container">
+    <div class="privacy-inner">
+
+      <div class="privacy-icon-wrap reveal" aria-hidden="true">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
+          <polyline points="9 12 11 14 15 10"/>
+        </svg>
+      </div>
+
+      <div>
+        <p class="section-label reveal" style="color:var(--accent-green);" data-i18n="privacy.label">Privacy-first</p>
+        <h2 class="privacy-title reveal reveal-delay-1" id="privacy-heading">
+          <span data-i18n="privacy.title">I tuoi dati restano tuoi.</span><br>
+          <span style="background:linear-gradient(135deg,#10B981,#06B6D4);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;"
+                data-i18n="privacy.title.gradient">Sempre.</span>
+        </h2>
+        <blockquote class="privacy-quote reveal reveal-delay-2" data-i18n="privacy.quote">
+          iWindrose² è progettata con la privacy al centro. L'app non raccoglie dati personali e non include analytics o tracciamenti nascosti. I dati di posizione vengono utilizzati solo per fornirti previsioni meteo accurate e non vengono mai condivisi con terze parti.
+        </blockquote>
+        <div class="privacy-chips reveal reveal-delay-3">
+          <span class="privacy-chip">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+            <span data-i18n="privacy.chip.personal">Nessun dato personale raccolto</span>
+          </span>
+          <span class="privacy-chip">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+            <span data-i18n="privacy.chip.tracking">Nessun tracciamento</span>
+          </span>
+          <span class="privacy-chip">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+            <span data-i18n="privacy.chip.server">Nessun analytics nascosto</span>
+          </span>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+<!-- ═══════════════════════════════════════════════
+     CTA FINALE
+══════════════════════════════════════════════════ -->
+<section class="section" aria-labelledby="cta-heading" style="text-align:center;">
+  <div class="container">
+    <div style="
+      max-width: 640px; margin-inline: auto;
+      padding: clamp(2.5rem,5vw,4rem) clamp(1.5rem,4vw,3rem);
+      background: linear-gradient(135deg,rgba(232,106,51,0.08),rgba(217,119,6,0.08));
+      border: 1px solid rgba(232,106,51,0.15);
+      border-radius: var(--radius-xl);
+    " class="reveal">
+      <img src="images/icon/app-icon.png" alt="" aria-hidden="true" width="64" height="64"
+           style="border-radius:18px;margin:0 auto 1.5rem;display:block;">
+
+      <h2 class="section-title" id="cta-heading" style="font-size:clamp(2rem,4vw,3rem);margin-bottom:.75rem;">
+        <span data-i18n="cta.title">Pronto a salpare?</span><br>
+        <span class="gradient-text" data-i18n="cta.title.gradient">Scarica ora.</span>
+      </h2>
+
+      <p style="color:var(--text-secondary);margin-bottom:2rem;font-size:1.05rem;line-height:1.7;"
+         data-i18n="cta.body">
+        Disponibile su App Store per iPhone, iPad e Apple Watch. La tua enciclopedia del vento, sempre con te.
+      </p>
+
+      <div style="display:flex;justify-content:center;flex-wrap:wrap;gap:.75rem;">
+        <a href="#" data-appstore class="btn-primary" target="_blank" rel="noopener"
+           data-i18n-aria="footer.aria.appstore" aria-label="Scarica iWindrose² su App Store">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" stroke="none" aria-hidden="true">
+            <path d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.8-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M13 3.5c.73-.83 1.94-1.46 2.94-1.5.13 1.17-.34 2.35-1.04 3.19-.69.85-1.83 1.51-2.95 1.42-.15-1.15.41-2.35 1.05-3.11z"/>
+          </svg>
+          <span data-i18n="cta.download">Scarica su App Store</span>
+        </a>
+        <a href="#features" class="btn-secondary">
+          <span data-i18n="cta.discover">Scopri di più</span>
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- ═══════════════════════════════════════════════
+     FOOTER
+══════════════════════════════════════════════════ -->
+<footer class="footer" role="contentinfo">
+  <div class="container">
+    <div class="footer-inner">
+      <div>
+        <div class="footer-brand">
+          <img src="images/icon/app-icon.png" alt="" aria-hidden="true" width="32" height="32" style="border-radius:8px;flex-shrink:0;">
+          <span>iWindrose²</span>
+        </div>
+        <p class="footer-desc" data-i18n="footer.desc">
+          L'app che ti porta la rosa dei venti, le previsioni meteo e i bollettini marini sempre con te, in modo semplice e immediato.
+        </p>
+      </div>
+
+      <nav class="footer-links" aria-label="Link footer">
+        <a href="#" data-support target="_blank" rel="noopener" data-i18n="footer.support">Supporto</a>
+        <a href="https://www.iubenda.com/privacy-policy/27457705" class="iubenda-black iubenda-noiframe iubenda-embed iub-legal-only" title="Privacy Policy">Privacy Policy</a>
+      </nav>
+    </div>
+
+    <div class="footer-bottom">
+      <p class="footer-copy">
+        <span data-i18n="footer.copyright">Copyright © 2018-2026 Fast-Devs Project by Marco Ricca. All rights reserved.</span><br>
+        <span data-i18n="footer.trademark">Apple, iPhone, iPad e Apple Watch sono marchi di Apple Inc.</span>
+      </p>
+      <div class="footer-store">
+        <!-- Language switcher -->
+        <div class="lang-switcher" role="group" aria-label="Language">
+          <button class="lang-btn active" data-lang="it" aria-pressed="true">IT</button>
+          <button class="lang-btn" data-lang="en" aria-pressed="false">EN</button>
+        </div>
+
+        <a href="https://x.com/FastDevsProject" target="_blank" rel="noopener"
+           data-i18n-aria="footer.aria.twitter"
+           aria-label="Segui Fast-Devs Project su X (Twitter)"
+           style="display:grid;place-items:center;width:36px;height:36px;border-radius:8px;background:rgba(255,255,255,0.08);border:1px solid rgba(255,255,255,0.12);color:var(--text-secondary);transition:background var(--transition),color var(--transition);"
+           onmouseover="this.style.background='rgba(255,255,255,0.15)';this.style.color='#fff'"
+           onmouseout="this.style.background='rgba(255,255,255,0.08)';this.style.color='var(--text-secondary)'">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+            <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-4.714-6.231-5.401 6.231H2.744l7.737-8.835L1.254 2.25H8.08l4.259 5.63L18.244 2.25zm-1.161 17.52h1.833L7.084 4.126H5.117L17.083 19.77z"/>
+          </svg>
+        </a>
+        <a href="#" data-appstore target="_blank" rel="noopener" class="appstore-badge"
+           data-i18n-aria="footer.aria.appstore" aria-label="Scarica su App Store">
+          <img src="images/badges/it/white.svg" alt="Scarica su App Store" height="36"
+               data-i18n-src="badge">
+        </a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+<!-- ═══════════════════════════════════════════════
+     LIGHTBOX
+══════════════════════════════════════════════════ -->
+<div id="lightbox" class="lightbox" role="dialog" aria-modal="true" aria-label="Visualizzatore immagini">
+  <button class="lightbox-close" data-i18n-aria="lightbox.close" aria-label="Chiudi">✕</button>
+  <button class="lightbox-prev" data-i18n-aria="lightbox.prev" aria-label="Immagine precedente">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 18 9 12 15 6"/></svg>
+  </button>
+  <img class="lightbox-img" src="" alt="" loading="eager">
+  <button class="lightbox-next" data-i18n-aria="lightbox.next" aria-label="Immagine successiva">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"/></svg>
+  </button>
+  <div class="lightbox-counter" aria-live="polite"></div>
+</div>
+
+
+<!-- Scripts -->
+<script src="https://player.vimeo.com/api/player.js" defer></script>
+<script src="js/icons.js?v=5.7.2"></script>
+<script src="js/app.js?v=5.7.2"></script>
+<script type="text/javascript">(function (w,d) {var loader = function () {var s = d.createElement("script"), tag = d.getElementsByTagName("script")[0]; s.src="https://cdn.iubenda.com/iubenda.js"; tag.parentNode.insertBefore(s,tag);}; if(w.addEventListener){w.addEventListener("load", loader, false);}else if(w.attachEvent){w.attachEvent("onload", loader);}else{w.onload = loader;}})(window, document);</script>
+
+</body>
+</html>

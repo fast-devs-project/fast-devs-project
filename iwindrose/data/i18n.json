@@ -1,0 +1,157 @@
+{
+  "it": {
+    "nav.cta":                   "Scarica",
+    "nav.features":              "Features",
+    "nav.gallery":               "Screenshot",
+    "nav.changelog":             "Changelog",
+    "nav.press":                 "Press",
+    "nav.privacy":               "Privacy",
+    "nav.aria.menu":             "Apri menu",
+    "nav.aria.brand":            "iWindrose² – torna in cima",
+    "nav.aria.cta":              "Scarica iWindrose² sull'App Store",
+
+    "hero.badge":                "Versione {version} disponibile",
+    "hero.subtitle":             "La tua enciclopedia portatile sulla Rosa dei Venti. Venti, meteo, bollettini, maree, scale, sole e luna — tutto a portata di mano per gli appassionati del mare.",
+    "hero.cta.discover":         "Scopri le funzionalità",
+    "hero.rating":               "· {count} valutazioni",
+    "hero.aria.download":        "Scarica iWindrose² su App Store",
+
+    "stats.rating.app.store":    "Rating App Store",
+    "stats.rating":              "Valutazioni",
+    "stats.reviews":             "Recensioni",
+    "stats.languages":           "Lingue supportate",
+    "stats.platforms":           "Piattaforme Apple",
+    "stats.since":               "Su App Store dal",
+
+    "features.label":            "Features",
+    "features.title":            "Tutto il mare",
+    "features.title.gradient":   "in una sola app",
+    "features.subtitle":         "Dodici funzionalità dedicate per chi vive il mare: dalla rosa dei venti ai bollettini, dalle maree alle previsioni — tutto consultabile in tempo reale.",
+
+    "gallery.label":             "Screenshot",
+    "gallery.title":             "Vedi l'app",
+    "gallery.title.gradient":    "in azione",
+    "gallery.subtitle":          "Sfoglia gli screenshot su iPhone, iPad e Apple Watch. Tocca un'immagine per ingrandirla.",
+
+    "compat.label":              "Compatibilità",
+    "compat.title":              "Su tutte le",
+    "compat.title.gradient":     "piattaforme Apple",
+    "compat.subtitle":           "Un'app, tre piattaforme. Da iPhone ad Apple Watch, iWindrose² ti accompagna ovunque.",
+
+    "changelog.label":           "Changelog",
+    "changelog.title":           "Sempre aggiornata,",
+    "changelog.title.gradient":  "sempre migliore",
+    "changelog.subtitle":        "Le ultime versioni rilasciate, con tutte le novità e i miglioramenti.",
+    "changelog.expand":          "Mostra versioni precedenti",
+    "changelog.collapse":        "Nascondi versioni precedenti",
+
+    "press.label":               "Press",
+    "press.title":               "iWindrose²",
+    "press.title.gradient":      "nel mondo",
+    "press.subtitle":            "Articoli, recensioni e video da pubblicazioni e creator.",
+
+    "privacy.label":             "Privacy-first",
+    "privacy.title":             "I tuoi dati restano tuoi.",
+    "privacy.title.gradient":    "Sempre.",
+    "privacy.quote":             "iWindrose² è progettata con la privacy al centro. L'app non raccoglie dati personali e non include analytics o tracciamenti nascosti. I dati di posizione vengono utilizzati solo per fornirti previsioni meteo accurate e non vengono mai condivisi con terze parti.",
+    "privacy.chip.personal":     "Nessun dato personale raccolto",
+    "privacy.chip.tracking":     "Nessun tracciamento",
+    "privacy.chip.server":       "Nessun analytics nascosto",
+
+    "cta.title":                 "Pronto a salpare?",
+    "cta.title.gradient":        "Scarica ora.",
+    "cta.body":                  "Disponibile su App Store per iPhone, iPad e Apple Watch. La tua enciclopedia del vento, sempre con te.",
+    "cta.download":              "Scarica su App Store",
+    "cta.discover":              "Scopri di più",
+
+    "footer.desc":               "L'app che ti porta la rosa dei venti, le previsioni meteo e i bollettini marini sempre con te, in modo semplice e immediato.",
+    "footer.support":            "Supporto",
+    "footer.privacy":            "Privacy Policy",
+    "footer.copyright":          "Copyright © 2018-2026 Fast-Devs Project by Marco Ricca. All rights reserved.",
+    "footer.trademark":          "Apple, iPhone, iPad e Apple Watch sono marchi di Apple Inc.",
+    "footer.aria.twitter":       "Segui Fast-Devs Project su X (Twitter)",
+    "footer.aria.appstore":      "Scarica su App Store",
+
+    "lightbox.close":            "Chiudi",
+    "lightbox.prev":             "Immagine precedente",
+    "lightbox.next":             "Immagine successiva"
+  },
+
+  "en": {
+    "nav.cta":                   "Download",
+    "nav.features":              "Features",
+    "nav.gallery":               "Screenshots",
+    "nav.changelog":             "Changelog",
+    "nav.press":                 "Press",
+    "nav.privacy":               "Privacy",
+    "nav.aria.menu":             "Open menu",
+    "nav.aria.brand":            "iWindrose² – back to top",
+    "nav.aria.cta":              "Download iWindrose² on the App Store",
+
+    "hero.badge":                "Version {version} available",
+    "hero.subtitle":             "Your portable encyclopedia of the Wind Rose. Winds, weather, bulletins, tides, scales, sun and moon — all at your fingertips for sea enthusiasts.",
+    "hero.cta.discover":         "Explore features",
+    "hero.rating":               "· {count} ratings",
+    "hero.aria.download":        "Download iWindrose² on the App Store",
+
+    "stats.rating.app.store":    "App Store Rating",
+    "stats.rating":              "Ratings",
+    "stats.reviews":             "Reviews",
+    "stats.languages":           "Supported Languages",
+    "stats.platforms":           "Apple Platforms",
+    "stats.since":               "On App Store since",
+
+    "features.label":            "Features",
+    "features.title":            "The entire sea",
+    "features.title.gradient":   "in one app",
+    "features.subtitle":         "Twelve dedicated features for sea lovers: from the wind rose to bulletins, from tides to forecasts — all available in real-time.",
+
+    "gallery.label":             "Screenshots",
+    "gallery.title":             "See the app",
+    "gallery.title.gradient":    "in action",
+    "gallery.subtitle":          "Browse screenshots on iPhone, iPad and Apple Watch. Tap an image to enlarge it.",
+
+    "compat.label":              "Compatibility",
+    "compat.title":              "On every",
+    "compat.title.gradient":     "Apple platform",
+    "compat.subtitle":           "One app, three platforms. From iPhone to Apple Watch, iWindrose² follows you everywhere.",
+
+    "changelog.label":           "Changelog",
+    "changelog.title":           "Always updated,",
+    "changelog.title.gradient":  "always better",
+    "changelog.subtitle":        "The latest released versions, with all the new features and improvements.",
+    "changelog.expand":          "Show older versions",
+    "changelog.collapse":        "Hide older versions",
+
+    "press.label":               "Press",
+    "press.title":               "iWindrose²",
+    "press.title.gradient":      "around the world",
+    "press.subtitle":            "Articles, reviews and videos from publications and creators.",
+
+    "privacy.label":             "Privacy-first",
+    "privacy.title":             "Your data stays yours.",
+    "privacy.title.gradient":    "Always.",
+    "privacy.quote":             "iWindrose² is designed with privacy at its core. The app collects no personal data and includes no hidden analytics or tracking. Location data is only used to provide accurate weather forecasts and is never shared with third parties.",
+    "privacy.chip.personal":     "No personal data collected",
+    "privacy.chip.tracking":     "No tracking",
+    "privacy.chip.server":       "No hidden analytics",
+
+    "cta.title":                 "Ready to set sail?",
+    "cta.title.gradient":        "Download now.",
+    "cta.body":                  "Available on the App Store for iPhone, iPad and Apple Watch. Your wind encyclopedia, always with you.",
+    "cta.download":              "Download on App Store",
+    "cta.discover":              "Learn more",
+
+    "footer.desc":               "The app that brings you the wind rose, weather forecasts and marine bulletins always with you, simply and immediately.",
+    "footer.support":            "Support",
+    "footer.privacy":            "Privacy Policy",
+    "footer.copyright":          "Copyright © 2018-2026 Fast-Devs Project by Marco Ricca. All rights reserved.",
+    "footer.trademark":          "Apple, iPhone, iPad and Apple Watch are trademarks of Apple Inc.",
+    "footer.aria.twitter":       "Follow Fast-Devs Project on X (Twitter)",
+    "footer.aria.appstore":      "Download on App Store",
+
+    "lightbox.close":            "Close",
+    "lightbox.prev":             "Previous image",
+    "lightbox.next":             "Next image"
+  }
+}

@@ -1,0 +1,26 @@
+[
+  {
+    "device": "iPhone",
+    "icon": "smartphone",
+    "requirement": "iOS 15.0+",
+    "description": "Ottimizzata per tutti gli iPhone compatibili con iOS 15 e successivi.",
+    "description_en": "Optimized for all iPhones compatible with iOS 15 and later.",
+    "gradient": "from-orange-500 to-amber-400"
+  },
+  {
+    "device": "iPad",
+    "icon": "tablet",
+    "requirement": "iPadOS 15.0+",
+    "description": "Supporto completo per iPad con layout ottimizzato per schermi grandi e Split View.",
+    "description_en": "Full iPad support with optimized layout for large screens and Split View.",
+    "gradient": "from-violet-500 to-orange-500"
+  },
+  {
+    "device": "Apple Watch",
+    "icon": "watch",
+    "requirement": "watchOS 5.0+",
+    "description": "App standalone per Apple Watch con magnetometro, meteo e rosa dei venti dal polso.",
+    "description_en": "Standalone Apple Watch app with magnetometer, weather and wind rose from your wrist.",
+    "gradient": "from-pink-500 to-violet-500"
+  }
+]

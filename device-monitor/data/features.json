@@ -1,0 +1,128 @@
+[
+  {
+    "id": "device",
+    "icon": "smartphone",
+    "title": "Device",
+    "title_en": "Device",
+    "description": "Tutte le informazioni sul tuo dispositivo: modello, processore, architettura, memoria e molto altro.",
+    "description_en": "All information about your device: model, processor, architecture, memory and much more.",
+    "color": "#3B82F6"
+  },
+  {
+    "id": "sensors",
+    "icon": "activity",
+    "title": "Sensori",
+    "title_en": "Sensors",
+    "description": "Dati in tempo reale da tutti i sensori integrati: accelerometro, giroscopio, magnetometro, barometro e altro.",
+    "description_en": "Real-time data from all built-in sensors: accelerometer, gyroscope, magnetometer, barometer and more.",
+    "color": "#8B5CF6"
+  },
+  {
+    "id": "ram",
+    "icon": "cpu",
+    "title": "RAM",
+    "title_en": "RAM",
+    "description": "Monitoraggio dettagliato della memoria con pulizia RAM tramite un tap, Siri Shortcuts o direttamente dall'Apple Watch.",
+    "description_en": "Detailed memory monitoring with RAM cleanup via a tap, Siri Shortcuts or directly from Apple Watch.",
+    "color": "#06B6D4"
+  },
+  {
+    "id": "storage",
+    "icon": "hard-drive",
+    "title": "Storage",
+    "title_en": "Storage",
+    "description": "Panoramica completa dello spazio di archiviazione: usato, libero, spazio liberabile e dettaglio partizioni.",
+    "description_en": "Complete overview of storage space: used, free, reclaimable space and partition details.",
+    "color": "#10B981"
+  },
+  {
+    "id": "cpu",
+    "icon": "zap",
+    "title": "CPU",
+    "title_en": "CPU",
+    "description": "Utilizzo per ogni singolo core del processore con grafici in tempo reale e informazioni sull'architettura.",
+    "description_en": "Per-core processor usage with real-time charts and architecture information.",
+    "color": "#F59E0B"
+  },
+  {
+    "id": "gpu",
+    "icon": "layers",
+    "title": "GPU",
+    "title_en": "GPU",
+    "description": "Informazioni sulla scheda grafica del dispositivo. Richiede iOS 17 o successivo.",
+    "description_en": "Information about the device's graphics chip. Requires iOS 17 or later.",
+    "color": "#EC4899"
+  },
+  {
+    "id": "network",
+    "icon": "wifi",
+    "title": "Network",
+    "title_en": "Network",
+    "description": "Dati di rete completi: Wi-Fi, cellulare (5G/4G), indirizzi IP, SSID, VPN, velocità download/upload e scanner dispositivi.",
+    "description_en": "Full network data: Wi-Fi, cellular (5G/4G), IP addresses, SSID, VPN, download/upload speed and device scanner.",
+    "color": "#3B82F6"
+  },
+  {
+    "id": "battery",
+    "icon": "battery",
+    "title": "Batteria",
+    "title_en": "Battery",
+    "description": "Stato della batteria, cicli di carica, salute, stima del tempo rimanente e rilevamento ricarica rapida.",
+    "description_en": "Battery status, charge cycles, health, estimated remaining time and fast-charging detection.",
+    "color": "#84CC16"
+  },
+  {
+    "id": "display",
+    "icon": "monitor",
+    "title": "Display",
+    "title_en": "Display",
+    "description": "Specifiche del display: risoluzione logica e fisica, frame rate, tipo (OLED/LCD), bordi arrotondati e scala di rendering.",
+    "description_en": "Display specs: logical and physical resolution, frame rate, type (OLED/LCD), rounded corners and rendering scale.",
+    "color": "#06B6D4"
+  },
+  {
+    "id": "camera",
+    "icon": "camera",
+    "title": "Fotocamera",
+    "title_en": "Camera",
+    "description": "Informazioni su tutte le fotocamere del dispositivo: risoluzione, apertura, funzionalità supportate.",
+    "description_en": "Information about all device cameras: resolution, aperture, supported features.",
+    "color": "#8B5CF6"
+  },
+  {
+    "id": "widgets",
+    "icon": "grid",
+    "title": "Widget",
+    "title_en": "Widgets",
+    "description": "Widget per Home Screen (iOS 14+), Lock Screen (iOS 16+) e StandBy Mode (iOS 17+) sempre aggiornati.",
+    "description_en": "Widgets for Home Screen (iOS 14+), Lock Screen (iOS 16+) and StandBy Mode (iOS 17+), always up to date.",
+    "color": "#F59E0B"
+  },
+  {
+    "id": "shortcuts",
+    "icon": "command",
+    "title": "Shortcuts & Centro di Controllo",
+    "title_en": "Shortcuts & Control Center",
+    "description": "Integrazione con Comandi Rapidi di Siri e Centro di Controllo (iOS 18). Pulizia RAM senza aprire l'app.",
+    "description_en": "Integration with Siri Shortcuts and Control Center (iOS 18). Clean RAM without opening the app.",
+    "color": "#EC4899"
+  },
+  {
+    "id": "customization",
+    "icon": "sliders",
+    "title": "Personalizzazione",
+    "title_en": "Customization",
+    "description": "Scegli l'icona dell'app tra tanti stili disponibili (inclusi i temi light, dark e tinted di iOS 18) e personalizza i colori dei widget per adattarli al tuo stile.",
+    "description_en": "Choose the app icon from many available styles (including iOS 18 light, dark and tinted themes) and customize widget colors to match your style.",
+    "color": "#A855F7"
+  },
+  {
+    "id": "quick-actions",
+    "icon": "list",
+    "title": "Azioni Rapide",
+    "title_en": "Quick Actions",
+    "description": "Accedi alle funzioni principali con il 3D Touch sull'icona dell'app su iPhone, dalla barra dei menu su iPad e Mac.",
+    "description_en": "Access key features with 3D Touch on the app icon on iPhone, from the menu bar on iPad and Mac.",
+    "color": "#F97316"
+  }
+]

@@ -1,0 +1,156 @@
+[
+  {
+    "id": "pro",
+    "name": "PRO Kit",
+    "price": "€2,99",
+    "badge": "Più popolare",
+    "badge_en": "Most popular",
+    "image": "images/kit/pro kit.png",
+    "gradient": "linear-gradient(135deg,#D4A017,#F59E0B)",
+    "description": "Sblocca tutte le funzionalità presenti e future dell'app con un unico acquisto una tantum.",
+    "description_en": "Unlock all current and future app features with a single one-time purchase.",
+    "features": [
+      "Sblocco di tutte le funzionalità presenti e future",
+      "Pulizia profonda della RAM",
+      "Live Activity RAM con aggiornamento automatico ogni 10 secondi",
+      "Pulizia automatica della RAM tramite Live Activity",
+      "Supporto file .synced",
+      "Copia & incolla di tutti i dati del dispositivo"
+    ],
+    "features_en": [
+      "Unlock all current and future features",
+      "Deep RAM cleanup",
+      "RAM Live Activity with automatic update every 10 seconds",
+      "Automatic RAM cleanup via Live Activity",
+      ".synced file support",
+      "Copy & paste all device data"
+    ]
+  },
+  {
+    "id": "pip",
+    "name": "PiP Kit",
+    "price": "€0,99",
+    "badge": "Più recente",
+    "badge_en": "Latest",
+    "image": "images/kit/pip kit.png",
+    "gradient": "linear-gradient(135deg,#14B8A6,#06B6D4)",
+    "description": "Monitora RAM, CPU e rete in Picture in Picture, sempre visibile sopra ogni altra app.",
+    "description_en": "Monitor RAM, CPU and network in Picture in Picture, always visible above every other app.",
+    "features": [
+      "Pannello RAM in Picture in Picture",
+      "Pannello CPU in Picture in Picture",
+      "Pannello Network in Picture in Picture",
+      "Visibile sopra qualsiasi altra app",
+      "Modalità compact e extended"
+    ],
+    "features_en": [
+      "RAM panel in Picture in Picture",
+      "CPU panel in Picture in Picture",
+      "Network panel in Picture in Picture",
+      "Visible above any other app",
+      "Compact and extended modes"
+    ]
+  },
+  {
+    "id": "test",
+    "name": "Test Kit",
+    "price": "€0,99",
+    "badge": null,
+    "badge_en": null,
+    "image": "images/kit/test kit.png",
+    "gradient": "linear-gradient(135deg,#3B82F6,#2563EB)",
+    "description": "Testa tutti i sensori e le funzionalità hardware del tuo dispositivo in modo approfondito.",
+    "description_en": "Test all sensors and hardware features of your device in depth.",
+    "features": [
+      "GPS, Bussola, Altimetro",
+      "Accelerometro, Magnetometro, Giroscopio, Barometro",
+      "Device Motion, Coprocessore di Movimento, Pedometro",
+      "Bluetooth e iBeacon",
+      "Microfono (con livello decibel), Sensore di Prossimità, NFC",
+      "Vibrazione & Haptic Feedback, Multitouch",
+      "Ping, Acid3, Speed Test, Network Device Scanner",
+      "Luminosità, Screen Color, Fotocamera, Flash"
+    ],
+    "features_en": [
+      "GPS, Compass, Altimeter",
+      "Accelerometer, Magnetometer, Gyroscope, Barometer",
+      "Device Motion, Motion Coprocessor, Pedometer",
+      "Bluetooth and iBeacon",
+      "Microphone (with decibel level), Proximity Sensor, NFC",
+      "Vibration & Haptic Feedback, Multitouch",
+      "Ping, Acid3, Speed Test, Network Device Scanner",
+      "Brightness, Screen Color, Camera, Flash"
+    ]
+  },
+  {
+    "id": "report",
+    "name": "Report Kit",
+    "price": "€0,49",
+    "badge": null,
+    "badge_en": null,
+    "image": "images/kit/report kit.png",
+    "gradient": "linear-gradient(135deg,#06B6D4,#38BDF8)",
+    "description": "Esporta un report completo con tutte le specifiche del tuo dispositivo in più formati.",
+    "description_en": "Export a complete report with all your device specifications in multiple formats.",
+    "features": [
+      "Export in formato PDF",
+      "Export in formato CSV",
+      "Export in formato XLSX (Excel)",
+      "Export in formato RTF",
+      "Grafici inclusi nel report",
+      "Apertura diretta dall'app File di iOS"
+    ],
+    "features_en": [
+      "Export as PDF",
+      "Export as CSV",
+      "Export as XLSX (Excel)",
+      "Export as RTF",
+      "Charts included in the report",
+      "Open directly from the iOS Files app"
+    ]
+  },
+  {
+    "id": "notification",
+    "name": "Notification Kit",
+    "price": "€0,49",
+    "badge": null,
+    "badge_en": null,
+    "image": "images/kit/notification kit.png",
+    "gradient": "linear-gradient(135deg,#FBBF24,#F59E0B)",
+    "description": "Ricevi notifiche push intelligenti quando il dispositivo supera le soglie configurate.",
+    "description_en": "Receive smart push notifications when the device exceeds the configured thresholds.",
+    "features": [
+      "Notifica push quando la RAM supera la soglia configurabile",
+      "Notifica push quando la temperatura supera la norma",
+      "Soglie personalizzabili dall'utente",
+      "Rich Notification con grafico RAM",
+      "Notifica quando la RAM occupata supera il 95%"
+    ],
+    "features_en": [
+      "Push notification when RAM exceeds the configurable threshold",
+      "Push notification when temperature exceeds normal levels",
+      "User-configurable thresholds",
+      "Rich Notification with RAM chart",
+      "Notification when RAM usage exceeds 95%"
+    ]
+  },
+  {
+    "id": "ads",
+    "name": "Ads Kit",
+    "price": "€0,99",
+    "badge": null,
+    "badge_en": null,
+    "image": "images/kit/ads kit.png",
+    "gradient": "linear-gradient(135deg,#EF4444,#DC2626)",
+    "description": "Rimuovi tutta la pubblicità dall'app per un'esperienza completamente pulita e senza distrazioni.",
+    "description_en": "Remove all advertising from the app for a completely clean, distraction-free experience.",
+    "features": [
+      "Rimozione di tutta la pubblicità dall'app",
+      "Esperienza d'uso senza interruzioni"
+    ],
+    "features_en": [
+      "Remove all advertising from the app",
+      "Uninterrupted user experience"
+    ]
+  }
+]

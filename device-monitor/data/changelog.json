@@ -1,0 +1,1368 @@
+[
+  {
+    "version": "26.5.0",
+    "date": "2025",
+    "badge": "Ultima versione",
+    "badge_en": "Latest version",
+    "highlights": [
+      "Nuovo PiP Kit: RAM, CPU e Network in Picture in Picture ovunque desideri",
+      "Sezione Network migliorata con nuove informazioni dettagliate su iOS e watchOS",
+      "Icone alternative rinnovate in stile iOS 26",
+      "Nuovo test Shake nel Test Kit per il sensore di movimento",
+      "Ottimizzazioni generali, bug fix e miglioramenti grafici"
+    ],
+    "highlights_en": [
+      "New PiP Kit: RAM, CPU and Network in Picture in Picture wherever you want",
+      "Improved Network section with new detailed information on iOS and watchOS",
+      "Redesigned alternative icons in iOS 26 style",
+      "New Shake test in Test Kit for the motion sensor",
+      "General optimizations, bug fix and graphic improvements"
+    ]
+  },
+  {
+    "version": "26.1.0",
+    "date": "04/11/2025",
+    "badge": null,
+    "badge_en": null,
+    "highlights": [
+      "Nuovo widget Home Screen per la sezione Device",
+      "Grafici CPU sull'Apple Watch",
+      "Export Report Kit in CSV, XLSX e RTF (oltre al PDF)",
+      "Badge post-acquisto in-app",
+      "Fix magnetometro e calcolo CPU"
+    ],
+    "highlights_en": [
+      "New Home Screen widget for the Device section",
+      "CPU charts on Apple Watch",
+      "Report Kit export in CSV, XLSX and RTF (in addition to PDF)",
+      "Post-purchase in-app badge",
+      "Fix magnetometer and CPU calculation"
+    ]
+  },
+  {
+    "version": "26.0.0",
+    "date": "13/10/2025",
+    "badge": "Major update",
+    "badge_en": "Major update",
+    "highlights": [
+      "Design rinnovato in stile iOS 26",
+      "Compatibilità con i nuovi iPhone e Apple Watch",
+      "Icona app aggiornata",
+      "Shortcuts su iPadOS 26",
+      "Pulizia RAM tramite Shortcuts senza aprire l'app",
+      "Centro di Controllo su Apple Watch",
+      "Shortcuts su Apple Watch",
+      "Stage Manager migliorato",
+      "Grafici SwiftUI nativi"
+    ],
+    "highlights_en": [
+      "Redesigned interface in iOS 26 style",
+      "Compatibility with new iPhone and Apple Watch models",
+      "Updated app icon",
+      "Shortcuts on iPadOS 26",
+      "RAM cleanup via Shortcuts without opening the app",
+      "Control Center on Apple Watch",
+      "Shortcuts on Apple Watch",
+      "Improved Stage Manager",
+      "Native SwiftUI charts"
+    ]
+  },
+  {
+    "version": "10.4.1",
+    "date": "28/05/2025",
+    "badge": null,
+    "badge_en": null,
+    "highlights": [
+      "Apertura report Analytics dall'app File",
+      "Minor fix"
+    ],
+    "highlights_en": [
+      "Open Analytics reports from the Files app",
+      "Minor fix"
+    ]
+  },
+  {
+    "version": "10.4.0",
+    "date": "26/05/2025",
+    "badge": null,
+    "badge_en": null,
+    "highlights": [
+      "Lettura file Analytics iOS",
+      "Fix AirPlay",
+      "Minor fix"
+    ],
+    "highlights_en": [
+      "iOS Analytics file reading",
+      "Fix AirPlay",
+      "Minor fix"
+    ]
+  },
+  {
+    "version": "10.3.0",
+    "date": "24/03/2025",
+    "badge": null,
+    "badge_en": null,
+    "highlights": [
+      "Supporto iPhone 16e, iPad A16, iPad Air M3",
+      "Fix Network Scanner",
+      "Rimosso suono in background"
+    ],
+    "highlights_en": [
+      "Support for iPhone 16e, iPad A16, iPad Air M3",
+      "Fix Network Scanner",
+      "Removed background sound"
+    ]
+  },
+  {
+    "version": "10.2.0",
+    "date": "07/01/2025",
+    "badge": null,
+    "badge_en": null,
+    "highlights": [
+      "Pulizia automatica RAM",
+      "Miglioramenti Comandi Rapidi",
+      "Supporto iPad Mini A17 Pro",
+      "Colori dinamici widget Apple Watch"
+    ],
+    "highlights_en": [
+      "Automatic RAM cleanup",
+      "Shortcuts improvements",
+      "Support for iPad Mini A17 Pro",
+      "Dynamic colors for Apple Watch widgets"
+    ]
+  },
+  {
+    "version": "10.1.1",
+    "date": "17/12/2024",
+    "badge": null,
+    "badge_en": null,
+    "highlights": [
+      "Chiusura automatica pagina acquisti dopo PRO Kit",
+      "Fix export PDF",
+      "Fix Vision Pro"
+    ],
+    "highlights_en": [
+      "Automatic closing of the purchase page after PRO Kit",
+      "Fix PDF export",
+      "Fix Vision Pro"
+    ]
+  },
+  {
+    "version": "10.1.0",
+    "date": "24/11/2024",
+    "badge": null,
+    "badge_en": null,
+    "highlights": [
+      "Pannello GPU (richiede iOS 17+)",
+      "Pannello Storage dettagliato",
+      "Nuove icone alternative",
+      "Live Activity RAM con TipView",
+      "Grafici widget large/extra-large"
+    ],
+    "highlights_en": [
+      "GPU panel (requires iOS 17+)",
+      "Detailed Storage panel",
+      "New alternative icons",
+      "RAM Live Activity with TipView",
+      "Large/extra-large widget charts"
+    ]
+  },
+  {
+    "version": "10.0.1",
+    "date": "03/10/2024",
+    "badge": null,
+    "badge_en": null,
+    "highlights": [
+      "Due bug fix minori"
+    ],
+    "highlights_en": [
+      "Two minor bug fixes"
+    ]
+  },
+  {
+    "version": "10.0.0",
+    "date": "01/10/2024",
+    "badge": null,
+    "badge_en": null,
+    "highlights": [
+      "Supporto iPhone 16",
+      "Live Activity RAM (aggiornamento ogni 10 secondi)",
+      "Controlli Centro di Controllo iOS 18",
+      "Icona light/dark/tinted iOS 18",
+      "Informazioni Memory Pressure"
+    ],
+    "highlights_en": [
+      "Support for iPhone 16",
+      "RAM Live Activity (updates every 10 seconds)",
+      "iOS 18 Control Center controls",
+      "iOS 18 light/dark/tinted icon",
+      "Memory Pressure information"
+    ]
+  },
+  {
+    "version": "9.5.0",
+    "date": "02/06/2024",
+    "badge": null,
+    "badge_en": null,
+    "highlights": [
+      "Test altoparlanti e microfoni",
+      "Info build OS",
+      "Tipo rete cellulare (5G/4G)",
+      "Migliorato Bluetooth"
+    ],
+    "highlights_en": [
+      "Speaker and microphone test",
+      "OS build info",
+      "Cellular network type (5G/4G)",
+      "Improved Bluetooth"
+    ]
+  },
+  {
+    "version": "9.4.0",
+    "date": "21/05/2024",
+    "badge": null,
+    "badge_en": null,
+    "highlights": [
+      "Test Volume e Javascript (Mac)",
+      "Fix widget iOS 16"
+    ],
+    "highlights_en": [
+      "Volume and Javascript test (Mac)",
+      "Fix iOS 16 widget"
+    ]
+  },
+  {
+    "version": "9.3.0",
+    "date": "02/05/2024",
+    "badge": null,
+    "badge_en": null,
+    "highlights": [
+      "Personalizzazione quick actions icona",
+      "UI widget migliorata"
+    ],
+    "highlights_en": [
+      "Icon quick actions customization",
+      "Improved widget UI"
+    ]
+  },
+  {
+    "version": "9.2.1",
+    "date": "06/04/2024",
+    "badge": null,
+    "badge_en": null,
+    "highlights": [
+      "Info scala di rendering display",
+      "Fix Bluetooth"
+    ],
+    "highlights_en": [
+      "Display rendering scale info",
+      "Fix Bluetooth"
+    ]
+  },
+  {
+    "version": "9.2.0",
+    "date": "05/04/2024",
+    "badge": null,
+    "badge_en": null,
+    "highlights": [
+      "Controllo Haptic Touch",
+      "Info risoluzione logica e fisica del display"
+    ],
+    "highlights_en": [
+      "Haptic Touch control",
+      "Display logical and physical resolution info"
+    ]
+  },
+  {
+    "version": "9.1.0",
+    "date": "03/04/2024",
+    "badge": null,
+    "badge_en": null,
+    "highlights": [
+      "Grafico Speed Test",
+      "Nuovi widget DEVICE e NETWORK",
+      "Supporto lingue: armeno, turco, russo, arabo, coreano, polacco"
+    ],
+    "highlights_en": [
+      "Speed Test chart",
+      "New DEVICE and NETWORK widgets",
+      "Language support: Armenian, Turkish, Russian, Arabic, Korean, Polish"
+    ]
+  },
+  {
+    "version": "9.0.0",
+    "date": "09/03/2024",
+    "badge": null,
+    "badge_en": null,
+    "highlights": [
+      "Compatibilità Apple Watch (watchOS 10+)",
+      "App nativa SwiftUI per watchOS",
+      "Pulizia RAM su Apple Watch"
+    ],
+    "highlights_en": [
+      "Apple Watch compatibility (watchOS 10+)",
+      "Native SwiftUI app for watchOS",
+      "RAM cleanup on Apple Watch"
+    ]
+  },
+  {
+    "version": "8.4.1",
+    "date": "07/02/2024",
+    "badge": null,
+    "badge_en": null,
+    "highlights": [
+      "Test display colore personalizzato",
+      "Fix auricolari Bluetooth"
+    ],
+    "highlights_en": [
+      "Custom color display test",
+      "Fix Bluetooth earphones"
+    ]
+  },
+  {
+    "version": "8.4.0",
+    "date": "06/02/2024",
+    "badge": null,
+    "badge_en": null,
+    "highlights": [
+      "Test display colore personalizzato",
+      "Fix auricolari Bluetooth"
+    ],
+    "highlights_en": [
+      "Custom color display test",
+      "Fix Bluetooth earphones"
+    ]
+  },
+  {
+    "version": "8.3.2",
+    "date": "02/01/2024",
+    "badge": null,
+    "badge_en": null,
+    "highlights": [
+      "Fix minori"
+    ],
+    "highlights_en": [
+      "Minor fixes"
+    ]
+  },
+  {
+    "version": "8.3.1",
+    "date": "19/12/2023",
+    "badge": null,
+    "badge_en": null,
+    "highlights": [
+      "Effetto grafico acquisto in-app",
+      "Fix crash dispositivi senza NFC"
+    ],
+    "highlights_en": [
+      "Graphic effect for in-app purchase",
+      "Fix crash on devices without NFC"
+    ]
+  },
+  {
+    "version": "8.3.0",
+    "date": "17/11/2023",
+    "badge": null,
+    "badge_en": null,
+    "highlights": [
+      "Widget large ed extra-large Home Screen"
+    ],
+    "highlights_en": [
+      "Large and extra-large Home Screen widgets"
+    ]
+  },
+  {
+    "version": "8.2.0",
+    "date": "22/10/2023",
+    "badge": null,
+    "badge_en": null,
+    "highlights": [
+      "Test DNS Lookup",
+      "Supporto lingua ceca",
+      "Fix crash Slide Over iPad"
+    ],
+    "highlights_en": [
+      "DNS Lookup test",
+      "Czech language support",
+      "Fix crash in iPad Slide Over"
+    ]
+  },
+  {
+    "version": "8.1.0",
+    "date": "08/10/2023",
+    "badge": null,
+    "badge_en": null,
+    "highlights": [
+      "Nuove info CPU e Display",
+      "Test Traceroute",
+      "Mail feedback da app terze"
+    ],
+    "highlights_en": [
+      "New CPU and Display info",
+      "Traceroute test",
+      "Feedback mail from third-party apps"
+    ]
+  },
+  {
+    "version": "8.0.3",
+    "date": "26/09/2023",
+    "badge": null,
+    "badge_en": null,
+    "highlights": [
+      "Supporto iPhone 15",
+      "Fix colori icone widget"
+    ],
+    "highlights_en": [
+      "Support for iPhone 15",
+      "Fix widget icon colors"
+    ]
+  },
+  {
+    "version": "8.0.2",
+    "date": "2023",
+    "badge": null,
+    "badge_en": null,
+    "highlights": [
+      "Algoritmo pulizia RAM migliorato",
+      "Supporto iPhone 15",
+      "Fix animazioni"
+    ],
+    "highlights_en": [
+      "Improved RAM cleanup algorithm",
+      "Support for iPhone 15",
+      "Fix animations"
+    ]
+  },
+  {
+    "version": "8.0.1",
+    "date": "2023",
+    "badge": null,
+    "badge_en": null,
+    "highlights": [
+      "Fix crash pulizia RAM",
+      "Fix sezione Network",
+      "Fix crash CPU su iPad"
+    ],
+    "highlights_en": [
+      "Fix crash during RAM cleanup",
+      "Fix Network section",
+      "Fix CPU crash on iPad"
+    ]
+  },
+  {
+    "version": "8.0.0",
+    "date": "2023",
+    "badge": null,
+    "badge_en": null,
+    "highlights": [
+      "Widget StandBy Mode (iOS 17)",
+      "Grafici SwiftUI",
+      "Siri Shortcuts nativo (iOS 16+)",
+      "Rimosso supporto iOS 14"
+    ],
+    "highlights_en": [
+      "StandBy Mode widgets (iOS 17)",
+      "SwiftUI charts",
+      "Native Siri Shortcuts (iOS 16+)",
+      "Dropped iOS 14 support"
+    ]
+  },
+  {
+    "version": "7.2.0",
+    "date": "2023",
+    "badge": null,
+    "badge_en": null,
+    "highlights": [
+      "Opzione per nascondere RAM inattiva"
+    ],
+    "highlights_en": [
+      "Option to hide inactive RAM"
+    ]
+  },
+  {
+    "version": "7.1.0",
+    "date": "2023",
+    "badge": null,
+    "badge_en": null,
+    "highlights": [
+      "Bug fix versione Mac"
+    ],
+    "highlights_en": [
+      "Bug fix Mac version"
+    ]
+  },
+  {
+    "version": "7.0.0",
+    "date": "2023",
+    "badge": null,
+    "badge_en": null,
+    "highlights": [
+      "Algoritmo pulizia RAM ottimizzato per iPad M1/M2"
+    ],
+    "highlights_en": [
+      "RAM cleanup algorithm optimized for iPad M1/M2"
+    ]
+  },
+  {
+    "version": "6.3.0",
+    "date": "2022",
+    "badge": null,
+    "badge_en": null,
+    "highlights": [
+      "Nuove Siri Shortcuts"
+    ],
+    "highlights_en": [
+      "New Siri Shortcuts"
+    ]
+  },
+  {
+    "version": "6.2.0",
+    "date": "2022",
+    "badge": null,
+    "badge_en": null,
+    "highlights": [
+      "Nuove Siri Shortcuts"
+    ],
+    "highlights_en": [
+      "New Siri Shortcuts"
+    ]
+  },
+  {
+    "version": "6.1.0",
+    "date": "2022",
+    "badge": null,
+    "badge_en": null,
+    "highlights": [
+      "Test Touch ID / Face ID",
+      "Nuove animazioni",
+      "Fix Split View e Slide Over iPad"
+    ],
+    "highlights_en": [
+      "Touch ID / Face ID test",
+      "New animations",
+      "Fix iPad Split View and Slide Over"
+    ]
+  },
+  {
+    "version": "6.0.1",
+    "date": "2022",
+    "badge": null,
+    "badge_en": null,
+    "highlights": [
+      "Fix UI iPad",
+      "Fix light/dark mode"
+    ],
+    "highlights_en": [
+      "Fix iPad UI",
+      "Fix light/dark mode"
+    ]
+  },
+  {
+    "version": "6.0.0",
+    "date": "2022",
+    "badge": null,
+    "badge_en": null,
+    "highlights": [
+      "Riordinamento pannelli schermata principale",
+      "Fix storage"
+    ],
+    "highlights_en": [
+      "Reordering of main screen panels",
+      "Fix storage"
+    ]
+  },
+  {
+    "version": "5.5.1",
+    "date": "2022",
+    "badge": null,
+    "badge_en": null,
+    "highlights": [
+      "Bug fix iPad"
+    ],
+    "highlights_en": [
+      "Bug fix iPad"
+    ]
+  },
+  {
+    "version": "5.5.0",
+    "date": "2022",
+    "badge": null,
+    "badge_en": null,
+    "highlights": [
+      "Supporto nuovi iPad",
+      "Bug fix"
+    ],
+    "highlights_en": [
+      "Support for new iPad models",
+      "Bug fix"
+    ]
+  },
+  {
+    "version": "5.4.1",
+    "date": "2022",
+    "badge": null,
+    "badge_en": null,
+    "highlights": [
+      "Impostazione manuale Light/Dark mode",
+      "Data creazione nel report PDF"
+    ],
+    "highlights_en": [
+      "Manual Light/Dark mode setting",
+      "Creation date in PDF report"
+    ]
+  },
+  {
+    "version": "5.4.0",
+    "date": "2022",
+    "badge": null,
+    "badge_en": null,
+    "highlights": [
+      "Auto Light/Dark mode",
+      "Verifica connettività 5G",
+      "Verifica ricarica rapida",
+      "Rilevamento schermo OLED",
+      "Test luminosità display"
+    ],
+    "highlights_en": [
+      "Auto Light/Dark mode",
+      "5G connectivity check",
+      "Fast charging check",
+      "OLED screen detection",
+      "Display brightness test"
+    ]
+  },
+  {
+    "version": "5.3.0",
+    "date": "2022",
+    "badge": null,
+    "badge_en": null,
+    "highlights": [
+      "Test bussola nel Test Kit"
+    ],
+    "highlights_en": [
+      "Compass test in Test Kit"
+    ]
+  },
+  {
+    "version": "5.2.0",
+    "date": "2022",
+    "badge": null,
+    "badge_en": null,
+    "highlights": [
+      "Rich Notification RAM",
+      "Pulizia profonda RAM (PRO Kit)"
+    ],
+    "highlights_en": [
+      "RAM Rich Notification",
+      "Deep RAM cleanup (PRO Kit)"
+    ]
+  },
+  {
+    "version": "5.1.1",
+    "date": "2022",
+    "badge": null,
+    "badge_en": null,
+    "highlights": [
+      "Piccoli fix"
+    ],
+    "highlights_en": [
+      "Minor fixes"
+    ]
+  },
+  {
+    "version": "5.1.0",
+    "date": "2022",
+    "badge": null,
+    "badge_en": null,
+    "highlights": [
+      "Widget Lock Screen (iOS 16)",
+      "Supporto iPhone 14"
+    ],
+    "highlights_en": [
+      "Lock Screen widget (iOS 16)",
+      "Support for iPhone 14"
+    ]
+  },
+  {
+    "version": "5.0.1",
+    "date": "2022",
+    "badge": null,
+    "badge_en": null,
+    "highlights": [
+      "Fix pulizia RAM"
+    ],
+    "highlights_en": [
+      "Fix RAM cleanup"
+    ]
+  },
+  {
+    "version": "5.0.0",
+    "date": "2022",
+    "badge": null,
+    "badge_en": null,
+    "highlights": [
+      "Nuovi widget iOS 16"
+    ],
+    "highlights_en": [
+      "New iOS 16 widgets"
+    ]
+  },
+  {
+    "version": "4.4.0",
+    "date": "2022",
+    "badge": null,
+    "badge_en": null,
+    "highlights": [
+      "Network Device Scanner",
+      "Test NFC",
+      "Indirizzo MAC (macOS)"
+    ],
+    "highlights_en": [
+      "Network Device Scanner",
+      "NFC test",
+      "MAC address (macOS)"
+    ]
+  },
+  {
+    "version": "4.3.1",
+    "date": "2022",
+    "badge": null,
+    "badge_en": null,
+    "highlights": [
+      "Personalizzazione colore testi widget"
+    ],
+    "highlights_en": [
+      "Widget text color customization"
+    ]
+  },
+  {
+    "version": "4.3.0",
+    "date": "2022",
+    "badge": null,
+    "badge_en": null,
+    "highlights": [
+      "Grafici nel report PDF"
+    ],
+    "highlights_en": [
+      "Charts in PDF report"
+    ]
+  },
+  {
+    "version": "4.2.0",
+    "date": "2022",
+    "badge": null,
+    "badge_en": null,
+    "highlights": [
+      "Nuovi widget iOS 14/15",
+      "Velocità download/upload nel widget iOS 13",
+      "Pulsante Pulisci archivio"
+    ],
+    "highlights_en": [
+      "New iOS 14/15 widgets",
+      "Download/upload speed in iOS 13 widget",
+      "Clear archive button"
+    ]
+  },
+  {
+    "version": "4.1.0",
+    "date": "2021",
+    "badge": null,
+    "badge_en": null,
+    "highlights": [
+      "Info Storage e CPU nel Today Widget",
+      "Notifiche temperatura"
+    ],
+    "highlights_en": [
+      "Storage and CPU info in Today Widget",
+      "Temperature notifications"
+    ]
+  },
+  {
+    "version": "4.0.1",
+    "date": "2021",
+    "badge": null,
+    "badge_en": null,
+    "highlights": [
+      "Fix grafico batteria",
+      "+50% velocità pulizia RAM"
+    ],
+    "highlights_en": [
+      "Fix battery chart",
+      "+50% RAM cleanup speed"
+    ]
+  },
+  {
+    "version": "4.0.0",
+    "date": "2021",
+    "badge": null,
+    "badge_en": null,
+    "highlights": [
+      "Grafica rinnovata per iPad"
+    ],
+    "highlights_en": [
+      "Redesigned interface for iPad"
+    ]
+  },
+  {
+    "version": "3.12.0",
+    "date": "2021",
+    "badge": null,
+    "badge_en": null,
+    "highlights": [
+      "Notifiche temperatura dispositivo (Notification Kit)"
+    ],
+    "highlights_en": [
+      "Device temperature notifications (Notification Kit)"
+    ]
+  },
+  {
+    "version": "3.11.0",
+    "date": "2021",
+    "badge": null,
+    "badge_en": null,
+    "highlights": [
+      "Mostra/nasconde pannelli homepage"
+    ],
+    "highlights_en": [
+      "Show/hide homepage panels"
+    ]
+  },
+  {
+    "version": "3.10.0",
+    "date": "2021",
+    "badge": null,
+    "badge_en": null,
+    "highlights": [
+      "Visualizzazione spazio liberabile",
+      "Communication Notification iOS 15"
+    ],
+    "highlights_en": [
+      "Freeable space display",
+      "Communication Notification iOS 15"
+    ]
+  },
+  {
+    "version": "3.9.1",
+    "date": "2021",
+    "badge": null,
+    "badge_en": null,
+    "highlights": [
+      "Fix crash all'avvio"
+    ],
+    "highlights_en": [
+      "Fix crash on launch"
+    ]
+  },
+  {
+    "version": "3.9.0",
+    "date": "2021",
+    "badge": null,
+    "badge_en": null,
+    "highlights": [
+      "Colori widget personalizzabili",
+      "Soglia allarme Notification Kit"
+    ],
+    "highlights_en": [
+      "Customizable widget colors",
+      "Notification Kit alarm threshold"
+    ]
+  },
+  {
+    "version": "3.8.0",
+    "date": "2021",
+    "badge": null,
+    "badge_en": null,
+    "highlights": [
+      "Siri Shortcuts per pulizia RAM",
+      "Grafico RAM nelle notifiche (iOS 15 + PRO/Notification Kit)"
+    ],
+    "highlights_en": [
+      "Siri Shortcuts for RAM cleanup",
+      "RAM chart in notifications (iOS 15 + PRO/Notification Kit)"
+    ]
+  },
+  {
+    "version": "3.7.0",
+    "date": "2021",
+    "badge": null,
+    "badge_en": null,
+    "highlights": [
+      "Speed Test (Test Kit)"
+    ],
+    "highlights_en": [
+      "Speed Test (Test Kit)"
+    ]
+  },
+  {
+    "version": "3.6.0",
+    "date": "2021",
+    "badge": null,
+    "badge_en": null,
+    "highlights": [
+      "Info display catturato",
+      "Riscritto codice RAM",
+      "Test Multitouch"
+    ],
+    "highlights_en": [
+      "Mirrored display info",
+      "Rewritten RAM code",
+      "Multitouch test"
+    ]
+  },
+  {
+    "version": "3.5.0",
+    "date": "2021",
+    "badge": null,
+    "badge_en": null,
+    "highlights": [
+      "Test Acid3 (Network)"
+    ],
+    "highlights_en": [
+      "Acid3 test (Network)"
+    ]
+  },
+  {
+    "version": "3.4.0",
+    "date": "2021",
+    "badge": null,
+    "badge_en": null,
+    "highlights": [
+      "Ping Test",
+      "Slider luminosità torcia",
+      "Mappa nel test GPS",
+      "Decibel nel test microfono"
+    ],
+    "highlights_en": [
+      "Ping Test",
+      "Flashlight brightness slider",
+      "Map in GPS test",
+      "Decibel in microphone test"
+    ]
+  },
+  {
+    "version": "3.3.0",
+    "date": "2021",
+    "badge": null,
+    "badge_en": null,
+    "highlights": [
+      "Conteggio frame rate display"
+    ],
+    "highlights_en": [
+      "Display frame rate counter"
+    ]
+  },
+  {
+    "version": "3.2.0",
+    "date": "2021",
+    "badge": null,
+    "badge_en": null,
+    "highlights": [
+      "Test sensore di prossimità",
+      "Frequenza test haptic",
+      "Migliorato Device Motion"
+    ],
+    "highlights_en": [
+      "Proximity sensor test",
+      "Haptic test frequency",
+      "Improved Device Motion"
+    ]
+  },
+  {
+    "version": "3.1.0",
+    "date": "2021",
+    "badge": null,
+    "badge_en": null,
+    "highlights": [
+      "Rimossa pulizia RAM dal PRO Kit (spostata in free)",
+      "Fix unità di misura sensori"
+    ],
+    "highlights_en": [
+      "Removed RAM cleanup from PRO Kit (moved to free)",
+      "Fix sensor measurement units"
+    ]
+  },
+  {
+    "version": "3.0.0",
+    "date": "2021",
+    "badge": null,
+    "badge_en": null,
+    "highlights": [
+      "Test Kit (sensori hardware)",
+      "Supporto Apple Pencil, torcia, coprocessore di movimento",
+      "Pulizia RAM più veloce"
+    ],
+    "highlights_en": [
+      "Test Kit (hardware sensors)",
+      "Support for Apple Pencil, flashlight, motion coprocessor",
+      "Faster RAM cleanup"
+    ]
+  },
+  {
+    "version": "2.11.0",
+    "date": "2021",
+    "badge": null,
+    "badge_en": null,
+    "highlights": [
+      "Fix minori"
+    ],
+    "highlights_en": [
+      "Minor fixes"
+    ]
+  },
+  {
+    "version": "2.10.0",
+    "date": "2021",
+    "badge": null,
+    "badge_en": null,
+    "highlights": [
+      "Supporto nuovi iPhone e iPad"
+    ],
+    "highlights_en": [
+      "Support for new iPhone and iPad models"
+    ]
+  },
+  {
+    "version": "2.9.2",
+    "date": "2021",
+    "badge": null,
+    "badge_en": null,
+    "highlights": [
+      "Supporto iOS/iPadOS 15",
+      "Fix Split View iPad"
+    ],
+    "highlights_en": [
+      "iOS/iPadOS 15 support",
+      "Fix iPad Split View"
+    ]
+  },
+  {
+    "version": "2.9.1",
+    "date": "2021",
+    "badge": null,
+    "badge_en": null,
+    "highlights": [
+      "Copia info con tap (PRO Kit)",
+      "Fix pulsante pulizia"
+    ],
+    "highlights_en": [
+      "Copy info with tap (PRO Kit)",
+      "Fix cleanup button"
+    ]
+  },
+  {
+    "version": "2.9.0",
+    "date": "2021",
+    "badge": null,
+    "badge_en": null,
+    "highlights": [
+      "Copia info con tap (PRO Kit)"
+    ],
+    "highlights_en": [
+      "Copy info with tap (PRO Kit)"
+    ]
+  },
+  {
+    "version": "2.8.1",
+    "date": "2021",
+    "badge": null,
+    "badge_en": null,
+    "highlights": [
+      "Info barometro"
+    ],
+    "highlights_en": [
+      "Barometer info"
+    ]
+  },
+  {
+    "version": "2.7.1",
+    "date": "2021",
+    "badge": null,
+    "badge_en": null,
+    "highlights": [
+      "Rimosso banner Televideo Pro",
+      "Fix widget"
+    ],
+    "highlights_en": [
+      "Removed Televideo Pro banner",
+      "Fix widget"
+    ]
+  },
+  {
+    "version": "2.7.0",
+    "date": "2021",
+    "badge": null,
+    "badge_en": null,
+    "highlights": [
+      "Stima tempo rimanente carica/scarica batteria"
+    ],
+    "highlights_en": [
+      "Estimated remaining battery charge/discharge time"
+    ]
+  },
+  {
+    "version": "2.6.0",
+    "date": "2021",
+    "badge": null,
+    "badge_en": null,
+    "highlights": [
+      "Shortcut pulizia RAM con pressione lunga sull'icona",
+      "Info Hotspot personale"
+    ],
+    "highlights_en": [
+      "RAM cleanup shortcut with long press on the icon",
+      "Personal Hotspot info"
+    ]
+  },
+  {
+    "version": "2.5.0",
+    "date": "2021",
+    "badge": null,
+    "badge_en": null,
+    "highlights": [
+      "Visualizzazione in-app report PDF",
+      "Redirect widget iOS 13 al dettaglio RAM"
+    ],
+    "highlights_en": [
+      "In-app PDF report viewer",
+      "iOS 13 widget redirect to RAM detail"
+    ]
+  },
+  {
+    "version": "2.4.0",
+    "date": "2021",
+    "badge": null,
+    "badge_en": null,
+    "highlights": [
+      "Rinnovata sezione Rete cellulare e Wi-Fi"
+    ],
+    "highlights_en": [
+      "Redesigned Cellular Network and Wi-Fi section"
+    ]
+  },
+  {
+    "version": "2.3.0",
+    "date": "2021",
+    "badge": null,
+    "badge_en": null,
+    "highlights": [
+      "Info VPN, SSID, BSSID",
+      "Info core attivi e architettura processore",
+      "Info display bordi arrotondati"
+    ],
+    "highlights_en": [
+      "VPN, SSID, BSSID info",
+      "Active cores and processor architecture info",
+      "Rounded display edges info"
+    ]
+  },
+  {
+    "version": "2.2.0",
+    "date": "2021",
+    "badge": null,
+    "badge_en": null,
+    "highlights": [
+      "Introdotto PRO Kit",
+      "Fix Bluetooth"
+    ],
+    "highlights_en": [
+      "Introduced PRO Kit",
+      "Fix Bluetooth"
+    ]
+  },
+  {
+    "version": "2.1.1",
+    "date": "2021",
+    "badge": null,
+    "badge_en": null,
+    "highlights": [
+      "Fix acquisti in-app"
+    ],
+    "highlights_en": [
+      "Fix in-app purchases"
+    ]
+  },
+  {
+    "version": "2.1.0",
+    "date": "2021",
+    "badge": null,
+    "badge_en": null,
+    "highlights": [
+      "Notification Kit",
+      "Icona batteria dinamica"
+    ],
+    "highlights_en": [
+      "Notification Kit",
+      "Dynamic battery icon"
+    ]
+  },
+  {
+    "version": "2.0.0",
+    "date": "2021",
+    "badge": null,
+    "badge_en": null,
+    "highlights": [
+      "Report Kit (PDF)",
+      "Info zoom schermo",
+      "Info cuffie collegate"
+    ],
+    "highlights_en": [
+      "Report Kit (PDF)",
+      "Screen zoom info",
+      "Connected headphones info"
+    ]
+  },
+  {
+    "version": "1.9.0",
+    "date": "2021",
+    "badge": null,
+    "badge_en": null,
+    "highlights": [
+      "Info dettagliate partizioni RAM",
+      "Nuove info sensori"
+    ],
+    "highlights_en": [
+      "Detailed RAM partition info",
+      "New sensor info"
+    ]
+  },
+  {
+    "version": "1.8.0",
+    "date": "2021",
+    "badge": null,
+    "badge_en": null,
+    "highlights": [
+      "Grafico dettagliato RAM",
+      "Auto-refresh indirizzo IP"
+    ],
+    "highlights_en": [
+      "Detailed RAM chart",
+      "Auto-refresh IP address"
+    ]
+  },
+  {
+    "version": "1.7.0",
+    "date": "2021",
+    "badge": null,
+    "badge_en": null,
+    "highlights": [
+      "Info indirizzi IP",
+      "Info sensori",
+      "Grafici per singolo core CPU"
+    ],
+    "highlights_en": [
+      "IP address info",
+      "Sensor info",
+      "Per-core CPU charts"
+    ]
+  },
+  {
+    "version": "1.6.0",
+    "date": "2021",
+    "badge": null,
+    "badge_en": null,
+    "highlights": [
+      "Notifiche quando RAM occupata supera il 95%"
+    ],
+    "highlights_en": [
+      "Notifications when used RAM exceeds 95%"
+    ]
+  },
+  {
+    "version": "1.5.0",
+    "date": "2021",
+    "badge": null,
+    "badge_en": null,
+    "highlights": [
+      "Pulizia RAM"
+    ],
+    "highlights_en": [
+      "RAM cleanup"
+    ]
+  },
+  {
+    "version": "1.4.0",
+    "date": "2021",
+    "badge": null,
+    "badge_en": null,
+    "highlights": [
+      "Colorazione automatica grafici",
+      "Icone al posto di Sì/No"
+    ],
+    "highlights_en": [
+      "Automatic chart coloring",
+      "Icons instead of Yes/No"
+    ]
+  },
+  {
+    "version": "1.3.0",
+    "date": "2021",
+    "badge": null,
+    "badge_en": null,
+    "highlights": [
+      "Info indirizzo IP",
+      "Widget medium iOS 14 (CPU, RAM, Storage, Batteria)"
+    ],
+    "highlights_en": [
+      "IP address info",
+      "Medium iOS 14 widget (CPU, RAM, Storage, Battery)"
+    ]
+  },
+  {
+    "version": "1.2.0",
+    "date": "2021",
+    "badge": null,
+    "badge_en": null,
+    "highlights": [
+      "Personalizzazione colore grafici"
+    ],
+    "highlights_en": [
+      "Chart color customization"
+    ]
+  },
+  {
+    "version": "1.1.0",
+    "date": "2021",
+    "badge": null,
+    "badge_en": null,
+    "highlights": [
+      "Versione iPad",
+      "Fix localizzazioni",
+      "Fix widget"
+    ],
+    "highlights_en": [
+      "iPad version",
+      "Fix localizations",
+      "Fix widget"
+    ]
+  },
+  {
+    "version": "1.0.1",
+    "date": "2021",
+    "badge": null,
+    "badge_en": null,
+    "highlights": [
+      "Nuove localizzazioni",
+      "Fix vari"
+    ],
+    "highlights_en": [
+      "New localizations",
+      "Various fixes"
+    ]
+  },
+  {
+    "version": "1.0.0",
+    "date": "2021",
+    "badge": "Prima release",
+    "badge_en": "First release",
+    "highlights": [
+      "Release iniziale",
+      "Pannelli: Device, RAM, Storage, CPU, Network, Batteria, Display, Fotocamera",
+      "Widget iOS 14"
+    ],
+    "highlights_en": [
+      "Initial release",
+      "Panels: Device, RAM, Storage, CPU, Network, Battery, Display, Camera",
+      "iOS 14 widget"
+    ]
+  }
+]

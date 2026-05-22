@@ -1,0 +1,34 @@
+[
+  {
+    "device": "iPhone",
+    "icon": "smartphone",
+    "requirement": "iOS 18.0+",
+    "description": "Ottimizzata per tutti gli iPhone compatibili con iOS 18 e successivi.",
+    "description_en": "Optimized for all iPhones compatible with iOS 18 and later.",
+    "gradient": "from-blue-500 to-cyan-400"
+  },
+  {
+    "device": "iPad",
+    "icon": "tablet",
+    "requirement": "iPadOS 18.0+",
+    "description": "Supporto completo per iPad, inclusi Stage Manager e layout ottimizzato per schermi grandi.",
+    "description_en": "Full iPad support, including Stage Manager and an optimized layout for large screens.",
+    "gradient": "from-violet-500 to-blue-500"
+  },
+  {
+    "device": "Apple Watch",
+    "icon": "watch",
+    "requirement": "watchOS 10.0+",
+    "description": "App nativa per Apple Watch con monitoraggio RAM, grafici CPU e pulizia direttamente dal polso.",
+    "description_en": "Native Apple Watch app with RAM monitoring, CPU charts and cleanup right from your wrist.",
+    "gradient": "from-pink-500 to-violet-500"
+  },
+  {
+    "device": "Mac",
+    "icon": "monitor",
+    "requirement": "macOS 26.0+",
+    "description": "Compatibile con tutti i Mac tramite Mac Catalyst e macOS Tahoe.",
+    "description_en": "Compatible with all Macs via Mac Catalyst and macOS Tahoe.",
+    "gradient": "from-gray-500 to-slate-600"
+  }
+]

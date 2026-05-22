@@ -1,0 +1,45 @@
+{
+  "iphone": {
+    "label": "iPhone",
+    "aspect": "portrait",
+    "screenshots": [
+      { "url": "images/screenshots/iphone/iphone-1.png", "alt": "iWindrose² su iPhone – Rosa dei Venti" },
+      { "url": "images/screenshots/iphone/iphone-2.png", "alt": "iWindrose² su iPhone – Meteo" },
+      { "url": "images/screenshots/iphone/iphone-3.png", "alt": "iWindrose² su iPhone – Sole e Luna" },
+      { "url": "images/screenshots/iphone/iphone-4.png", "alt": "iWindrose² su iPhone – Bollettini Meteomar" },
+      { "url": "images/screenshots/iphone/iphone-5.png", "alt": "iWindrose² su iPhone – Scale vento" },
+      { "url": "images/screenshots/iphone/iphone-6.png", "alt": "iWindrose² su iPhone – Posizione" },
+      { "url": "images/screenshots/iphone/iphone-7.png", "alt": "iWindrose² su iPhone – Maree" },
+      { "url": "images/screenshots/iphone/iphone-8.png", "alt": "iWindrose² su iPhone – OpenWeatherMap" },
+      { "url": "images/screenshots/iphone/iphone-9.png", "alt": "iWindrose² su iPhone – Widget" }
+    ]
+  },
+  "ipad": {
+    "label": "iPad",
+    "aspect": "landscape",
+    "screenshots": [
+      { "url": "images/screenshots/ipad/ipad-1.png", "alt": "iWindrose² su iPad – Rosa dei Venti" },
+      { "url": "images/screenshots/ipad/ipad-2.png", "alt": "iWindrose² su iPad – Meteo" },
+      { "url": "images/screenshots/ipad/ipad-3.png", "alt": "iWindrose² su iPad – Bollettini" },
+      { "url": "images/screenshots/ipad/ipad-4.png", "alt": "iWindrose² su iPad – Scale" },
+      { "url": "images/screenshots/ipad/ipad-5.png", "alt": "iWindrose² su iPad – LaMMA" },
+      { "url": "images/screenshots/ipad/ipad-6.png", "alt": "iWindrose² su iPad – OpenWeatherMap" },
+      { "url": "images/screenshots/ipad/ipad-7.png", "alt": "iWindrose² su iPad – Dettaglio venti" },
+      { "url": "images/screenshots/ipad/ipad-8.png", "alt": "iWindrose² su iPad – Informazioni" }
+    ]
+  },
+  "watch": {
+    "label": "Apple Watch",
+    "aspect": "square",
+    "screenshots": [
+      { "url": "images/screenshots/watch/watch-1.png", "alt": "iWindrose² su Apple Watch – Schermata 1" },
+      { "url": "images/screenshots/watch/watch-2.png", "alt": "iWindrose² su Apple Watch – Schermata 2" },
+      { "url": "images/screenshots/watch/watch-3.png", "alt": "iWindrose² su Apple Watch – Schermata 3" },
+      { "url": "images/screenshots/watch/watch-4.png", "alt": "iWindrose² su Apple Watch – Schermata 4" },
+      { "url": "images/screenshots/watch/watch-5.png", "alt": "iWindrose² su Apple Watch – Schermata 5" },
+      { "url": "images/screenshots/watch/watch-6.png", "alt": "iWindrose² su Apple Watch – Schermata 6" },
+      { "url": "images/screenshots/watch/watch-7.png", "alt": "iWindrose² su Apple Watch – Schermata 7" },
+      { "url": "images/screenshots/watch/watch-8.png", "alt": "iWindrose² su Apple Watch – Schermata 8" }
+    ]
+  }
+}

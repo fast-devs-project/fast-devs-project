@@ -1,0 +1,520 @@
+[
+  {
+    "version": "5.7.2",
+    "date": "21/09/2023",
+    "badge": "Ultima versione",
+    "badge_en": "Latest version",
+    "highlights": [
+      "Fix grafica su dispositivi meno recenti"
+    ],
+    "highlights_en": [
+      "Fixed graphics on older devices"
+    ]
+  },
+  {
+    "version": "5.7.1",
+    "date": "16/09/2023",
+    "badge": null,
+    "badge_en": null,
+    "highlights": [
+      "Fix pagina previsioni OpenWeatherMap"
+    ],
+    "highlights_en": [
+      "Fix for OpenWeatherMap forecast page"
+    ]
+  },
+  {
+    "version": "5.7.0",
+    "date": "15/09/2023",
+    "badge": null,
+    "badge_en": null,
+    "highlights": [
+      "Supporto iOS 17 e nuovi iPhone 15",
+      "Fix pagina previsioni Meteomar",
+      "Altri fix"
+    ],
+    "highlights_en": [
+      "iOS 17 and new iPhone 15 support",
+      "Fix for Meteomar forecast page",
+      "Other fixes"
+    ]
+  },
+  {
+    "version": "5.6.0",
+    "date": "14/09/2023",
+    "badge": null,
+    "badge_en": null,
+    "highlights": [
+      "Supporto iOS 17 e iPhone 15",
+      "Fix pagina Meteomar"
+    ],
+    "highlights_en": [
+      "iOS 17 and iPhone 15 support",
+      "Fix Meteomar page"
+    ]
+  },
+  {
+    "version": "5.3.0",
+    "date": "15/02/2022",
+    "badge": null,
+    "badge_en": null,
+    "highlights": [
+      "Miglioramenti performance iOS 15",
+      "Fix previsioni LaMMA"
+    ],
+    "highlights_en": [
+      "iOS 15 performance improvements",
+      "Fix LaMMA forecasts"
+    ]
+  },
+  {
+    "version": "5.2.2",
+    "date": "29/10/2021",
+    "badge": null,
+    "badge_en": null,
+    "highlights": [
+      "Fix generali"
+    ],
+    "highlights_en": [
+      "General fixes"
+    ]
+  },
+  {
+    "version": "5.2.1",
+    "date": "01/10/2021",
+    "badge": null,
+    "badge_en": null,
+    "highlights": [
+      "Informazioni raffiche di vento",
+      "Menu impostazioni posizione widget Home Screen (iOS 14)",
+      "Fix export PDF Meteomar",
+      "Fix previsioni OpenWeatherMap su iPad"
+    ],
+    "highlights_en": [
+      "Wind gust information",
+      "Widget location settings menu for Home Screen (iOS 14)",
+      "Fix Meteomar PDF export",
+      "Fix OpenWeatherMap forecasts on iPad"
+    ]
+  },
+  {
+    "version": "5.2.0",
+    "date": "28/09/2021",
+    "badge": null,
+    "badge_en": null,
+    "highlights": [
+      "Informazioni raffiche di vento",
+      "Impostazioni posizione widget Home Screen (iOS 14)",
+      "Fix export PDF Meteomar",
+      "Fix OpenWeatherMap su iPad",
+      "Miglioramento comportamento impostazioni su iPad"
+    ],
+    "highlights_en": [
+      "Wind gust information",
+      "Home Screen widget location settings (iOS 14)",
+      "Fix Meteomar PDF export",
+      "Fix OpenWeatherMap on iPad",
+      "Improved settings behavior on iPad"
+    ]
+  },
+  {
+    "version": "5.1.0",
+    "date": "10/09/2021",
+    "badge": "Major update",
+    "badge_en": "Major update",
+    "highlights": [
+      "Interfaccia grafica ridisegnata",
+      "Nuovi widget Home Screen iOS 14",
+      "Indicatore lampeggiante crepuscoli",
+      "Informazioni prossima eclissi lunare",
+      "Informazioni maree",
+      "Provider meteo preferito all'avvio",
+      "Export PDF previsioni Meteomar",
+      "Vari bug fix"
+    ],
+    "highlights_en": [
+      "Redesigned graphical interface",
+      "New iOS 14 Home Screen widgets",
+      "Blinking twilight indicator",
+      "Next lunar eclipse information",
+      "Tide information",
+      "Favorite weather provider at launch",
+      "PDF export for Meteomar forecasts",
+      "Various bug fixes"
+    ]
+  },
+  {
+    "version": "4.0.1",
+    "date": "05/10/2020",
+    "badge": null,
+    "badge_en": null,
+    "highlights": [
+      "Ripristino previsioni LaMMA",
+      "Supporto iPhone 11, 11 Pro, 11 Pro Max",
+      "Apple Watch app standalone",
+      "Supporto iOS 14",
+      "Rosa dei venti ruota su Apple Watch",
+      "Migliorata lettura forze del vento su iPad"
+    ],
+    "highlights_en": [
+      "Restored LaMMA forecasts",
+      "iPhone 11, 11 Pro, 11 Pro Max support",
+      "Standalone Apple Watch app",
+      "iOS 14 support",
+      "Wind rose rotates on Apple Watch",
+      "Improved wind force reading on iPad"
+    ]
+  },
+  {
+    "version": "4.0.0",
+    "date": "01/10/2020",
+    "badge": "Major update",
+    "badge_en": "Major update",
+    "highlights": [
+      "Apple Watch app standalone",
+      "Rosa dei venti ruota su Apple Watch (magnetometro)",
+      "Supporto iOS 14",
+      "Ripristino previsioni LaMMA",
+      "Supporto iPhone 11 series",
+      "Migliorata lettura forze del vento su iPad",
+      "Bug fix e miglioramenti performance"
+    ],
+    "highlights_en": [
+      "Standalone Apple Watch app",
+      "Wind rose rotates on Apple Watch (magnetometer)",
+      "iOS 14 support",
+      "Restored LaMMA forecasts",
+      "iPhone 11 series support",
+      "Improved wind force reading on iPad",
+      "Bug fixes and performance improvements"
+    ]
+  },
+  {
+    "version": "3.3.1",
+    "date": "13/08/2019",
+    "badge": null,
+    "badge_en": null,
+    "highlights": [
+      "Nome giorno nella tabella previsioni OpenWeatherMap",
+      "Pulsante aggiornamento manuale in VentuSky",
+      "Aggiunte Atmosfere e Bar alle unità di pressione",
+      "Fix menu condivisione su iPad",
+      "Fix pulsante play/pausa in pagina LaMMA"
+    ],
+    "highlights_en": [
+      "Day name in OpenWeatherMap forecast table",
+      "Manual refresh button in VentuSky page",
+      "Added Atmospheres and Bar to pressure units",
+      "Fix share menu on iPad",
+      "Fix play/pause button in LaMMA page"
+    ]
+  },
+  {
+    "version": "3.3.0",
+    "date": "02/08/2019",
+    "badge": null,
+    "badge_en": null,
+    "highlights": [
+      "Supporto modello ECMWR per previsioni LaMMA",
+      "Gesto swipe per immagini LaMMA",
+      "Nuovi sticker iMessage",
+      "Zoom foto autori scale del vento",
+      "Fix OpenWeatherMap",
+      "Fix icona Siri in VentuSky",
+      "Miglioramenti grafici"
+    ],
+    "highlights_en": [
+      "ECMWR model support for LaMMA forecasts",
+      "Swipe gesture for LaMMA images",
+      "New iMessage stickers",
+      "Zoom for wind scale author photos",
+      "OpenWeatherMap fixes",
+      "Fix Siri icon in VentuSky",
+      "Graphical improvements"
+    ]
+  },
+  {
+    "version": "3.2.1",
+    "date": "08/07/2019",
+    "badge": null,
+    "badge_en": null,
+    "highlights": [
+      "Nuovo layout OpenWeatherMap su iPad",
+      "Bug fix aggiuntivi"
+    ],
+    "highlights_en": [
+      "New OpenWeatherMap layout on iPad",
+      "Additional bug fixes"
+    ]
+  },
+  {
+    "version": "3.2.0",
+    "date": "01/07/2019",
+    "badge": null,
+    "badge_en": null,
+    "highlights": [
+      "Tutti i tipi di previsione LaMMA (temperatura mare, moto ondoso, raffiche, ecc.)",
+      "Bug fix aggiuntivi"
+    ],
+    "highlights_en": [
+      "All LaMMA forecast types (sea temperature, swell, gusts, etc.)",
+      "Additional bug fixes"
+    ]
+  },
+  {
+    "version": "3.1.0",
+    "date": "27/06/2019",
+    "badge": null,
+    "badge_en": null,
+    "highlights": [
+      "Info neve e pioggia (con previsioni 5 giorni, widget e Apple Watch)",
+      "Ricerca posizione per OpenWeatherMap",
+      "Nuovo Siri Shortcut per OpenWeatherMap",
+      "Zoom su tutte le immagini dell'app",
+      "Miglioramenti grafici",
+      "Fix Apple Watch in modalità aereo",
+      "Fix calcolo percentuali grafici"
+    ],
+    "highlights_en": [
+      "Snow and rain info (with 5-day forecasts, widget and Apple Watch)",
+      "Location search for OpenWeatherMap",
+      "New Siri Shortcut for OpenWeatherMap",
+      "Zoom on all images in the app",
+      "Graphical improvements",
+      "Fix Apple Watch in airplane mode",
+      "Fix chart percentage calculations"
+    ]
+  },
+  {
+    "version": "3.0.0",
+    "date": "09/05/2019",
+    "badge": "Major update",
+    "badge_en": "Major update",
+    "highlights": [
+      "Introdotta versione iPad (sperimentale)",
+      "Pagine dettaglio più pulite",
+      "Nuovo layout informazioni",
+      "Miglioramenti grafici",
+      "Bug fix"
+    ],
+    "highlights_en": [
+      "Introduced iPad version (experimental)",
+      "Cleaner detail pages",
+      "New information layout",
+      "Graphical improvements",
+      "Bug fixes"
+    ]
+  },
+  {
+    "version": "2.3.1",
+    "date": "29/01/2019",
+    "badge": null,
+    "badge_en": null,
+    "highlights": [
+      "Fix notifica Apple Watch senza internet",
+      "Fix shortcut 3D Touch sull'icona",
+      "Correzioni grafiche",
+      "Bug fix aggiuntivi"
+    ],
+    "highlights_en": [
+      "Fix Apple Watch notification without internet",
+      "Fix 3D Touch shortcut on icon",
+      "Graphical corrections",
+      "Additional bug fixes"
+    ]
+  },
+  {
+    "version": "2.3.0",
+    "date": "21/01/2019",
+    "badge": null,
+    "badge_en": null,
+    "highlights": [
+      "Sistema preferenze ridisegnato da zero (sincronizzato tra app, widget e Watch)",
+      "Nuova pagina \"Benvenuto\" al primo avvio",
+      "Pop-up permessi richiesti",
+      "Menu colorato Rosa dei Venti (colori cambiano in base all'ora)",
+      "Simboli scala Douglas in alta risoluzione",
+      "Nuovo menu selezione settore Mediterraneo",
+      "Pulsante \"Seguici su Twitter\"",
+      "Correzioni localizzazione inglese",
+      "Numerosi fix grafici"
+    ],
+    "highlights_en": [
+      "Redesigned preferences system (synced between app, widget and Watch)",
+      "New \"Welcome\" page on first launch",
+      "Permissions pop-up",
+      "Colorful Wind Rose menu (colors change based on time)",
+      "High-resolution Douglas scale symbols",
+      "New Mediterranean sector selection menu",
+      "\"Follow us on Twitter\" button",
+      "English localization corrections",
+      "Numerous graphical fixes"
+    ]
+  },
+  {
+    "version": "2.2.0",
+    "date": "11/12/2018",
+    "badge": null,
+    "badge_en": null,
+    "highlights": [
+      "Velocità vento in km/h e mi/h",
+      "Temperatura in Kelvin",
+      "Simbolo meteo scala Douglas",
+      "Apple Watch Rich Notification con anteprima Meteomar",
+      "Indicatore caricamento su iPhone X series",
+      "Fix Siri Shortcuts VentuSky"
+    ],
+    "highlights_en": [
+      "Wind speed in km/h and mi/h",
+      "Temperature in Kelvin",
+      "Douglas scale weather symbol",
+      "Apple Watch Rich Notification with Meteomar preview",
+      "Loading indicator on iPhone X series",
+      "Fix Siri Shortcuts VentuSky"
+    ]
+  },
+  {
+    "version": "2.1.0",
+    "date": "12/11/2018",
+    "badge": null,
+    "badge_en": null,
+    "highlights": [
+      "Siri Shortcuts per previsioni Meteomar e LaMMA",
+      "Servizio meteo VentuSky (previsioni mondiali)",
+      "Nuova interfaccia Apple Watch",
+      "Bug fix e correzioni minori"
+    ],
+    "highlights_en": [
+      "Siri Shortcuts for Meteomar and LaMMA forecasts",
+      "VentuSky weather service (worldwide forecasts)",
+      "New Apple Watch interface",
+      "Bug fixes and minor corrections"
+    ]
+  },
+  {
+    "version": "2.0.1",
+    "date": "02/11/2018",
+    "badge": null,
+    "badge_en": null,
+    "highlights": [
+      "Bug fix"
+    ],
+    "highlights_en": [
+      "Bug fix"
+    ]
+  },
+  {
+    "version": "2.0.0",
+    "date": "01/11/2018",
+    "badge": "Major update",
+    "badge_en": "Major update",
+    "highlights": [
+      "Nuovo layout immagini",
+      "Simbolo Beaufort accanto alla forza del vento",
+      "Ricerca venti da Spotlight",
+      "Scala Fujita standard",
+      "Previsioni 5 giorni OpenWeatherMap",
+      "Freccia direzione vento nella Rosa dei Venti",
+      "Previsioni LaMMA per tutti i settori Mediterraneo",
+      "Supporto Moon Tilt",
+      "Compatibilità iPhone XS, XS Max, XR",
+      "Compatibilità iOS 12 e watchOS 5",
+      "Dimensione download ridotta",
+      "Miglioramenti UI e nuove animazioni"
+    ],
+    "highlights_en": [
+      "New image layout",
+      "Beaufort symbol next to wind force",
+      "Spotlight search for wind info",
+      "Standard Fujita scale",
+      "5-day OpenWeatherMap forecasts",
+      "Wind direction arrow in Wind Rose",
+      "LaMMA forecasts for all Mediterranean sectors",
+      "Moon Tilt support",
+      "iPhone XS, XS Max, XR compatibility",
+      "iOS 12 and watchOS 5 compatibility",
+      "Reduced download size",
+      "UI improvements and new animations"
+    ]
+  },
+  {
+    "version": "1.1.1",
+    "date": "02/08/2018",
+    "badge": null,
+    "badge_en": null,
+    "highlights": [
+      "Mappa LaMMA non cambia durante lo zoom",
+      "Intervallo auto-refresh Sole/Luna configurabile",
+      "Scelta notifiche da attivare",
+      "Zoom sulla mappa Meteomar",
+      "Fix notifica Apple Watch con icona nera",
+      "Fix apertura vista errata da Spotlight o widget",
+      "Miglioramenti UI"
+    ],
+    "highlights_en": [
+      "LaMMA map won't change while zooming",
+      "Configurable Sun/Moon auto-refresh interval",
+      "Choose which notifications to activate",
+      "Zoom on Meteomar map",
+      "Fix Apple Watch notification with black icon",
+      "Fix incorrect view opening from Spotlight or widgets",
+      "UI improvements"
+    ]
+  },
+  {
+    "version": "1.1.0",
+    "date": "24/07/2018",
+    "badge": null,
+    "badge_en": null,
+    "highlights": [
+      "Mappa LaMMA non cambia durante lo zoom",
+      "Intervallo auto-refresh Sole/Luna configurabile",
+      "Scelta notifiche da attivare",
+      "Zoom sulla mappa Meteomar",
+      "Fix notifica Apple Watch",
+      "Fix apertura da Spotlight o widget",
+      "Miglioramenti UI"
+    ],
+    "highlights_en": [
+      "LaMMA map won't change while zooming",
+      "Configurable Sun/Moon auto-refresh interval",
+      "Choose which notifications to activate",
+      "Zoom on Meteomar map",
+      "Fix Apple Watch notification",
+      "Fix opening from Spotlight or widgets",
+      "UI improvements"
+    ]
+  },
+  {
+    "version": "1.0.0",
+    "date": "2018",
+    "badge": "Prima release",
+    "badge_en": "First release",
+    "highlights": [
+      "Riscrittura completa in Swift",
+      "Compatibilità Apple Watch",
+      "Rosa dei venti dinamica con magnetometro",
+      "Meteo in tempo reale",
+      "Informazioni Sole e Luna",
+      "Scale vento e mare (Beaufort, Douglas)",
+      "Bollettini Meteomar e LaMMA",
+      "Notifiche push aggiornamento Meteomar",
+      "Widget Notification Center",
+      "Sticker iMessage",
+      "Ricerca Spotlight"
+    ],
+    "highlights_en": [
+      "Complete rewrite in Swift",
+      "Apple Watch compatibility",
+      "Dynamic wind rose with magnetometer",
+      "Real-time weather",
+      "Sun and Moon information",
+      "Wind and sea scales (Beaufort, Douglas)",
+      "Meteomar and LaMMA bulletins",
+      "Meteomar update push notifications",
+      "Notification Center widget",
+      "iMessage stickers",
+      "Spotlight search"
+    ]
+  }
+]
