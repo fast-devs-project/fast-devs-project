@@ -481,7 +481,7 @@ async function initI18n() {
   if (!data) return;
 
   /* Rileva lingua salvata o browser */
-  const saved = localStorage.getItem('dm_lang');
+  const saved = localStorage.getItem('site_lang');
   const browser = navigator.language?.slice(0, 2).toLowerCase();
   _currentLang = saved || (browser === 'it' ? 'it' : 'en');
 
@@ -494,7 +494,7 @@ async function initI18n() {
       const lang = btn.dataset.lang;
       if (lang === _currentLang) return;
       _currentLang = lang;
-      localStorage.setItem('dm_lang', lang);
+      localStorage.setItem('site_lang', lang);
       applyLang(lang);
     });
   });
