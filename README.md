@@ -1,4 +1,4 @@
-# Fast-Devs Project — Landing Pages
+# Fast-Devs Project — Website
 
 Static landing pages for the iOS/watchOS apps by **[Fast-Devs Project](https://fastdevsproject.altervista.org)**.
 
