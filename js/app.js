@@ -184,18 +184,19 @@ async function renderBlog() {
   }
 
   function buildCard(post, featured, idx) {
-    const excerpt = truncate(post.content, 100);
+    const localizedPost = getLocalizedPost(post);
+    const excerpt = truncate(localizedPost.content, 100);
     const imgHtml = post.image
-      ? `<img src="${post.image}" alt="${post.title}" class="blog-card-img" loading="lazy">`
+      ? `<img src="${post.image}" alt="${localizedPost.title}" class="blog-card-img" loading="lazy">`
       : '';
     const cls = featured ? 'blog-card featured' : 'blog-card';
     return `
       <div class="glass-card ${cls}" data-blog-idx="${idx}" role="button" tabindex="0" style="cursor:pointer;">
         ${imgHtml}
         <div class="blog-card-body">
-          <div class="blog-card-title">${post.title}</div>
+          <div class="blog-card-title">${localizedPost.title}</div>
           <div class="blog-card-excerpt">${excerpt}</div>
-          <div class="blog-card-date">${post.date}</div>
+          <div class="blog-card-date">${localizedPost.date}</div>
         </div>
       </div>`;
   }
@@ -263,13 +264,23 @@ async function renderBlog() {
    ============================================================ */
 function openBlogModal(post) {
   const modal = document.getElementById('blog-modal');
+  const localizedPost = getLocalizedPost(post);
   modal.querySelector('.blog-modal-img').src = post.image || '';
-  modal.querySelector('.blog-modal-img').alt = post.title;
-  modal.querySelector('.blog-modal-title').textContent = post.title;
-  modal.querySelector('.blog-modal-date').textContent = post.date;
-  modal.querySelector('.blog-modal-text').innerHTML = post.content;
+  modal.querySelector('.blog-modal-img').alt = localizedPost.title;
+  modal.querySelector('.blog-modal-title').textContent = localizedPost.title;
+  modal.querySelector('.blog-modal-date').textContent = localizedPost.date;
+  modal.querySelector('.blog-modal-text').innerHTML = localizedPost.content;
   modal.classList.add('open');
   document.body.style.overflow = 'hidden';
+}
+
+function getLocalizedPost(post) {
+  const isEn = _currentLang === 'en';
+  return {
+    title: isEn && post.title_en ? post.title_en : post.title,
+    date: isEn && post.date_en ? post.date_en : post.date,
+    content: isEn && post.content_en ? post.content_en : post.content
+  };
 }
 
 function closeBlogModal() {
