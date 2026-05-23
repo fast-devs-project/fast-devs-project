@@ -1,0 +1,17 @@
+{
+  "name": "iWindrose",
+  "short_name": "iWindrose",
+  "description": "Wind rose, weather forecasts, marine bulletins, tides and more for iPhone, iPad and Apple Watch.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#080A0F",
+  "theme_color": "#080A0F",
+  "icons": [
+    {
+      "src": "images/icon/app-icon.png",
+      "sizes": "1024x1024",
+      "type": "image/png"
+    }
+  ]
+}

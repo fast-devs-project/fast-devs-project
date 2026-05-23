@@ -1,0 +1,17 @@
+{
+  "name": "Fast-Devs Project",
+  "short_name": "Fast-Devs",
+  "description": "Independent Italian iOS developer. Native apps for iPhone, iPad, Apple Watch and Mac.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#080A0F",
+  "theme_color": "#080A0F",
+  "icons": [
+    {
+      "src": "images/icon/fdp-icon.png",
+      "sizes": "1254x1254",
+      "type": "image/png"
+    }
+  ]
+}
