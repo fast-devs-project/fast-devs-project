@@ -53,6 +53,40 @@ async function loadJSON(path) {
 }
 
 /* ============================================================
+   LAZY MEDIA
+   ============================================================ */
+let lazyMediaObserver = null;
+
+function loadLazyMedia(el) {
+  if (!el?.dataset.lazySrc) return;
+  el.src = el.dataset.lazySrc;
+  el.removeAttribute('data-lazy-src');
+  el.dataset.lazyLoaded = 'true';
+}
+
+function observeLazyMedia(scope = document) {
+  const media = scope.querySelectorAll('[data-lazy-src]:not([data-lazy-loaded])');
+  if (!media.length) return;
+
+  if (!('IntersectionObserver' in window)) {
+    media.forEach(loadLazyMedia);
+    return;
+  }
+
+  if (!lazyMediaObserver) {
+    lazyMediaObserver = new IntersectionObserver(entries => {
+      entries.forEach(entry => {
+        if (!entry.isIntersecting) return;
+        loadLazyMedia(entry.target);
+        lazyMediaObserver.unobserve(entry.target);
+      });
+    }, { rootMargin: '420px 0px', threshold: 0.01 });
+  }
+
+  media.forEach(el => lazyMediaObserver.observe(el));
+}
+
+/* ============================================================
    RENDER — FEATURES
    ============================================================ */
 async function renderFeatures() {
@@ -188,7 +222,7 @@ async function renderGallery() {
            tabindex="0"
            aria-label="${s.alt}"
            data-src="${s.url}" data-alt="${s.alt}">
-        <img src="${s.url}" alt="${s.alt}" loading="eager">
+        <img data-lazy-src="${s.url}" alt="${s.alt}" loading="lazy" decoding="async">
       </div>`).join('');
 
     /* Anteponi la card video solo al pannello iPhone */
@@ -216,6 +250,8 @@ async function renderGallery() {
       </div>`;
   }).join('');
 
+  observeLazyMedia(container.querySelector('.gallery-panel.active'));
+
   /* tabs click */
   tabsEl.addEventListener('click', e => {
     const btn = e.target.closest('.gallery-tab');
@@ -226,6 +262,7 @@ async function renderGallery() {
     container.querySelectorAll('.gallery-panel').forEach(p => {
       p.classList.toggle('active', p.dataset.panel === panelKey);
     });
+    observeLazyMedia(container.querySelector(`.gallery-panel[data-panel="${panelKey}"]`));
   });
 
   /* lightbox — apre con indice, esclude le card video */
