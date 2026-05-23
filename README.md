@@ -1,8 +1,8 @@
 # Fast-Devs Project — Website
 
-Static landing pages for the iOS/watchOS apps by **[Fast-Devs Project](https://fastdevsproject.altervista.org)**.
+Static landing pages for by **Fast-Devs Project**.
 
-🔗 **[Website](https://fastdevsproject.altervista.org)** · **[@FastDevsProject](https://x.com/FastDevsProject)**
+🔗 **[@FastDevsProject](https://x.com/FastDevsProject)**
 
 ---
 
