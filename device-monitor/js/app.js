@@ -4,23 +4,23 @@
 
 /* ——— CONFIG ——— */
 const APP_STORE_URL = 'https://apps.apple.com/app/device-monitor/id1522870046';
-const SUPPORT_URL   = '../#contact';
+const SUPPORT_URL = '../#contact';
 const CACHE_VER = '26.5.0';
 
 /* ——— Feature icon colors ——— */
 const FEATURE_COLORS = {
-  device:    { bg: 'rgba(59,130,246,0.12)',  color: '#3B82F6' },
-  sensors:   { bg: 'rgba(139,92,246,0.12)',  color: '#8B5CF6' },
-  ram:       { bg: 'rgba(6,182,212,0.12)',   color: '#06B6D4' },
-  storage:   { bg: 'rgba(16,185,129,0.12)',  color: '#10B981' },
-  cpu:       { bg: 'rgba(245,158,11,0.12)',  color: '#F59E0B' },
-  gpu:       { bg: 'rgba(236,72,153,0.12)',  color: '#EC4899' },
-  network:   { bg: 'rgba(59,130,246,0.12)',  color: '#3B82F6' },
-  battery:   { bg: 'rgba(132,204,22,0.12)',  color: '#84CC16' },
-  display:   { bg: 'rgba(6,182,212,0.12)',   color: '#06B6D4' },
-  camera:    { bg: 'rgba(139,92,246,0.12)',  color: '#8B5CF6' },
-  widgets:   { bg: 'rgba(245,158,11,0.12)',  color: '#F59E0B' },
-  shortcuts:     { bg: 'rgba(236,72,153,0.12)',  color: '#EC4899' },
+  device: { bg: 'rgba(59,130,246,0.12)', color: '#3B82F6' },
+  sensors: { bg: 'rgba(139,92,246,0.12)', color: '#8B5CF6' },
+  ram: { bg: 'rgba(6,182,212,0.12)', color: '#06B6D4' },
+  storage: { bg: 'rgba(16,185,129,0.12)', color: '#10B981' },
+  cpu: { bg: 'rgba(245,158,11,0.12)', color: '#F59E0B' },
+  gpu: { bg: 'rgba(236,72,153,0.12)', color: '#EC4899' },
+  network: { bg: 'rgba(59,130,246,0.12)', color: '#3B82F6' },
+  battery: { bg: 'rgba(132,204,22,0.12)', color: '#84CC16' },
+  display: { bg: 'rgba(6,182,212,0.12)', color: '#06B6D4' },
+  camera: { bg: 'rgba(139,92,246,0.12)', color: '#8B5CF6' },
+  widgets: { bg: 'rgba(245,158,11,0.12)', color: '#F59E0B' },
+  shortcuts: { bg: 'rgba(236,72,153,0.12)', color: '#EC4899' },
   customization: { bg: 'rgba(168,85,247,0.12)', color: '#A855F7' },
   'quick-actions': { bg: 'rgba(249,115,22,0.12)', color: '#F97316' },
 };
@@ -29,10 +29,10 @@ const FEATURE_COLORS = {
 const KIT_GRADIENTS = {};
 
 const COMPAT_GRADIENTS = {
-  iPhone:           'linear-gradient(135deg,#3B82F6,#06B6D4)',
-  iPad:             'linear-gradient(135deg,#8B5CF6,#3B82F6)',
-  'Apple Watch':    'linear-gradient(135deg,#EC4899,#8B5CF6)',
-  Mac:              'linear-gradient(135deg,#6B7280,#4B5563)',
+  iPhone: 'linear-gradient(135deg,#3B82F6,#06B6D4)',
+  iPad: 'linear-gradient(135deg,#8B5CF6,#3B82F6)',
+  'Apple Watch': 'linear-gradient(135deg,#EC4899,#8B5CF6)',
+  Mac: 'linear-gradient(135deg,#6B7280,#4B5563)',
 };
 
 /* ============================================================
@@ -96,9 +96,9 @@ async function renderFeatures() {
 
   const isEn = _currentLang === 'en';
   grid.innerHTML = data.map((f, i) => {
-    const c     = FEATURE_COLORS[f.id] || { bg: 'rgba(59,130,246,0.12)', color: '#3B82F6' };
+    const c = FEATURE_COLORS[f.id] || { bg: 'rgba(59,130,246,0.12)', color: '#3B82F6' };
     const title = (isEn && f.title_en) ? f.title_en : f.title;
-    const desc  = (isEn && f.description_en) ? f.description_en : f.description;
+    const desc = (isEn && f.description_en) ? f.description_en : f.description;
     return `
       <div class="glass-card feature-card reveal reveal-delay-${(i % 5) + 1}">
         <div class="feature-icon" style="background:${c.bg}; color:${c.color}">
@@ -122,10 +122,10 @@ async function renderKits() {
 
   const isEn = _currentLang === 'en';
   grid.innerHTML = data.map((k, i) => {
-    const grad     = k.gradient || 'linear-gradient(135deg,#3B82F6,#8B5CF6)';
-    const desc     = (isEn && k.description_en) ? k.description_en : k.description;
-    const features = (isEn && k.features_en)    ? k.features_en    : k.features;
-    const badge    = (isEn && k.badge_en !== undefined) ? k.badge_en : k.badge;
+    const grad = k.gradient || 'linear-gradient(135deg,#3B82F6,#8B5CF6)';
+    const desc = (isEn && k.description_en) ? k.description_en : k.description;
+    const features = (isEn && k.features_en) ? k.features_en : k.features;
+    const badge = (isEn && k.badge_en !== undefined) ? k.badge_en : k.badge;
 
     const featuresHtml = features.map(f => `
       <li class="kit-feature">
@@ -193,7 +193,7 @@ async function renderCompatibility() {
 async function renderGallery() {
   const data = await loadJSON('data/gallery.json');
   const container = document.getElementById('gallery-container');
-  const tabsEl    = document.getElementById('gallery-tabs');
+  const tabsEl = document.getElementById('gallery-tabs');
   if (!container || !data) return;
 
   const sections = Object.entries(data);
@@ -213,9 +213,11 @@ async function renderGallery() {
   /* build panels */
   container.innerHTML = sections.map(([key, sec], i) => {
     const gridClass = key === 'ipad' ? 'ipad-grid'
-                    : key === 'watch' ? 'watch-grid' : '';
-    const ratio = key === 'ipad'  ? '720/960'
-                : key === 'watch' ? '1/1' : '499/1080';
+      : key === 'watch' ? 'watch-grid'
+        : key === 'mac' ? 'mac-grid' : '';
+    const ratio = key === 'ipad' ? '720/960'
+      : key === 'watch' ? '1/1'
+        : key === 'mac' ? '16/10' : '499/1080';
 
     const thumbs = sec.screenshots.map(s => `
       <div class="gallery-thumb" style="--thumb-ratio:${ratio}" role="button"
@@ -303,9 +305,9 @@ async function renderChangelog() {
   const isEn = _currentLang === 'en';
 
   function buildCard(item, delay) {
-    const badge      = (isEn && item.badge_en !== undefined) ? item.badge_en : item.badge;
+    const badge = (isEn && item.badge_en !== undefined) ? item.badge_en : item.badge;
     const highlights = (isEn && item.highlights_en) ? item.highlights_en : item.highlights;
-    const badgeHtml  = badge
+    const badgeHtml = badge
       ? `<span class="changelog-badge">${badge}</span>`
       : '';
     const highlightsHtml = highlights.map(h =>
@@ -327,7 +329,7 @@ async function renderChangelog() {
 
   /* prime 2 versioni affiancate */
   const featured = data.slice(0, 2);
-  const rest     = data.slice(2);
+  const rest = data.slice(2);
 
   const featuredHtml = `
     <div class="changelog-featured reveal">
@@ -356,9 +358,9 @@ async function renderChangelog() {
   /* toggle espandi/comprimi */
   const btn = list.querySelector('.changelog-expand-btn');
   btn?.addEventListener('click', () => {
-    const older   = document.getElementById('changelog-older');
-    const open    = !older.hidden;
-    older.hidden  = open;
+    const older = document.getElementById('changelog-older');
+    const open = !older.hidden;
+    older.hidden = open;
     btn.setAttribute('aria-expanded', String(!open));
     btn.querySelector('.changelog-expand-label').textContent =
       open ? t('changelog.expand') : t('changelog.collapse');
@@ -384,8 +386,8 @@ async function renderPress() {
   const articleIcon = `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>`;
 
   grid.innerHTML = data.map((item, i) => {
-    const isVideo   = item.type === 'video';
-    const iconHtml  = isVideo ? youtubeIcon : articleIcon;
+    const isVideo = item.type === 'video';
+    const iconHtml = isVideo ? youtubeIcon : articleIcon;
     const iconStyle = isVideo
       ? 'background:rgba(255,0,0,0.1);color:#FF4444;'
       : 'background:rgba(59,130,246,0.1);color:var(--accent-blue);';
@@ -409,20 +411,20 @@ async function renderPress() {
    LIGHTBOX con navigazione frecce
    ============================================================ */
 let _lbThumbs = [];
-let _lbIdx    = 0;
+let _lbIdx = 0;
 
 function openLightbox(thumbs, idx) {
   _lbThumbs = thumbs;
-  _lbIdx    = idx;
+  _lbIdx = idx;
   _lbRender();
   document.getElementById('lightbox').classList.add('open');
   document.body.style.overflow = 'hidden';
 }
 
 function _lbRender() {
-  const lb  = document.getElementById('lightbox');
+  const lb = document.getElementById('lightbox');
   const img = lb.querySelector('.lightbox-img');
-  const th  = _lbThumbs[_lbIdx];
+  const th = _lbThumbs[_lbIdx];
   img.src = th.dataset.src;
   img.alt = th.dataset.alt;
 
@@ -446,7 +448,7 @@ function closeLightbox() {
   document.getElementById('lightbox').classList.remove('open');
   document.body.style.overflow = '';
   _lbThumbs = [];
-  _lbIdx    = 0;
+  _lbIdx = 0;
 }
 
 /* ============================================================
@@ -484,7 +486,7 @@ function observeReveal() {
 function initNav() {
   const nav = document.querySelector('.nav');
   const toggle = document.querySelector('.nav-mobile-toggle');
-  const links  = document.querySelector('.nav-links');
+  const links = document.querySelector('.nav-links');
 
   nav.classList.toggle('scrolled', window.scrollY > 30);
   window.addEventListener('scroll', () => {
@@ -611,8 +613,8 @@ function initLinks() {
    STAR RATING
    ============================================================ */
 function renderStars(rating) {
-  const full  = Math.floor(rating);
-  const half  = rating % 1 >= 0.5 ? 1 : 0;
+  const full = Math.floor(rating);
+  const half = rating % 1 >= 0.5 ? 1 : 0;
   let html = '';
   for (let i = 0; i < full; i++) html += `<span class="star full">${icon('star')}</span>`;
   if (half) html += `<span class="star half" style="opacity:.6">${icon('star')}</span>`;
@@ -634,9 +636,9 @@ document.addEventListener('DOMContentLoaded', async () => {
   lb?.querySelector('.lightbox-next')?.addEventListener('click', () => _lbNav(+1));
   lb?.addEventListener('click', e => { if (e.target === lb) closeLightbox(); });
   document.addEventListener('keydown', e => {
-    if (e.key === 'Escape')      closeLightbox();
-    if (e.key === 'ArrowLeft')   _lbNav(-1);
-    if (e.key === 'ArrowRight')  _lbNav(+1);
+    if (e.key === 'Escape') closeLightbox();
+    if (e.key === 'ArrowLeft') _lbNav(-1);
+    if (e.key === 'ArrowRight') _lbNav(+1);
   });
 
   /* Rating */
@@ -681,9 +683,9 @@ function initVimeoObserver() {
       if (!player) return;
 
       if (entry.isIntersecting) {
-        player.play().catch(() => {});
+        player.play().catch(() => { });
       } else {
-        player.pause().catch(() => {});
+        player.pause().catch(() => { });
       }
     });
   }, { threshold: 0.3 });

@@ -37,7 +37,7 @@
     "gallery.label":             "Screenshot",
     "gallery.title":             "Vedi l'app",
     "gallery.title.gradient":    "in azione",
-    "gallery.subtitle":          "Sfoglia gli screenshot su iPhone, iPad e Apple Watch. Tocca un'immagine per ingrandirla.",
+    "gallery.subtitle":          "Sfoglia gli screenshot su iPhone, iPad, Mac e Apple Watch. Tocca un'immagine per ingrandirla.",
 
     "compat.label":              "Compatibilità",
     "compat.title":              "Tutto l'ecosistema",
@@ -123,7 +123,7 @@
     "gallery.label":             "Screenshots",
     "gallery.title":             "See the app",
     "gallery.title.gradient":    "in action",
-    "gallery.subtitle":          "Browse screenshots on iPhone, iPad and Apple Watch. Tap an image to enlarge it.",
+    "gallery.subtitle":          "Browse screenshots on iPhone, iPad, Mac and Apple Watch. Tap an image to enlarge it.",
 
     "compat.label":              "Compatibility",
     "compat.title":              "The entire ecosystem",
