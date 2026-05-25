@@ -16,7 +16,7 @@
       "Improved Network section with new detailed information on iOS and watchOS",
       "Redesigned alternative icons in iOS 26 style",
       "New Shake test in Test Kit for the motion sensor",
-      "General optimizations, bug fix and graphic improvements"
+      "General optimizations, bug fixes and visual improvements"
     ]
   },
   {
@@ -223,11 +223,11 @@
     "badge": null,
     "badge_en": null,
     "highlights": [
-      "Test Volume e Javascript (Mac)",
+      "Test volume e JavaScript (Mac)",
       "Fix widget iOS 16"
     ],
     "highlights_en": [
-      "Volume and Javascript test (Mac)",
+      "Volume and JavaScript test (Mac)",
       "Fix iOS 16 widget"
     ]
   },
@@ -280,12 +280,12 @@
     "badge_en": null,
     "highlights": [
       "Grafico Speed Test",
-      "Nuovi widget DEVICE e NETWORK",
+      "Nuovi widget Device e Network",
       "Supporto lingue: armeno, turco, russo, arabo, coreano, polacco"
     ],
     "highlights_en": [
       "Speed Test chart",
-      "New DEVICE and NETWORK widgets",
+      "New Device and Network widgets",
       "Language support: Armenian, Turkish, Russian, Arabic, Korean, Polish"
     ]
   },

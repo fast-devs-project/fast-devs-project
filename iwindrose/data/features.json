@@ -2,8 +2,8 @@
   {
     "id": "windrose",
     "icon": "compass",
-    "title": "Rosa dei Venti",
-    "title_en": "Wind Rose",
+    "title": "Rosa dei venti",
+    "title_en": "Wind rose",
     "description": "Rosa dei venti nautica dinamica e orientabile con informazioni dettagliate su tutti i venti principali e secondari.",
     "description_en": "Dynamic, orientable nautical wind rose with detailed information about all principal and secondary winds.",
     "color": "#E86A33"

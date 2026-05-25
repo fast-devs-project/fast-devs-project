@@ -11,12 +11,12 @@
     "nav.aria.cta":              "Acquista iWindrose² sull'App Store",
 
     "hero.badge":                "Versione {version} disponibile",
-    "hero.subtitle":             "La tua enciclopedia portatile sulla Rosa dei Venti. Venti, meteo, bollettini, maree, scale, sole e luna — tutto a portata di mano per gli appassionati del mare.",
+    "hero.subtitle":             "La tua enciclopedia portatile sulla rosa dei venti. Venti, meteo, bollettini, maree, scale, sole e luna — tutto a portata di mano per gli appassionati del mare.",
     "hero.cta.discover":         "Scopri le funzionalità",
     "hero.rating":               "· {count} valutazioni",
     "hero.aria.download":        "Acquista iWindrose² su App Store",
 
-    "stats.rating.app.store":    "Rating App Store",
+    "stats.rating.app.store":    "Media valutazioni",
     "stats.rating":              "Valutazioni",
     "stats.reviews":             "Recensioni",
     "stats.languages":           "Lingue supportate",
@@ -66,7 +66,7 @@
 
     "footer.desc":               "L'app che ti porta la rosa dei venti, le previsioni meteo e i bollettini marini sempre con te, in modo semplice e immediato.",
     "footer.support":            "Supporto",
-    "footer.privacy":            "Privacy Policy",
+    "footer.privacy":            "Informativa privacy",
     "footer.copyright":          "Copyright © 2018-2026 Fast-Devs Project by Marco Ricca. All rights reserved.",
     "footer.trademark":          "Apple, iPhone, iPad e Apple Watch sono marchi di Apple Inc.",
     "footer.aria.twitter":       "Segui Fast-Devs Project su X (Twitter)",
@@ -89,22 +89,22 @@
     "nav.aria.cta":              "Buy iWindrose² on the App Store",
 
     "hero.badge":                "Version {version} available",
-    "hero.subtitle":             "Your portable encyclopedia of the Wind Rose. Winds, weather, bulletins, tides, scales, sun and moon — all at your fingertips for sea enthusiasts.",
+    "hero.subtitle":             "Your portable wind rose encyclopedia. Winds, weather, bulletins, tides, scales, sun and moon — everything sea enthusiasts need, right at their fingertips.",
     "hero.cta.discover":         "Explore features",
     "hero.rating":               "· {count} ratings",
     "hero.aria.download":        "Buy iWindrose² on the App Store",
 
-    "stats.rating.app.store":    "App Store Rating",
+    "stats.rating.app.store":    "Average rating",
     "stats.rating":              "Ratings",
     "stats.reviews":             "Reviews",
-    "stats.languages":           "Supported Languages",
-    "stats.platforms":           "Apple Platforms",
-    "stats.since":               "On App Store since",
+    "stats.languages":           "Supported languages",
+    "stats.platforms":           "Apple platforms",
+    "stats.since":               "On the App Store since",
 
     "features.label":            "Features",
-    "features.title":            "The entire sea",
+    "features.title":            "The sea",
     "features.title.gradient":   "in one app",
-    "features.subtitle":         "Twelve dedicated features for sea lovers: from the wind rose to bulletins, from tides to forecasts — all available in real-time.",
+    "features.subtitle":         "Twelve dedicated features for sea lovers: from the wind rose to marine bulletins, from tides to forecasts — all available in real time.",
 
     "gallery.label":             "Screenshots",
     "gallery.title":             "See the app",
@@ -117,9 +117,9 @@
     "compat.subtitle":           "One app, three platforms. From iPhone to Apple Watch, iWindrose² follows you everywhere.",
 
     "changelog.label":           "Changelog",
-    "changelog.title":           "Always updated,",
-    "changelog.title.gradient":  "always better",
-    "changelog.subtitle":        "The latest released versions, with all the new features and improvements.",
+    "changelog.title":           "Always up to date,",
+    "changelog.title.gradient":  "always improving",
+    "changelog.subtitle":        "The latest releases, with all new features and improvements.",
     "changelog.expand":          "Show older versions",
     "changelog.collapse":        "Hide older versions",
 
@@ -138,17 +138,17 @@
 
     "cta.title":                 "Ready to set sail?",
     "cta.title.gradient":        "Buy now.",
-    "cta.body":                  "Available on the App Store for iPhone, iPad and Apple Watch. Your wind encyclopedia, always with you.",
-    "cta.download":              "Buy on App Store",
+    "cta.body":                  "Available on the App Store for iPhone, iPad and Apple Watch. Your wind rose encyclopedia, always with you.",
+    "cta.download":              "Buy on the App Store",
     "cta.discover":              "Learn more",
 
-    "footer.desc":               "The app that brings you the wind rose, weather forecasts and marine bulletins always with you, simply and immediately.",
+    "footer.desc":               "The app that keeps the wind rose, weather forecasts and marine bulletins with you, simply and instantly.",
     "footer.support":            "Support",
     "footer.privacy":            "Privacy Policy",
     "footer.copyright":          "Copyright © 2018-2026 Fast-Devs Project by Marco Ricca. All rights reserved.",
     "footer.trademark":          "Apple, iPhone, iPad and Apple Watch are trademarks of Apple Inc.",
     "footer.aria.twitter":       "Follow Fast-Devs Project on X (Twitter)",
-    "footer.aria.appstore":      "Buy on App Store",
+    "footer.aria.appstore":      "Buy on the App Store",
 
     "lightbox.close":            "Close",
     "lightbox.prev":             "Previous image",
