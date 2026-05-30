@@ -681,6 +681,13 @@ body::before {
   gap: 6px;
 }
 
+.form-honey {
+  position: absolute;
+  left: -9999px;
+  opacity: 0;
+  pointer-events: none;
+}
+
 .form-label {
   font-size: 0.8rem;
   font-weight: 600;

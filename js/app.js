@@ -295,14 +295,21 @@ function closeBlogModal() {
 function initContact() {
   const form = document.getElementById('contact-form');
   if (!form) return;
+  const formReadyAt = Date.now();
 
   form.addEventListener('submit', async e => {
     e.preventDefault();
     const btn = form.querySelector('.btn-submit');
+    const data = new FormData(form);
+    const honey = String(data.get('_honey') || '').trim();
+    const filledTooFast = Date.now() - formReadyAt < 3000;
+
+    if (honey || filledTooFast) {
+      return;
+    }
+
     btn.disabled = true;
     btn.style.opacity = '0.6';
-
-    const data = new FormData(form);
 
     try {
       const res = await fetch('https://formsubmit.co/ajax/bdc4e7d2b521be14522a9ce2ce867fb1', {
