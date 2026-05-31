@@ -1,5 +1,7 @@
 # Fast-Devs Project — Website
 
+![Fast-Devs Project banner](images/banner/fdp-banner.png)
+
 Static landing pages for by **Fast-Devs Project**.
 
 🔗 **[@FastDevsProject](https://x.com/FastDevsProject)**
