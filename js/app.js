@@ -2,7 +2,7 @@
    Fast-Devs Project — Main Site JS
    ============================================================ */
 
-const CACHE_VER = '1.0.0';
+const CACHE_VER = new URL(document.currentScript?.src || window.location.href).searchParams.get('v') || 'dev';
 
 /* ============================================================
    DATA LOADER

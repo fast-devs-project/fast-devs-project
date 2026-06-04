@@ -6,20 +6,20 @@ Follow these steps every time you publish an app update.
 
 ## Device Monitor²
 
-### 1. Update the version number
+### 1. Update the website cache version
 
-Change the version in **4 places** (find and replace the old number with the new one):
+The local pre-commit hook runs this automatically when a commit includes site files:
 
-**`device-monitor/js/app.js`**
-```js
-const CACHE_VER = '26.5.0'; // ← update here
+```bash
+scripts/cache-bust.sh
 ```
 
-**`device-monitor/index.html`**
-```html
-<link rel="stylesheet" href="css/style.css?v=26.5.0">
-<script src="js/icons.js?v=26.5.0"></script>
-<script src="js/app.js?v=26.5.0"></script>
+You can still run it manually from the repo root if you want to force a new cache version before committing. It updates the `?v=` cache-busting value in the HTML files with a UTC timestamp. The JS data loader reads that value automatically from `app.js?v=...`, so JSON content gets refreshed too.
+
+If you publish through an automated build after the commit already exists, you can use the current commit hash instead:
+
+```bash
+scripts/cache-bust.sh commit
 ```
 
 ### 2. Add the new version to the changelog
@@ -53,8 +53,7 @@ The version shown in the hero badge **updates automatically** from the first cha
 
 ### Quick Checklist — Device Monitor²
 
-- [ ] `CACHE_VER` updated in `app.js`
-- [ ] `?v=` updated in the 3 lines of `index.html`
+- [ ] Pre-commit hook ran, or `scripts/cache-bust.sh` was run manually
 - [ ] New entry added at the top of `changelog.json`
 - [ ] `"Ultima versione"` badge moved to the new version
 - [ ] Modified content JSON files updated
@@ -63,18 +62,20 @@ The version shown in the hero badge **updates automatically** from the first cha
 
 ## iWindrose²
 
-### 1. Update the version number
+### 1. Update the website cache version
 
-**`iwindrose/js/app.js`**
-```js
-const CACHE_VER = '5.7.2'; // ← update here
+The local pre-commit hook runs this automatically when a commit includes site files:
+
+```bash
+scripts/cache-bust.sh
 ```
 
-**`iwindrose/index.html`**
-```html
-<link rel="stylesheet" href="css/style.css?v=5.7.2">
-<script src="js/icons.js?v=5.7.2"></script>
-<script src="js/app.js?v=5.7.2"></script>
+You can still run it manually from the repo root if you want to force a new cache version before committing. It updates the `?v=` cache-busting value in the HTML files with a UTC timestamp. The JS data loader reads that value automatically from `app.js?v=...`, so JSON content gets refreshed too.
+
+If you publish through an automated build after the commit already exists, you can use the current commit hash instead:
+
+```bash
+scripts/cache-bust.sh commit
 ```
 
 ### 2. Add the new version to the changelog
@@ -105,8 +106,7 @@ Remember to set `"badge": null` on the previous version.
 
 ### Quick Checklist — iWindrose²
 
-- [ ] `CACHE_VER` updated in `app.js`
-- [ ] `?v=` updated in the 3 lines of `index.html`
+- [ ] Pre-commit hook ran, or `scripts/cache-bust.sh` was run manually
 - [ ] New entry added at the top of `changelog.json`
 - [ ] `"Ultima versione"` badge moved to the new version
 - [ ] Modified content JSON files updated

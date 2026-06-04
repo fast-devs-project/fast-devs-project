@@ -77,6 +77,21 @@ Then open:
 
 All text and data live in the JSON files inside each app's `data/` folder. You can edit them directly without touching HTML or JS.
 
+CSS, JS, and JSON content use a `?v=` cache-busting value so GitHub Pages and browsers load fresh files after a release.
+
+This working copy has a local `pre-commit` hook installed. When a commit includes site files, it runs:
+
+```bash
+scripts/cache-bust.sh
+```
+
+The hook updates the `?v=` values in the HTML files and stages them automatically. If you clone the repo on another machine, install the hook again with:
+
+```bash
+cp scripts/pre-commit-cache-bust.sh .git/hooks/pre-commit
+chmod +x .git/hooks/pre-commit
+```
+
 For a step-by-step release checklist, see **[RELEASE.md](RELEASE.md)**.
 
 ---

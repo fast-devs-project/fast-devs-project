@@ -5,7 +5,7 @@
 /* ——— CONFIG ——— */
 const APP_STORE_URL = 'https://apps.apple.com/app/device-monitor/id1522870046';
 const SUPPORT_URL = '../#contact';
-const CACHE_VER = '26.5.0';
+const CACHE_VER = new URL(document.currentScript?.src || window.location.href).searchParams.get('v') || 'dev';
 
 /* ——— Feature icon colors ——— */
 const FEATURE_COLORS = {

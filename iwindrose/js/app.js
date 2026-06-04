@@ -5,7 +5,7 @@
 /* ——— CONFIG ——— */
 const APP_STORE_URL = 'https://itunes.apple.com/app/iwindrose/id1403142267';
 const SUPPORT_URL   = '../#contact';
-const CACHE_VER = '5.7.2';
+const CACHE_VER = new URL(document.currentScript?.src || window.location.href).searchParams.get('v') || 'dev';
 
 /* ——— Feature icon colors ——— */
 const FEATURE_COLORS = {
