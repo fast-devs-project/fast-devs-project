@@ -21,9 +21,9 @@
   <meta property="og:title" content="Fast-Devs Project">
   <meta property="og:description"
     content="Sviluppatore iOS indipendente italiano. App native per iPhone, iPad, Apple Watch e Mac.">
-  <meta property="og:image" content="https://fast-devs-project.github.io/fast-devs-project/images/icon/fdp-icon.png">
+  <meta property="og:image" content="https://fast-devs-project.github.io/fast-devs-project/images/icon/fdp-icon-1254.png">
   <meta property="og:image:secure_url"
-    content="https://fast-devs-project.github.io/fast-devs-project/images/icon/fdp-icon.png">
+    content="https://fast-devs-project.github.io/fast-devs-project/images/icon/fdp-icon-1254.png">
   <meta property="og:image:type" content="image/png">
   <meta property="og:image:width" content="1024">
   <meta property="og:image:height" content="1024">
@@ -34,13 +34,13 @@
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="Fast-Devs Project — Italian indie Apple app developer">
   <meta name="twitter:description" content="Sviluppatore iOS indipendente italiano. App native per l'ecosistema Apple.">
-  <meta name="twitter:image" content="https://fast-devs-project.github.io/fast-devs-project/images/icon/fdp-icon.png">
+  <meta name="twitter:image" content="https://fast-devs-project.github.io/fast-devs-project/images/icon/fdp-icon-1254.png">
   <meta name="twitter:image:alt" content="Fast-Devs Project logo">
   <meta name="twitter:site" content="@FastDevsProject">
 
   <!-- Favicon -->
-  <link rel="icon" type="image/png" href="images/favicon/favicon.png">
-  <link rel="apple-touch-icon" href="images/icon/fdp-icon.png">
+  <link rel="icon" type="image/png" href="images/favicon/favicon-64.png">
+  <link rel="apple-touch-icon" href="images/icon/fdp-icon-180.png">
   <link rel="manifest" href="site.webmanifest">
   <meta name="apple-mobile-web-app-title" content="Fast-Devs Project">
   <meta name="apple-mobile-web-app-capable" content="yes">
@@ -50,16 +50,8 @@
   <meta name="theme-color" content="#080A0F">
   <meta name="color-scheme" content="dark">
 
-  <!-- Tailwind CSS -->
-  <script src="https://cdn.tailwindcss.com"></script>
-  <script>
-    tailwind.config = {
-      theme: { extend: { colors: { primary: '#080A0F', secondary: '#0D1117' } } }
-    }
-  </script>
-
   <!-- Custom styles -->
-  <link rel="stylesheet" href="css/style.css?v=20260604085052">
+  <link rel="stylesheet" href="css/style.css?v=20260605071355">
 </head>
 
 <body>
@@ -70,7 +62,7 @@
   <nav class="nav" role="navigation" aria-label="Navigazione principale">
     <div class="container nav-inner">
       <a href="#" class="nav-brand">
-        <img src="images/icon/fdp-circle.png" alt="" aria-hidden="true" width="30" height="30"
+        <img src="images/icon/fdp-circle-64.png" alt="" aria-hidden="true" width="30" height="30"
           style="border-radius:50%;display:block;flex-shrink:0;">
         <span>Fast-Devs Project</span>
         <!-- <span class="gradient-text">Fast-Devs Project</span> -->
@@ -112,7 +104,10 @@
 
     <div class="container">
       <div class="hero-content">
-        <img src="images/banner/fdp-banner.png" alt="Fast-Devs Project" class="hero-banner reveal">
+        <img src="images/banner/fdp-banner-720.png"
+          srcset="images/banner/fdp-banner-720.png 720w, images/banner/fdp-banner-2172.png 2172w"
+          sizes="(max-width: 700px) 92vw, 90vw" alt="Fast-Devs Project" class="hero-banner reveal"
+          width="2172" height="724" fetchpriority="high" decoding="async">
 
         <p class="hero-tagline reveal reveal-delay-2" data-i18n="hero.subtitle">
           Sviluppiamo app native per l'ecosistema Apple: iPhone, iPad, Apple Watch e Mac.
@@ -232,7 +227,7 @@
       <div class="footer-inner">
         <div>
           <div class="footer-brand">
-            <img src="images/icon/fdp-circle.png" alt="" aria-hidden="true" width="32" height="32" loading="lazy"
+            <img src="images/icon/fdp-circle-64.png" alt="" aria-hidden="true" width="32" height="32" loading="lazy"
               decoding="async" style="border-radius:50%;flex-shrink:0;">
             <span>Fast-Devs Project</span>
           </div>
@@ -289,7 +284,7 @@
   </div>
 
   <!-- Scripts -->
-  <script src="js/app.js?v=20260604085052"></script>
+  <script src="js/app.js?v=20260605071355"></script>
 
 </body>
 

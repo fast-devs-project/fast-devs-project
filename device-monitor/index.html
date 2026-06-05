@@ -22,9 +22,9 @@
   <meta property="og:description"
     content="L'app gratuita e privacy-first per monitorare RAM, CPU, GPU, BATTERIA, NETWORK e SENSORI su iPhone, iPad, Apple Watch e Mac.">
   <meta property="og:image"
-    content="https://fast-devs-project.github.io/fast-devs-project/device-monitor/images/icon/app-icon.png">
+    content="https://fast-devs-project.github.io/fast-devs-project/device-monitor/images/icon/app-icon-1024.png">
   <meta property="og:image:secure_url"
-    content="https://fast-devs-project.github.io/fast-devs-project/device-monitor/images/icon/app-icon.png">
+    content="https://fast-devs-project.github.io/fast-devs-project/device-monitor/images/icon/app-icon-1024.png">
   <meta property="og:image:type" content="image/png">
   <meta property="og:image:width" content="1024">
   <meta property="og:image:height" content="1024">
@@ -37,13 +37,13 @@
   <meta name="twitter:description"
     content="Gratis, privacy-first. Monitora RAM, CPU, BATTERIA, NETWORK e SENSORI su iPhone, iPad, Apple Watch e Mac.">
   <meta name="twitter:image"
-    content="https://fast-devs-project.github.io/fast-devs-project/device-monitor/images/icon/app-icon.png">
+    content="https://fast-devs-project.github.io/fast-devs-project/device-monitor/images/icon/app-icon-1024.png">
   <meta name="twitter:image:alt" content="Device Monitor app icon">
   <meta name="twitter:site" content="@FastDevsProject">
 
   <!-- Favicon -->
-  <link rel="icon" type="image/png" href="images/favicon/favicon.png">
-  <link rel="apple-touch-icon" href="images/icon/app-icon.png">
+  <link rel="icon" type="image/png" href="images/favicon/favicon-64.png">
+  <link rel="apple-touch-icon" href="images/icon/app-icon-180.png">
   <link rel="manifest" href="site.webmanifest">
   <meta name="apple-mobile-web-app-title" content="Device Monitor">
   <meta name="apple-mobile-web-app-capable" content="yes">
@@ -53,16 +53,8 @@
   <meta name="theme-color" content="#080A0F">
   <meta name="color-scheme" content="dark">
 
-  <!-- Tailwind CSS -->
-  <script src="https://cdn.tailwindcss.com"></script>
-  <script>
-    tailwind.config = {
-      theme: { extend: { colors: { primary: '#080A0F', secondary: '#0D1117' } } }
-    }
-  </script>
-
   <!-- Custom styles -->
-  <link rel="stylesheet" href="css/style.css?v=20260604085052">
+  <link rel="stylesheet" href="css/style.css?v=20260605071355">
 </head>
 
 <body>
@@ -73,7 +65,7 @@
   <nav class="nav" role="navigation" aria-label="Navigazione principale">
     <div class="container nav-inner">
       <a href="#" class="nav-brand" data-i18n-aria="nav.aria.brand" aria-label="Device Monitor² – torna in cima">
-        <img src="images/icon/app-icon.png" alt="" aria-hidden="true" width="30" height="30"
+        <img src="images/icon/app-icon-64.png" alt="" aria-hidden="true" width="30" height="30"
           style="border-radius:8px;display:block;flex-shrink:0;">
         <span>Device Monitor²</span>
       </a>
@@ -201,8 +193,10 @@
             <div class="hero-screenshot-frame">
               <a href="#" data-appstore target="_blank" rel="noopener" data-i18n-aria="hero.aria.download"
                 aria-label="Scarica Device Monitor² su App Store">
-                <img src="images/banner/it/landscape-banner-ad.png" data-i18n-src="banner"
-                  alt="Device Monitor² – banner" width="853" height="480" fetchpriority="high">
+                <img src="images/banner/it/landscape-banner-ad-960.jpg"
+                  srcset="images/banner/it/landscape-banner-ad-640.jpg 640w, images/banner/it/landscape-banner-ad-960.jpg 960w"
+                  sizes="(max-width: 900px) 92vw, 44vw" data-i18n-src="banner" data-i18n-srcset="banner"
+                  alt="Device Monitor² – banner" width="853" height="480" fetchpriority="high" decoding="async">
               </a>
             </div>
             <div class="hero-glow"></div>
@@ -452,7 +446,7 @@
       border: 1px solid rgba(59,130,246,0.15);
       border-radius: var(--radius-xl);
     " class="reveal">
-        <img src="images/icon/app-icon.png" alt="" aria-hidden="true" width="64" height="64" loading="lazy"
+        <img src="images/icon/app-icon-128.png" alt="" aria-hidden="true" width="64" height="64" loading="lazy"
           decoding="async" style="border-radius:18px;margin:0 auto 1.5rem;display:block;">
 
         <h2 class="section-title" id="cta-heading" style="font-size:clamp(2rem,4vw,3rem);margin-bottom:.75rem;">
@@ -492,7 +486,7 @@
       <div class="footer-inner">
         <div>
           <div class="footer-brand">
-            <img src="images/icon/app-icon.png" alt="" aria-hidden="true" width="32" height="32" loading="lazy"
+            <img src="images/icon/app-icon-64.png" alt="" aria-hidden="true" width="32" height="32" loading="lazy"
               decoding="async" style="border-radius:8px;flex-shrink:0;">
             <span>Device Monitor²</span>
           </div>
@@ -563,9 +557,8 @@
 
 
   <!-- Scripts -->
-  <script src="https://player.vimeo.com/api/player.js" defer></script>
-  <script src="js/icons.js?v=20260604085052"></script>
-  <script src="js/app.js?v=20260604085052"></script>
+  <script src="js/icons.js?v=20260605071355"></script>
+  <script src="js/app.js?v=20260605071355"></script>
   <script
     type="text/javascript">(function (w, d) { var loader = function () { var s = d.createElement("script"), tag = d.getElementsByTagName("script")[0]; s.src = "https://cdn.iubenda.com/iubenda.js"; tag.parentNode.insertBefore(s, tag); }; if (w.addEventListener) { w.addEventListener("load", loader, false); } else if (w.attachEvent) { w.attachEvent("onload", loader); } else { w.onload = loader; } })(window, document);</script>
 

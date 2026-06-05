@@ -291,7 +291,8 @@ body::before {
 }
 
 .hero-banner {
-  width: clamp(640px, 90vw, 1500px);
+  width: min(92vw, 1500px);
+  max-width: 100%;
   height: auto;
   animation: hero-float 6s ease-in-out infinite;
 }

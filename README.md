@@ -1,6 +1,6 @@
 # Fast-Devs Project — Website
 
-![Fast-Devs Project banner](images/banner/fdp-banner.png)
+![Fast-Devs Project banner](images/banner/fdp-banner-2172.png)
 
 Static landing pages for by **Fast-Devs Project**.
 

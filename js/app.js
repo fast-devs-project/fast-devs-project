@@ -18,6 +18,10 @@ async function loadJSON(path) {
   }
 }
 
+function thumbUrl(url) {
+  return url.replace(/-\d+\.png$/i, '-520.jpg').replace(/\.png$/i, '-520.jpg');
+}
+
 /* ============================================================
    I18N
    ============================================================ */
@@ -187,7 +191,7 @@ async function renderBlog() {
     const localizedPost = getLocalizedPost(post);
     const excerpt = truncate(localizedPost.content, 100);
     const imgHtml = post.image
-      ? `<img src="${post.image}" alt="${localizedPost.title}" class="blog-card-img" loading="lazy">`
+      ? `<img src="${thumbUrl(post.image)}" alt="${localizedPost.title}" class="blog-card-img" loading="lazy" decoding="async">`
       : '';
     const cls = featured ? 'blog-card featured' : 'blog-card';
     return `
