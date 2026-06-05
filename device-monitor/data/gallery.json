@@ -4,39 +4,39 @@
     "aspect": "portrait",
     "screenshots": [
       {
-        "url": "images/screenshots/iphone/iphone-0-1080.png",
+        "url": "images/screenshots/iphone/iphone-0.png",
         "alt": "Device Monitor² su iPhone – Schermata principale"
       },
       {
-        "url": "images/screenshots/iphone/iphone-1-1080.png",
+        "url": "images/screenshots/iphone/iphone-1.png",
         "alt": "Device Monitor² su iPhone – Pannello RAM"
       },
       {
-        "url": "images/screenshots/iphone/iphone-2-1080.png",
+        "url": "images/screenshots/iphone/iphone-2.png",
         "alt": "Device Monitor² su iPhone – Pannello CPU"
       },
       {
-        "url": "images/screenshots/iphone/iphone-3-1080.png",
+        "url": "images/screenshots/iphone/iphone-3.png",
         "alt": "Device Monitor² su iPhone – Pannello Batteria"
       },
       {
-        "url": "images/screenshots/iphone/iphone-4-1080.png",
+        "url": "images/screenshots/iphone/iphone-4.png",
         "alt": "Device Monitor² su iPhone – Pannello Network"
       },
       {
-        "url": "images/screenshots/iphone/iphone-5-1080.png",
+        "url": "images/screenshots/iphone/iphone-5.png",
         "alt": "Device Monitor² su iPhone – Test sensori"
       },
       {
-        "url": "images/screenshots/iphone/iphone-6-1080.png",
+        "url": "images/screenshots/iphone/iphone-6.png",
         "alt": "Device Monitor² su iPhone – Widget"
       },
       {
-        "url": "images/screenshots/iphone/iphone-7-1080.png",
+        "url": "images/screenshots/iphone/iphone-7.png",
         "alt": "Device Monitor² su iPhone – Pannello Storage"
       },
       {
-        "url": "images/screenshots/iphone/iphone-8-1080.png",
+        "url": "images/screenshots/iphone/iphone-8.png",
         "alt": "Device Monitor² su iPhone – Pannello Display"
       }
     ]
@@ -46,35 +46,35 @@
     "aspect": "landscape",
     "screenshots": [
       {
-        "url": "images/screenshots/ipad/ipad-0-960.png",
+        "url": "images/screenshots/ipad/ipad-0.png",
         "alt": "Device Monitor² su iPad – Schermata principale"
       },
       {
-        "url": "images/screenshots/ipad/ipad-1-960.png",
+        "url": "images/screenshots/ipad/ipad-1.png",
         "alt": "Device Monitor² su iPad – Pannello RAM"
       },
       {
-        "url": "images/screenshots/ipad/ipad-2-960.png",
+        "url": "images/screenshots/ipad/ipad-2.png",
         "alt": "Device Monitor² su iPad – Pannello CPU"
       },
       {
-        "url": "images/screenshots/ipad/ipad-3-960.png",
+        "url": "images/screenshots/ipad/ipad-3.png",
         "alt": "Device Monitor² su iPad – Pannello Batteria"
       },
       {
-        "url": "images/screenshots/ipad/ipad-4-960.png",
+        "url": "images/screenshots/ipad/ipad-4.png",
         "alt": "Device Monitor² su iPad – Pannello Network"
       },
       {
-        "url": "images/screenshots/ipad/ipad-5-960.png",
+        "url": "images/screenshots/ipad/ipad-5.png",
         "alt": "Device Monitor² su iPad – Test sensori"
       },
       {
-        "url": "images/screenshots/ipad/ipad-7-960.png",
+        "url": "images/screenshots/ipad/ipad-7.png",
         "alt": "Device Monitor² su iPad – Storage"
       },
       {
-        "url": "images/screenshots/ipad/ipad-8-960.png",
+        "url": "images/screenshots/ipad/ipad-8.png",
         "alt": "Device Monitor² su iPad – Display"
       }
     ]
@@ -84,51 +84,51 @@
     "aspect": "square",
     "screenshots": [
       {
-        "url": "images/screenshots/watch/watch-1-502.png",
+        "url": "images/screenshots/watch/watch-1.png",
         "alt": "Device Monitor² su Apple Watch – Schermata 1"
       },
       {
-        "url": "images/screenshots/watch/watch-2-502.png",
+        "url": "images/screenshots/watch/watch-2.png",
         "alt": "Device Monitor² su Apple Watch – Schermata 2"
       },
       {
-        "url": "images/screenshots/watch/watch-3-502.png",
+        "url": "images/screenshots/watch/watch-3.png",
         "alt": "Device Monitor² su Apple Watch – Schermata 3"
       },
       {
-        "url": "images/screenshots/watch/watch-4-502.png",
+        "url": "images/screenshots/watch/watch-4.png",
         "alt": "Device Monitor² su Apple Watch – Schermata 4"
       },
       {
-        "url": "images/screenshots/watch/watch-5-502.png",
+        "url": "images/screenshots/watch/watch-5.png",
         "alt": "Device Monitor² su Apple Watch – Schermata 5"
       },
       {
-        "url": "images/screenshots/watch/watch-6-502.png",
+        "url": "images/screenshots/watch/watch-6.png",
         "alt": "Device Monitor² su Apple Watch – Schermata 6"
       },
       {
-        "url": "images/screenshots/watch/watch-7-502.png",
+        "url": "images/screenshots/watch/watch-7.png",
         "alt": "Device Monitor² su Apple Watch – Schermata 7"
       },
       {
-        "url": "images/screenshots/watch/watch-8-502.png",
+        "url": "images/screenshots/watch/watch-8.png",
         "alt": "Device Monitor² su Apple Watch – Schermata 8"
       },
       {
-        "url": "images/screenshots/watch/watch-9-502.png",
+        "url": "images/screenshots/watch/watch-9.png",
         "alt": "Device Monitor² su Apple Watch – Schermata 9"
       },
       {
-        "url": "images/screenshots/watch/watch-10-502.png",
+        "url": "images/screenshots/watch/watch-10.png",
         "alt": "Device Monitor² su Apple Watch – Schermata 10"
       },
       {
-        "url": "images/screenshots/watch/watch-11-502.png",
+        "url": "images/screenshots/watch/watch-11.png",
         "alt": "Device Monitor² su Apple Watch – Schermata 11"
       },
       {
-        "url": "images/screenshots/watch/watch-12-502.png",
+        "url": "images/screenshots/watch/watch-12.png",
         "alt": "Device Monitor² su Apple Watch – Schermata 12"
       }
     ]
@@ -138,23 +138,23 @@
     "aspect": "landscape",
     "screenshots": [
       {
-        "url": "images/screenshots/mac/mac1-2560.png",
+        "url": "images/screenshots/mac/mac1.png",
         "alt": "Device Monitor² su Mac – Schermata principale"
       },
       {
-        "url": "images/screenshots/mac/mac2-2560.png",
+        "url": "images/screenshots/mac/mac2.png",
         "alt": "Device Monitor² su Mac – Pannello RAM"
       },
       {
-        "url": "images/screenshots/mac/mac3-2560.png",
+        "url": "images/screenshots/mac/mac3.png",
         "alt": "Device Monitor² su Mac – Pannello CPU"
       },
       {
-        "url": "images/screenshots/mac/mac4-2560.png",
+        "url": "images/screenshots/mac/mac4.png",
         "alt": "Device Monitor² su Mac – Pannello Network"
       },
       {
-        "url": "images/screenshots/mac/mac5-2560.png",
+        "url": "images/screenshots/mac/mac5.png",
         "alt": "Device Monitor² su Mac – Dettagli dispositivo"
       }
     ]

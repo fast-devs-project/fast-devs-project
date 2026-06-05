@@ -86,29 +86,6 @@ function observeLazyMedia(scope = document) {
   media.forEach(el => lazyMediaObserver.observe(el));
 }
 
-function thumbUrl(url) {
-  return url.replace(/-\d+\.png$/i, '-520.jpg').replace(/\.png$/i, '-520.jpg');
-}
-
-function initVideoEmbeds(scope = document) {
-  scope.querySelectorAll('.video-lazy:not([data-video-ready])').forEach(btn => {
-    btn.dataset.videoReady = 'true';
-    btn.addEventListener('click', () => {
-      const id = btn.dataset.vimeoId;
-      if (!id) return;
-
-      const iframe = document.createElement('iframe');
-      iframe.src = `https://player.vimeo.com/video/${id}?badge=0&autopause=0&app_id=58479&autoplay=1&muted=1`;
-      iframe.allow = 'autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media';
-      iframe.referrerPolicy = 'strict-origin-when-cross-origin';
-      iframe.title = btn.dataset.title || 'Video preview';
-      iframe.loading = 'lazy';
-      iframe.setAttribute('allowfullscreen', '');
-      btn.replaceWith(iframe);
-    }, { once: true });
-  });
-}
-
 /* ============================================================
    RENDER — FEATURES
    ============================================================ */
@@ -247,7 +224,7 @@ async function renderGallery() {
            tabindex="0"
            aria-label="${s.alt}"
            data-src="${s.url}" data-alt="${s.alt}">
-        <img data-lazy-src="${thumbUrl(s.url)}" alt="${s.alt}" loading="lazy" decoding="async">
+        <img data-lazy-src="${s.url}" alt="${s.alt}" loading="lazy" decoding="async">
       </div>`).join('');
 
     /* Anteponi la card video solo al pannello iPhone */
@@ -260,15 +237,12 @@ async function renderGallery() {
           Video
         </div>
         <div class="gallery-video-wrap">
-          <button class="video-lazy" type="button" data-vimeo-id="${IPHONE_VIDEO.vimeoId}"
-                  data-title="${IPHONE_VIDEO.title}" aria-label="${IPHONE_VIDEO.title}">
-            <img src="images/banner/${_currentLang}/landscape-banner-ad-640.jpg" alt="" loading="lazy" decoding="async">
-            <span class="video-play" aria-hidden="true">
-              <svg viewBox="0 0 24 24" fill="currentColor" stroke="none">
-                <polygon points="8 5 19 12 8 19 8 5"/>
-              </svg>
-            </span>
-          </button>
+          <iframe id="vimeo-preview"
+                  src="https://player.vimeo.com/video/${IPHONE_VIDEO.vimeoId}?badge=0&autopause=0&player_id=vimeo-preview&app_id=58479&loop=1&muted=1"
+                  allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media"
+                  referrerpolicy="strict-origin-when-cross-origin"
+                  title="${IPHONE_VIDEO.title}"
+                  loading="lazy"></iframe>
         </div>
       </div>` : '';
 
@@ -279,7 +253,6 @@ async function renderGallery() {
   }).join('');
 
   observeLazyMedia(container.querySelector('.gallery-panel.active'));
-  initVideoEmbeds(container);
 
   /* tabs click */
   tabsEl.addEventListener('click', e => {
@@ -552,7 +525,7 @@ async function initI18n() {
   _currentLang = saved || (browser === 'it' ? 'it' : 'en');
 
   _strings = data;
-  applyLang(_currentLang, { renderDynamic: false });
+  applyLang(_currentLang);
 
   /* Bottoni switcher */
   document.querySelectorAll('.lang-btn').forEach(btn => {
@@ -570,8 +543,7 @@ function t(key) {
   return (_strings[_currentLang]?.[key]) ?? (_strings['it']?.[key]) ?? key;
 }
 
-function applyLang(lang, options = {}) {
-  const { renderDynamic = true } = options;
+function applyLang(lang) {
   const strings = _strings[lang] || _strings['it'];
   document.documentElement.lang = lang;
 
@@ -616,14 +588,8 @@ function applyLang(lang, options = {}) {
     if (newSrc !== src) el.setAttribute('src', newSrc);
   });
 
-  document.querySelectorAll('[data-i18n-srcset]').forEach(el => {
-    const srcset = el.getAttribute('srcset');
-    const newSrcset = srcset.replace(/\/(it|en)\//g, `/${lang}/`);
-    if (newSrcset !== srcset) el.setAttribute('srcset', newSrcset);
-  });
-
   /* Ri-renderizza tutte le sezioni dinamiche con testi traducibili */
-  if (renderDynamic && _strings[lang]) {
+  if (_strings[lang]) {
     renderFeatures();
     renderKits();
     renderCompatibility();
@@ -689,6 +655,40 @@ document.addEventListener('DOMContentLoaded', async () => {
     renderPress(),
   ]);
 
+  /* Avvia il video Vimeo solo quando visibile, loop automatico */
+  initVimeoObserver();
+
   /* Final observe for static reveal elements */
   observeReveal();
 });
+
+/* ============================================================
+   VIMEO — avvio on-scroll, loop
+   ============================================================ */
+function initVimeoObserver() {
+  const iframe = document.getElementById('vimeo-preview');
+  if (!iframe) return;
+
+  /* La Vimeo Player API è caricata in modo defer — aspettiamo che sia pronta */
+  function getPlayer() {
+    if (typeof Vimeo === 'undefined' || !Vimeo.Player) return null;
+    return new Vimeo.Player(iframe);
+  }
+
+  let player = null;
+
+  const obs = new IntersectionObserver(entries => {
+    entries.forEach(entry => {
+      if (!player) player = getPlayer();
+      if (!player) return;
+
+      if (entry.isIntersecting) {
+        player.play().catch(() => { });
+      } else {
+        player.pause().catch(() => { });
+      }
+    });
+  }, { threshold: 0.3 });
+
+  obs.observe(iframe);
+}
