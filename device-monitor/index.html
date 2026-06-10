@@ -62,7 +62,7 @@
   </script>
 
   <!-- Custom styles -->
-  <link rel="stylesheet" href="css/style.css?v=20260606151751">
+  <link rel="stylesheet" href="css/style.css?v=20260610195918">
 </head>
 
 <body>
@@ -120,10 +120,18 @@
 
         <!-- Text -->
         <div class="hero-text">
-          <div class="hero-badge reveal">
-            <span class="hero-badge-dot" aria-hidden="true"></span>
-            <span id="hero-badge-text" data-i18n="hero.badge">Versione <span id="hero-version">…</span>
-              disponibile</span>
+          <div style="display:flex;flex-wrap:wrap;gap:8px;">
+            <div class="hero-badge reveal">
+              <span class="hero-badge-dot" aria-hidden="true"></span>
+              <span id="hero-badge-text" data-i18n="hero.badge">Versione iOS <span id="hero-version">…</span>
+                disponibile</span>
+            </div>
+            <div class="hero-badge reveal">
+              <span class="hero-badge-dot" aria-hidden="true"></span>
+              <span id="hero-badge-mac-text" data-i18n="hero.badge.mac">Versione macOS <span
+                  id="hero-version-mac">…</span>
+                disponibile</span>
+            </div>
           </div>
 
           <h1 class="hero-title reveal reveal-delay-1">
@@ -564,8 +572,8 @@
 
   <!-- Scripts -->
   <script src="https://player.vimeo.com/api/player.js" defer></script>
-  <script src="js/icons.js?v=20260606151751"></script>
-  <script src="js/app.js?v=20260606151751"></script>
+  <script src="js/icons.js?v=20260610195918"></script>
+  <script src="js/app.js?v=20260610195918"></script>
   <script
     type="text/javascript">(function (w, d) { var loader = function () { var s = d.createElement("script"), tag = d.getElementsByTagName("script")[0]; s.src = "https://cdn.iubenda.com/iubenda.js"; tag.parentNode.insertBefore(s, tag); }; if (w.addEventListener) { w.addEventListener("load", loader, false); } else if (w.attachEvent) { w.attachEvent("onload", loader); } else { w.onload = loader; } })(window, document);</script>
 

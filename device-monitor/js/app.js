@@ -297,9 +297,15 @@ async function renderChangelog() {
   if (!list || !data) return;
 
   /* Aggiorna dinamicamente il numero di versione nell'hero badge */
+  const iosEntry = data.find(e => e.platform === 'ios');
+  const macEntry = data.find(e => e.platform === 'macos');
   const versionSpan = document.getElementById('hero-version');
-  if (versionSpan && data[0]?.version) {
-    versionSpan.textContent = data[0].version;
+  if (versionSpan && iosEntry?.version) {
+    versionSpan.textContent = iosEntry.version;
+  }
+  const versionMacSpan = document.getElementById('hero-version-mac');
+  if (versionMacSpan && macEntry?.version) {
+    versionMacSpan.textContent = macEntry.version;
   }
 
   const isEn = _currentLang === 'en';
@@ -310,6 +316,7 @@ async function renderChangelog() {
     const badgeHtml = badge
       ? `<span class="changelog-badge">${badge}</span>`
       : '';
+    const platformLabel = item.platform === 'macos' ? 'macOS' : 'iOS';
     const highlightsHtml = highlights.map(h =>
       `<li class="changelog-highlight">${h}</li>`
     ).join('');
@@ -317,6 +324,7 @@ async function renderChangelog() {
       <div class="glass-card changelog-item reveal reveal-delay-${delay}">
         <div class="changelog-version-col">
           <div class="changelog-version">${item.version}</div>
+          <div class="changelog-platform">${platformLabel}</div>
           ${item.date ? `<div class="changelog-date">${item.date}</div>` : ''}
           ${badgeHtml}
         </div>
@@ -564,6 +572,11 @@ function applyLang(lang) {
     if (key === 'hero.badge') {
       const ver = document.getElementById('hero-version')?.textContent || '…';
       el.innerHTML = val.replace('{version}', `<span id="hero-version">${ver}</span>`);
+      return;
+    }
+    if (key === 'hero.badge.mac') {
+      const ver = document.getElementById('hero-version-mac')?.textContent || '…';
+      el.innerHTML = val.replace('{version}', `<span id="hero-version-mac">${ver}</span>`);
       return;
     }
     if (key === 'hero.rating') {
