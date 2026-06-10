@@ -221,19 +221,6 @@ body::before {
   letter-spacing: -0.02em;
 }
 
-.nav-brand-icon {
-  width: 30px;
-  height: 30px;
-  border-radius: 8px;
-  background: var(--gradient-hero);
-  display: grid;
-  place-items: center;
-  font-size: 0.85rem;
-  font-weight: 900;
-  color: white;
-  flex-shrink: 0;
-}
-
 .nav-links {
   display: flex;
   align-items: center;
@@ -1345,18 +1332,6 @@ body::before {
   font-size: 1.1rem;
   font-weight: 700;
   margin-bottom: 0.75rem;
-}
-
-.footer-brand-icon {
-  width: 32px;
-  height: 32px;
-  border-radius: 8px;
-  background: var(--gradient-hero);
-  display: grid;
-  place-items: center;
-  font-size: 0.85rem;
-  font-weight: 900;
-  color: white;
 }
 
 .footer-desc {

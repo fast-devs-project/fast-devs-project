@@ -25,8 +25,6 @@ const FEATURE_COLORS = {
   'quick-actions': { bg: 'rgba(249,115,22,0.12)', color: '#F97316' },
 };
 
-/* gradient fallback (ora viene dal JSON) */
-const KIT_GRADIENTS = {};
 
 const COMPAT_GRADIENTS = {
   iPhone: 'linear-gradient(135deg,#3B82F6,#06B6D4)',
@@ -622,17 +620,6 @@ function initLinks() {
   });
 }
 
-/* ============================================================
-   STAR RATING
-   ============================================================ */
-function renderStars(rating) {
-  const full = Math.floor(rating);
-  const half = rating % 1 >= 0.5 ? 1 : 0;
-  let html = '';
-  for (let i = 0; i < full; i++) html += `<span class="star full">${icon('star')}</span>`;
-  if (half) html += `<span class="star half" style="opacity:.6">${icon('star')}</span>`;
-  return html;
-}
 
 /* ============================================================
    INIT
@@ -654,9 +641,6 @@ document.addEventListener('DOMContentLoaded', async () => {
     if (e.key === 'ArrowRight') _lbNav(+1);
   });
 
-  /* Rating */
-  const starsEl = document.getElementById('hero-stars');
-  if (starsEl) starsEl.innerHTML = renderStars(4.6);
 
   /* Render dynamic sections in parallel */
   await Promise.all([
@@ -673,6 +657,18 @@ document.addEventListener('DOMContentLoaded', async () => {
 
   /* Final observe for static reveal elements */
   observeReveal();
+
+  /* Scroll to hash anchor after all dynamic content is rendered */
+  if (location.hash) {
+    const target = document.querySelector(location.hash);
+    if (target) {
+      requestAnimationFrame(() => {
+        requestAnimationFrame(() => {
+          target.scrollIntoView({ behavior: 'instant' });
+        });
+      });
+    }
+  }
 });
 
 /* ============================================================

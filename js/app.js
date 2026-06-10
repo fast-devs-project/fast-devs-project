@@ -405,7 +405,11 @@ document.addEventListener('DOMContentLoaded', async () => {
   if (location.hash) {
     const target = document.querySelector(location.hash);
     if (target) {
-      setTimeout(() => target.scrollIntoView({ behavior: 'smooth' }), 100);
+      requestAnimationFrame(() => {
+        requestAnimationFrame(() => {
+          target.scrollIntoView({ behavior: 'instant' });
+        });
+      });
     }
   }
 

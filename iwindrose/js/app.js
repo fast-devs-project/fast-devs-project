@@ -566,6 +566,18 @@ document.addEventListener('DOMContentLoaded', async () => {
 
   /* Final observe for static reveal elements */
   observeReveal();
+
+  /* Scroll to hash anchor after all dynamic content is rendered */
+  if (location.hash) {
+    const target = document.querySelector(location.hash);
+    if (target) {
+      requestAnimationFrame(() => {
+        requestAnimationFrame(() => {
+          target.scrollIntoView({ behavior: 'instant' });
+        });
+      });
+    }
+  }
 });
 
 /* ============================================================

@@ -46,12 +46,17 @@
   <link rel="apple-touch-icon" href="images/icon/app-icon.png">
   <link rel="manifest" href="site.webmanifest">
   <meta name="apple-mobile-web-app-title" content="Device Monitor">
-  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black">
 
   <!-- Theme -->
   <meta name="theme-color" content="#080A0F">
   <meta name="color-scheme" content="dark">
+
+  <!-- Preconnect -->
+  <link rel="preconnect" href="https://cdn.tailwindcss.com" crossorigin>
+  <link rel="preconnect" href="https://player.vimeo.com" crossorigin>
+  <link rel="dns-prefetch" href="https://cdn.iubenda.com">
 
   <!-- Tailwind CSS -->
   <script src="https://cdn.tailwindcss.com"></script>
@@ -61,8 +66,11 @@
     }
   </script>
 
+  <!-- LCP preload -->
+  <link rel="preload" as="image" href="images/banner/it/landscape-banner-ad.png">
+
   <!-- Custom styles -->
-  <link rel="stylesheet" href="css/style.css?v=20260610195918">
+  <link rel="stylesheet" href="css/style.css?v=20260610211054">
 </head>
 
 <body>
@@ -229,15 +237,15 @@
     <div class="container">
       <div class="stats-row reveal">
         <div class="stat-item">
-          <div class="stat-value gradient-text" data-app-stat="rating">4,7</div>
+          <div class="stat-value gradient-text">4,7</div>
           <div class="stat-label" data-i18n="stats.rating.app.store">Media valutazioni</div>
         </div>
         <div class="stat-item">
-          <div class="stat-value gradient-text" data-app-stat="ratings-count">42.174+</div>
+          <div class="stat-value gradient-text">42.174+</div>
           <div class="stat-label" data-i18n="stats.rating">Valutazioni</div>
         </div>
         <div class="stat-item">
-          <div class="stat-value gradient-text" data-app-stat="reviews-count">940+</div>
+          <div class="stat-value gradient-text">940+</div>
           <div class="stat-label" data-i18n="stats.reviews">Recensioni</div>
         </div>
         <div class="stat-item">
@@ -572,8 +580,8 @@
 
   <!-- Scripts -->
   <script src="https://player.vimeo.com/api/player.js" defer></script>
-  <script src="js/icons.js?v=20260610195918"></script>
-  <script src="js/app.js?v=20260610195918"></script>
+  <script src="js/icons.js?v=20260610211054" defer></script>
+  <script src="js/app.js?v=20260610211054" defer></script>
   <script
     type="text/javascript">(function (w, d) { var loader = function () { var s = d.createElement("script"), tag = d.getElementsByTagName("script")[0]; s.src = "https://cdn.iubenda.com/iubenda.js"; tag.parentNode.insertBefore(s, tag); }; if (w.addEventListener) { w.addEventListener("load", loader, false); } else if (w.attachEvent) { w.attachEvent("onload", loader); } else { w.onload = loader; } })(window, document);</script>
 

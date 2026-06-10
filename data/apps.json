@@ -7,7 +7,12 @@
     "description": "L'app gratuita e privacy-first per monitorare RAM, CPU, GPU, BATTERIA, NETWORK e SENSORI su iPhone, iPad, Apple Watch e Mac.",
     "description_en": "The free, privacy-first app for monitoring RAM, CPU, GPU, BATTERY, NETWORK and SENSORS on iPhone, iPad, Apple Watch and Mac.",
     "icon": "./device-monitor/images/icon/app-icon.png",
-    "platforms": ["iPhone", "iPad", "Apple Watch", "Mac"],
+    "platforms": [
+      "iPhone",
+      "iPad",
+      "Apple Watch",
+      "Mac"
+    ],
     "appstore": "https://apps.apple.com/app/device-monitor/id1522870046",
     "landing": "./device-monitor/",
     "gradient": "linear-gradient(135deg, #3B82F6, #06B6D4)",
@@ -21,7 +26,11 @@
     "description": "L'app per gli appassionati del mare: rosa dei venti, previsioni meteo, bollettini marini, maree, scale e molto altro su iPhone, iPad e Apple Watch.",
     "description_en": "The app for sea enthusiasts: wind rose, weather forecasts, marine bulletins, tides, scales and much more on iPhone, iPad and Apple Watch.",
     "icon": "./iwindrose/images/icon/app-icon.png",
-    "platforms": ["iPhone", "iPad", "Apple Watch"],
+    "platforms": [
+      "iPhone",
+      "iPad",
+      "Apple Watch"
+    ],
     "appstore": "https://apps.apple.com/app/iwindrose/id1403142267",
     "landing": "./iwindrose/",
     "gradient": "linear-gradient(135deg, #E86A33, #F59E0B)",
