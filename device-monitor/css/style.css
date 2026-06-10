@@ -372,6 +372,12 @@ body::before {
   gap: 1.5rem;
 }
 
+.hero-badges-version {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
 .hero-badge {
   display: inline-flex;
   align-items: center;
@@ -1413,6 +1419,10 @@ body::before {
 
   .hero-text {
     align-items: center;
+  }
+
+  .hero-badges-version {
+    justify-content: center;
   }
 
   .hero-subtitle {
