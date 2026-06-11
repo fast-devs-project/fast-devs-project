@@ -335,10 +335,19 @@ body::before {
 .app-card::before {
   content: '';
   position: absolute;
-  top: 0; left: 0; right: 0;
-  height: 3px;
-  background: var(--app-gradient, var(--gradient-hero));
-  border-radius: var(--radius-lg) var(--radius-lg) 0 0;
+  inset: 0;
+  border-radius: inherit;
+  border: 2px solid transparent;
+  background: var(--app-gradient, var(--gradient-hero)) border-box;
+  -webkit-mask:
+    linear-gradient(to bottom, #000 0%, transparent 4%) border-box,
+    linear-gradient(#000 0 0) padding-box;
+  -webkit-mask-composite: source-out;
+  mask:
+    linear-gradient(to bottom, #000 0%, transparent 4%) border-box,
+    linear-gradient(#000 0 0) padding-box;
+  mask-composite: subtract;
+  pointer-events: none;
 }
 
 .app-card-header {
