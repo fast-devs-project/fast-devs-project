@@ -4,6 +4,53 @@ Follow these steps every time you publish an app update.
 
 ---
 
+## Pre-commit hook
+
+Before preparing a release, make sure the local Git hook exists at `.git/hooks/pre-commit`:
+
+```bash
+cp scripts/pre-commit-cache-bust.sh .git/hooks/pre-commit
+chmod +x .git/hooks/pre-commit
+```
+
+If you need to recreate it manually, use this code:
+
+```bash
+#!/usr/bin/env zsh
+set -euo pipefail
+
+repo_root="$(git rev-parse --show-toplevel)"
+cd "$repo_root"
+
+staged_files="$(git diff --cached --name-only)"
+
+if [[ -z "$staged_files" ]]; then
+  exit 0
+fi
+
+should_bust=false
+
+while IFS= read -r file; do
+  case "$file" in
+    index.html|css/*|js/*|data/*|images/*|site.webmanifest|device-monitor/*|iwindrose/*)
+      should_bust=true
+      break
+      ;;
+  esac
+done <<< "$staged_files"
+
+if [[ "$should_bust" != true ]]; then
+  exit 0
+fi
+
+scripts/cache-bust.sh
+git add -- index.html device-monitor/index.html iwindrose/index.html
+
+echo "[cache-bust] Updated and staged HTML cache references."
+```
+
+---
+
 ## Device Monitor²
 
 ### 1. Update the website cache version
