@@ -38,6 +38,10 @@
       {
         "url": "images/screenshots/iphone/iphone-8.webp",
         "alt": "Device Monitor² su iPhone – Pannello Display"
+      },
+      {
+        "url": "images/screenshots/iphone/iphone-9.webp",
+        "alt": "Device Monitor² su iPhone – Schermata 10"
       }
     ]
   },
@@ -68,6 +72,10 @@
       {
         "url": "images/screenshots/ipad/ipad-5.webp",
         "alt": "Device Monitor² su iPad – Test sensori"
+      },
+      {
+        "url": "images/screenshots/ipad/ipad-6.webp",
+        "alt": "Device Monitor² su iPad – Schermata 7"
       },
       {
         "url": "images/screenshots/ipad/ipad-7.webp",
@@ -122,14 +130,6 @@
       {
         "url": "images/screenshots/watch/watch-10.webp",
         "alt": "Device Monitor² su Apple Watch – Schermata 10"
-      },
-      {
-        "url": "images/screenshots/watch/watch-11.webp",
-        "alt": "Device Monitor² su Apple Watch – Schermata 11"
-      },
-      {
-        "url": "images/screenshots/watch/watch-12.webp",
-        "alt": "Device Monitor² su Apple Watch – Schermata 12"
       }
     ]
   },
@@ -156,6 +156,26 @@
       {
         "url": "images/screenshots/mac/mac5.webp",
         "alt": "Device Monitor² su Mac – Dettagli dispositivo"
+      },
+      {
+        "url": "images/screenshots/mac/mac6.webp",
+        "alt": "Device Monitor² su Mac – Schermata 6"
+      },
+      {
+        "url": "images/screenshots/mac/mac7.webp",
+        "alt": "Device Monitor² su Mac – Schermata 7"
+      },
+      {
+        "url": "images/screenshots/mac/mac8.webp",
+        "alt": "Device Monitor² su Mac – Schermata 8"
+      },
+      {
+        "url": "images/screenshots/mac/mac9.webp",
+        "alt": "Device Monitor² su Mac – Schermata 9"
+      },
+      {
+        "url": "images/screenshots/mac/mac10.webp",
+        "alt": "Device Monitor² su Mac – Schermata 10"
       }
     ]
   }
