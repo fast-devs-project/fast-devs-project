@@ -1,5 +1,14 @@
 [
   {
+    "title": "Televideo² [RIMOSSA DA APP STORE]",
+    "title_en": "Televideo² [REMOVED FROM THE APP STORE]",
+    "date": "2 Agosto 2021",
+    "date_en": "August 2, 2021",
+    "image": "images/blog/televideo-removed.png",
+    "content": "<p>Con questo aggiornamento Fast-Devs Project informa gli utenti di Televideo² e Televideo² Pro che le app sono state rimosse da App Store su richiesta della FAPAV, per ordine della Rai - Radiotelevisione Italiana Spa.</p><p>La rimozione riguarda tutte le app dedicate alla consultazione del televideo e resta valida fino a nuova comunicazione. È stata inviata una richiesta diretta per poter riportare le app sullo store, ma al momento della scrittura di questo post non è ancora pervenuta alcuna risposta.</p>",
+    "content_en": "<p>With this update, Fast-Devs Project infor users of Televideo² and Televideo² Pro that the apps had been removed from the App Store following a request from FAPAV, acting on behalf of Rai - Radiotelevisione Italiana Spa.</p><p>The removal affects all the apps dedicated to viewing teletext content and remains in place until further notice. A direct request has been sent to ask for the apps to be restored to the store, but at the time of writing this post, no reply has been received yet.</p>"
+  },
+  {
     "title": "Wired.it intervista \"i 10 più brillanti sviluppatori di app sotto i 30 anni\"",
     "title_en": "Wired.it interviews \"the 10 brightest app developers under 30\"",
     "date": "25 Novembre 2013",

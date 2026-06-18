@@ -621,6 +621,7 @@ body::before {
   flex-direction: column;
   gap: 0;
   overflow: hidden;
+  height: 100%;
 }
 
 .blog-card.featured .blog-card-img {
@@ -636,6 +637,7 @@ body::before {
   display: flex;
   flex-direction: column;
   gap: 0.75rem;
+  flex: 1;
 }
 
 .blog-card:not(.featured) {
@@ -656,6 +658,7 @@ body::before {
 }
 
 .blog-card-date {
+  margin-top: auto;
   font-size: 0.75rem;
   color: var(--text-muted);
   font-weight: 500;
