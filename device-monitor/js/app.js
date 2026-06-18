@@ -213,7 +213,7 @@ async function renderGallery() {
     const gridClass = key === 'ipad' ? 'ipad-grid'
       : key === 'watch' ? 'watch-grid'
         : key === 'mac' ? 'mac-grid' : '';
-    const ratio = key === 'ipad' ? '720/960'
+    const ratio = key === 'ipad' ? '1280/960'
       : key === 'watch' ? '1/1'
         : key === 'mac' ? '16/10' : '499/1080';
 
