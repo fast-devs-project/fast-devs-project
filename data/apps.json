@@ -35,5 +35,104 @@
     "landing": "./iwindrose/",
     "gradient": "linear-gradient(135deg, #E86A33, #F59E0B)",
     "accent": "#E86A33"
+  },
+  {
+    "id": "televideo",
+    "name": "Televideo²",
+    "tagline": "Televideo RAI sempre con te",
+    "tagline_en": "RAI teletext, always with you",
+    "description": "App storica per consultare le news condivise dal Televideo RAI su iPhone, iPod touch, iPad e Apple Watch.",
+    "description_en": "A legacy app for reading news shared by RAI Televideo on iPhone, iPod touch, iPad and Apple Watch.",
+    "icon": "./images/apps/televideo.png",
+    "platforms": [
+      "iPhone",
+      "iPad",
+      "Apple Watch"
+    ],
+    "availability": "removed",
+    "gradient": "linear-gradient(135deg, #EF4444, #F97316)",
+    "accent": "#EF4444"
+  },
+  {
+    "id": "televideo-pro",
+    "name": "Televideo² Pro",
+    "tagline": "Televideo RAI in versione Pro",
+    "tagline_en": "RAI teletext in a Pro edition",
+    "description": "Versione Pro dell'app Televideo² per consultare le news condivise dal Televideo RAI anche su Apple TV.",
+    "description_en": "The Pro edition of Televideo² for reading news shared by RAI Televideo, also on Apple TV.",
+    "icon": "./images/apps/televideo.png",
+    "platforms": [
+      "iPhone",
+      "iPad",
+      "Apple Watch",
+      "Apple TV"
+    ],
+    "availability": "removed",
+    "gradient": "linear-gradient(135deg, #B91C1C, #EA580C)",
+    "accent": "#B91C1C"
+  },
+  {
+    "id": "ricerca-taxi",
+    "name": "Ricerca Taxi",
+    "tagline": "Taxi nelle città italiane",
+    "tagline_en": "Taxi lookup for Italian cities",
+    "description": "Utility per iPhone e iPod touch pensata per trovare e contattare i taxi disponibili nelle varie città italiane.",
+    "description_en": "A utility for iPhone and iPod touch designed to find and contact available taxis across Italian cities.",
+    "icon": "./images/apps/ricerca-taxi.png",
+    "platforms": [
+      "iPhone",
+      "iPod touch"
+    ],
+    "availability": "removed",
+    "gradient": "linear-gradient(135deg, #F59E0B, #22C55E)",
+    "accent": "#D97706"
+  },
+  {
+    "id": "isoftair",
+    "name": "iSoftair",
+    "tagline": "Guida rapida al Softair",
+    "tagline_en": "A quick guide to airsoft",
+    "description": "Piccola app informativa dedicata al Softair: cos'è, dove e come è nato, e altre informazioni essenziali.",
+    "description_en": "A small informational app about airsoft: what it is, where and how it started, and other essential details.",
+    "icon": "./images/apps/isoftair.png",
+    "platforms": [
+      "iPhone",
+      "iPod touch"
+    ],
+    "availability": "removed",
+    "gradient": "linear-gradient(135deg, #16A34A, #64748B)",
+    "accent": "#16A34A"
+  },
+  {
+    "id": "modem-pass",
+    "name": "Modem-Pass",
+    "tagline": "Verifica le chiavi WPA di default",
+    "tagline_en": "Check default WPA keys",
+    "description": "App universale per calcolare istantaneamente la chiave WPA di default del proprio router ADSL e valutarne la sicurezza.",
+    "description_en": "A universal app for instantly calculating a router's default WPA key and checking whether it is secure.",
+    "icon": "./images/apps/modem-pass.png",
+    "platforms": [
+      "iPhone",
+      "iPad"
+    ],
+    "availability": "removed",
+    "gradient": "linear-gradient(135deg, #0EA5E9, #6366F1)",
+    "accent": "#0EA5E9"
+  },
+  {
+    "id": "cotto-federico",
+    "name": "Cotto Federico",
+    "tagline": "Danza sportiva in due tap",
+    "tagline_en": "Dance sport in two taps",
+    "description": "App universale per collegarsi rapidamente al sito Cotto Federico e consultare l'elenco delle competizioni di danza sportiva.",
+    "description_en": "A universal app for quickly opening the Cotto Federico website and checking dance sport competition listings.",
+    "icon": "./images/apps/cotto-federico.jpg",
+    "platforms": [
+      "iPhone",
+      "iPad"
+    ],
+    "availability": "removed",
+    "gradient": "linear-gradient(135deg, #E86A33, #8B5CF6)",
+    "accent": "#E86A33"
   }
 ]
