@@ -181,9 +181,6 @@ body::before {
   transition-delay: 0.4s;
 }
 
-.reveal-delay-5 {
-  transition-delay: 0.5s;
-}
 
 /* ——— NAV ——— */
 .nav {
@@ -1236,6 +1233,24 @@ body::before {
 
 .lang-btn.active {
   background: var(--accent-red);
+  color: #fff;
+}
+
+/* ——— FOOTER SOCIAL ——— */
+.footer-social {
+  display: grid;
+  place-items: center;
+  width: 36px;
+  height: 36px;
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.08);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  color: var(--text-secondary);
+  transition: background var(--transition), color var(--transition);
+}
+
+.footer-social:hover {
+  background: rgba(255, 255, 255, 0.15);
   color: #fff;
 }
 

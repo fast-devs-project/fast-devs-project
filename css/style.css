@@ -436,6 +436,18 @@ body::before {
   border-radius: 50%;
   background: var(--group-accent, var(--text-primary));
   box-shadow: 0 0 18px var(--group-glow, transparent);
+  animation: pulse-dot 2s ease-in-out infinite;
+}
+
+@keyframes pulse-dot {
+  0%, 100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+  50% {
+    opacity: 0.5;
+    transform: scale(0.8);
+  }
 }
 
 .apps-group-heading span {

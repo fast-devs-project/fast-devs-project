@@ -14,6 +14,7 @@ Static landing pages for by **Fast-Devs Project**.
 |---|---|---|
 | **Device Monitor²** | [`device-monitor/`](device-monitor/) | [App Store](https://apps.apple.com/it/app/device-monitor/id1522870046) |
 | **iWindrose²** | [`iwindrose/`](iwindrose/) | [App Store](https://apps.apple.com/it/app/iwindrose/id1403142267) |
+| **Televideo² Pro** | [`televideo-pro/`](televideo-pro/) | Rimossa |
 
 ---
 
@@ -45,7 +46,11 @@ The repo root is the main site. Each app landing page lives in its own subfolder
 │   ├── index.html
 │   ├── css/, js/, data/, images/
 │
-└── iwindrose/              # iWindrose² landing page
+├── iwindrose/              # iWindrose² landing page
+│   ├── index.html
+│   ├── css/, js/, data/, images/
+│
+└── televideo-pro/          # Televideo² Pro landing page (removed)
     ├── index.html
     ├── css/, js/, data/, images/
 ```
@@ -68,6 +73,7 @@ Then open:
 - `http://localhost:8099/` — Fast-Devs Project (main site)
 - `http://localhost:8099/device-monitor/` — Device Monitor²
 - `http://localhost:8099/iwindrose/` — iWindrose²
+- `http://localhost:8099/televideo-pro/` — Televideo² Pro
 
 > ⚠️ Opening `index.html` directly via double-click (`file://`) won't work: JSON files are blocked by the browser due to CORS.
 
@@ -113,7 +119,7 @@ should_bust=false
 
 while IFS= read -r file; do
   case "$file" in
-    index.html|css/*|js/*|data/*|images/*|site.webmanifest|device-monitor/*|iwindrose/*)
+    index.html|css/*|js/*|data/*|images/*|site.webmanifest|device-monitor/*|iwindrose/*|televideo-pro/*)
       should_bust=true
       break
       ;;
@@ -125,7 +131,7 @@ if [[ "$should_bust" != true ]]; then
 fi
 
 scripts/cache-bust.sh
-git add -- index.html device-monitor/index.html iwindrose/index.html
+git add -- index.html device-monitor/index.html iwindrose/index.html televideo-pro/index.html
 
 echo "[cache-bust] Updated and staged HTML cache references."
 ```
@@ -141,6 +147,7 @@ All sites are served from the same repo:
 - `https://<user>.github.io/<repo>/` — Main site
 - `https://<user>.github.io/<repo>/device-monitor/` — Device Monitor²
 - `https://<user>.github.io/<repo>/iwindrose/` — iWindrose²
+- `https://<user>.github.io/<repo>/televideo-pro/` — Televideo² Pro
 
 ---
 

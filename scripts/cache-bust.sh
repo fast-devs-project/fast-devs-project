@@ -38,6 +38,6 @@ perl -0pi -e 's#((?:href|src)="(?:css/style\.css|js/icons\.js|js/app\.js)\?v=)[^
   index.html \
   device-monitor/index.html \
   iwindrose/index.html \
-  televideo/index.html
+  televideo-pro/index.html
 
 echo "Cache version set to $version"

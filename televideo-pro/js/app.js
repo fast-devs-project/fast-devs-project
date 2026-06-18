@@ -161,7 +161,8 @@ async function renderGallery() {
   container.innerHTML = sections.map(([key, sec], i) => {
     const gridClass = key === 'ipad' || key === 'appletv' ? 'ipad-grid'
       : key === 'watch' ? 'watch-grid' : '';
-    const ratio = key === 'ipad' || key === 'appletv' ? '16/9'
+    const ratio = key === 'ipad' ? '2560/1919'
+      : key === 'appletv' ? '16/9'
       : key === 'watch' ? '1/1' : '499/1080';
 
     const thumbs = sec.screenshots.map(s => `

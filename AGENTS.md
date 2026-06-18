@@ -6,11 +6,12 @@ This file provides guidance to Codex when working with code in this repository.
 
 Static marketing site for **Fast-Devs Project** (independent Italian iOS developer Marco Ricca). Pure HTML5 + CSS3 + vanilla JS, no build step, no framework, no package manager. Tailwind is loaded via CDN. Served on GitHub Pages. All copy is bilingual (Italian default / English) and should be driven by JSON whenever the existing page does so.
 
-The repo hosts **three independent sites** in one tree:
+The repo hosts **four independent sites** in one tree:
 
 - Root (`index.html`, `css/`, `js/`, `data/`) — the Fast-Devs Project home page.
 - `device-monitor/` — landing page for the Device Monitor² app.
 - `iwindrose/` — landing page for the iWindrose² app.
+- `televideo-pro/` — landing page for the Televideo² Pro app (removed from App Store).
 
 Each subfolder is a self-contained mini-site with its own `index.html`, `css/`, `js/app.js`, `js/icons.js`, `data/`, and `images/`. They share conventions but **not code** — there is no shared bundle; the same patterns are duplicated per site.
 
@@ -27,6 +28,7 @@ Then open:
 - `http://localhost:8099/` — main site
 - `http://localhost:8099/device-monitor/` — Device Monitor²
 - `http://localhost:8099/iwindrose/` — iWindrose²
+- `http://localhost:8099/televideo-pro/` — Televideo² Pro
 
 There are no tests, no linter, and no build. Verification usually means loading the affected page in a browser and checking the relevant interactions.
 
@@ -48,7 +50,7 @@ HTML files contain layout and empty containers with `id`s. `js/app.js` fetches J
 CSS/JS/JSON are loaded with a `?v=` query string for GitHub Pages cache invalidation.
 
 - `js/app.js` reads its own `?v=` value from its script tag and forwards it to every JSON `fetch()`.
-- `scripts/cache-bust.sh` rewrites `?v=` values in the three `index.html` files.
+- `scripts/cache-bust.sh` rewrites `?v=` values in the four `index.html` files.
 - A local `pre-commit` hook can run `cache-bust.sh` automatically when a commit touches site files, then re-stage the HTML:
 
 ```bash
@@ -59,9 +61,11 @@ Do not hand-edit `?v=` values; let the script/hook manage them.
 
 ## App Landing Pages
 
-The `device-monitor/` and `iwindrose/` sites use the same general engine as the root, with app-specific config constants at the top of their `app.js` files (`APP_STORE_URL`, `SUPPORT_URL`, plus feature/compatibility color maps). These sites split content across several JSON files: `changelog.json`, `features.json`, `compatibility.json`, `gallery.json`, `press.json`, `i18n.json`, plus `kits.json` for Device Monitor².
+The `device-monitor/`, `iwindrose/`, and `televideo-pro/` sites use the same general engine as the root, with app-specific config constants at the top of their `app.js` files (`APP_STORE_URL`, `SUPPORT_URL`, plus feature/compatibility color maps). These sites split content across several JSON files: `changelog.json`, `features.json`, `compatibility.json`, `gallery.json`, `press.json`, `i18n.json`, plus `kits.json` for Device Monitor². The `televideo-pro/` landing is for a removed app — it has no App Store CTA and shows "removed" badges instead.
 
 The hero version badge is derived automatically from the **first entry** of `changelog.json`. When releasing, prepend the new version object and set the previous entry's `"badge"` to `null`.
+
+Gallery thumbnail aspect ratios (set via `--thumb-ratio` in JS): iPhone `499/1080`, iPad `2560/1919`, Apple Watch `1/1`, Apple TV `16/9`, Mac `16/10`.
 
 ## Releasing
 
