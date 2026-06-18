@@ -43,13 +43,14 @@
     "tagline_en": "RAI teletext, always with you",
     "description": "App storica per consultare le news condivise dal Televideo RAI su iPhone, iPod touch, iPad e Apple Watch.",
     "description_en": "A legacy app for reading news shared by RAI Televideo on iPhone, iPod touch, iPad and Apple Watch.",
-    "icon": "./images/apps/televideo.png",
+    "icon": "./televideo/images/icon/app-icon.png",
     "platforms": [
       "iPhone",
       "iPad",
       "Apple Watch"
     ],
     "availability": "removed",
+    "landing": "./televideo/",
     "gradient": "linear-gradient(135deg, #EF4444, #F97316)",
     "accent": "#EF4444"
   },
@@ -60,7 +61,7 @@
     "tagline_en": "RAI teletext in a Pro edition",
     "description": "Versione Pro dell'app Televideo² per consultare le news condivise dal Televideo RAI anche su Apple TV.",
     "description_en": "The Pro edition of Televideo² for reading news shared by RAI Televideo, also on Apple TV.",
-    "icon": "./images/apps/televideo.png",
+    "icon": "./televideo/images/icon/app-icon.png",
     "platforms": [
       "iPhone",
       "iPad",
@@ -68,6 +69,7 @@
       "Apple TV"
     ],
     "availability": "removed",
+    "landing": "./televideo/",
     "gradient": "linear-gradient(135deg, #B91C1C, #EA580C)",
     "accent": "#B91C1C"
   },

@@ -6,47 +6,44 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <!-- SEO -->
-  <title>iWindrose²</title>
+  <title>Televideo² Pro</title>
   <meta name="description"
-    content="iWindrose² è l'app per iPhone, iPad e Apple Watch che ti porta la rosa dei venti, previsioni meteo, bollettini marini, maree e molto altro. La tua enciclopedia del vento, sempre con te.">
+    content="Televideo² Pro era l'app per iPhone, iPad, Apple Watch e Apple TV che portava il servizio Televideo RAI in mobilità. Accesso rapido, preferiti iCloud, widget ULTIM'ORA e sincronizzazione multi-dispositivo.">
   <meta name="keywords"
-    content="iwindrose, rosa dei venti, wind rose, meteo, bollettini, maree, vento, mare, ios, iphone, ipad, apple watch">
+    content="televideo, rai, teletext, ios, iphone, ipad, apple watch, notizie, widget, app italiana">
   <meta name="author" content="Fast-Devs Project">
   <meta name="robots" content="index, follow">
-  <link rel="canonical" href="https://fast-devs-project.github.io/fast-devs-project/iwindrose/">
+  <link rel="canonical" href="https://fast-devs-project.github.io/fast-devs-project/televideo/">
 
   <!-- Open Graph -->
   <meta property="og:type" content="website">
-  <meta property="og:url" content="https://fast-devs-project.github.io/fast-devs-project/iwindrose/">
-  <meta property="og:title" content="iWindrose² — La rosa dei venti su iPhone, iPad e Apple Watch">
+  <meta property="og:url" content="https://fast-devs-project.github.io/fast-devs-project/televideo/">
+  <meta property="og:title" content="Televideo² Pro — Il Televideo RAI su iPhone, iPad e Apple Watch">
   <meta property="og:description"
-    content="L'app che ti porta la rosa dei venti, previsioni meteo, bollettini marini e maree su iPhone, iPad e Apple Watch.">
+    content="L'app che portava il servizio Televideo RAI in mobilità. Accesso rapido, preferiti, widget e Apple Watch.">
   <meta property="og:image"
-    content="https://fast-devs-project.github.io/fast-devs-project/iwindrose/images/icon/app-icon.png">
+    content="https://fast-devs-project.github.io/fast-devs-project/televideo/images/icon/app-icon.png">
   <meta property="og:image:secure_url"
-    content="https://fast-devs-project.github.io/fast-devs-project/iwindrose/images/icon/app-icon.png">
+    content="https://fast-devs-project.github.io/fast-devs-project/televideo/images/icon/app-icon.png">
   <meta property="og:image:type" content="image/png">
   <meta property="og:image:width" content="1024">
   <meta property="og:image:height" content="1024">
-  <meta property="og:image:alt" content="iWindrose app icon">
+  <meta property="og:image:alt" content="Televideo² Pro app icon">
   <meta property="og:locale" content="it_IT">
 
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="iWindrose² — La rosa dei venti su iPhone, iPad e Apple Watch">
+  <meta name="twitter:title" content="Televideo² Pro — Il Televideo RAI su iPhone, iPad e Apple Watch">
   <meta name="twitter:description"
-    content="Rosa dei venti, meteo, bollettini, maree e molto altro su iPhone, iPad e Apple Watch.">
+    content="L'app che portava il Televideo RAI in mobilità. Preferiti iCloud, widget ULTIM'ORA e Apple Watch standalone.">
   <meta name="twitter:image"
-    content="https://fast-devs-project.github.io/fast-devs-project/iwindrose/images/icon/app-icon.png">
-  <meta name="twitter:image:alt" content="iWindrose app icon">
+    content="https://fast-devs-project.github.io/fast-devs-project/televideo/images/icon/app-icon.png">
+  <meta name="twitter:image:alt" content="Televideo² Pro app icon">
   <meta name="twitter:site" content="@FastDevsProject">
 
   <!-- Favicon -->
   <link rel="icon" type="image/png" href="images/favicon/favicon.png">
   <link rel="apple-touch-icon" href="images/icon/app-icon.png">
-  <link rel="manifest" href="site.webmanifest">
-  <meta name="apple-mobile-web-app-title" content="iWindrose">
-  <meta name="apple-itunes-app" content="app-id=1403142267">
   <meta name="mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black">
 
@@ -57,7 +54,6 @@
   <!-- Preconnect -->
   <link rel="preconnect" href="https://cdn.tailwindcss.com" crossorigin>
   <link rel="preconnect" href="https://player.vimeo.com" crossorigin>
-  <link rel="dns-prefetch" href="https://cdn.iubenda.com">
 
   <!-- Tailwind CSS -->
   <script src="https://cdn.tailwindcss.com"></script>
@@ -66,6 +62,9 @@
       theme: { extend: { colors: { primary: '#080A0F', secondary: '#0D1117' } } }
     }
   </script>
+
+  <!-- LCP preload -->
+  <link rel="preload" as="image" href="images/banner/it/landscape-banner.webp">
 
   <!-- Custom styles -->
   <link rel="stylesheet" href="css/style.css?v=20260618111259">
@@ -78,28 +77,22 @@
 ══════════════════════════════════════════════════ -->
   <nav class="nav" role="navigation" aria-label="Navigazione principale">
     <div class="container nav-inner">
-      <a href="#" class="nav-brand" data-i18n-aria="nav.aria.brand" aria-label="iWindrose² – torna in cima">
+      <a href="#" class="nav-brand" data-i18n-aria="nav.aria.brand" aria-label="Televideo² Pro – torna in cima">
         <img src="images/icon/app-icon.png" alt="" aria-hidden="true" width="30" height="30"
           style="border-radius:8px;display:block;flex-shrink:0;">
-        <span>iWindrose²</span>
+        <span>Televideo² Pro</span>
       </a>
 
       <ul class="nav-links" role="list">
         <li><a href="#features" data-i18n="nav.features">Features</a></li>
         <li><a href="#gallery" data-i18n="nav.gallery">Screenshot</a></li>
         <li><a href="#changelog" data-i18n="nav.changelog">Changelog</a></li>
-        <li><a href="#press" data-i18n="nav.press">Press</a></li>
+        <li><a href="#compatibility" data-i18n="nav.compatibility">Compatibilità</a></li>
         <li><a href="#privacy" data-i18n="nav.privacy">Privacy</a></li>
       </ul>
 
-      <a href="#" data-appstore class="nav-cta" target="_blank" rel="noopener" data-i18n-aria="nav.aria.cta"
-        aria-label="Acquista iWindrose² sull'App Store">
-        <svg class="nav-cta-apple" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
-          <path fill="currentColor"
-            d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.8-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M13 3.5c.73-.83 1.94-1.46 2.94-1.5.13 1.17-.34 2.35-1.04 3.19-.69.85-1.83 1.51-2.95 1.42-.15-1.15.41-2.35 1.05-3.11z" />
-        </svg>
-        <span data-i18n="nav.cta">Acquista</span>
-      </a>
+      <!-- Spacer per centrare i nav-links (bilancia il brand a sx) -->
+      <div class="nav-spacer" aria-hidden="true"></div>
 
       <button class="nav-mobile-toggle" data-i18n-aria="nav.aria.menu" aria-label="Apri menu" aria-expanded="false">
         <span></span>
@@ -125,19 +118,25 @@
 
         <!-- Text -->
         <div class="hero-text">
-          <div class="hero-badge reveal">
-            <span class="hero-badge-dot" aria-hidden="true"></span>
-            <span id="hero-badge-text" data-i18n="hero.badge">Versione <span id="hero-version">…</span>
-              disponibile</span>
+          <div class="hero-badges-version">
+            <div class="hero-badge reveal">
+              <span class="hero-badge-dot" aria-hidden="true"></span>
+              <span id="hero-badge-text" data-i18n="hero.badge">Versione iOS <span id="hero-version">…</span> rimossa</span>
+            </div>
+            <div class="hero-badge reveal">
+              <span class="hero-badge-dot" aria-hidden="true"></span>
+              <span id="hero-badge-tvos-text" data-i18n="hero.badge.tvos">Versione tvOS <span id="hero-version-tvos">…</span> rimossa</span>
+            </div>
           </div>
 
           <h1 class="hero-title reveal reveal-delay-1">
-            <span class="gradient-text">iWindrose²</span>
+            <span class="gradient-text">Televideo² Pro</span>
           </h1>
 
           <p class="hero-subtitle reveal reveal-delay-2" data-i18n="hero.subtitle">
-            La tua enciclopedia portatile sulla rosa dei venti. Venti, meteo, bollettini, maree, scale, sole e luna —
-            tutto a portata di mano per gli appassionati del mare.
+            L'app che portava il Televideo RAI su iPhone, iPad, Apple Watch e Apple TV. Accesso rapido a tutte le
+            pagine, notizie
+            regionali e nazionali, preferiti sincronizzati via iCloud.
           </p>
 
           <!-- Rating -->
@@ -148,8 +147,8 @@
                 points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" />
             </svg>
             <span style="font-size:0.9rem;color:var(--text-secondary);">
-              <strong style="color:var(--text-primary);">4,6</strong>
-              <span id="hero-rating-text" data-i18n="hero.rating" data-count="392"> · 392 votazioni</span>
+              <strong id="hero-rating-score" style="color:var(--text-primary);">4,5</strong>
+              <span id="hero-rating-text" data-i18n="hero.rating" data-count="459"> · 459 votazioni</span>
             </span>
           </div>
 
@@ -188,6 +187,14 @@
               </svg>
               Apple Watch
             </span>
+            <span class="hero-chip">
+              <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                stroke-linecap="round" stroke-linejoin="round">
+                <rect x="2" y="7" width="20" height="15" rx="2" />
+                <polyline points="17 2 12 7 7 2" />
+              </svg>
+              Apple TV
+            </span>
           </div>
         </div>
 
@@ -195,15 +202,8 @@
         <div class="hero-visual" aria-hidden="true">
           <div class="hero-screenshot-wrapper">
             <div class="hero-screenshot-frame">
-              <div style="padding:46.15% 0 0 0;position:relative;">
-                <iframe
-                  src="https://player.vimeo.com/video/349940943?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
-                  frameborder="0"
-                  allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media; web-share"
-                  referrerpolicy="strict-origin-when-cross-origin"
-                  style="position:absolute;top:0;left:0;width:100%;height:100%;"
-                  title="iWindRose 3.3.0 - Promo video"></iframe>
-              </div>
+              <img src="images/banner/it/landscape-banner.webp" data-i18n-src="banner" alt="Televideo² Pro – banner"
+                width="853" height="480" fetchpriority="high">
             </div>
             <div class="hero-glow"></div>
           </div>
@@ -221,23 +221,23 @@
     <div class="container">
       <div class="stats-row reveal">
         <div class="stat-item">
-          <div class="stat-value gradient-text">4,6</div>
+          <div class="stat-value gradient-text">4,5</div>
           <div class="stat-label" data-i18n="stats.rating.app.store">Media valutazioni</div>
         </div>
         <div class="stat-item">
-          <div class="stat-value gradient-text">392+</div>
+          <div class="stat-value gradient-text">459+</div>
           <div class="stat-label" data-i18n="stats.rating">Valutazioni</div>
         </div>
         <div class="stat-item">
-          <div class="stat-value gradient-text">25+</div>
+          <div class="stat-value gradient-text">42+</div>
           <div class="stat-label" data-i18n="stats.reviews">Recensioni</div>
         </div>
         <div class="stat-item">
-          <div class="stat-value gradient-text">2</div>
+          <div class="stat-value gradient-text">8</div>
           <div class="stat-label" data-i18n="stats.languages">Lingue supportate</div>
         </div>
         <div class="stat-item">
-          <div class="stat-value gradient-text">3</div>
+          <div class="stat-value gradient-text">4</div>
           <div class="stat-label" data-i18n="stats.platforms">Piattaforme Apple</div>
         </div>
       </div>
@@ -253,12 +253,12 @@
       <div class="reveal">
         <p class="section-label" data-i18n="features.label">Features</p>
         <h2 class="section-title" id="features-heading">
-          <span data-i18n="features.title">Tutto il mare</span><br>
-          <span class="gradient-text" data-i18n="features.title.gradient">in una sola app</span>
+          <span data-i18n="features.title">Il Televideo RAI</span><br>
+          <span class="gradient-text" data-i18n="features.title.gradient">sempre in tasca</span>
         </h2>
         <p class="section-subtitle" data-i18n="features.subtitle">
-          Dodici funzionalità dedicate per chi vive il mare: dalla rosa dei venti ai bollettini, dalle maree alle
-          previsioni — tutto consultabile offline o in tempo reale.
+          Venti funzionalità pensate per offrirti la migliore esperienza di consultazione del Televideo su tutti i
+          dispositivi Apple.
         </p>
       </div>
       <div class="features-grid" id="features-grid" role="list"></div>
@@ -289,26 +289,6 @@
 
 
   <!-- ═══════════════════════════════════════════════
-     COMPATIBILITY
-══════════════════════════════════════════════════ -->
-  <section class="section" id="compatibility" aria-labelledby="compat-heading">
-    <div class="container">
-      <div class="reveal">
-        <p class="section-label" data-i18n="compat.label">Compatibilità</p>
-        <h2 class="section-title" id="compat-heading">
-          <span data-i18n="compat.title">Su tutte le</span><br>
-          <span class="gradient-text" data-i18n="compat.title.gradient">piattaforme Apple</span>
-        </h2>
-        <p class="section-subtitle" data-i18n="compat.subtitle">
-          Un'app, tre piattaforme. Da iPhone ad Apple Watch, iWindrose² ti accompagna ovunque.
-        </p>
-      </div>
-      <div class="compat-grid" id="compat-grid"></div>
-    </div>
-  </section>
-
-
-  <!-- ═══════════════════════════════════════════════
      CHANGELOG
 ══════════════════════════════════════════════════ -->
   <section class="section" id="changelog" aria-labelledby="changelog-heading">
@@ -316,11 +296,11 @@
       <div class="reveal">
         <p class="section-label" data-i18n="changelog.label">Changelog</p>
         <h2 class="section-title" id="changelog-heading">
-          <span data-i18n="changelog.title">Sempre aggiornata,</span><br>
-          <span class="gradient-text" data-i18n="changelog.title.gradient">sempre migliore</span>
+          <span data-i18n="changelog.title">Tutte le versioni</span><br>
+          <span class="gradient-text" data-i18n="changelog.title.gradient">rilasciate</span>
         </h2>
         <p class="section-subtitle" data-i18n="changelog.subtitle">
-          Le ultime versioni rilasciate, con tutte le novità e i miglioramenti.
+          Lo storico completo delle versioni di Televideo² Pro, dalla prima release all'ultima.
         </p>
       </div>
       <div class="changelog-list" id="changelog-list"></div>
@@ -329,21 +309,21 @@
 
 
   <!-- ═══════════════════════════════════════════════
-     PRESS
+     COMPATIBILITY
 ══════════════════════════════════════════════════ -->
-  <section class="section" id="press" aria-labelledby="press-heading">
+  <section class="section" id="compatibility" aria-labelledby="compat-heading">
     <div class="container">
       <div class="reveal">
-        <p class="section-label" data-i18n="press.label">Press</p>
-        <h2 class="section-title" id="press-heading">
-          <span data-i18n="press.title">iWindrose²</span><br>
-          <span class="gradient-text" data-i18n="press.title.gradient">nel mondo</span>
+        <p class="section-label" data-i18n="compat.label">Compatibilità</p>
+        <h2 class="section-title" id="compat-heading">
+          <span data-i18n="compat.title">Supporto multi-dispositivo</span><br>
+          <span class="gradient-text" data-i18n="compat.title.gradient">Apple</span>
         </h2>
-        <p class="section-subtitle" data-i18n="press.subtitle">
-          Articoli, recensioni e video da pubblicazioni e creator.
+        <p class="section-subtitle" data-i18n="compat.subtitle">
+          Televideo² Pro funzionava su iPhone, iPad, Apple Watch e Apple TV con sincronizzazione preferiti via iCloud.
         </p>
       </div>
-      <div class="press-grid" id="press-grid"></div>
+      <div class="compat-grid" id="compat-grid"></div>
     </div>
   </section>
 
@@ -366,15 +346,14 @@
         <div>
           <p class="section-label reveal" style="color:var(--accent-green);" data-i18n="privacy.label">Privacy-first</p>
           <h2 class="privacy-title reveal reveal-delay-1" id="privacy-heading">
-            <span data-i18n="privacy.title">I tuoi dati restano tuoi.</span><br>
+            <span data-i18n="privacy.title">Zero dati raccolti.</span><br>
             <span
               style="background:linear-gradient(135deg,#10B981,#06B6D4);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;"
-              data-i18n="privacy.title.gradient">Sempre.</span>
+              data-i18n="privacy.title.gradient">Davvero zero.</span>
           </h2>
           <blockquote class="privacy-quote reveal reveal-delay-2" data-i18n="privacy.quote">
-            iWindrose² è progettata con la privacy al centro. L'app non raccoglie dati personali e non include analytics
-            o tracciamenti nascosti. I dati di posizione vengono utilizzati solo per fornirti previsioni meteo accurate
-            e non vengono mai condivisi con terze parti.
+            Televideo² Pro era progettata con la privacy al centro. L'app non raccoglieva dati personali,
+            né dati non personali. Nessun analytics, nessun tracciamento, nessuna telemetria nascosta.
           </blockquote>
           <div class="privacy-chips reveal reveal-delay-3">
             <span class="privacy-chip">
@@ -382,7 +361,14 @@
                 stroke-linejoin="round">
                 <polyline points="20 6 9 17 4 12" />
               </svg>
-              <span data-i18n="privacy.chip.personal">Nessun dato personale raccolto</span>
+              <span data-i18n="privacy.chip.personal">Nessun dato personale</span>
+            </span>
+            <span class="privacy-chip">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                stroke-linejoin="round">
+                <polyline points="20 6 9 17 4 12" />
+              </svg>
+              <span data-i18n="privacy.chip.linked">Nessun collegamento all'utente</span>
             </span>
             <span class="privacy-chip">
               <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
@@ -396,7 +382,7 @@
                 stroke-linejoin="round">
                 <polyline points="20 6 9 17 4 12" />
               </svg>
-              <span data-i18n="privacy.chip.server">Nessun analytics nascosto</span>
+              <span data-i18n="privacy.chip.server">Nessun server che raccoglie i dati</span>
             </span>
           </div>
         </div>
@@ -414,32 +400,26 @@
       <div style="
       max-width: 640px; margin-inline: auto;
       padding: clamp(2.5rem,5vw,4rem) clamp(1.5rem,4vw,3rem);
-      background: linear-gradient(135deg,rgba(232,106,51,0.08),rgba(217,119,6,0.08));
-      border: 1px solid rgba(232,106,51,0.15);
+      background: linear-gradient(135deg,rgba(239,68,68,0.08),rgba(59,130,246,0.08));
+      border: 1px solid rgba(239,68,68,0.15);
       border-radius: var(--radius-xl);
     " class="reveal">
         <img src="images/icon/app-icon.png" alt="" aria-hidden="true" width="64" height="64" loading="lazy"
           decoding="async" style="border-radius:18px;margin:0 auto 1.5rem;display:block;">
 
         <h2 class="section-title" id="cta-heading" style="font-size:clamp(2rem,4vw,3rem);margin-bottom:.75rem;">
-          <span data-i18n="cta.title">Pronto a salpare?</span><br>
-          <span class="gradient-text" data-i18n="cta.title.gradient">Acquista ora.</span>
+          <span data-i18n="removed.title">Non più disponibile</span><br>
+          <span class="gradient-text" data-i18n="removed.title.gradient">su App Store</span>
         </h2>
 
         <p style="color:var(--text-secondary);margin-bottom:2rem;font-size:1.05rem;line-height:1.7;"
-          data-i18n="cta.body">
-          Disponibile su App Store per iPhone, iPad e Apple Watch. La tua enciclopedia del vento, sempre con te.
+          data-i18n="removed.body">
+          Televideo² Pro è stata rimossa dall'App Store. Grazie a tutti coloro che l'hanno utilizzata nel corso degli
+          anni.
         </p>
 
         <div style="display:flex;justify-content:center;flex-wrap:wrap;gap:.75rem;">
-          <a href="#" data-appstore class="btn-primary" target="_blank" rel="noopener"
-            data-i18n-aria="footer.aria.appstore" aria-label="Acquista iWindrose² su App Store">
-            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" stroke="none" aria-hidden="true">
-              <path
-                d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.8-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M13 3.5c.73-.83 1.94-1.46 2.94-1.5.13 1.17-.34 2.35-1.04 3.19-.69.85-1.83 1.51-2.95 1.42-.15-1.15.41-2.35 1.05-3.11z" />
-            </svg>
-            <span data-i18n="cta.download">Acquista su App Store</span>
-          </a>
+          <span class="btn-removed" data-i18n="cta.removed">RIMOSSA DA APP STORE</span>
           <a href="#features" class="btn-secondary">
             <span data-i18n="cta.discover">Scopri di più</span>
           </a>
@@ -459,28 +439,25 @@
           <div class="footer-brand">
             <img src="images/icon/app-icon.png" alt="" aria-hidden="true" width="32" height="32" loading="lazy"
               decoding="async" style="border-radius:8px;flex-shrink:0;">
-            <span>iWindrose²</span>
+            <span>Televideo² Pro</span>
           </div>
           <p class="footer-desc" data-i18n="footer.desc">
-            L'app che ti porta la rosa dei venti, le previsioni meteo e i bollettini marini sempre con te, in modo
-            semplice e immediato.
+            L'app che portava il servizio Televideo RAI su dispositivi Apple: iPhone, iPad, Apple Watch e Apple TV.
           </p>
         </div>
 
         <nav class="footer-links" aria-label="Link footer">
           <a href="../">Fast-Devs Project</a>
           <a href="#" data-support data-i18n="footer.support">Supporto</a>
-          <a href="https://www.iubenda.com/privacy-policy/27457705"
-            class="iubenda-black iubenda-noiframe iubenda-embed iub-legal-only" title="Privacy Policy">Privacy
-            Policy</a>
         </nav>
       </div>
 
       <div class="footer-bottom">
         <p class="footer-copy">
-          <span data-i18n="footer.copyright">Copyright © 2018-2026 Fast-Devs Project by Marco Ricca. All rights
+          <span data-i18n="footer.copyright">Copyright © 2019-2021 Fast-Devs Project by Marco Ricca. All rights
             reserved.</span><br>
-          <span data-i18n="footer.trademark">Apple, iPhone, iPad e Apple Watch sono marchi di Apple Inc.</span>
+          <span data-i18n="footer.trademark">Apple, iPhone, iPad, Apple Watch e Apple TV sono marchi di Apple
+            Inc.</span>
         </p>
         <div class="footer-store">
           <!-- Language switcher -->
@@ -529,10 +506,8 @@
 
   <!-- Scripts -->
   <script src="https://player.vimeo.com/api/player.js" defer></script>
-  <script src="js/icons.js?v=20260618111259"></script>
-  <script src="js/app.js?v=20260618111259"></script>
-  <script
-    type="text/javascript">(function (w, d) { var loader = function () { var s = d.createElement("script"), tag = d.getElementsByTagName("script")[0]; s.src = "https://cdn.iubenda.com/iubenda.js"; tag.parentNode.insertBefore(s, tag); }; if (w.addEventListener) { w.addEventListener("load", loader, false); } else if (w.attachEvent) { w.attachEvent("onload", loader); } else { w.onload = loader; } })(window, document);</script>
+  <script src="js/icons.js?v=20260618111259" defer></script>
+  <script src="js/app.js?v=20260618111259" defer></script>
 
 </body>
 

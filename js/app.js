@@ -127,8 +127,8 @@ async function renderApps() {
         <div class="app-card-platforms">${platforms}</div>
         <div class="app-card-actions">
           ${storeAction}
-          ${landingAction}
           ${removedBadge}
+          ${landingAction}
         </div>
       </div>`;
   }

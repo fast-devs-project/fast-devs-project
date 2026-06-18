@@ -1,0 +1,118 @@
+{
+  "iphone": {
+    "label": "iPhone",
+    "aspect": "portrait",
+    "screenshots": [
+      {
+        "url": "images/screenshots/iphone/iphone-0.webp",
+        "alt": "Televideo² Pro su iPhone – Schermata principale"
+      },
+      {
+        "url": "images/screenshots/iphone/iphone-1.webp",
+        "alt": "Televideo² Pro su iPhone – Notizie nazionali"
+      },
+      {
+        "url": "images/screenshots/iphone/iphone-2.webp",
+        "alt": "Televideo² Pro su iPhone – Notizie regionali"
+      },
+      {
+        "url": "images/screenshots/iphone/iphone-3.webp",
+        "alt": "Televideo² Pro su iPhone – Preferiti"
+      },
+      {
+        "url": "images/screenshots/iphone/iphone-4.webp",
+        "alt": "Televideo² Pro su iPhone – Ricerca pagine"
+      },
+      {
+        "url": "images/screenshots/iphone/iphone-5.webp",
+        "alt": "Televideo² Pro su iPhone – Condivisione"
+      },
+      {
+        "url": "images/screenshots/iphone/iphone-6.webp",
+        "alt": "Televideo² Pro su iPhone – Widget ULTIM'ORA"
+      },
+      {
+        "url": "images/screenshots/iphone/iphone-7.webp",
+        "alt": "Televideo² Pro su iPhone – Impostazioni"
+      },
+      {
+        "url": "images/screenshots/iphone/iphone-8.webp",
+        "alt": "Televideo² Pro su iPhone – Navigazione"
+      }
+    ]
+  },
+  "ipad": {
+    "label": "iPad",
+    "aspect": "landscape",
+    "screenshots": [
+      {
+        "url": "images/screenshots/ipad/ipad-0.webp",
+        "alt": "Televideo² Pro su iPad – Schermata principale"
+      },
+      {
+        "url": "images/screenshots/ipad/ipad-1.webp",
+        "alt": "Televideo² Pro su iPad – Notizie"
+      },
+      {
+        "url": "images/screenshots/ipad/ipad-2.webp",
+        "alt": "Televideo² Pro su iPad – Preferiti"
+      },
+      {
+        "url": "images/screenshots/ipad/ipad-3.webp",
+        "alt": "Televideo² Pro su iPad – Pagina singola"
+      },
+      {
+        "url": "images/screenshots/ipad/ipad-4.webp",
+        "alt": "Televideo² Pro su iPad – Ricerca"
+      },
+      {
+        "url": "images/screenshots/ipad/ipad-5.webp",
+        "alt": "Televideo² Pro su iPad – Notizie regionali"
+      },
+      {
+        "url": "images/screenshots/ipad/ipad-6.webp",
+        "alt": "Televideo² Pro su iPad – Condivisione"
+      },
+      {
+        "url": "images/screenshots/ipad/ipad-7.webp",
+        "alt": "Televideo² Pro su iPad – Impostazioni"
+      }
+    ]
+  },
+  "watch": {
+    "label": "Apple Watch",
+    "aspect": "square",
+    "screenshots": [
+      {
+        "url": "images/screenshots/watch/watch-0.webp",
+        "alt": "Televideo² Pro su Apple Watch – Notizie dell'ultima ora"
+      },
+      {
+        "url": "images/screenshots/watch/watch-1.webp",
+        "alt": "Televideo² Pro su Apple Watch – Lista notizie"
+      },
+      {
+        "url": "images/screenshots/watch/watch-2.webp",
+        "alt": "Televideo² Pro su Apple Watch – Dettaglio notizia"
+      }
+    ]
+  },
+  "appletv": {
+    "label": "Apple TV",
+    "aspect": "landscape",
+    "screenshots": [
+      {
+        "url": "images/screenshots/appletv/appletv-0.webp",
+        "alt": "Televideo² Pro su Apple TV – Schermata principale"
+      },
+      {
+        "url": "images/screenshots/appletv/appletv-1.webp",
+        "alt": "Televideo² Pro su Apple TV – Pagina notizie"
+      },
+      {
+        "url": "images/screenshots/appletv/appletv-2.webp",
+        "alt": "Televideo² Pro su Apple TV – Navigazione"
+      }
+    ]
+  }
+}

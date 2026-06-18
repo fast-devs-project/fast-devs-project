@@ -1,0 +1,692 @@
+[
+  {
+    "version": "3.4.3",
+    "date": "2021",
+    "badge": "Ultima versione",
+    "badge_en": "Latest version",
+    "highlights": [
+      "Fix minori"
+    ],
+    "highlights_en": [
+      "Minor fixes"
+    ],
+    "platform": "ios"
+  },
+  {
+    "version": "2.2.5",
+    "date": "2021",
+    "badge": "Ultima versione",
+    "badge_en": "Latest version",
+    "highlights": [
+      "Fix minori"
+    ],
+    "highlights_en": [
+      "Minor fixes"
+    ],
+    "platform": "tvos"
+  },
+  {
+    "version": "3.4.2",
+    "date": "2021",
+    "badge": null,
+    "badge_en": null,
+    "highlights": [
+      "Fix generici minori"
+    ],
+    "highlights_en": [
+      "Minor generic fixes"
+    ],
+    "platform": "ios"
+  },
+  {
+    "version": "3.4.1",
+    "date": "2021",
+    "badge": null,
+    "badge_en": null,
+    "highlights": [
+      "Risolti i problemi di crash su Apple Watch 3"
+    ],
+    "highlights_en": [
+      "Fixed crash issues on Apple Watch 3"
+    ],
+    "platform": "ios"
+  },
+  {
+    "version": "3.4.0",
+    "date": "2021",
+    "badge": null,
+    "badge_en": null,
+    "highlights": [
+      "Aggiunte le complication per Apple Watch",
+      "Fix minori"
+    ],
+    "highlights_en": [
+      "Added complications for Apple Watch",
+      "Minor fixes"
+    ],
+    "platform": "ios"
+  },
+  {
+    "version": "3.3.3",
+    "date": "2021",
+    "badge": null,
+    "badge_en": null,
+    "highlights": [
+      "Risolto un problema riguardante la visualizzazione delle pagine su iPad"
+    ],
+    "highlights_en": [
+      "Fixed a page display issue on iPad"
+    ],
+    "platform": "ios"
+  },
+  {
+    "version": "3.3.2",
+    "date": "2021",
+    "badge": null,
+    "badge_en": null,
+    "highlights": [
+      "Fix dimensione pagina errata se cambio opzione full screen e poi attivato zoom",
+      "Alert di flash news non si aggiorna se lasciato aperto quello precedente"
+    ],
+    "highlights_en": [
+      "Fixed wrong page size when toggling full screen option then enabling zoom",
+      "Flash news alert not refreshing when previous one is left open"
+    ],
+    "platform": "ios"
+  },
+  {
+    "version": "3.3.1",
+    "date": "2020",
+    "badge": null,
+    "badge_en": null,
+    "highlights": [
+      "Corretto un bug che su Apple Watch provocava il caricamento infinito delle news"
+    ],
+    "highlights_en": [
+      "Fixed a bug causing infinite news loading on Apple Watch"
+    ],
+    "platform": "ios"
+  },
+  {
+    "version": "3.3.0",
+    "date": "2020",
+    "badge": null,
+    "badge_en": null,
+    "highlights": [
+      "Le notizie si aggiornano in autonomia dopo 30 minuti di inattività",
+      "Visualizzazione pagine a tutto schermo attivabile/disattivabile",
+      "Feedback aptico attivabile/disattivabile",
+      "Caricamento sito ufficiale Televideo per pagine non trovate",
+      "Fix minori e miglioramenti generali"
+    ],
+    "highlights_en": [
+      "News auto-refresh after 30 minutes of inactivity",
+      "Full-screen page view toggle",
+      "Haptic feedback toggle",
+      "Load official Televideo website for unavailable pages",
+      "Minor fixes and general improvements"
+    ],
+    "platform": "ios"
+  },
+  {
+    "version": "3.2.2",
+    "date": "2020",
+    "badge": null,
+    "badge_en": null,
+    "highlights": [
+      "Fix al comparto notifiche e ai widget"
+    ],
+    "highlights_en": [
+      "Fixes to notifications and widgets"
+    ],
+    "platform": "ios"
+  },
+  {
+    "version": "3.2.0",
+    "date": "2020",
+    "badge": null,
+    "badge_en": null,
+    "highlights": [
+      "Aggiunta modalità \"Ridotta\" per silenziare le notifiche di notte",
+      "Bug fix"
+    ],
+    "highlights_en": [
+      "Added \"Reduced\" mode to silence notifications at night",
+      "Bug fix"
+    ],
+    "platform": "ios"
+  },
+  {
+    "version": "3.1.0",
+    "date": "2020",
+    "badge": null,
+    "badge_en": null,
+    "highlights": [
+      "Aggiunte notifiche per le news dell'ultima ora (richiede iOS 14 e widget sulla home)",
+      "Bug fix per Siri Shortcuts",
+      "Bug fix per preferiti su iPad"
+    ],
+    "highlights_en": [
+      "Added breaking news notifications (requires iOS 14 and home screen widget)",
+      "Bug fix for Siri Shortcuts",
+      "Bug fix for favorites on iPad"
+    ],
+    "platform": "ios"
+  },
+  {
+    "version": "3.0.0",
+    "date": "2020",
+    "badge": "Major update",
+    "badge_en": "Major update",
+    "highlights": [
+      "Nuovi Widget per la Home Screen di iOS 14",
+      "Piena compatibilità con iOS 14",
+      "Sincronizzazione automatica preferiti tra iPhone, iPad e Apple TV via iCloud",
+      "Bug fix per il comparto audio su iPad"
+    ],
+    "highlights_en": [
+      "New iOS 14 Home Screen Widgets",
+      "Full iOS 14 compatibility",
+      "Automatic favorites sync across iPhone, iPad and Apple TV via iCloud",
+      "Audio bug fix on iPad"
+    ],
+    "platform": "ios"
+  },
+  {
+    "version": "2.2.1",
+    "date": "2020",
+    "badge": null,
+    "badge_en": null,
+    "highlights": [
+      "Sincronizzazione automatica preferiti tra iPhone, iPad e Apple TV via iCloud",
+      "Bug fix per il comparto audio"
+    ],
+    "highlights_en": [
+      "Automatic favorites sync across iPhone, iPad and Apple TV via iCloud",
+      "Audio bug fix"
+    ],
+    "platform": "ios"
+  },
+  {
+    "version": "2.2.0",
+    "date": "2020",
+    "badge": "Major update",
+    "badge_en": "Major update",
+    "highlights": [
+      "Nuova interfaccia per iPad",
+      "Campo ricerca pagine spostabile nella barra in basso",
+      "Pulsante \"Carica pagina precedente\" ricorda tutte le pagine visualizzate",
+      "Fix condivisione su WhatsApp",
+      "Fix minori"
+    ],
+    "highlights_en": [
+      "New iPad interface",
+      "Page search field movable to bottom bar",
+      "\"Load previous page\" button remembers all viewed pages",
+      "WhatsApp sharing fix",
+      "Minor fixes"
+    ],
+    "platform": "ios"
+  },
+  {
+    "version": "2.1.0",
+    "date": "2020",
+    "badge": null,
+    "badge_en": null,
+    "highlights": [
+      "Nuovo pulsante indietro intelligente: torna alla pagina precedentemente visualizzata"
+    ],
+    "highlights_en": [
+      "New smart back button: returns to previously viewed page"
+    ],
+    "platform": "ios"
+  },
+  {
+    "version": "2.0.4",
+    "date": "2020",
+    "badge": null,
+    "badge_en": null,
+    "highlights": [
+      "Bug caricamento preferiti iniziali",
+      "Bug caricamento pagine dalla 200 alla 300 per le regioni"
+    ],
+    "highlights_en": [
+      "Initial favorites loading bug",
+      "Regional pages 200-300 loading bug"
+    ],
+    "platform": "ios"
+  },
+  {
+    "version": "2.0.3",
+    "date": "2020",
+    "badge": null,
+    "badge_en": null,
+    "highlights": [
+      "Bug caricamento sotto-pagina 10 in poi",
+      "Sfondo gradiente su Apple Watch"
+    ],
+    "highlights_en": [
+      "Subpage 10+ loading bug",
+      "Gradient background on Apple Watch"
+    ],
+    "platform": "ios"
+  },
+  {
+    "version": "2.0.2",
+    "date": "2020",
+    "badge": null,
+    "badge_en": null,
+    "highlights": [
+      "Fix crash durante ricerche consecutive",
+      "Fix visualizzazione dettaglio notizia su Apple Watch",
+      "Fix ricerca pagine con .0 o .1"
+    ],
+    "highlights_en": [
+      "Fixed crash during consecutive searches",
+      "Fixed news detail display on Apple Watch",
+      "Fixed page search with .0 or .1"
+    ],
+    "platform": "ios"
+  },
+  {
+    "version": "2.0.1",
+    "date": "2019",
+    "badge": null,
+    "badge_en": null,
+    "highlights": [
+      "Fix visualizzazione pagine su iPad"
+    ],
+    "highlights_en": [
+      "Fixed page display on iPad"
+    ],
+    "platform": "ios"
+  },
+  {
+    "version": "2.0.0",
+    "date": "2019",
+    "badge": "Major update",
+    "badge_en": "Major update",
+    "highlights": [
+      "Nuova icona",
+      "Widget centro notifiche completamente ridisegnato",
+      "Introdotta l'app per Apple Watch (notizie dell'ultim'ora)",
+      "Fix per il banner ultima ora",
+      "Fix per la barra di ricerca"
+    ],
+    "highlights_en": [
+      "New icon",
+      "Completely redesigned Notification Center widget",
+      "Introduced Apple Watch app (breaking news)",
+      "Breaking news banner fix",
+      "Search bar fix"
+    ],
+    "platform": "ios"
+  },
+  {
+    "version": "1.8.0",
+    "date": "2019",
+    "badge": null,
+    "badge_en": null,
+    "highlights": [
+      "Aggiunte le Siri Shortcuts per aprire rapidamente una pagina",
+      "Fix minori"
+    ],
+    "highlights_en": [
+      "Added Siri Shortcuts to quickly open a page",
+      "Minor fixes"
+    ],
+    "platform": "ios"
+  },
+  {
+    "version": "1.7.4",
+    "date": "2019",
+    "badge": null,
+    "badge_en": null,
+    "highlights": [
+      "Riscritta logica pulsanti pagine successive/precedenti con reindirizzamento intelligente",
+      "Aggiunto lo zoom (da abilitare nelle impostazioni)",
+      "Aggiunte le regioni mancanti",
+      "Fix caricamento pagine rolling",
+      "Ulteriori miglioramenti"
+    ],
+    "highlights_en": [
+      "Rewritten next/previous page button logic with smart redirect",
+      "Added zoom (enable in settings)",
+      "Added missing regions",
+      "Rolling page loading fix",
+      "Further improvements"
+    ],
+    "platform": "ios"
+  },
+  {
+    "version": "1.7.3",
+    "date": "2019",
+    "badge": null,
+    "badge_en": null,
+    "highlights": [
+      "Fix raro crash per URL immagine non riconosciuto",
+      "Migliorato sistema chiusura pagina di ricerca"
+    ],
+    "highlights_en": [
+      "Fixed rare crash for unrecognized image URL",
+      "Improved search page close behavior"
+    ],
+    "platform": "ios"
+  },
+  {
+    "version": "1.7.1",
+    "date": "2019",
+    "badge": null,
+    "badge_en": null,
+    "highlights": [
+      "Fix messaggio di update che continuava ad apparire",
+      "Fix tabella impostazioni che apriva le pagine sbagliate"
+    ],
+    "highlights_en": [
+      "Fixed update message that kept appearing",
+      "Fixed settings table opening wrong pages"
+    ],
+    "platform": "ios"
+  },
+  {
+    "version": "1.7.0",
+    "date": "2019",
+    "badge": null,
+    "badge_en": null,
+    "highlights": [
+      "Icona dell'app alternativa",
+      "Rinomina preferito aggiorna anche la relativa 3D Touch shortcut",
+      "Modificato formato immagini condivise"
+    ],
+    "highlights_en": [
+      "Alternative app icon",
+      "Renaming a favorite also updates the related 3D Touch shortcut",
+      "Changed shared image format"
+    ],
+    "platform": "ios"
+  },
+  {
+    "version": "1.6.3",
+    "date": "2019",
+    "badge": null,
+    "badge_en": null,
+    "highlights": [
+      "Risolto crash al premere il tasto lente su iOS 12"
+    ],
+    "highlights_en": [
+      "Fixed crash when pressing search button on iOS 12"
+    ],
+    "platform": "ios"
+  },
+  {
+    "version": "1.6.2",
+    "date": "2019",
+    "badge": null,
+    "badge_en": null,
+    "highlights": [
+      "Fix altezza banner \"ultima ora\" su iPad",
+      "Corretta altezza fittedsheet per ricerca pagine",
+      "Fix tastiera che non si chiude durante ricerca",
+      "Frecce non più cliccabili durante ricerca"
+    ],
+    "highlights_en": [
+      "Fixed breaking news banner height on iPad",
+      "Fixed fitted sheet height for page search",
+      "Fixed keyboard not dismissing during search",
+      "Arrows no longer clickable during search"
+    ],
+    "platform": "ios"
+  },
+  {
+    "version": "1.6.1",
+    "date": "2019",
+    "badge": null,
+    "badge_en": null,
+    "highlights": [
+      "Miglioramenti minori all'interfaccia e fix minori"
+    ],
+    "highlights_en": [
+      "Minor interface improvements and minor fixes"
+    ],
+    "platform": "ios"
+  },
+  {
+    "version": "1.6.0",
+    "date": "2019",
+    "badge": null,
+    "badge_en": null,
+    "highlights": [
+      "Nuovo widget per il centro notifiche con le ultime notizie"
+    ],
+    "highlights_en": [
+      "New Notification Center widget with latest news"
+    ],
+    "platform": "ios"
+  },
+  {
+    "version": "1.5.0",
+    "date": "2019",
+    "badge": null,
+    "badge_en": null,
+    "highlights": [
+      "Nuovo banner con le news dell'ultima ora in tempo reale",
+      "Supporto preliminare a iOS 13"
+    ],
+    "highlights_en": [
+      "New real-time breaking news banner",
+      "Preliminary iOS 13 support"
+    ],
+    "platform": "ios"
+  },
+  {
+    "version": "1.4.1",
+    "date": "2019",
+    "badge": null,
+    "badge_en": null,
+    "highlights": [
+      "Fix pulsanti interattivi in caso di rotazione iPad"
+    ],
+    "highlights_en": [
+      "Fixed interactive buttons on iPad rotation"
+    ],
+    "platform": "ios"
+  },
+  {
+    "version": "1.4.0",
+    "date": "2019",
+    "badge": null,
+    "badge_en": null,
+    "highlights": [
+      "3D Touch Shortcuts su iPhone e iPad per i preferiti",
+      "Fix visualizzazione su iPhone SE",
+      "Fix pause/play effetto rolling su Apple TV",
+      "Fix pulsanti interattivi senza connessione"
+    ],
+    "highlights_en": [
+      "3D Touch Shortcuts on iPhone and iPad for favorites",
+      "Display fix on iPhone SE",
+      "Rolling effect pause/play fix on Apple TV",
+      "Interactive buttons fix without connection"
+    ],
+    "platform": "ios"
+  },
+  {
+    "version": "1.3.0",
+    "date": "2019",
+    "badge": null,
+    "badge_en": null,
+    "highlights": [
+      "Intelligenza artificiale per il riconoscimento dei numeri di pagina a video (tap per navigare)",
+      "Fix"
+    ],
+    "highlights_en": [
+      "AI recognition of on-screen page numbers (tap to navigate)",
+      "Fix"
+    ],
+    "platform": "ios"
+  },
+  {
+    "version": "1.2.1",
+    "date": "2019",
+    "badge": null,
+    "badge_en": null,
+    "highlights": [
+      "Risolto un problema con il tasto indietro/avanti per le sottopagine"
+    ],
+    "highlights_en": [
+      "Fixed an issue with the back/forward button for subpages"
+    ],
+    "platform": "ios"
+  },
+  {
+    "version": "1.2.0",
+    "date": "2019",
+    "badge": null,
+    "badge_en": null,
+    "highlights": [
+      "Aggiornamento automatico per le pagine rolling (attivabile nelle impostazioni)",
+      "Fix tasto indietro/avanti per le sottopagine"
+    ],
+    "highlights_en": [
+      "Automatic update for rolling pages (enable in settings)",
+      "Subpage back/forward button fix"
+    ],
+    "platform": "ios"
+  },
+  {
+    "version": "1.1.0",
+    "date": "2019",
+    "badge": null,
+    "badge_en": null,
+    "highlights": [
+      "Ricerche personalizzate nel database del Televideo",
+      "Fix tasto indietro per le sotto-pagine",
+      "Ulteriori migliorie"
+    ],
+    "highlights_en": [
+      "Custom searches in the Televideo database",
+      "Subpage back button fix",
+      "Further improvements"
+    ],
+    "platform": "ios"
+  },
+  {
+    "version": "1.0.6",
+    "date": "2019",
+    "badge": null,
+    "badge_en": null,
+    "highlights": [
+      "Descrizione personalizzata per i preferiti",
+      "Migliorato rendering delle pagine",
+      "Ulteriori migliorie"
+    ],
+    "highlights_en": [
+      "Custom description for favorites",
+      "Improved page rendering",
+      "Further improvements"
+    ],
+    "platform": "ios"
+  },
+  {
+    "version": "1.0.5",
+    "date": "2019",
+    "badge": null,
+    "badge_en": null,
+    "highlights": [
+      "Avviso per pagina non disponibile",
+      "Fix ricerca pagine",
+      "Ulteriori migliorie"
+    ],
+    "highlights_en": [
+      "Warning for unavailable pages",
+      "Page search fix",
+      "Further improvements"
+    ],
+    "platform": "ios"
+  },
+  {
+    "version": "1.0.4",
+    "date": "2019",
+    "badge": null,
+    "badge_en": null,
+    "highlights": [
+      "Avviso per pagina non disponibile",
+      "Fix ricerca pagine"
+    ],
+    "highlights_en": [
+      "Warning for unavailable pages",
+      "Page search fix"
+    ],
+    "platform": "ios"
+  },
+  {
+    "version": "1.0.3",
+    "date": "2019",
+    "badge": null,
+    "badge_en": null,
+    "highlights": [
+      "Fix per la ricerca delle pagine"
+    ],
+    "highlights_en": [
+      "Page search fix"
+    ],
+    "platform": "ios"
+  },
+  {
+    "version": "1.0.2",
+    "date": "2019",
+    "badge": null,
+    "badge_en": null,
+    "highlights": [
+      "Introdotta la versione per Apple TV (sperimentale)",
+      "Vibrazione al cambio pagina tramite swipe",
+      "Diversi bugfix e migliorie"
+    ],
+    "highlights_en": [
+      "Introduced Apple TV version (experimental)",
+      "Vibration on page swipe",
+      "Various bugfixes and improvements"
+    ],
+    "platform": "ios"
+  },
+  {
+    "version": "1.0.1",
+    "date": "2019",
+    "badge": null,
+    "badge_en": null,
+    "highlights": [
+      "Aggiunte nuove localizzazioni",
+      "Fix"
+    ],
+    "highlights_en": [
+      "Added new localizations",
+      "Fix"
+    ],
+    "platform": "ios"
+  },
+  {
+    "version": "1.0.0",
+    "date": "2019",
+    "badge": null,
+    "badge_en": null,
+    "highlights": [
+      "Rilascio iniziale",
+      "Collegamento ultra veloce alle pagine del Televideo RAI",
+      "Notizie regionali e nazionali",
+      "Preferiti con pagina principale all'avvio",
+      "Condivisione pagine",
+      "Navigazione swipe e numeri di pagina cliccabili",
+      "Ricerca manuale delle pagine"
+    ],
+    "highlights_en": [
+      "Initial release",
+      "Ultra-fast connection to RAI Televideo pages",
+      "Regional and national news",
+      "Favorites with main page on launch",
+      "Page sharing",
+      "Swipe navigation and clickable page numbers",
+      "Manual page search"
+    ],
+    "platform": "ios"
+  }
+]

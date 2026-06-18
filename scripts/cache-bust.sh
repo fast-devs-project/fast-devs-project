@@ -37,6 +37,7 @@ export CACHE_BUST_VERSION="$version"
 perl -0pi -e 's#((?:href|src)="(?:css/style\.css|js/icons\.js|js/app\.js)\?v=)[^"]+#${1}$ENV{CACHE_BUST_VERSION}#g' \
   index.html \
   device-monitor/index.html \
-  iwindrose/index.html
+  iwindrose/index.html \
+  televideo/index.html
 
 echo "Cache version set to $version"

@@ -1,0 +1,162 @@
+[
+  {
+    "id": "fast-access",
+    "icon": "zap",
+    "title": "Collegamento ultra veloce",
+    "title_en": "Ultra-fast connection",
+    "description": "Accesso istantaneo a tutte le pagine del Televideo RAI senza ritardi.",
+    "description_en": "Instant access to all RAI Televideo pages with no delays."
+  },
+  {
+    "id": "regions",
+    "icon": "map-pin",
+    "title": "Notizie regionali",
+    "title_en": "Regional news",
+    "description": "Notizie divise per ogni regione italiana più notizie nazionali, tutto in un'unica app.",
+    "description_en": "News sorted by Italian region plus national news, all in one app."
+  },
+  {
+    "id": "favorites",
+    "icon": "star",
+    "title": "Preferiti",
+    "title_en": "Favorites",
+    "description": "Aggiungi le pagine ai preferiti per una consultazione rapida in qualsiasi momento.",
+    "description_en": "Add pages to favorites for quick access at any time."
+  },
+  {
+    "id": "main-page",
+    "icon": "home",
+    "title": "Pagina principale",
+    "title_en": "Main page",
+    "description": "Imposta una pagina preferita come principale, visualizzata automaticamente all'apertura dell'app.",
+    "description_en": "Set a favorite page as your main page, shown automatically when the app opens."
+  },
+  {
+    "id": "share",
+    "icon": "share",
+    "title": "Condivisione",
+    "title_en": "Sharing",
+    "description": "Condividi le pagine del Televideo con amici e colleghi in un tap.",
+    "description_en": "Share Televideo pages with friends and colleagues in one tap."
+  },
+  {
+    "id": "subpages",
+    "icon": "layers",
+    "title": "Sotto-pagine intelligenti",
+    "title_en": "Smart subpages",
+    "description": "Pulsanti sotto-pagine cliccabili solo quando esistono effettivamente sotto-pagine disponibili.",
+    "description_en": "Subpage buttons are clickable only when subpages actually exist."
+  },
+  {
+    "id": "search-manual",
+    "icon": "hash",
+    "title": "Ricerca manuale",
+    "title_en": "Manual search",
+    "description": "Cerca qualsiasi numero di pagina del Televideo direttamente dall'app.",
+    "description_en": "Search any Televideo page number directly from the app."
+  },
+  {
+    "id": "search-text",
+    "icon": "search",
+    "title": "Ricerca notizie",
+    "title_en": "News search",
+    "description": "Cerca notizie specifiche nel database del Televideo con ricerca testuale.",
+    "description_en": "Search for specific news in the Televideo database with text search."
+  },
+  {
+    "id": "swipe",
+    "icon": "move",
+    "title": "Navigazione swipe",
+    "title_en": "Swipe navigation",
+    "description": "Scorri su/giù/destra/sinistra per navigare tra le pagine principali in modo intuitivo.",
+    "description_en": "Swipe up/down/left/right to intuitively navigate between main pages."
+  },
+  {
+    "id": "tap-nav",
+    "icon": "mouse-pointer",
+    "title": "Navigazione a tap",
+    "title_en": "Tap navigation",
+    "description": "Tocca il numero di pagina visualizzato a schermo per navigare direttamente grazie al riconoscimento AI.",
+    "description_en": "Tap the page number displayed on screen to navigate directly thanks to AI recognition."
+  },
+  {
+    "id": "history",
+    "icon": "clock",
+    "title": "Storico pagine",
+    "title_en": "Page history",
+    "description": "Cronologia delle pagine visualizzate con navigazione indietro intelligente.",
+    "description_en": "Browsing history with smart back navigation."
+  },
+  {
+    "id": "icloud",
+    "icon": "cloud",
+    "title": "Sync iCloud",
+    "title_en": "iCloud Sync",
+    "description": "Sincronizzazione automatica dei preferiti tra iPhone, iPad e Apple TV tramite iCloud.",
+    "description_en": "Automatic favorites sync across iPhone, iPad and Apple TV via iCloud."
+  },
+  {
+    "id": "rolling",
+    "icon": "refresh-cw",
+    "title": "Effetto rolling",
+    "title_en": "Rolling effect",
+    "description": "Scorrimento automatico delle sotto-pagine con effetto rolling, come su un vero televisore.",
+    "description_en": "Automatic subpage scrolling with rolling effect, just like on a real TV."
+  },
+  {
+    "id": "siri",
+    "icon": "mic",
+    "title": "Siri Shortcuts",
+    "title_en": "Siri Shortcuts",
+    "description": "Accedi alle tue pagine preferite usando Siri Shortcuts e automazioni.",
+    "description_en": "Access your favorite pages using Siri Shortcuts and automations."
+  },
+  {
+    "id": "zoom",
+    "icon": "zoom-in",
+    "title": "Zoom",
+    "title_en": "Zoom",
+    "description": "Ingrandisci le pagine per una lettura più confortevole su qualsiasi schermo.",
+    "description_en": "Zoom into pages for more comfortable reading on any screen."
+  },
+  {
+    "id": "widget-nc",
+    "icon": "bell",
+    "title": "Widget ULTIM'ORA",
+    "title_en": "Breaking news widget",
+    "description": "Widget nel centro notifiche con le ultime notizie del servizio ULTIM'ORA.",
+    "description_en": "Notification Center widget with the latest breaking news."
+  },
+  {
+    "id": "widget-home",
+    "icon": "grid",
+    "title": "Widget Home Screen",
+    "title_en": "Home Screen widget",
+    "description": "Widget per la Home Screen di iOS 14 con il servizio ULTIM'ORA sempre visibile.",
+    "description_en": "iOS 14 Home Screen widget with breaking news always visible."
+  },
+  {
+    "id": "notifications",
+    "icon": "bell",
+    "title": "Notifiche ULTIM'ORA",
+    "title_en": "Breaking news notifications",
+    "description": "Ricevi notifiche push quando arrivano notizie dell'ultima ora, con modalità silenziosa notturna.",
+    "description_en": "Receive push notifications when breaking news arrives, with silent night mode."
+  },
+  {
+    "id": "watch",
+    "icon": "watch",
+    "title": "Apple Watch",
+    "title_en": "Apple Watch",
+    "description": "App standalone per Apple Watch con le notizie dell'ultima ora e complications dedicate.",
+    "description_en": "Standalone Apple Watch app with breaking news and dedicated complications."
+  },
+  {
+    "id": "appletv",
+    "icon": "tv",
+    "title": "Apple TV",
+    "title_en": "Apple TV",
+    "description": "Accesso al Televideo RAI dal salotto con sincronizzazione preferiti e effetto rolling.",
+    "description_en": "Access RAI Televideo from your living room with favorites sync and rolling effect."
+  }
+]

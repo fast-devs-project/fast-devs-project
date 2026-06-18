@@ -14,7 +14,7 @@ should_bust=false
 
 while IFS= read -r file; do
   case "$file" in
-    index.html|css/*|js/*|data/*|images/*|site.webmanifest|device-monitor/*|iwindrose/*)
+    index.html|css/*|js/*|data/*|images/*|site.webmanifest|device-monitor/*|iwindrose/*|televideo/*)
       should_bust=true
       break
       ;;
@@ -26,6 +26,6 @@ if [[ "$should_bust" != true ]]; then
 fi
 
 scripts/cache-bust.sh
-git add -- index.html device-monitor/index.html iwindrose/index.html
+git add -- index.html device-monitor/index.html iwindrose/index.html televideo/index.html
 
 echo "[cache-bust] Updated and staged HTML cache references."

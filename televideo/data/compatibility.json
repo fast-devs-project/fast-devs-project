@@ -1,0 +1,30 @@
+[
+  {
+    "device": "iPhone",
+    "icon": "smartphone",
+    "requirement": "iOS 14.0+",
+    "description": "Ottimizzata per tutti gli iPhone compatibili con iOS 14 e successivi.",
+    "description_en": "Optimized for all iPhones compatible with iOS 14 and later."
+  },
+  {
+    "device": "iPad",
+    "icon": "tablet",
+    "requirement": "iPadOS 14.0+",
+    "description": "Supporto completo per iPad con layout ottimizzato per schermi grandi.",
+    "description_en": "Full iPad support with an optimized layout for large screens."
+  },
+  {
+    "device": "Apple Watch",
+    "icon": "watch",
+    "requirement": "watchOS 7.0+",
+    "description": "App standalone per Apple Watch con notizie dell'ultima ora direttamente al polso.",
+    "description_en": "Standalone Apple Watch app with breaking news right on your wrist."
+  },
+  {
+    "device": "Apple TV",
+    "icon": "tv",
+    "requirement": "tvOS 13.0+",
+    "description": "Accesso al Televideo RAI dal salotto, con sincronizzazione preferiti via iCloud.",
+    "description_en": "Access RAI Televideo from your living room, with favorites sync via iCloud."
+  }
+]
