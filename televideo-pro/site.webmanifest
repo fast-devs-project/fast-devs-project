@@ -1,7 +1,7 @@
 {
-  "name": "Device Monitor²",
-  "short_name": "Device Monitor²",
-  "description": "Monitor RAM, CPU, GPU, BATTERY, NETWORK and SONSORS on iPhone, iPad, Apple Watch and Mac.",
+  "name": "Televideo² Pro",
+  "short_name": "Televideo² Pro",
+  "description": "L'app che portava il servizio Televideo RAI su iPhone, iPad, Apple Watch e Apple TV.",
   "start_url": "./",
   "scope": "./",
   "display": "standalone",
