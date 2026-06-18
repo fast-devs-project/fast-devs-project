@@ -14,7 +14,7 @@ Static landing pages for by **Fast-Devs Project**.
 |---|---|---|
 | **Device Monitor²** | [`device-monitor/`](device-monitor/) | [App Store](https://apps.apple.com/it/app/device-monitor/id1522870046) |
 | **iWindrose²** | [`iwindrose/`](iwindrose/) | [App Store](https://apps.apple.com/it/app/iwindrose/id1403142267) |
-| **Televideo² Pro** | [`televideo-pro/`](televideo-pro/) | Rimossa |
+| **Televideo² Pro** | [`televideo-pro/`](televideo-pro/) | Removed |
 
 ---
 
@@ -50,7 +50,7 @@ The repo root is the main site. Each app landing page lives in its own subfolder
 │   ├── index.html
 │   ├── css/, js/, data/, images/
 │
-└── televideo-pro/          # Televideo² Pro landing page (removed)
+└── televideo-pro/          # Televideo² Pro landing page
     ├── index.html
     ├── css/, js/, data/, images/
 ```
