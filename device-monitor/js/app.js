@@ -202,10 +202,18 @@ async function renderGallery() {
             data-tab="${key}">${sec.label}</button>
   `).join('');
 
-  /* video preview iPhone — prima card della griglia iPhone */
-  const IPHONE_VIDEO = {
-    vimeoId: '538158588',
-    title: 'Device Monitor² – Video preview',
+  /* video preview — prima card delle rispettive griglie */
+  const SECTION_VIDEOS = {
+    iphone: {
+      id: 'vimeo-preview-iphone',
+      vimeoId: '538158588',
+      title: 'Device Monitor² – Video preview',
+    },
+    ipad: {
+      id: 'vimeo-preview-ipad',
+      vimeoId: '1202907030',
+      title: 'Device Monitor² – Video preview (iPad)',
+    },
   };
 
   /* build panels */
@@ -225,9 +233,10 @@ async function renderGallery() {
         <img data-lazy-src="${s.url}" alt="${s.alt}" loading="lazy" decoding="async">
       </div>`).join('');
 
-    /* Anteponi la card video solo al pannello iPhone */
-    const videoHtml = key === 'iphone' ? `
-      <div class="gallery-thumb is-video" style="--thumb-ratio:${ratio}" aria-label="${IPHONE_VIDEO.title}">
+    /* Anteponi la card video ai pannelli che hanno un video di anteprima */
+    const video = SECTION_VIDEOS[key];
+    const videoHtml = video ? `
+      <div class="gallery-thumb is-video" style="--thumb-ratio:${ratio}" aria-label="${video.title}">
         <div class="gallery-video-badge">
           <svg viewBox="0 0 24 24" fill="currentColor" stroke="none">
             <polygon points="5 3 19 12 5 21 5 3"/>
@@ -235,11 +244,11 @@ async function renderGallery() {
           Video
         </div>
         <div class="gallery-video-wrap">
-          <iframe id="vimeo-preview"
-                  src="https://player.vimeo.com/video/${IPHONE_VIDEO.vimeoId}?badge=0&autopause=0&player_id=vimeo-preview&app_id=58479&loop=1&muted=1"
+          <iframe id="${video.id}"
+                  src="https://player.vimeo.com/video/${video.vimeoId}?badge=0&autopause=0&player_id=${video.id}&app_id=58479&loop=1&muted=1"
                   allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media"
                   referrerpolicy="strict-origin-when-cross-origin"
-                  title="${IPHONE_VIDEO.title}"
+                  title="${video.title}"
                   loading="lazy"></iframe>
         </div>
       </div>` : '';
@@ -675,20 +684,20 @@ document.addEventListener('DOMContentLoaded', async () => {
    VIMEO — avvio on-scroll, loop
    ============================================================ */
 function initVimeoObserver() {
-  const iframe = document.getElementById('vimeo-preview');
-  if (!iframe) return;
+  const iframes = document.querySelectorAll('iframe[id^="vimeo-preview"]');
+  if (!iframes.length) return;
 
-  /* La Vimeo Player API è caricata in modo defer — aspettiamo che sia pronta */
-  function getPlayer() {
+  /* La Vimeo Player API è caricata in modo defer — un player per ciascun iframe */
+  const players = new WeakMap();
+  function getPlayer(iframe) {
     if (typeof Vimeo === 'undefined' || !Vimeo.Player) return null;
-    return new Vimeo.Player(iframe);
+    if (!players.has(iframe)) players.set(iframe, new Vimeo.Player(iframe));
+    return players.get(iframe);
   }
-
-  let player = null;
 
   const obs = new IntersectionObserver(entries => {
     entries.forEach(entry => {
-      if (!player) player = getPlayer();
+      const player = getPlayer(entry.target);
       if (!player) return;
 
       if (entry.isIntersecting) {
@@ -699,5 +708,5 @@ function initVimeoObserver() {
     });
   }, { threshold: 0.3 });
 
-  obs.observe(iframe);
+  iframes.forEach(iframe => obs.observe(iframe));
 }
