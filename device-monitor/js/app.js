@@ -206,8 +206,8 @@ async function renderGallery() {
   const SECTION_VIDEOS = {
     iphone: {
       id: 'vimeo-preview-iphone',
-      vimeoId: '538158588',
-      title: 'Device Monitor² – Video preview',
+      vimeoId: '1203173167',
+      title: 'Device Monitor 26.6.0 preview (iPhone 17 Pro Max)',
     },
     ipad: {
       id: 'vimeo-preview-ipad',
