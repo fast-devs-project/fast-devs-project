@@ -1,9 +1,36 @@
 [
   {
-    "version": "26.5.0",
-    "date": "17/06/2026",
+    "version": "26.6.0",
+    "platform": "macos",
+    "date": "20/06/2026",
     "badge": "Ultima versione",
     "badge_en": "Latest version",
+    "highlights": [
+      "Sezioni RAM, CPU e STORAGE migliorate con dati più ricchi e utili",
+      "Nuove sezioni DEVICE, GPU e DISPLAY pensate per Mac",
+      "Sezione BATTERIA ampliata con dettagli su alimentazione e accessori collegati",
+      "Pannello FOTOCAMERA ampliato con dettagli tecnici e supporto alle fotocamere esterne",
+      "Nuovo mini widget DEVICE per Mac",
+      "Compatibilità macOS migliorata e fix per problemi di avvio",
+      "Report PDF aggiornato con le nuove informazioni dei pannelli",
+      "Fix link supporto, localizzazioni, interfaccia e stabilità generale"
+    ],
+    "highlights_en": [
+      "Improved RAM, CPU and STORAGE sections with richer, more useful data",
+      "New DEVICE, GPU and DISPLAY sections designed for Mac",
+      "Expanded BATTERY section with details about power supply and connected accessories",
+      "Expanded CAMERA panel with technical details and support for external cameras",
+      "New DEVICE mini widget for Mac",
+      "Improved macOS compatibility and fixes for launch issues",
+      "Updated PDF report with the new panel information",
+      "Support link fixes, localization updates, interface improvements and overall stability"
+    ]
+  },
+  {
+    "version": "26.5.0",
+    "date": "10/06/2026",
+    "badge": null,
+    "badge_en": null,
     "highlights": [
       "Nuovo PiP Kit: RAM, CPU e NETWORK in Picture in Picture ovunque desideri",
       "Sezione NETWORK migliorata con nuove informazioni dettagliate su iOS e watchOS",
