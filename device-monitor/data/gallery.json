@@ -138,24 +138,28 @@
     "aspect": "landscape",
     "screenshots": [
       {
-        "url": "images/screenshots/mac/mac1.webp",
+        "url": "images/screenshots/mac/mac0.webp",
         "alt": "Device Monitor² su Mac – Schermata principale"
       },
       {
+        "url": "images/screenshots/mac/mac1.webp",
+        "alt": "Device Monitor² su Mac – Schermata 1"
+      },
+      {
         "url": "images/screenshots/mac/mac2.webp",
-        "alt": "Device Monitor² su Mac – Pannello RAM"
+        "alt": "Device Monitor² su Mac – Schermata 2"
       },
       {
         "url": "images/screenshots/mac/mac3.webp",
-        "alt": "Device Monitor² su Mac – Pannello CPU"
+        "alt": "Device Monitor² su Mac – Schermata 3"
       },
       {
         "url": "images/screenshots/mac/mac4.webp",
-        "alt": "Device Monitor² su Mac – Pannello Network"
+        "alt": "Device Monitor² su Mac – Schermata 4"
       },
       {
         "url": "images/screenshots/mac/mac5.webp",
-        "alt": "Device Monitor² su Mac – Dettagli dispositivo"
+        "alt": "Device Monitor² su Mac – Schermata 5"
       },
       {
         "url": "images/screenshots/mac/mac6.webp",
@@ -172,10 +176,6 @@
       {
         "url": "images/screenshots/mac/mac9.webp",
         "alt": "Device Monitor² su Mac – Schermata 9"
-      },
-      {
-        "url": "images/screenshots/mac/mac10.webp",
-        "alt": "Device Monitor² su Mac – Schermata 10"
       }
     ]
   }
