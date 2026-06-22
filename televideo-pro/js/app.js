@@ -163,7 +163,7 @@ async function renderGallery() {
       : key === 'watch' ? 'watch-grid' : '';
     const ratio = key === 'ipad' ? '2560/1919'
       : key === 'appletv' ? '16/9'
-      : key === 'watch' ? '1/1' : '499/1080';
+      : key === 'watch' ? '242/296' : '499/1080';
 
     const thumbs = sec.screenshots.map(s => `
       <div class="gallery-thumb" style="--thumb-ratio:${ratio}" role="button"

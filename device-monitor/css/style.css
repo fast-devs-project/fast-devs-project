@@ -866,7 +866,7 @@ body::before {
 }
 
 .gallery-grid.watch-grid {
-  grid-template-columns: repeat(auto-fill, minmax(155px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(min(100%, 242px), 242px));
 }
 
 .gallery-thumb {
@@ -892,7 +892,11 @@ body::before {
   transition: transform var(--transition);
 }
 
-/* Watch: immagini quadrate, non vanno ritagliate */
+/* Watch: preview dedicate, non vanno ritagliate */
+.watch-grid .gallery-thumb {
+  border-radius: 32px;
+}
+
 .watch-grid .gallery-thumb img {
   object-fit: contain;
   background: var(--bg-secondary);

@@ -689,7 +689,7 @@ body::before {
 }
 
 .gallery-grid.watch-grid {
-  grid-template-columns: repeat(auto-fill, minmax(155px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(min(100%, 242px), 242px));
 }
 
 .gallery-thumb {
@@ -713,6 +713,10 @@ body::before {
   height: 100%;
   object-fit: cover;
   transition: transform var(--transition);
+}
+
+.watch-grid .gallery-thumb {
+  border-radius: 32px;
 }
 
 .watch-grid .gallery-thumb img {
