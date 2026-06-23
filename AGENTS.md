@@ -1,5 +1,7 @@
 # AGENTS.md
 
+Read the home-level `~/.codex/AGENTS.md` every session start.
+
 This file provides guidance to Codex when working with code in this repository.
 
 ## Overview

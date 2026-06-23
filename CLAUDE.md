@@ -1,5 +1,7 @@
 # CLAUDE.md
 
+Read the home-level `~/.claude/CLAUDE.md` every session start.
+
 This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
 
 ## Overview
