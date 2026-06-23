@@ -1,10 +1,31 @@
 [
   {
     "version": "26.6.0",
-    "platform": "macos",
-    "date": "20/06/2026",
+    "date": "23/06/2026",
     "badge": "Ultima versione",
     "badge_en": "Latest version",
+    "highlights": [
+      "Nuove informazioni nelle sezioni DEVICE, RAM, STORAGE, CPU, GPU, BATTERIA, DISPLAY e CAMERA",
+      "Alcune nuove informazioni disponibili anche su Apple Watch, dove supportate",
+      "Report PDF aggiornato con le nuove informazioni",
+      "Aggiunto il supporto alla lingua vietnamita",
+      "Migliorate localizzazioni, interfaccia e stabilità generale"
+    ],
+    "highlights_en": [
+      "New information in the DEVICE, RAM, STORAGE, CPU, GPU, BATTERY, DISPLAY and CAMERA sections",
+      "Some new information is also available on Apple Watch where supported",
+      "Updated PDF report with the new information",
+      "Added support for the Vietnamese language",
+      "Improved localizations, interface and overall stability"
+    ],
+    "platform": "ios"
+  },
+  {
+    "version": "26.6.0",
+    "platform": "macos",
+    "date": "20/06/2026",
+    "badge": null,
+    "badge_en": null,
     "highlights": [
       "Sezioni RAM, CPU e STORAGE migliorate con dati più ricchi e utili",
       "Nuove sezioni DEVICE, GPU e DISPLAY pensate per Mac",
