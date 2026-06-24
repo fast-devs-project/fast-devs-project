@@ -24,8 +24,8 @@
     "version": "26.6.0",
     "platform": "macos",
     "date": "20/06/2026",
-    "badge": null,
-    "badge_en": null,
+    "badge": "Ultima versione",
+    "badge_en": "Latest version",
     "highlights": [
       "Sezioni RAM, CPU e STORAGE migliorate con dati più ricchi e utili",
       "Nuove sezioni DEVICE, GPU e DISPLAY pensate per Mac",
