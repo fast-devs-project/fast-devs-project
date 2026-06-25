@@ -71,7 +71,7 @@
   <link rel="preload" as="image" href="images/banner/it/landscape-banner-ad.webp">
 
   <!-- Custom styles -->
-  <link rel="stylesheet" href="css/style.css?v=20260625124841">
+  <link rel="stylesheet" href="css/style.css?v=20260625124853">
 </head>
 
 <body>
@@ -82,8 +82,8 @@
   <nav class="nav" role="navigation" aria-label="Navigazione principale">
     <div class="container nav-inner">
       <a href="#" class="nav-brand" data-i18n-aria="nav.aria.brand" aria-label="Device Monitor² – torna in cima">
-        <img src="images/icon/app-icon.webp" alt="" aria-hidden="true" width="30" height="30"
-          style="border-radius:8px;display:block;flex-shrink:0;">
+        <img src="images/icon/app-icon.webp" alt="" aria-hidden="true" width="30" height="30" loading="eager"
+          decoding="async" style="border-radius:8px;display:block;flex-shrink:0;">
         <span>Device Monitor²</span>
       </a>
 
@@ -219,7 +219,8 @@
               <a href="#" data-appstore target="_blank" rel="noopener" data-i18n-aria="hero.aria.download"
                 aria-label="Scarica Device Monitor² su App Store">
                 <img src="images/banner/it/landscape-banner-ad.webp" data-i18n-src="banner"
-                  alt="Device Monitor² – banner" width="853" height="480" fetchpriority="high">
+                  alt="Device Monitor² – banner" width="853" height="480" loading="eager" fetchpriority="high"
+                  decoding="async">
               </a>
             </div>
             <div class="hero-glow"></div>
@@ -568,7 +569,7 @@
         <polyline points="15 18 9 12 15 6" />
       </svg>
     </button>
-    <img class="lightbox-img" src="" alt="" loading="eager">
+    <img class="lightbox-img" src="" alt="" loading="eager" decoding="async">
     <button class="lightbox-next" data-i18n-aria="lightbox.next" aria-label="Immagine successiva">
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"
         stroke-linejoin="round">
@@ -581,8 +582,8 @@
 
   <!-- Scripts -->
   <script src="https://player.vimeo.com/api/player.js" defer></script>
-  <script src="js/icons.js?v=20260625124841" defer></script>
-  <script src="js/app.js?v=20260625124841" defer></script>
+  <script src="js/icons.js?v=20260625124853" defer></script>
+  <script src="js/app.js?v=20260625124853" defer></script>
   <script
     type="text/javascript">(function (w, d) { var loader = function () { var s = d.createElement("script"), tag = d.getElementsByTagName("script")[0]; s.src = "https://cdn.iubenda.com/iubenda.js"; tag.parentNode.insertBefore(s, tag); }; if (w.addEventListener) { w.addEventListener("load", loader, false); } else if (w.attachEvent) { w.attachEvent("onload", loader); } else { w.onload = loader; } })(window, document);</script>
 

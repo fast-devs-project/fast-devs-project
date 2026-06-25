@@ -117,7 +117,7 @@ async function renderApps() {
     return `
       <div class="glass-card app-card reveal reveal-delay-${i + 1}" style="--app-gradient:${app.gradient}">
         <div class="app-card-header">
-          <img src="${app.icon}" alt="${app.name}" class="app-card-icon" loading="lazy">
+          <img src="${app.icon}" alt="${app.name}" class="app-card-icon" width="64" height="64" loading="lazy" decoding="async">
           <div>
             <div class="app-card-title">${app.name}</div>
             <div class="app-card-tagline">${tagline}</div>
@@ -220,7 +220,7 @@ async function renderBlog() {
     const localizedPost = getLocalizedPost(post);
     const excerpt = truncate(localizedPost.content, 100);
     const imgHtml = post.image
-      ? `<img src="${post.image}" alt="${localizedPost.title}" class="blog-card-img" loading="lazy">`
+      ? `<img src="${post.image}" alt="${localizedPost.title}" class="blog-card-img" loading="lazy" decoding="async">`
       : '';
     const cls = featured ? 'blog-card featured' : 'blog-card';
     return `

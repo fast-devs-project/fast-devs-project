@@ -140,7 +140,7 @@ async function renderKits() {
            style="--kit-gradient:${grad}">
         <div class="kit-header">
           <div class="kit-icon-img-wrap">
-            <img src="${k.image}" alt="${k.name} icon" class="kit-icon-img" loading="lazy">
+            <img src="${k.image}" alt="${k.name} icon" class="kit-icon-img" width="56" height="56" loading="lazy" decoding="async">
           </div>
           <div style="text-align:right; flex:1">
             <div class="kit-price">${k.price}</div>

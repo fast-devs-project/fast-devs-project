@@ -69,7 +69,7 @@
   <link rel="preload" as="image" href="images/banner/it/landscape-banner.webp">
 
   <!-- Custom styles -->
-  <link rel="stylesheet" href="css/style.css?v=20260625124841">
+  <link rel="stylesheet" href="css/style.css?v=20260625124853">
 </head>
 
 <body>
@@ -80,8 +80,8 @@
   <nav class="nav" role="navigation" aria-label="Navigazione principale">
     <div class="container nav-inner">
       <a href="#" class="nav-brand" data-i18n-aria="nav.aria.brand" aria-label="Televideo² Pro – torna in cima">
-        <img src="images/icon/app-icon.webp" alt="" aria-hidden="true" width="30" height="30"
-          style="border-radius:8px;display:block;flex-shrink:0;">
+        <img src="images/icon/app-icon.webp" alt="" aria-hidden="true" width="30" height="30" loading="eager"
+          decoding="async" style="border-radius:8px;display:block;flex-shrink:0;">
         <span>Televideo² Pro</span>
       </a>
 
@@ -205,7 +205,7 @@
           <div class="hero-screenshot-wrapper">
             <div class="hero-screenshot-frame">
               <img src="images/banner/it/landscape-banner.webp" data-i18n-src="banner" alt="Televideo² Pro – banner"
-                width="853" height="480" fetchpriority="high">
+                width="853" height="480" loading="eager" fetchpriority="high" decoding="async">
             </div>
             <div class="hero-glow"></div>
           </div>
@@ -492,7 +492,7 @@
         <polyline points="15 18 9 12 15 6" />
       </svg>
     </button>
-    <img class="lightbox-img" src="" alt="" loading="eager">
+    <img class="lightbox-img" src="" alt="" loading="eager" decoding="async">
     <button class="lightbox-next" data-i18n-aria="lightbox.next" aria-label="Immagine successiva">
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"
         stroke-linejoin="round">
@@ -505,8 +505,8 @@
 
   <!-- Scripts -->
   <script src="https://player.vimeo.com/api/player.js" defer></script>
-  <script src="js/icons.js?v=20260625124841" defer></script>
-  <script src="js/app.js?v=20260625124841" defer></script>
+  <script src="js/icons.js?v=20260625124853" defer></script>
+  <script src="js/app.js?v=20260625124853" defer></script>
 
 </body>
 
