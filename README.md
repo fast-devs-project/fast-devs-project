@@ -140,14 +140,14 @@ For a step-by-step release checklist, see **[RELEASE.md](RELEASE.md)**.
 
 ---
 
-## GitHub Pages
+## Hosting
 
-All sites are served from the same repo:
+All sites are served from the same repo via GitHub Pages, behind the custom domain **[fastdevsproject.com](https://fastdevsproject.com)** (managed through Cloudflare):
 
-- `https://<user>.github.io/<repo>/` — Main site
-- `https://<user>.github.io/<repo>/device-monitor/` — Device Monitor²
-- `https://<user>.github.io/<repo>/iwindrose/` — iWindrose²
-- `https://<user>.github.io/<repo>/televideo-pro/` — Televideo² Pro
+- `https://fastdevsproject.com/` — Main site
+- `https://fastdevsproject.com/device-monitor/` — Device Monitor²
+- `https://fastdevsproject.com/iwindrose/` — iWindrose²
+- `https://fastdevsproject.com/televideo-pro/` — Televideo² Pro
 
 ---
 
