@@ -351,7 +351,10 @@ async function renderChangelog() {
       ${featured.map((item, i) => buildCard(item, i + 1)).join('')}
     </div>`;
 
-  /* sezione espandibile per le versioni precedenti */
+  /* sezione espandibile per le versioni precedenti.
+     Le card vengono inserite nel DOM solo al primo click: renderizzarle subito
+     (anche nascoste) gonfia il DOM iniziale di ~100 nodi per versione, il che
+     allunga style/layout sul main thread e peggiora il TBT su mobile. */
   const expandHtml = rest.length ? `
     <div class="changelog-expand-wrap">
       <button class="changelog-expand-btn" aria-expanded="false" aria-controls="changelog-older">
@@ -363,9 +366,7 @@ async function renderChangelog() {
           </svg>
         </span>
       </button>
-      <div class="changelog-older" id="changelog-older" hidden>
-        ${rest.map((item, i) => buildCard(item, (i % 4) + 1)).join('')}
-      </div>
+      <div class="changelog-older" id="changelog-older" hidden></div>
     </div>` : '';
 
   list.innerHTML = featuredHtml + expandHtml;
@@ -374,6 +375,11 @@ async function renderChangelog() {
   const btn = list.querySelector('.changelog-expand-btn');
   btn?.addEventListener('click', () => {
     const older = document.getElementById('changelog-older');
+    /* render differito: popola le vecchie versioni solo alla prima apertura */
+    if (!older.dataset.rendered) {
+      older.innerHTML = rest.map((item, i) => buildCard(item, (i % 4) + 1)).join('');
+      older.dataset.rendered = 'true';
+    }
     const open = !older.hidden;
     older.hidden = open;
     btn.setAttribute('aria-expanded', String(!open));
@@ -651,13 +657,18 @@ document.addEventListener('DOMContentLoaded', async () => {
   });
 
 
-  /* Render dynamic sections in parallel */
+  /* Changelog is the heaviest JSON (~34 KB) and sits below the fold. Kick it
+     off now so it downloads in parallel, but don't block the critical render on
+     it — it self-registers its reveal elements when done. The hero version
+     badge it fills in updates as soon as the fetch resolves. */
+  renderChangelog();
+
+  /* Render the above-the-fold dynamic sections in parallel */
   await Promise.all([
     renderFeatures(),
     renderKits(),
     renderCompatibility(),
     renderGallery(),
-    renderChangelog(),
     renderPress(),
   ]);
 

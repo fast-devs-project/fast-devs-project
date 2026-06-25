@@ -286,9 +286,7 @@ async function renderChangelog() {
           </svg>
         </span>
       </button>
-      <div class="changelog-older" id="changelog-older" hidden>
-        ${rest.map((item, i) => buildCard(item, (i % 4) + 1)).join('')}
-      </div>
+      <div class="changelog-older" id="changelog-older" hidden></div>
     </div>` : '';
 
   list.innerHTML = featuredHtml + expandHtml;
@@ -296,6 +294,12 @@ async function renderChangelog() {
   const btn = list.querySelector('.changelog-expand-btn');
   btn?.addEventListener('click', () => {
     const older   = document.getElementById('changelog-older');
+    /* render differito: popola le vecchie versioni solo alla prima apertura,
+       così non gonfiano il DOM iniziale e non pesano sul main thread / TBT */
+    if (!older.dataset.rendered) {
+      older.innerHTML = rest.map((item, i) => buildCard(item, (i % 4) + 1)).join('');
+      older.dataset.rendered = 'true';
+    }
     const open    = !older.hidden;
     older.hidden  = open;
     btn.setAttribute('aria-expanded', String(!open));
@@ -552,12 +556,17 @@ document.addEventListener('DOMContentLoaded', async () => {
     if (e.key === 'ArrowRight')  _lbNav(+1);
   });
 
-  /* Render dynamic sections in parallel */
+  /* Changelog is the heaviest JSON (~15 KB) and sits below the fold. Kick it
+     off now so it downloads in parallel, but don't block the critical render on
+     it — it self-registers its reveal elements when done. The hero version
+     badge it fills in updates as soon as the fetch resolves. */
+  renderChangelog();
+
+  /* Render the above-the-fold dynamic sections in parallel */
   await Promise.all([
     renderFeatures(),
     renderCompatibility(),
     renderGallery(),
-    renderChangelog(),
     renderPress(),
   ]);
 
