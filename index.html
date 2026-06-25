@@ -50,16 +50,12 @@
   <meta name="theme-color" content="#080A0F">
   <meta name="color-scheme" content="dark">
 
-  <!-- Tailwind CSS -->
-  <script src="https://cdn.tailwindcss.com"></script>
-  <script>
-    tailwind.config = {
-      theme: { extend: { colors: { primary: '#080A0F', secondary: '#0D1117' } } }
-    }
-  </script>
+  <link rel="preload" as="image" href="images/banner/fdp-banner-800.webp"
+    imagesrcset="images/banner/fdp-banner-800.webp 800w, images/banner/fdp-banner-1200.webp 1200w, images/banner/fdp-banner-1600.webp 1600w, images/banner/fdp-banner.webp 2172w"
+    imagesizes="(max-width: 768px) 90vw, 1500px" type="image/webp" fetchpriority="high">
 
   <!-- Custom styles -->
-  <link rel="stylesheet" href="css/style.css?v=20260625124853">
+  <link rel="stylesheet" href="css/style.css?v=20260625131750">
 </head>
 
 <body>
@@ -112,10 +108,12 @@
 
     <div class="container">
       <div class="hero-content">
-        <img src="images/banner/fdp-banner.webp" alt="Fast-Devs Project" class="hero-banner reveal" width="2172"
-          height="724" loading="eager" fetchpriority="high" decoding="async">
+        <img src="images/banner/fdp-banner-800.webp"
+          srcset="images/banner/fdp-banner-800.webp 800w, images/banner/fdp-banner-1200.webp 1200w, images/banner/fdp-banner-1600.webp 1600w, images/banner/fdp-banner.webp 2172w"
+          sizes="(max-width: 768px) 90vw, 1500px" alt="Fast-Devs Project" class="hero-banner" width="1600"
+          height="534" loading="eager" fetchpriority="high" decoding="async">
 
-        <p class="hero-tagline reveal reveal-delay-2" data-i18n="hero.subtitle">
+        <p class="hero-tagline" data-i18n="hero.subtitle">
           Sviluppiamo app native per l'ecosistema Apple: iPhone, iPad, Apple Watch e Mac.
         </p>
       </div>
@@ -290,7 +288,7 @@
   </div>
 
   <!-- Scripts -->
-  <script src="js/app.js?v=20260625124853"></script>
+  <script src="js/app.js?v=20260625131750"></script>
 
 </body>
 

@@ -90,6 +90,8 @@ body::before {
 .section {
   padding-block: clamp(4rem, 8vw, 7rem);
   position: relative;
+  content-visibility: auto;
+  contain-intrinsic-size: 1px 900px;
 }
 
 .section-label {
@@ -366,7 +368,7 @@ body::before {
 }
 
 .hero-banner {
-  width: clamp(640px, 90vw, 1500px);
+  width: min(90vw, 1500px);
   height: auto;
   animation: hero-float 6s ease-in-out infinite;
 }

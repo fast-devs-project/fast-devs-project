@@ -21,7 +21,7 @@ Static landing pages for by **Fast-Devs Project**.
 ## Tech Stack
 
 - HTML5 + CSS3 + vanilla JavaScript
-- [Tailwind CSS](https://tailwindcss.com) via CDN
+- Custom CSS only, no runtime CSS framework
 - Fully static — no server, no build tools
 - Content managed through JSON files
 - Multi-language support (Italian / English)

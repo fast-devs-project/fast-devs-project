@@ -183,7 +183,7 @@ async function renderGallery() {
         </div>
         <div class="gallery-video-wrap">
           <iframe id="vimeo-preview"
-                  src="https://player.vimeo.com/video/${IPHONE_VIDEO.vimeoId}?badge=0&autopause=0&player_id=vimeo-preview&app_id=58479&loop=1&muted=1"
+                  data-lazy-src="https://player.vimeo.com/video/${IPHONE_VIDEO.vimeoId}?badge=0&autopause=0&player_id=vimeo-preview&app_id=58479&loop=1&muted=1"
                   allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media"
                   referrerpolicy="strict-origin-when-cross-origin"
                   title="${IPHONE_VIDEO.title}"
@@ -431,7 +431,7 @@ async function initI18n() {
   _currentLang = saved || (browser === 'it' ? 'it' : 'en');
 
   _strings = data;
-  applyLang(_currentLang);
+  applyLang(_currentLang, false);
 
   document.querySelectorAll('.lang-btn').forEach(btn => {
     btn.addEventListener('click', () => {
@@ -448,7 +448,7 @@ function t(key) {
   return (_strings[_currentLang]?.[key]) ?? (_strings['it']?.[key]) ?? key;
 }
 
-function applyLang(lang) {
+function applyLang(lang, rerenderDynamic = true) {
   const strings = _strings[lang] || _strings['it'];
   document.documentElement.lang = lang;
 
@@ -493,7 +493,7 @@ function applyLang(lang) {
     if (newSrc !== src) el.setAttribute('src', newSrc);
   });
 
-  if (_strings[lang]) {
+  if (rerenderDynamic && _strings[lang]) {
     renderFeatures();
     renderCompatibility();
     renderChangelog();
@@ -565,7 +565,6 @@ document.addEventListener('DOMContentLoaded', async () => {
     renderChangelog(),
   ]);
 
-  initVimeoObserver();
   observeReveal();
 
   if (location.hash) {

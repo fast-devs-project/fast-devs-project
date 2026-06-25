@@ -55,20 +55,13 @@
   <meta name="color-scheme" content="dark">
 
   <!-- Preconnect -->
-  <link rel="preconnect" href="https://cdn.tailwindcss.com" crossorigin>
-  <link rel="preconnect" href="https://player.vimeo.com" crossorigin>
   <link rel="dns-prefetch" href="https://cdn.iubenda.com">
 
-  <!-- Tailwind CSS -->
-  <script src="https://cdn.tailwindcss.com"></script>
-  <script>
-    tailwind.config = {
-      theme: { extend: { colors: { primary: '#080A0F', secondary: '#0D1117' } } }
-    }
-  </script>
+  <!-- LCP preload -->
+  <link rel="preload" as="image" href="images/banner/it/landscape-banner-ad.webp">
 
   <!-- Custom styles -->
-  <link rel="stylesheet" href="css/style.css?v=20260625124853">
+  <link rel="stylesheet" href="css/style.css?v=20260625131750">
 </head>
 
 <body>
@@ -125,23 +118,23 @@
 
         <!-- Text -->
         <div class="hero-text">
-          <div class="hero-badge reveal">
+          <div class="hero-badge">
             <span class="hero-badge-dot" aria-hidden="true"></span>
             <span id="hero-badge-text" data-i18n="hero.badge">Versione <span id="hero-version">…</span>
               disponibile</span>
           </div>
 
-          <h1 class="hero-title reveal reveal-delay-1">
+          <h1 class="hero-title">
             <span class="gradient-text">iWindrose²</span>
           </h1>
 
-          <p class="hero-subtitle reveal reveal-delay-2" data-i18n="hero.subtitle">
+          <p class="hero-subtitle" data-i18n="hero.subtitle">
             La tua enciclopedia portatile sulla rosa dei venti. Venti, meteo, bollettini, maree, scale, sole e luna —
             tutto a portata di mano per gli appassionati del mare.
           </p>
 
           <!-- Rating -->
-          <div class="reveal reveal-delay-2" style="display:flex;align-items:center;gap:8px;">
+          <div style="display:flex;align-items:center;gap:8px;">
             <svg width="16" height="16" viewBox="0 0 24 24" fill="#F59E0B" stroke="none" aria-hidden="true"
               style="flex-shrink:0;margin-right:1px;">
               <polygon
@@ -153,7 +146,7 @@
             </span>
           </div>
 
-          <div class="hero-actions reveal reveal-delay-3">
+          <div class="hero-actions">
             <a href="#features" class="btn-secondary">
               <span data-i18n="hero.cta.discover">Scopri le funzionalità</span>
               <span aria-hidden="true" style="font-size:1.1em;">↓</span>
@@ -161,7 +154,7 @@
           </div>
 
           <!-- Chips -->
-          <div class="hero-badges reveal reveal-delay-4" aria-label="Piattaforme supportate">
+          <div class="hero-badges" aria-label="Piattaforme supportate">
             <span class="hero-chip">
               <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
                 stroke-linecap="round" stroke-linejoin="round">
@@ -195,15 +188,12 @@
         <div class="hero-visual" aria-hidden="true">
           <div class="hero-screenshot-wrapper">
             <div class="hero-screenshot-frame">
-              <div style="padding:46.15% 0 0 0;position:relative;">
-                <iframe
-                  src="https://player.vimeo.com/video/349940943?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
-                  frameborder="0"
-                  allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media; web-share"
-                  referrerpolicy="strict-origin-when-cross-origin"
-                  style="position:absolute;top:0;left:0;width:100%;height:100%;"
-                  title="iWindRose 3.3.0 - Promo video"></iframe>
-              </div>
+              <a href="#" data-appstore target="_blank" rel="noopener" data-i18n-aria="hero.aria.download"
+                aria-label="Acquista iWindrose² su App Store">
+                <img src="images/banner/it/landscape-banner-ad.webp" data-i18n-src="banner"
+                  alt="iWindrose² – banner" width="1280" height="720" loading="eager" fetchpriority="high"
+                  decoding="async">
+              </a>
             </div>
             <div class="hero-glow"></div>
           </div>
@@ -528,11 +518,10 @@
 
 
   <!-- Scripts -->
-  <script src="https://player.vimeo.com/api/player.js" defer></script>
-  <script src="js/icons.js?v=20260625124853"></script>
-  <script src="js/app.js?v=20260625124853"></script>
+  <script src="js/icons.js?v=20260625131750" defer></script>
+  <script src="js/app.js?v=20260625131750" defer></script>
   <script
-    type="text/javascript">(function (w, d) { var loader = function () { var s = d.createElement("script"), tag = d.getElementsByTagName("script")[0]; s.src = "https://cdn.iubenda.com/iubenda.js"; tag.parentNode.insertBefore(s, tag); }; if (w.addEventListener) { w.addEventListener("load", loader, false); } else if (w.attachEvent) { w.attachEvent("onload", loader); } else { w.onload = loader; } })(window, document);</script>
+    type="text/javascript">(function (w, d) { var loader = function () { var s = d.createElement("script"), tag = d.getElementsByTagName("script")[0]; s.src = "https://cdn.iubenda.com/iubenda.js"; tag.parentNode.insertBefore(s, tag); }; var defer = function () { if ("requestIdleCallback" in w) { w.requestIdleCallback(loader, { timeout: 5000 }); } else { w.setTimeout(loader, 3500); } }; if (w.addEventListener) { w.addEventListener("load", defer, false); } else if (w.attachEvent) { w.attachEvent("onload", defer); } else { w.onload = defer; } })(window, document);</script>
 
 </body>
 

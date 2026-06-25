@@ -54,22 +54,11 @@
   <meta name="color-scheme" content="dark">
 
   <!-- Preconnect -->
-  <link rel="preconnect" href="https://cdn.tailwindcss.com" crossorigin>
-  <link rel="preconnect" href="https://player.vimeo.com" crossorigin>
-
-  <!-- Tailwind CSS -->
-  <script src="https://cdn.tailwindcss.com"></script>
-  <script>
-    tailwind.config = {
-      theme: { extend: { colors: { primary: '#080A0F', secondary: '#0D1117' } } }
-    }
-  </script>
-
   <!-- LCP preload -->
   <link rel="preload" as="image" href="images/banner/it/landscape-banner.webp">
 
   <!-- Custom styles -->
-  <link rel="stylesheet" href="css/style.css?v=20260625124853">
+  <link rel="stylesheet" href="css/style.css?v=20260625131750">
 </head>
 
 <body>
@@ -121,28 +110,28 @@
         <!-- Text -->
         <div class="hero-text">
           <div class="hero-badges-version">
-            <div class="hero-badge reveal">
+            <div class="hero-badge">
               <span class="hero-badge-dot" aria-hidden="true"></span>
               <span id="hero-badge-text" data-i18n="hero.badge">Versione iOS <span id="hero-version">…</span> rimossa</span>
             </div>
-            <div class="hero-badge reveal">
+            <div class="hero-badge">
               <span class="hero-badge-dot" aria-hidden="true"></span>
               <span id="hero-badge-tvos-text" data-i18n="hero.badge.tvos">Versione tvOS <span id="hero-version-tvos">…</span> rimossa</span>
             </div>
           </div>
 
-          <h1 class="hero-title reveal reveal-delay-1">
+          <h1 class="hero-title">
             <span class="gradient-text">Televideo² Pro</span>
           </h1>
 
-          <p class="hero-subtitle reveal reveal-delay-2" data-i18n="hero.subtitle">
+          <p class="hero-subtitle" data-i18n="hero.subtitle">
             L'app che portava il Televideo RAI su iPhone, iPad, Apple Watch e Apple TV. Accesso rapido a tutte le
             pagine, notizie
             regionali e nazionali, preferiti sincronizzati via iCloud.
           </p>
 
           <!-- Rating -->
-          <div class="reveal reveal-delay-2" style="display:flex;align-items:center;gap:8px;">
+          <div style="display:flex;align-items:center;gap:8px;">
             <svg width="16" height="16" viewBox="0 0 24 24" fill="#F59E0B" stroke="none" aria-hidden="true"
               style="flex-shrink:0;margin-right:1px;">
               <polygon
@@ -154,7 +143,7 @@
             </span>
           </div>
 
-          <div class="hero-actions reveal reveal-delay-3">
+          <div class="hero-actions">
             <a href="#features" class="btn-secondary">
               <span data-i18n="hero.cta.discover">Scopri le funzionalità</span>
               <span aria-hidden="true" style="font-size:1.1em;">↓</span>
@@ -162,7 +151,7 @@
           </div>
 
           <!-- Chips -->
-          <div class="hero-badges reveal reveal-delay-4" aria-label="Piattaforme supportate">
+          <div class="hero-badges" aria-label="Piattaforme supportate">
             <span class="hero-chip">
               <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
                 stroke-linecap="round" stroke-linejoin="round">
@@ -504,9 +493,8 @@
 
 
   <!-- Scripts -->
-  <script src="https://player.vimeo.com/api/player.js" defer></script>
-  <script src="js/icons.js?v=20260625124853" defer></script>
-  <script src="js/app.js?v=20260625124853" defer></script>
+  <script src="js/icons.js?v=20260625131750" defer></script>
+  <script src="js/app.js?v=20260625131750" defer></script>
 
 </body>
 

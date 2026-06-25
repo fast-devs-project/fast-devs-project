@@ -245,7 +245,7 @@ async function renderGallery() {
         </div>
         <div class="gallery-video-wrap">
           <iframe id="${video.id}"
-                  src="https://player.vimeo.com/video/${video.vimeoId}?badge=0&autopause=0&player_id=${video.id}&app_id=58479&loop=1&muted=1"
+                  data-lazy-src="https://player.vimeo.com/video/${video.vimeoId}?badge=0&autopause=0&player_id=${video.id}&app_id=58479&loop=1&muted=1"
                   allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media"
                   referrerpolicy="strict-origin-when-cross-origin"
                   title="${video.title}"
@@ -540,7 +540,7 @@ async function initI18n() {
   _currentLang = saved || (browser === 'it' ? 'it' : 'en');
 
   _strings = data;
-  applyLang(_currentLang);
+  applyLang(_currentLang, false);
 
   /* Bottoni switcher */
   document.querySelectorAll('.lang-btn').forEach(btn => {
@@ -558,7 +558,7 @@ function t(key) {
   return (_strings[_currentLang]?.[key]) ?? (_strings['it']?.[key]) ?? key;
 }
 
-function applyLang(lang) {
+function applyLang(lang, rerenderDynamic = true) {
   const strings = _strings[lang] || _strings['it'];
   document.documentElement.lang = lang;
 
@@ -609,7 +609,7 @@ function applyLang(lang) {
   });
 
   /* Ri-renderizza tutte le sezioni dinamiche con testi traducibili */
-  if (_strings[lang]) {
+  if (rerenderDynamic && _strings[lang]) {
     renderFeatures();
     renderKits();
     renderCompatibility();
@@ -660,9 +660,6 @@ document.addEventListener('DOMContentLoaded', async () => {
     renderChangelog(),
     renderPress(),
   ]);
-
-  /* Avvia il video Vimeo solo quando visibile, loop automatico */
-  initVimeoObserver();
 
   /* Final observe for static reveal elements */
   observeReveal();

@@ -6,7 +6,7 @@ This file provides guidance to Codex when working with code in this repository.
 
 ## Overview
 
-Static marketing site for **Fast-Devs Project** (independent Italian iOS developer Marco Ricca). Pure HTML5 + CSS3 + vanilla JS, no build step, no framework, no package manager. Tailwind is loaded via CDN. Served on GitHub Pages. All copy is bilingual (Italian default / English) and should be driven by JSON whenever the existing page does so.
+Static marketing site for **Fast-Devs Project** (independent Italian iOS developer Marco Ricca). Pure HTML5 + CSS3 + vanilla JS, no build step, no framework, no package manager, and no runtime CSS framework. Served on GitHub Pages. All copy is bilingual (Italian default / English) and should be driven by JSON whenever the existing page does so.
 
 The repo hosts **four independent sites** in one tree:
 

@@ -6,7 +6,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Overview
 
-Static marketing site for **Fast-Devs Project** (independent Italian iOS developer Marco Ricca). Pure HTML5 + CSS3 + vanilla JS, no build step, no framework, no package manager. Tailwind is loaded via CDN. Served on GitHub Pages. All copy is bilingual (Italian default / English) and driven by JSON, not hardcoded in markup.
+Static marketing site for **Fast-Devs Project** (independent Italian iOS developer Marco Ricca). Pure HTML5 + CSS3 + vanilla JS, no build step, no framework, no package manager, and no runtime CSS framework. Served on GitHub Pages. All copy is bilingual (Italian default / English) and driven by JSON, not hardcoded in markup.
 
 The repo hosts **four independent sites** in one tree:
 
