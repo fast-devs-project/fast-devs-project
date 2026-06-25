@@ -40,13 +40,14 @@
 html {
   scroll-behavior: smooth;
   font-size: 16px;
+  line-height: 1.5;
 }
 
 body {
   background-color: var(--bg-primary);
   color: var(--text-primary);
   font-family: -apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Segoe UI', system-ui, sans-serif;
-  line-height: 1.6;
+  line-height: inherit;
   overflow-x: hidden;
   -webkit-font-smoothing: antialiased;
 }
