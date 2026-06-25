@@ -46,7 +46,7 @@ for file in "${html_files[@]}"; do
   # Substitute on the index content (NOT the working tree) and stage the result.
   # Piping straight through avoids the trailing-newline loss of $(...).
   blob="$(git show ":$file" \
-    | CACHE_BUST_VERSION="$version" perl -0pe 's#((?:href|src)="(?:css/style\.css|js/icons\.js|js/app\.js)\?v=)[^"]+#${1}$ENV{CACHE_BUST_VERSION}#g' \
+    | CACHE_BUST_VERSION="$version" perl -0pe 's#((?:href|src)="(?:css/style\.css|js/icons\.js|js/app\.js|data/i18n\.json)\?v=)[^"]+#${1}$ENV{CACHE_BUST_VERSION}#g' \
     | git hash-object -w --stdin)"
 
   git update-index --cacheinfo "$mode" "$blob" "$file"
