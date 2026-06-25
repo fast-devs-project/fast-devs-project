@@ -9,9 +9,9 @@
   "theme_color": "#080A0F",
   "icons": [
     {
-      "src": "images/icon/fdp-icon.png",
+      "src": "images/icon/fdp-icon.webp",
       "sizes": "1254x1254",
-      "type": "image/png"
+      "type": "image/webp"
     }
   ]
 }

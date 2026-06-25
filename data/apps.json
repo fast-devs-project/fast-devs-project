@@ -6,7 +6,7 @@
     "tagline_en": "System activity insights",
     "description": "L'app gratuita e privacy-first per monitorare RAM, CPU, GPU, BATTERIA, NETWORK e SENSORI su iPhone, iPad, Apple Watch e Mac.",
     "description_en": "The free, privacy-first app for monitoring RAM, CPU, GPU, BATTERY, NETWORK and SENSORS on iPhone, iPad, Apple Watch and Mac.",
-    "icon": "./device-monitor/images/icon/app-icon.png",
+    "icon": "./device-monitor/images/icon/app-icon.webp",
     "platforms": [
       "iPhone",
       "iPad",
@@ -25,7 +25,7 @@
     "tagline_en": "The wind rose, always with you",
     "description": "L'app per gli appassionati del mare: rosa dei venti, previsioni meteo, bollettini marini, maree, scale e molto altro su iPhone, iPad e Apple Watch.",
     "description_en": "The app for sea enthusiasts: wind rose, weather forecasts, marine bulletins, tides, scales and much more on iPhone, iPad and Apple Watch.",
-    "icon": "./iwindrose/images/icon/app-icon.png",
+    "icon": "./iwindrose/images/icon/app-icon.webp",
     "platforms": [
       "iPhone",
       "iPad",
@@ -43,7 +43,7 @@
     "tagline_en": "RAI teletext, always with you",
     "description": "App storica per consultare le news condivise dal Televideo RAI su iPhone, iPod touch, iPad e Apple Watch.",
     "description_en": "A legacy app for reading news shared by RAI Televideo on iPhone, iPod touch, iPad and Apple Watch.",
-    "icon": "./televideo-pro/images/icon/app-icon.png",
+    "icon": "./televideo-pro/images/icon/app-icon.webp",
     "platforms": [
       "iPhone",
       "iPad",
@@ -61,7 +61,7 @@
     "tagline_en": "RAI teletext in a Pro edition",
     "description": "Versione Pro dell'app Televideo² per consultare le news condivise dal Televideo RAI anche su Apple TV.",
     "description_en": "The Pro edition of Televideo² for reading news shared by RAI Televideo, also on Apple TV.",
-    "icon": "./televideo-pro/images/icon/app-icon.png",
+    "icon": "./televideo-pro/images/icon/app-icon.webp",
     "platforms": [
       "iPhone",
       "iPad",
@@ -80,7 +80,7 @@
     "tagline_en": "Taxi lookup for Italian cities",
     "description": "Utility per iPhone e iPod touch pensata per trovare e contattare i taxi disponibili nelle varie città italiane.",
     "description_en": "A utility for iPhone and iPod touch designed to find and contact available taxis across Italian cities.",
-    "icon": "./images/apps/ricerca-taxi.png",
+    "icon": "./images/apps/ricerca-taxi.webp",
     "platforms": [
       "iPhone",
       "iPod touch"
@@ -96,7 +96,7 @@
     "tagline_en": "A quick guide to airsoft",
     "description": "Piccola app informativa dedicata al Softair: cos'è, dove e come è nato, e altre informazioni essenziali.",
     "description_en": "A small informational app about airsoft: what it is, where and how it started, and other essential details.",
-    "icon": "./images/apps/isoftair.png",
+    "icon": "./images/apps/isoftair.webp",
     "platforms": [
       "iPhone",
       "iPod touch"
@@ -112,7 +112,7 @@
     "tagline_en": "Check default WPA keys",
     "description": "App universale per calcolare istantaneamente la chiave WPA di default del proprio router ADSL e valutarne la sicurezza.",
     "description_en": "A universal app for instantly calculating a router's default WPA key and checking whether it is secure.",
-    "icon": "./images/apps/modem-pass.png",
+    "icon": "./images/apps/modem-pass.webp",
     "platforms": [
       "iPhone",
       "iPad"
