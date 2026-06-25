@@ -72,6 +72,10 @@ ul {
   list-style: none;
 }
 
+[hidden] {
+  display: none !important;
+}
+
 /* ——— Noise texture overlay ——— */
 body::before {
   content: '';

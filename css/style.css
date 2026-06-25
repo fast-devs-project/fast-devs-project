@@ -69,6 +69,10 @@ ul {
   list-style: none;
 }
 
+[hidden] {
+  display: none !important;
+}
+
 body::before {
   content: '';
   position: fixed;
