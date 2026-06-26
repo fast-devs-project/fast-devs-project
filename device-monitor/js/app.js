@@ -687,34 +687,3 @@ document.addEventListener('DOMContentLoaded', async () => {
     }
   }
 });
-
-/* ============================================================
-   VIMEO — avvio on-scroll, loop
-   ============================================================ */
-function initVimeoObserver() {
-  const iframes = document.querySelectorAll('iframe[id^="vimeo-preview"]');
-  if (!iframes.length) return;
-
-  /* La Vimeo Player API è caricata in modo defer — un player per ciascun iframe */
-  const players = new WeakMap();
-  function getPlayer(iframe) {
-    if (typeof Vimeo === 'undefined' || !Vimeo.Player) return null;
-    if (!players.has(iframe)) players.set(iframe, new Vimeo.Player(iframe));
-    return players.get(iframe);
-  }
-
-  const obs = new IntersectionObserver(entries => {
-    entries.forEach(entry => {
-      const player = getPlayer(entry.target);
-      if (!player) return;
-
-      if (entry.isIntersecting) {
-        player.play().catch(() => { });
-      } else {
-        player.pause().catch(() => { });
-      }
-    });
-  }, { threshold: 0.3 });
-
-  iframes.forEach(iframe => obs.observe(iframe));
-}

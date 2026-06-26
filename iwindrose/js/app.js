@@ -650,33 +650,3 @@ document.addEventListener('DOMContentLoaded', async () => {
     }
   }
 });
-
-/* ============================================================
-   VIMEO — avvio on-scroll, loop
-   ============================================================ */
-function initVimeoObserver() {
-  const iframe = document.getElementById('vimeo-preview');
-  if (!iframe) return;
-
-  function getPlayer() {
-    if (typeof Vimeo === 'undefined' || !Vimeo.Player) return null;
-    return new Vimeo.Player(iframe);
-  }
-
-  let player = null;
-
-  const obs = new IntersectionObserver(entries => {
-    entries.forEach(entry => {
-      if (!player) player = getPlayer();
-      if (!player) return;
-
-      if (entry.isIntersecting) {
-        player.play().catch(() => { });
-      } else {
-        player.pause().catch(() => { });
-      }
-    });
-  }, { threshold: 0.3 });
-
-  obs.observe(iframe);
-}
