@@ -53,10 +53,18 @@ CSS/JS/JSON are loaded with a `?v=` query string for GitHub Pages cache invalida
 
 - `js/app.js` reads its own `?v=` value from its script tag and forwards it to every JSON `fetch()`.
 - `scripts/cache-bust.sh` rewrites `?v=` values in the four `index.html` files.
-- A local `pre-commit` hook can run `cache-bust.sh` automatically when a commit touches site files, then re-stage the HTML:
+- A local `pre-commit` hook bumps the `?v=` values automatically when a commit touches site files. All logic lives in the tracked `scripts/pre-commit-cache-bust.sh`; the installed `.git/hooks/pre-commit` is a thin wrapper that `exec`s it (edit the script, not the wrapper). On a fresh clone, install the wrapper once:
 
 ```bash
-cp scripts/pre-commit-cache-bust.sh .git/hooks/pre-commit && chmod +x .git/hooks/pre-commit
+cat > .git/hooks/pre-commit <<'EOF'
+#!/usr/bin/env zsh
+set -euo pipefail
+repo_root="$(git rev-parse --show-toplevel)"
+tracked_hook="$repo_root/scripts/pre-commit-cache-bust.sh"
+[[ -f "$tracked_hook" ]] || exit 0
+exec "$tracked_hook"
+EOF
+chmod +x .git/hooks/pre-commit
 ```
 
 Do not hand-edit `?v=` values; let the script/hook manage them.

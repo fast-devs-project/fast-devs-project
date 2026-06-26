@@ -48,11 +48,19 @@ HTML files contain layout and empty containers with `id`s. `js/app.js` fetches J
 CSS/JS/JSON are loaded with a `?v=` query string for GitHub Pages cache invalidation. The flow:
 - `js/app.js` reads its own `?v=` value from its script tag and forwards it to every `fetch()` of JSON, so bumping the JS version refreshes content too.
 - `scripts/cache-bust.sh` rewrites the `?v=` values in the four `index.html` files (default: UTC timestamp; `commit` = git short hash; or a custom value).
-- A **local `pre-commit` hook** runs `cache-bust.sh` automatically when a commit touches site files, then re-stages the HTML. The hook is not tracked in `.git/hooks` by default — install it from the tracked copy:
+- A **local `pre-commit` hook** bumps the `?v=` values automatically when a commit touches site files, re-staging only those references (partial commits keep working). All logic lives in the tracked `scripts/pre-commit-cache-bust.sh`; the installed `.git/hooks/pre-commit` is a thin wrapper that `exec`s the tracked script, so editing the script needs no reinstall. On a fresh clone, install the wrapper once:
   ```bash
-  cp scripts/pre-commit-cache-bust.sh .git/hooks/pre-commit && chmod +x .git/hooks/pre-commit
+  cat > .git/hooks/pre-commit <<'EOF'
+  #!/usr/bin/env zsh
+  set -euo pipefail
+  repo_root="$(git rev-parse --show-toplevel)"
+  tracked_hook="$repo_root/scripts/pre-commit-cache-bust.sh"
+  [[ -f "$tracked_hook" ]] || exit 0
+  exec "$tracked_hook"
+  EOF
+  chmod +x .git/hooks/pre-commit
   ```
-- Do not hand-edit `?v=` values; let the script/hook manage them.
+- Do not hand-edit `?v=` values, and never put logic in the wrapper — edit `scripts/pre-commit-cache-bust.sh` instead.
 
 ### App landing page sites (device-monitor / iwindrose / televideo-pro)
 Same engine as the root, with app-specific config constants at the top of `app.js` (`APP_STORE_URL`, `SUPPORT_URL`, plus `FEATURE_COLORS` / `COMPAT_GRADIENTS` maps that color feature icons and compatibility badges by key). These sites split content across several JSON files: `changelog.json`, `features.json`, `compatibility.json`, `gallery.json`, `press.json`, `i18n.json` (+ `kits.json` for Device Monitor²). The `televideo-pro/` landing is for a removed app — it has no App Store CTA and shows "removed" badges instead.

@@ -85,56 +85,25 @@ All text and data live in the JSON files inside each app's `data/` folder. You c
 
 CSS, JS, and JSON content use a `?v=` cache-busting value so GitHub Pages and browsers load fresh files after a release.
 
-This working copy has a local `pre-commit` hook installed. When a commit includes site files, it runs:
+This working copy has a local `pre-commit` hook installed. When a commit includes site files, it bumps the `?v=` values in the four `index.html` files and re-stages only those `?v=` references, so partial commits keep working and the working tree stays clean after the commit.
+
+**How it's wired:** all the logic lives in the tracked script [`scripts/pre-commit-cache-bust.sh`](scripts/pre-commit-cache-bust.sh). The installed hook at `.git/hooks/pre-commit` is a thin wrapper that just delegates to it — so editing the tracked script takes effect immediately, with no reinstall.
+
+If you clone the repo on another machine, install the wrapper once:
 
 ```bash
-scripts/cache-bust.sh
-```
-
-The hook updates the `?v=` values in the HTML files and stages them automatically.
-
-Git expects this hook at `.git/hooks/pre-commit`. If you clone the repo on another machine, install the tracked hook again with:
-
-```bash
-cp scripts/pre-commit-cache-bust.sh .git/hooks/pre-commit
+cat > .git/hooks/pre-commit <<'EOF'
+#!/usr/bin/env zsh
+set -euo pipefail
+repo_root="$(git rev-parse --show-toplevel)"
+tracked_hook="$repo_root/scripts/pre-commit-cache-bust.sh"
+[[ -f "$tracked_hook" ]] || exit 0
+exec "$tracked_hook"
+EOF
 chmod +x .git/hooks/pre-commit
 ```
 
-Or paste this code into `.git/hooks/pre-commit`:
-
-```bash
-#!/usr/bin/env zsh
-set -euo pipefail
-
-repo_root="$(git rev-parse --show-toplevel)"
-cd "$repo_root"
-
-staged_files="$(git diff --cached --name-only)"
-
-if [[ -z "$staged_files" ]]; then
-  exit 0
-fi
-
-should_bust=false
-
-while IFS= read -r file; do
-  case "$file" in
-    index.html|css/*|js/*|data/*|images/*|site.webmanifest|device-monitor/*|iwindrose/*|televideo-pro/*)
-      should_bust=true
-      break
-      ;;
-  esac
-done <<< "$staged_files"
-
-if [[ "$should_bust" != true ]]; then
-  exit 0
-fi
-
-scripts/cache-bust.sh
-git add -- index.html device-monitor/index.html iwindrose/index.html televideo-pro/index.html
-
-echo "[cache-bust] Updated and staged HTML cache references."
-```
+> The wrapper has no business logic — never edit it. Change `scripts/pre-commit-cache-bust.sh` instead.
 
 For a step-by-step release checklist, see **[RELEASE.md](RELEASE.md)**.
 

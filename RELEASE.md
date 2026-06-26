@@ -6,48 +6,23 @@ Follow these steps every time you publish an app update.
 
 ## Pre-commit hook
 
-Before preparing a release, make sure the local Git hook exists at `.git/hooks/pre-commit`:
+The cache-busting logic lives in the tracked script [`scripts/pre-commit-cache-bust.sh`](scripts/pre-commit-cache-bust.sh). The installed hook at `.git/hooks/pre-commit` is just a thin wrapper that delegates to it, so editing the tracked script takes effect with no reinstall.
+
+Before preparing a release, make sure the wrapper exists. On a fresh clone, install it once:
 
 ```bash
-cp scripts/pre-commit-cache-bust.sh .git/hooks/pre-commit
+cat > .git/hooks/pre-commit <<'EOF'
+#!/usr/bin/env zsh
+set -euo pipefail
+repo_root="$(git rev-parse --show-toplevel)"
+tracked_hook="$repo_root/scripts/pre-commit-cache-bust.sh"
+[[ -f "$tracked_hook" ]] || exit 0
+exec "$tracked_hook"
+EOF
 chmod +x .git/hooks/pre-commit
 ```
 
-If you need to recreate it manually, use this code:
-
-```bash
-#!/usr/bin/env zsh
-set -euo pipefail
-
-repo_root="$(git rev-parse --show-toplevel)"
-cd "$repo_root"
-
-staged_files="$(git diff --cached --name-only)"
-
-if [[ -z "$staged_files" ]]; then
-  exit 0
-fi
-
-should_bust=false
-
-while IFS= read -r file; do
-  case "$file" in
-    index.html|css/*|js/*|data/*|images/*|site.webmanifest|device-monitor/*|iwindrose/*)
-      should_bust=true
-      break
-      ;;
-  esac
-done <<< "$staged_files"
-
-if [[ "$should_bust" != true ]]; then
-  exit 0
-fi
-
-scripts/cache-bust.sh
-git add -- index.html device-monitor/index.html iwindrose/index.html
-
-echo "[cache-bust] Updated and staged HTML cache references."
-```
+> Never put logic in the wrapper — edit `scripts/pre-commit-cache-bust.sh` instead.
 
 ---
 
