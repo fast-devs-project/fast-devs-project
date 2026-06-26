@@ -12,7 +12,7 @@ The repo hosts **four independent sites** in one tree:
 
 - Root (`index.html`, `css/`, `js/`, `data/`) — the Fast-Devs Project home page.
 - `device-monitor/` — landing page for the Device Monitor² app.
-- `iwindrose/` — landing page for the iWindrose² app.
+- `iwindrose/` — landing page for the iWindRose² app.
 - `televideo-pro/` — landing page for the Televideo² Pro app (removed from App Store).
 
 Each subfolder is a self-contained mini-site with its own `index.html`, `css/`, `js/app.js`, `js/icons.js`, `data/`, and `images/`. They share conventions but **not code** — there is no shared bundle; the same patterns are duplicated per site.
@@ -28,7 +28,7 @@ pkill -f "python3 -m http.server 8099"          # stop
 
 - `http://localhost:8099/` — main site
 - `http://localhost:8099/device-monitor/` — Device Monitor²
-- `http://localhost:8099/iwindrose/` — iWindrose²
+- `http://localhost:8099/iwindrose/` — iWindRose²
 - `http://localhost:8099/televideo-pro/` — Televideo² Pro
 
 There are no tests, no linter, and no build. "Testing" means loading the pages in a browser.

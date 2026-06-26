@@ -107,7 +107,7 @@ The version shown in the hero badge **updates automatically** from the first cha
 
 ---
 
-## iWindrose²
+## iWindRose²
 
 ### 1. Update the website cache version
 
@@ -151,7 +151,7 @@ Remember to set `"badge": null` on the previous version.
 | Device compatibility | `iwindrose/data/compatibility.json` |
 | New press mention / video | `iwindrose/data/press.json` |
 
-### Quick Checklist — iWindrose²
+### Quick Checklist — iWindRose²
 
 - [ ] Pre-commit hook ran, or `scripts/cache-bust.sh` was run manually
 - [ ] New entry added at the top of `changelog.json`
@@ -176,7 +176,7 @@ pkill -f "python3 -m http.server 8099"
 
 ```bash
 git add .
-git commit -m "Release Device Monitor² vX.X.X / iWindrose² vX.X.X"
+git commit -m "Release Device Monitor² vX.X.X / iWindRose² vX.X.X"
 git push
 ```
 

@@ -13,7 +13,7 @@ Static landing pages for by **Fast-Devs Project**.
 | App | Folder | App Store |
 |---|---|---|
 | **Device Monitor²** | [`device-monitor/`](device-monitor/) | [App Store](https://apps.apple.com/it/app/device-monitor/id1522870046) |
-| **iWindrose²** | [`iwindrose/`](iwindrose/) | [App Store](https://apps.apple.com/it/app/iwindrose/id1403142267) |
+| **iWindRose²** | [`iwindrose/`](iwindrose/) | [App Store](https://apps.apple.com/it/app/iwindrose/id1403142267) |
 | **Televideo² Pro** | [`televideo-pro/`](televideo-pro/) | Removed |
 
 ---
@@ -46,7 +46,7 @@ The repo root is the main site. Each app landing page lives in its own subfolder
 │   ├── index.html
 │   ├── css/, js/, data/, images/
 │
-├── iwindrose/              # iWindrose² landing page
+├── iwindrose/              # iWindRose² landing page
 │   ├── index.html
 │   ├── css/, js/, data/, images/
 │
@@ -72,7 +72,7 @@ pkill -f "python3 -m http.server 8099"
 Then open:
 - `http://localhost:8099/` — Fast-Devs Project (main site)
 - `http://localhost:8099/device-monitor/` — Device Monitor²
-- `http://localhost:8099/iwindrose/` — iWindrose²
+- `http://localhost:8099/iwindrose/` — iWindRose²
 - `http://localhost:8099/televideo-pro/` — Televideo² Pro
 
 > ⚠️ Opening `index.html` directly via double-click (`file://`) won't work: JSON files are blocked by the browser due to CORS.
@@ -146,7 +146,7 @@ All sites are served from the same repo via GitHub Pages, behind the custom doma
 
 - `https://fastdevsproject.com/` — Main site
 - `https://fastdevsproject.com/device-monitor/` — Device Monitor²
-- `https://fastdevsproject.com/iwindrose/` — iWindrose²
+- `https://fastdevsproject.com/iwindrose/` — iWindRose²
 - `https://fastdevsproject.com/televideo-pro/` — Televideo² Pro
 
 ---

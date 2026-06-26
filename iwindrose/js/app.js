@@ -1,10 +1,10 @@
 /* ============================================================
-   iWindrose² — Main JS
+   iWindRose² — Main JS
    ============================================================ */
 
 /* ——— CONFIG ——— */
 const APP_STORE_URL = 'https://itunes.apple.com/app/iwindrose/id1403142267';
-const SUPPORT_URL   = '../#contact';
+const SUPPORT_URL = '../#contact';
 const CACHE_VER = new URL(document.currentScript?.src || window.location.href).searchParams.get('v') || 'dev';
 const IWINDROSE_HERO_VIDEO = {
   vimeoId: '349940943',
@@ -17,23 +17,23 @@ const IWINDROSE_GALLERY_VIDEO = {
 
 /* ——— Feature icon colors ——— */
 const FEATURE_COLORS = {
-  windrose:      { bg: 'rgba(232,106,51,0.12)',  color: '#E86A33' },
-  weather:       { bg: 'rgba(59,130,246,0.12)',   color: '#3B82F6' },
-  'sun-moon':    { bg: 'rgba(245,158,11,0.12)',   color: '#F59E0B' },
-  tides:         { bg: 'rgba(6,182,212,0.12)',    color: '#06B6D4' },
-  meteomar:      { bg: 'rgba(16,185,129,0.12)',   color: '#10B981' },
-  lamma:         { bg: 'rgba(139,92,246,0.12)',   color: '#8B5CF6' },
-  scales:        { bg: 'rgba(236,72,153,0.12)',   color: '#EC4899' },
-  position:      { bg: 'rgba(232,106,51,0.12)',   color: '#E86A33' },
-  widgets:       { bg: 'rgba(245,158,11,0.12)',   color: '#F59E0B' },
-  shortcuts:     { bg: 'rgba(236,72,153,0.12)',   color: '#EC4899' },
-  notifications: { bg: 'rgba(139,92,246,0.12)',   color: '#8B5CF6' },
-  export:        { bg: 'rgba(6,182,212,0.12)',    color: '#06B6D4' },
+  windrose: { bg: 'rgba(232,106,51,0.12)', color: '#E86A33' },
+  weather: { bg: 'rgba(59,130,246,0.12)', color: '#3B82F6' },
+  'sun-moon': { bg: 'rgba(245,158,11,0.12)', color: '#F59E0B' },
+  tides: { bg: 'rgba(6,182,212,0.12)', color: '#06B6D4' },
+  meteomar: { bg: 'rgba(16,185,129,0.12)', color: '#10B981' },
+  lamma: { bg: 'rgba(139,92,246,0.12)', color: '#8B5CF6' },
+  scales: { bg: 'rgba(236,72,153,0.12)', color: '#EC4899' },
+  position: { bg: 'rgba(232,106,51,0.12)', color: '#E86A33' },
+  widgets: { bg: 'rgba(245,158,11,0.12)', color: '#F59E0B' },
+  shortcuts: { bg: 'rgba(236,72,153,0.12)', color: '#EC4899' },
+  notifications: { bg: 'rgba(139,92,246,0.12)', color: '#8B5CF6' },
+  export: { bg: 'rgba(6,182,212,0.12)', color: '#06B6D4' },
 };
 
 const COMPAT_GRADIENTS = {
-  iPhone:        'linear-gradient(135deg,#E86A33,#F59E0B)',
-  iPad:          'linear-gradient(135deg,#8B5CF6,#E86A33)',
+  iPhone: 'linear-gradient(135deg,#E86A33,#F59E0B)',
+  iPad: 'linear-gradient(135deg,#8B5CF6,#E86A33)',
   'Apple Watch': 'linear-gradient(135deg,#EC4899,#8B5CF6)',
 };
 
@@ -47,7 +47,7 @@ async function loadJSON(path) {
     if (!res.ok) throw new Error(res.status);
     return res.json();
   } catch {
-    console.warn(`[iWindrose] Could not fetch ${path} – check CORS or use a static server.`);
+    console.warn(`[iWindRose] Could not fetch ${path} – check CORS or use a static server.`);
     return null;
   }
 }
@@ -158,9 +158,9 @@ async function renderFeatures() {
 
   const isEn = _currentLang === 'en';
   grid.innerHTML = data.map((f, i) => {
-    const c     = FEATURE_COLORS[f.id] || { bg: 'rgba(232,106,51,0.12)', color: '#E86A33' };
+    const c = FEATURE_COLORS[f.id] || { bg: 'rgba(232,106,51,0.12)', color: '#E86A33' };
     const title = (isEn && f.title_en) ? f.title_en : f.title;
-    const desc  = (isEn && f.description_en) ? f.description_en : f.description;
+    const desc = (isEn && f.description_en) ? f.description_en : f.description;
     return `
       <div class="glass-card feature-card reveal reveal-delay-${(i % 5) + 1}">
         <div class="feature-icon" style="background:${c.bg}; color:${c.color}">
@@ -206,7 +206,7 @@ async function renderCompatibility() {
 async function renderGallery() {
   const data = await loadJSON('data/gallery.json');
   const container = document.getElementById('gallery-container');
-  const tabsEl    = document.getElementById('gallery-tabs');
+  const tabsEl = document.getElementById('gallery-tabs');
   if (!container || !data) return;
 
   const sections = Object.entries(data);
@@ -220,9 +220,9 @@ async function renderGallery() {
   /* build panels */
   container.innerHTML = sections.map(([key, sec], i) => {
     const gridClass = key === 'ipad' ? 'ipad-grid'
-                    : key === 'watch' ? 'watch-grid' : '';
-    const ratio = key === 'ipad'  ? '2560/1919'
-                : key === 'watch' ? '242/296' : '499/1080';
+      : key === 'watch' ? 'watch-grid' : '';
+    const ratio = key === 'ipad' ? '2560/1919'
+      : key === 'watch' ? '242/296' : '499/1080';
 
     const thumbs = sec.screenshots.map(s => `
       <div class="gallery-thumb" style="--thumb-ratio:${ratio}" role="button"
@@ -309,9 +309,9 @@ async function renderChangelog() {
   const isEn = _currentLang === 'en';
 
   function buildCard(item, delay) {
-    const badge      = (isEn && item.badge_en !== undefined) ? item.badge_en : item.badge;
+    const badge = (isEn && item.badge_en !== undefined) ? item.badge_en : item.badge;
     const highlights = (isEn && item.highlights_en) ? item.highlights_en : item.highlights;
-    const badgeHtml  = badge
+    const badgeHtml = badge
       ? `<span class="changelog-badge">${badge}</span>`
       : '';
     const highlightsHtml = highlights.map(h =>
@@ -332,7 +332,7 @@ async function renderChangelog() {
   }
 
   const featured = data.slice(0, 2);
-  const rest     = data.slice(2);
+  const rest = data.slice(2);
 
   const featuredHtml = `
     <div class="changelog-featured reveal">
@@ -357,15 +357,15 @@ async function renderChangelog() {
 
   const btn = list.querySelector('.changelog-expand-btn');
   btn?.addEventListener('click', () => {
-    const older   = document.getElementById('changelog-older');
+    const older = document.getElementById('changelog-older');
     /* render differito: popola le vecchie versioni solo alla prima apertura,
        così non gonfiano il DOM iniziale e non pesano sul main thread / TBT */
     if (!older.dataset.rendered) {
       older.innerHTML = rest.map((item, i) => buildCard(item, (i % 4) + 1)).join('');
       older.dataset.rendered = 'true';
     }
-    const open    = !older.hidden;
-    older.hidden  = open;
+    const open = !older.hidden;
+    older.hidden = open;
     btn.setAttribute('aria-expanded', String(!open));
     btn.querySelector('.changelog-expand-label').textContent =
       open ? t('changelog.expand') : t('changelog.collapse');
@@ -390,8 +390,8 @@ async function renderPress() {
   const articleIcon = `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>`;
 
   grid.innerHTML = data.map((item, i) => {
-    const isVideo   = item.type === 'video';
-    const iconHtml  = isVideo ? youtubeIcon : articleIcon;
+    const isVideo = item.type === 'video';
+    const iconHtml = isVideo ? youtubeIcon : articleIcon;
     const iconStyle = isVideo
       ? 'background:rgba(255,0,0,0.1);color:#FF4444;'
       : 'background:rgba(232,106,51,0.1);color:var(--accent-orange);';
@@ -415,20 +415,20 @@ async function renderPress() {
    LIGHTBOX
    ============================================================ */
 let _lbThumbs = [];
-let _lbIdx    = 0;
+let _lbIdx = 0;
 
 function openLightbox(thumbs, idx) {
   _lbThumbs = thumbs;
-  _lbIdx    = idx;
+  _lbIdx = idx;
   _lbRender();
   document.getElementById('lightbox').classList.add('open');
   document.body.style.overflow = 'hidden';
 }
 
 function _lbRender() {
-  const lb  = document.getElementById('lightbox');
+  const lb = document.getElementById('lightbox');
   const img = lb.querySelector('.lightbox-img');
-  const th  = _lbThumbs[_lbIdx];
+  const th = _lbThumbs[_lbIdx];
   img.src = th.dataset.src;
   img.alt = th.dataset.alt;
 
@@ -452,7 +452,7 @@ function closeLightbox() {
   document.getElementById('lightbox').classList.remove('open');
   document.body.style.overflow = '';
   _lbThumbs = [];
-  _lbIdx    = 0;
+  _lbIdx = 0;
 }
 
 /* ============================================================
@@ -490,7 +490,7 @@ function observeReveal() {
 function initNav() {
   const nav = document.querySelector('.nav');
   const toggle = document.querySelector('.nav-mobile-toggle');
-  const links  = document.querySelector('.nav-links');
+  const links = document.querySelector('.nav-links');
 
   nav.classList.toggle('scrolled', window.scrollY > 30);
   window.addEventListener('scroll', () => {
@@ -616,9 +616,9 @@ document.addEventListener('DOMContentLoaded', async () => {
   lb?.querySelector('.lightbox-next')?.addEventListener('click', () => _lbNav(+1));
   lb?.addEventListener('click', e => { if (e.target === lb) closeLightbox(); });
   document.addEventListener('keydown', e => {
-    if (e.key === 'Escape')      closeLightbox();
-    if (e.key === 'ArrowLeft')   _lbNav(-1);
-    if (e.key === 'ArrowRight')  _lbNav(+1);
+    if (e.key === 'Escape') closeLightbox();
+    if (e.key === 'ArrowLeft') _lbNav(-1);
+    if (e.key === 'ArrowRight') _lbNav(+1);
   });
 
   /* Changelog is the heaviest JSON (~15 KB) and sits below the fold. Kick it
@@ -671,9 +671,9 @@ function initVimeoObserver() {
       if (!player) return;
 
       if (entry.isIntersecting) {
-        player.play().catch(() => {});
+        player.play().catch(() => { });
       } else {
-        player.pause().catch(() => {});
+        player.pause().catch(() => { });
       }
     });
   }, { threshold: 0.3 });
