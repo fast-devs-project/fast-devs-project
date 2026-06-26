@@ -6,6 +6,14 @@
 const APP_STORE_URL = 'https://itunes.apple.com/app/iwindrose/id1403142267';
 const SUPPORT_URL   = '../#contact';
 const CACHE_VER = new URL(document.currentScript?.src || window.location.href).searchParams.get('v') || 'dev';
+const IWINDROSE_HERO_VIDEO = {
+  vimeoId: '349940943',
+  title: 'iWindRose 3.3.0 - Promo video',
+};
+const IWINDROSE_GALLERY_VIDEO = {
+  vimeoId: '335268506',
+  title: 'iWindRose 3.0.0 preview (iPhone XS)',
+};
 
 /* ——— Feature icon colors ——— */
 const FEATURE_COLORS = {
@@ -45,12 +53,40 @@ async function loadJSON(path) {
 }
 
 /* ============================================================
+   VIMEO WARMUP — apre DNS + TLS verso Vimeo on-demand
+   ============================================================ */
+/* Nessun contatto con Vimeo al caricamento pagina. Scaldiamo la connessione
+   solo quando un video sta per servire (intenzione dell'utente sull'hero, o
+   iframe della gallery in arrivo), così il primo frame parte più in fretta
+   senza handshake a freddo. Il flag garantisce un solo preconnect per sessione. */
+let _vimeoWarmed = false;
+
+function warmupVimeo() {
+  if (_vimeoWarmed) return;
+  _vimeoWarmed = true;
+  [
+    'https://player.vimeo.com',
+    'https://i.vimeocdn.com',
+    'https://f.vimeocdn.com',
+  ].forEach(origin => {
+    const link = document.createElement('link');
+    link.rel = 'preconnect';
+    link.href = origin;
+    link.crossOrigin = 'anonymous';
+    document.head.appendChild(link);
+  });
+}
+
+/* ============================================================
    LAZY MEDIA
    ============================================================ */
 let lazyMediaObserver = null;
 
 function loadLazyMedia(el) {
   if (!el?.dataset.lazySrc) return;
+  /* Se sta per caricarsi un iframe Vimeo, apri prima le connessioni: le
+     risorse secondarie del player (i/f.vimeocdn) partiranno senza attesa. */
+  if (el.dataset.lazySrc.includes('vimeo.com')) warmupVimeo();
   el.src = el.dataset.lazySrc;
   el.removeAttribute('data-lazy-src');
   el.dataset.lazyLoaded = 'true';
@@ -76,6 +112,40 @@ function observeLazyMedia(scope = document) {
   }
 
   media.forEach(el => lazyMediaObserver.observe(el));
+}
+
+/* ============================================================
+   HERO VIDEO
+   ============================================================ */
+function initHeroVideo() {
+  const frame = document.getElementById('hero-video-frame');
+  const playButton = document.getElementById('hero-video-play');
+  if (!frame || !playButton) return;
+
+  /* Facade pattern: niente viene caricato da Vimeo finché non si preme play.
+     Per rendere reattivo quel primo click, scaldiamo la connessione verso Vimeo
+     (warmupVimeo, condivisa) solo quando l'utente mostra intenzione di guardare
+     (hover / focus / touch sul bottone), NON al caricamento della pagina. */
+  playButton.addEventListener('pointerenter', warmupVimeo, { once: true });
+  playButton.addEventListener('focus', warmupVimeo, { once: true });
+  playButton.addEventListener('touchstart', warmupVimeo, { once: true, passive: true });
+
+  playButton.addEventListener('click', () => {
+    if (frame.classList.contains('is-playing')) return;
+
+    const iframe = document.createElement('iframe');
+    iframe.className = 'hero-video-iframe';
+    iframe.src = `https://player.vimeo.com/video/${IWINDROSE_HERO_VIDEO.vimeoId}?badge=0&autopause=0&player_id=vimeo-hero&app_id=58479&autoplay=1`;
+    iframe.title = IWINDROSE_HERO_VIDEO.title;
+    iframe.loading = 'eager';
+    iframe.allow = 'autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media; web-share';
+    iframe.referrerPolicy = 'strict-origin-when-cross-origin';
+    iframe.allowFullscreen = true;
+
+    frame.classList.add('is-playing');
+    frame.appendChild(iframe);
+    playButton.remove();
+  });
 }
 
 /* ============================================================
@@ -147,12 +217,6 @@ async function renderGallery() {
             data-tab="${key}">${sec.label}</button>
   `).join('');
 
-  /* video preview iPhone */
-  const IPHONE_VIDEO = {
-    vimeoId: '335268506',
-    title: 'iWindRose 3.0.0 preview (iPhone XS)',
-  };
-
   /* build panels */
   container.innerHTML = sections.map(([key, sec], i) => {
     const gridClass = key === 'ipad' ? 'ipad-grid'
@@ -170,7 +234,7 @@ async function renderGallery() {
 
     /* Anteponi la card video solo al pannello iPhone */
     const videoHtml = key === 'iphone' ? `
-      <div class="gallery-thumb is-video" style="--thumb-ratio:${ratio}" aria-label="${IPHONE_VIDEO.title}">
+      <div class="gallery-thumb is-video" style="--thumb-ratio:${ratio}" aria-label="${IWINDROSE_GALLERY_VIDEO.title}">
         <div class="gallery-video-badge">
           <svg viewBox="0 0 24 24" fill="currentColor" stroke="none">
             <polygon points="5 3 19 12 5 21 5 3"/>
@@ -179,10 +243,10 @@ async function renderGallery() {
         </div>
         <div class="gallery-video-wrap">
           <iframe id="vimeo-preview"
-                  data-lazy-src="https://player.vimeo.com/video/${IPHONE_VIDEO.vimeoId}?badge=0&autopause=0&player_id=vimeo-preview&app_id=58479&loop=1&muted=1"
+                  data-lazy-src="https://player.vimeo.com/video/${IWINDROSE_GALLERY_VIDEO.vimeoId}?badge=0&autopause=0&player_id=vimeo-preview&app_id=58479&loop=1&muted=1"
                   allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media"
                   referrerpolicy="strict-origin-when-cross-origin"
-                  title="${IPHONE_VIDEO.title}"
+                  title="${IWINDROSE_GALLERY_VIDEO.title}"
                   loading="lazy"></iframe>
         </div>
       </div>` : '';
@@ -542,6 +606,7 @@ function initLinks() {
 document.addEventListener('DOMContentLoaded', async () => {
   initNav();
   initLinks();
+  initHeroVideo();
   await initI18n();
 
   /* Lightbox */
