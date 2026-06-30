@@ -19,18 +19,7 @@ Each subfolder is a self-contained mini-site with its own `index.html`, `css/`, 
 
 ## Local Development
 
-No tooling. Run a static server **from the repo root** because relative `fetch()` calls for JSON require HTTP; opening `file://` fails on CORS:
-
-```bash
-python3 -m http.server 8099
-```
-
-Then open:
-
-- `http://localhost:8099/` — main site
-- `http://localhost:8099/device-monitor/` — Device Monitor²
-- `http://localhost:8099/iwindrose/` — iWindRose²
-- `http://localhost:8099/televideo-pro/` — Televideo² Pro
+No tooling. Run a static server **from the repo root** because relative `fetch()` calls for JSON require HTTP; opening `file://` fails on CORS. See [README.md → Local Development](README.md#local-development) for the exact command and per-site URLs.
 
 There are no tests, no linter, and no build. Verification usually means loading the affected page in a browser and checking the relevant interactions.
 
@@ -53,19 +42,7 @@ CSS/JS/JSON are loaded with a `?v=` query string for GitHub Pages cache invalida
 
 - `js/app.js` reads its own `?v=` value from its script tag and forwards it to every JSON `fetch()`.
 - `scripts/cache-bust.sh` rewrites `?v=` values in the four `index.html` files.
-- A local `pre-commit` hook bumps the `?v=` values automatically when a commit touches site files. All logic lives in the tracked `scripts/pre-commit-cache-bust.sh`; the installed `.git/hooks/pre-commit` is a thin wrapper that `exec`s it (edit the script, not the wrapper). On a fresh clone, install the wrapper once:
-
-```bash
-cat > .git/hooks/pre-commit <<'EOF'
-#!/usr/bin/env zsh
-set -euo pipefail
-repo_root="$(git rev-parse --show-toplevel)"
-tracked_hook="$repo_root/scripts/pre-commit-cache-bust.sh"
-[[ -f "$tracked_hook" ]] || exit 0
-exec "$tracked_hook"
-EOF
-chmod +x .git/hooks/pre-commit
-```
+- A local `pre-commit` hook bumps the `?v=` values automatically when a commit touches site files. All logic lives in the tracked `scripts/pre-commit-cache-bust.sh`; the installed `.git/hooks/pre-commit` is only a wrapper. On a fresh clone, run `zsh scripts/install-pre-commit-hook.sh` once.
 
 Do not hand-edit `?v=` values; let the script/hook manage them.
 

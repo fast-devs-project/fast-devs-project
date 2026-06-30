@@ -4,53 +4,46 @@ Follow these steps every time you publish an app update.
 
 ---
 
-## Pre-commit hook
+## Before You Start
 
-The cache-busting logic lives in the tracked script [`scripts/pre-commit-cache-bust.sh`](scripts/pre-commit-cache-bust.sh). The installed hook at `.git/hooks/pre-commit` is just a thin wrapper that delegates to it, so editing the tracked script takes effect with no reinstall.
-
-Before preparing a release, make sure the wrapper exists. On a fresh clone, install it once:
+Install the local pre-commit hook wrapper once per clone:
 
 ```bash
-cat > .git/hooks/pre-commit <<'EOF'
-#!/usr/bin/env zsh
-set -euo pipefail
-repo_root="$(git rev-parse --show-toplevel)"
-tracked_hook="$repo_root/scripts/pre-commit-cache-bust.sh"
-[[ -f "$tracked_hook" ]] || exit 0
-exec "$tracked_hook"
-EOF
-chmod +x .git/hooks/pre-commit
+zsh scripts/install-pre-commit-hook.sh
 ```
 
-> Never put logic in the wrapper — edit `scripts/pre-commit-cache-bust.sh` instead.
+The wrapper delegates to [`scripts/pre-commit-cache-bust.sh`](scripts/pre-commit-cache-bust.sh). Edit the tracked script, not `.git/hooks/pre-commit`.
 
 ---
 
-## Device Monitor²
+## Common Steps
 
-### 1. Update the website cache version
+1. Add a new object at the top of the app's `data/changelog.json`.
+2. Move `"Ultima versione"` / `"Latest version"` to that new entry and set the previous entry's `"badge"` / `"badge_en"` to `null`.
+3. Update only the changed content JSON files for that app.
+4. Commit the release. The pre-commit hook bumps the `?v=` cache values automatically when site files are staged.
 
-The local pre-commit hook runs this automatically when a commit includes site files:
+The version shown in each landing-page hero comes from the first entry in `changelog.json`.
+
+To force cache busting manually before a commit, run:
 
 ```bash
 scripts/cache-bust.sh
 ```
 
-You can still run it manually from the repo root if you want to force a new cache version before committing. It updates the `?v=` cache-busting value in the HTML files with a UTC timestamp. The JS data loader reads that value automatically from `app.js?v=...`, so JSON content gets refreshed too.
-
-If you publish through an automated build after the commit already exists, you can use the current commit hash instead:
+For automated publishing after a commit already exists, use the current commit hash:
 
 ```bash
 scripts/cache-bust.sh commit
 ```
 
-### 2. Add the new version to the changelog
+---
 
-Open `device-monitor/data/changelog.json` and insert a new object **at the top**:
+## Changelog Template
 
 ```json
 {
-  "version": "26.6.0",
+  "version": "X.Y.Z",
   "date": "DD/MM/YYYY",
   "badge": "Ultima versione",
   "badge_en": "Latest version",
@@ -59,91 +52,34 @@ Open `device-monitor/data/changelog.json` and insert a new object **at the top**
 },
 ```
 
-Remember to set `"badge": null` on the previous version.
+---
 
-The version shown in the hero badge **updates automatically** from the first changelog entry.
+## Content Maps
 
-### 3. Update changed content
+| App | Changelog | Content files |
+|---|---|---|
+| Device Monitor² | `device-monitor/data/changelog.json` | `kits.json`, `features.json`, `gallery.json`, `compatibility.json`, `press.json` |
+| iWindRose² | `iwindrose/data/changelog.json` | `features.json`, `gallery.json`, `compatibility.json`, `press.json` |
 
-| What changed | File to update |
-|---|---|
-| New or modified kit | `device-monitor/data/kits.json` |
-| New feature | `device-monitor/data/features.json` |
-| New screenshots | `device-monitor/data/gallery.json` + images in `images/screenshots/` |
-| Device compatibility | `device-monitor/data/compatibility.json` |
-| New press mention / video | `device-monitor/data/press.json` |
+Screenshots also require adding the image files under the relevant app's `images/screenshots/` folder.
 
-### Quick Checklist — Device Monitor²
-
-- [ ] Pre-commit hook ran, or `scripts/cache-bust.sh` was run manually
-- [ ] New entry added at the top of `changelog.json`
-- [ ] `"Ultima versione"` badge moved to the new version
-- [ ] Modified content JSON files updated
+`televideo-pro/` is an archived landing page for a removed app. Update its JSON only for site maintenance, not as part of a normal App Store release.
 
 ---
 
-## iWindRose²
+## Quick Checklist
 
-### 1. Update the website cache version
-
-The local pre-commit hook runs this automatically when a commit includes site files:
-
-```bash
-scripts/cache-bust.sh
-```
-
-You can still run it manually from the repo root if you want to force a new cache version before committing. It updates the `?v=` cache-busting value in the HTML files with a UTC timestamp. The JS data loader reads that value automatically from `app.js?v=...`, so JSON content gets refreshed too.
-
-If you publish through an automated build after the commit already exists, you can use the current commit hash instead:
-
-```bash
-scripts/cache-bust.sh commit
-```
-
-### 2. Add the new version to the changelog
-
-Open `iwindrose/data/changelog.json` and insert a new object **at the top**:
-
-```json
-{
-  "version": "5.8.0",
-  "date": "DD/MM/YYYY",
-  "badge": "Ultima versione",
-  "badge_en": "Latest version",
-  "highlights": ["Descrizione modifica 1"],
-  "highlights_en": ["Change description 1"]
-},
-```
-
-Remember to set `"badge": null` on the previous version.
-
-### 3. Update changed content
-
-| What changed | File to update |
-|---|---|
-| New feature | `iwindrose/data/features.json` |
-| New screenshots | `iwindrose/data/gallery.json` + images in `images/screenshots/` |
-| Device compatibility | `iwindrose/data/compatibility.json` |
-| New press mention / video | `iwindrose/data/press.json` |
-
-### Quick Checklist — iWindRose²
-
-- [ ] Pre-commit hook ran, or `scripts/cache-bust.sh` was run manually
-- [ ] New entry added at the top of `changelog.json`
-- [ ] `"Ultima versione"` badge moved to the new version
-- [ ] Modified content JSON files updated
+- [ ] Pre-commit hook installed, or `scripts/cache-bust.sh` run manually
+- [ ] New changelog entry added at the top
+- [ ] Latest-version badge moved to the new changelog entry
+- [ ] Changed content JSON files updated
+- [ ] Affected page checked locally
 
 ---
 
 ## Local Server
 
-```bash
-# Start (from repo root)
-python3 -m http.server 8099
-
-# Stop
-pkill -f "python3 -m http.server 8099"
-```
+To preview a release before pushing, run a static server from the repo root and open the affected page — see **[README.md → Local Development](README.md#local-development)** for the command and URLs.
 
 ---
 
@@ -155,4 +91,4 @@ git commit -m "Release Device Monitor² vX.X.X / iWindRose² vX.X.X"
 git push
 ```
 
-GitHub Pages updates automatically within 1-2 minutes after the push. The live site is served at **[fastdevsproject.com](https://fastdevsproject.com)** (custom domain managed through Cloudflare).
+GitHub Pages updates automatically within 1-2 minutes after the push. The live site is served at **[fastdevsproject.com](https://fastdevsproject.com)**.

@@ -2,7 +2,7 @@
 
 ![Fast-Devs Project banner](images/banner/fdp-banner.webp)
 
-Static landing pages for by **Fast-Devs Project**.
+Static landing pages by **Fast-Devs Project**.
 
 🔗 **[@FastDevsProject](https://x.com/FastDevsProject)**
 
@@ -83,27 +83,7 @@ Then open:
 
 All text and data live in the JSON files inside each app's `data/` folder. You can edit them directly without touching HTML or JS.
 
-CSS, JS, and JSON content use a `?v=` cache-busting value so GitHub Pages and browsers load fresh files after a release.
-
-This working copy has a local `pre-commit` hook installed. When a commit includes site files, it bumps the `?v=` values in the four `index.html` files and re-stages only those `?v=` references, so partial commits keep working and the working tree stays clean after the commit.
-
-**How it's wired:** all the logic lives in the tracked script [`scripts/pre-commit-cache-bust.sh`](scripts/pre-commit-cache-bust.sh). The installed hook at `.git/hooks/pre-commit` is a thin wrapper that just delegates to it — so editing the tracked script takes effect immediately, with no reinstall.
-
-If you clone the repo on another machine, install the wrapper once:
-
-```bash
-cat > .git/hooks/pre-commit <<'EOF'
-#!/usr/bin/env zsh
-set -euo pipefail
-repo_root="$(git rev-parse --show-toplevel)"
-tracked_hook="$repo_root/scripts/pre-commit-cache-bust.sh"
-[[ -f "$tracked_hook" ]] || exit 0
-exec "$tracked_hook"
-EOF
-chmod +x .git/hooks/pre-commit
-```
-
-> The wrapper has no business logic — never edit it. Change `scripts/pre-commit-cache-bust.sh` instead.
+CSS, JS, and JSON content use a `?v=` cache-busting value so GitHub Pages and browsers load fresh files after a release. The local pre-commit hook handles this automatically; on a fresh clone, install its wrapper once with `zsh scripts/install-pre-commit-hook.sh`.
 
 For a step-by-step release checklist, see **[RELEASE.md](RELEASE.md)**.
 
