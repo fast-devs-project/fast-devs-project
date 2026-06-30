@@ -253,9 +253,7 @@ async function renderBlog() {
           </svg>
         </span>
       </button>
-      <div class="blog-older" id="blog-older" hidden>
-        ${rest.map((post, i) => buildCard(post, false, i + 2)).join('')}
-      </div>
+      <div class="blog-older" id="blog-older" hidden></div>
     </div>` : '';
 
   container.innerHTML = featuredHtml + expandHtml;
@@ -263,6 +261,12 @@ async function renderBlog() {
   const btn = container.querySelector('.blog-expand-btn');
   btn?.addEventListener('click', () => {
     const older = document.getElementById('blog-older');
+    /* render differito: popola i post più vecchi solo alla prima apertura,
+       così non gonfiano il DOM iniziale e non pesano sul main thread / TBT */
+    if (!older.dataset.rendered) {
+      older.innerHTML = rest.map((post, i) => buildCard(post, false, i + 2)).join('');
+      older.dataset.rendered = 'true';
+    }
     const open = !older.hidden;
     older.hidden = open;
     btn.setAttribute('aria-expanded', String(!open));

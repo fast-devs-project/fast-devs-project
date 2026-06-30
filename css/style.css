@@ -718,8 +718,7 @@ body::before {
 
 .blog-card.featured .blog-card-img {
   width: 100%;
-  height: auto;
-  max-height: 320px;
+  height: 320px;
   object-fit: cover;
   border-radius: var(--radius-lg) var(--radius-lg) 0 0;
 }
