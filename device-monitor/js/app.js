@@ -207,7 +207,7 @@ async function renderGallery() {
     iphone: {
       id: 'vimeo-preview-iphone',
       vimeoId: '1203173167',
-      title: 'Device Monitor 26.6.0 preview (iPhone 17 Pro Max)',
+      title: 'Device Monitor² 26.6.0 preview (iPhone 17 Pro Max)',
     },
     ipad: {
       id: 'vimeo-preview-ipad',

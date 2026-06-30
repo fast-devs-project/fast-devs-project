@@ -8,11 +8,11 @@ const SUPPORT_URL = '../#contact';
 const CACHE_VER = new URL(document.currentScript?.src || window.location.href).searchParams.get('v') || 'dev';
 const IWINDROSE_HERO_VIDEO = {
   vimeoId: '349940943',
-  title: 'iWindRose 3.3.0 - Promo video',
+  title: 'iWindRose² 3.3.0 - Promo video',
 };
 const IWINDROSE_GALLERY_VIDEO = {
   vimeoId: '335268506',
-  title: 'iWindRose 3.0.0 preview (iPhone XS)',
+  title: 'iWindRose² 3.0.0 preview (iPhone XS)',
 };
 
 /* ——— Feature icon colors ——— */
@@ -47,7 +47,7 @@ async function loadJSON(path) {
     if (!res.ok) throw new Error(res.status);
     return res.json();
   } catch {
-    console.warn(`[iWindRose] Could not fetch ${path} – check CORS or use a static server.`);
+    console.warn(`[iWindRose²] Could not fetch ${path} – check CORS or use a static server.`);
     return null;
   }
 }

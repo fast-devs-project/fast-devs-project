@@ -46,7 +46,7 @@ async function loadJSON(path) {
     if (!res.ok) throw new Error(res.status);
     return res.json();
   } catch {
-    console.warn(`[Televideo] Could not fetch ${path} – check CORS or use a static server.`);
+    console.warn(`[Televideo² Pro] Could not fetch ${path} – check CORS or use a static server.`);
     return null;
   }
 }
