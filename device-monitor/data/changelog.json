@@ -1,5 +1,24 @@
 [
   {
+    "version": "26.6.1",
+    "platform": "macos",
+    "date": "03/07/2026",
+    "badge": "Ultima versione",
+    "badge_en": "Latest version",
+    "highlights": [
+      "Aggiunta la legenda dei core nel PiP della CPU",
+      "Aggiunta la possibilità di scegliere l’unità di misura dalle impostazioni dell’app",
+      "Aggiunto un nuovo pulsante che fornisce una spiegazione dettagliata di ogni campo presente nelle pagine di dettaglio",
+      "Correzioni di bug minori e miglioramenti delle prestazioni"
+    ],
+    "highlights_en": [
+      "Added a CPU PiP core legend",
+      "Added the option to choose your preferred measurement units in the app settings",
+      "Added a new button that provides a detailed explanation of every field on the detail pages",
+      "Minor bug fixes and performance improvements"
+    ]
+  },
+  {
     "version": "26.6.0",
     "date": "23/06/2026",
     "badge": "Ultima versione",
@@ -24,8 +43,8 @@
     "version": "26.6.0",
     "platform": "macos",
     "date": "20/06/2026",
-    "badge": "Ultima versione",
-    "badge_en": "Latest version",
+    "badge": "Major update",
+    "badge_en": "Major update",
     "highlights": [
       "Sezioni RAM, CPU e STORAGE migliorate con dati più ricchi e utili",
       "Nuove sezioni DEVICE, GPU e DISPLAY pensate per Mac",
