@@ -1,10 +1,23 @@
 [
   {
+    "version": "26.6.2",
+    "platform": "macos",
+    "date": "04/07/2026",
+    "badge": "Ultima versione",
+    "badge_en": "Latest version",
+    "highlights": [
+      "Correzioni di bug minori e miglioramenti delle prestazioni"
+    ],
+    "highlights_en": [
+      "Minor bug fixes and performance improvements"
+    ]
+  },
+  {
     "version": "26.6.1",
     "platform": "macos",
     "date": "03/07/2026",
-    "badge": "Ultima versione",
-    "badge_en": "Latest version",
+    "badge": null,
+    "badge_en": null,
     "highlights": [
       "Aggiunta la legenda dei core nel PiP della CPU",
       "Aggiunta la possibilità di scegliere l’unità di misura dalle impostazioni dell’app",
