@@ -1,10 +1,44 @@
 [
   {
+    "version": "26.6.1",
+    "platform": "ios",
+    "date": "11/07/2026",
+    "badge": "Ultima versione",
+    "badge_en": "Latest version",
+    "highlights": [
+      "Aggiunta la legenda dei core nel PiP della CPU",
+      "Aggiunto il nuovo test “Colori intermittenti” per il display all’interno del Test Kit",
+      "Aggiunta la possibilità di scegliere l’unità di misura dalle impostazioni dell’app",
+      "Aggiunto un nuovo pulsante che fornisce una spiegazione dettagliata di ogni campo presente nelle pagine di dettaglio",
+      "Correzioni di bug minori e miglioramenti delle prestazioni"
+    ],
+    "highlights_en": [
+      "Added a CPU PiP core legend",
+      "Added the new “Flashing Colors” display test to the Test Kit",
+      "Added the option to choose your preferred measurement units in the app settings",
+      "Added a new button that provides a detailed explanation of every field on the detail pages",
+      "Minor bug fixes and performance improvements"
+    ]
+  },
+  {
+    "version": "26.6.3",
+    "platform": "macos",
+    "date": "10/07/2026",
+    "badge": "Ultima versione",
+    "badge_en": "Latest version",
+    "highlights": [
+      "Correzioni di bug minori e miglioramenti delle prestazioni"
+    ],
+    "highlights_en": [
+      "Minor bug fixes and performance improvements"
+    ]
+  },
+  {
     "version": "26.6.2",
     "platform": "macos",
     "date": "04/07/2026",
-    "badge": "Ultima versione",
-    "badge_en": "Latest version",
+    "badge": null,
+    "badge_en": null,
     "highlights": [
       "Correzioni di bug minori e miglioramenti delle prestazioni"
     ],
@@ -34,8 +68,8 @@
   {
     "version": "26.6.0",
     "date": "23/06/2026",
-    "badge": "Ultima versione",
-    "badge_en": "Latest version",
+    "badge": null,
+    "badge_en": null,
     "highlights": [
       "Nuove informazioni nelle sezioni DEVICE, RAM, STORAGE, CPU, GPU, BATTERIA, DISPLAY e CAMERA",
       "Alcune nuove informazioni disponibili anche su Apple Watch, dove supportate",
