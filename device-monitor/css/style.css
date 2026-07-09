@@ -942,7 +942,7 @@ body::before {
 }
 
 .gallery-grid.watch-grid {
-  grid-template-columns: repeat(auto-fill, minmax(min(100%, 242px), 242px));
+  grid-template-columns: repeat(auto-fill, minmax(min(100%, 150px), 1fr));
 }
 
 .gallery-thumb {
@@ -970,7 +970,10 @@ body::before {
 
 /* Watch: preview dedicate, non vanno ritagliate */
 .watch-grid .gallery-thumb {
-  border-radius: 32px;
+  justify-self: center;
+  width: 100%;
+  max-width: 190px;
+  border-radius: 28px;
 }
 
 .watch-grid .gallery-thumb img {

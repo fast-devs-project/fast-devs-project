@@ -222,7 +222,7 @@ async function renderGallery() {
       : key === 'watch' ? 'watch-grid'
         : key === 'mac' ? 'mac-grid' : '';
     const ratio = key === 'ipad' ? '1280/960'
-      : key === 'watch' ? '242/296'
+      : key === 'watch' ? '5/8'
         : key === 'mac' ? '16/10' : '499/1080';
 
     const thumbs = sec.screenshots.map(s => `
