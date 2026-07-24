@@ -28,7 +28,7 @@
       "latitude": 26.3662,
       "longitude": 127.741,
       "notes": "Organizzano durante l'anno tour speciali per gli squali martello, i relitti e le isole Kerama.",
-      "logo": "images/loghi/aloha-divers.webp",
+      "logo": "images/logos/aloha-divers.webp",
       "updatedAt": "2026-07-12T17:57:54.895Z",
       "country": "Giappone"
     },
@@ -54,7 +54,7 @@
       "longitude": 7.5159685,
       "notes": null,
       "updatedAt": "2026-07-07T15:10:32.374Z",
-      "logo": "images/loghi/palmes-beach.webp",
+      "logo": "images/logos/palmes-beach.webp",
       "country": "Francia"
     },
     {
@@ -83,7 +83,7 @@
       "longitude": 10.2336776,
       "notes": null,
       "updatedAt": "2026-07-07T15:09:05.635Z",
-      "logo": "images/loghi/marina-di-campo-diving.webp",
+      "logo": "images/logos/marina-di-campo-diving.webp",
       "country": "Italia"
     },
     {
@@ -114,7 +114,7 @@
       "longitude": 100.060472,
       "notes": "Immersioni costose, ma ben organizzate. Il servizio include il trasferimento da e per l'hotel, il pranzo, la barca e l'attrezzatura. Istruttori e guide precisi e professionali.",
       "updatedAt": "2026-07-07T15:08:06.334Z",
-      "logo": "images/loghi/discovery-divers.webp",
+      "logo": "images/logos/discovery-divers.webp",
       "country": "Thailandia"
     },
     {
@@ -142,7 +142,7 @@
       "longitude": 8.4169073,
       "notes": "Il diving si trova direttamente sulla spiaggia e dispone anche di un pontile galleggiante per le immersioni non da riva. Il personale è risultato più gentile al telefono che di persona.",
       "updatedAt": "2026-07-07T15:08:24.705Z",
-      "logo": "images/loghi/divenjoy.webp",
+      "logo": "images/logos/divenjoy.webp",
       "country": "Italia"
     },
     {
@@ -167,7 +167,7 @@
       "longitude": 8.263711,
       "notes": null,
       "updatedAt": "2026-07-07T15:09:20.450Z",
-      "logo": "images/loghi/marina-diving-center.webp",
+      "logo": "images/logos/marina-diving-center.webp",
       "country": "Italia"
     },
     {
@@ -198,7 +198,7 @@
       "longitude": 34.2957364,
       "notes": "Diving a gestione italiana. Offrono il prelievo presso qualunque alloggio.",
       "updatedAt": "2026-07-07T15:11:04.541Z",
-      "logo": "images/loghi/sharm-scuba-service.webp",
+      "logo": "images/logos/sharm-scuba-service.webp",
       "country": "Egitto"
     },
     {
@@ -226,7 +226,7 @@
       "longitude": 9.7378312,
       "notes": null,
       "updatedAt": "2026-07-07T15:08:37.961Z",
-      "logo": "images/loghi/diving-5-terre.webp",
+      "logo": "images/logos/diving-5-terre.webp",
       "country": "Italia"
     },
     {
@@ -255,7 +255,7 @@
       "longitude": 34.05776465827173,
       "notes": null,
       "updatedAt": "2026-07-07T15:12:37.591Z",
-      "logo": "images/loghi/poseidon-dive-centre.webp",
+      "logo": "images/logos/poseidon-dive-centre.webp",
       "country": "Cipro"
     },
     {
@@ -289,7 +289,7 @@
       "longitude": -87.0887121,
       "notes": null,
       "updatedAt": "2026-07-07T15:11:21.192Z",
-      "logo": "images/loghi/scuba-caribe.webp",
+      "logo": "images/logos/scuba-caribe.webp",
       "country": "Messico"
     },
     {
@@ -317,7 +317,7 @@
       "longitude": 23.7785286,
       "notes": "Esperienza positiva. Non raggiunge la Grotta dell'Elefante, che si trova fuori zona.",
       "updatedAt": "2026-07-07T15:11:34.658Z",
-      "logo": "images/loghi/royal-octopus.webp",
+      "logo": "images/logos/royal-octopus.webp",
       "country": "Grecia"
     },
     {
@@ -343,7 +343,7 @@
       "longitude": 9.3262988,
       "notes": null,
       "updatedAt": "2026-07-07T15:13:14.795Z",
-      "logo": "images/loghi/pollo-diving.webp",
+      "logo": "images/logos/pollo-diving.webp",
       "country": "Italia"
     },
     {
@@ -374,7 +374,7 @@
       "longitude": 14.4012311,
       "notes": null,
       "updatedAt": "2026-07-07T15:10:08.242Z",
-      "logo": "images/loghi/ok-diving-malta.webp",
+      "logo": "images/logos/ok-diving-malta.webp",
       "country": "Malta"
     },
     {
@@ -405,7 +405,7 @@
       "longitude": 9.3369636,
       "notes": null,
       "updatedAt": "2026-07-07T15:09:43.931Z",
-      "logo": "images/loghi/massub-diving-center.webp",
+      "logo": "images/logos/massub-diving-center.webp",
       "country": "Italia"
     },
     {
@@ -439,7 +439,7 @@
       "longitude": -68.8288237,
       "notes": "Da evitare. È preferibile cercare un diving appena fuori dal villaggio e chiedere di FrancoNero.",
       "updatedAt": "2026-07-07T15:12:01.095Z",
-      "logo": "images/loghi/reef-oasis-viva-dominican.webp",
+      "logo": "images/logos/reef-oasis-viva-dominican.webp",
       "country": "Repubblica Dominicana"
     },
     {
@@ -469,7 +469,7 @@
       "latitude": 38.059411,
       "longitude": 12.558409,
       "notes": "Esperienza positiva, compresa un'immersione sul relitto della petroliera Pavlos.",
-      "logo": "images/loghi/free-divers-italy.webp",
+      "logo": "images/logos/free-divers-italy.webp",
       "updatedAt": "2026-07-12T15:47:49.584Z",
       "country": "Italia"
     },
@@ -497,7 +497,7 @@
       "latitude": 39.1451583,
       "longitude": 9.5128602,
       "notes": "Esperienza descritta come molto positiva.",
-      "logo": "images/loghi/air-sub-diving.webp",
+      "logo": "images/logos/air-sub-diving.webp",
       "updatedAt": "2026-07-12T00:00:00.000Z",
       "country": "Italia"
     },
@@ -547,7 +547,7 @@
       "latitude": 43.8199926,
       "longitude": 7.7864325,
       "notes": null,
-      "logo": "images/loghi/lorenzo-taini-immersioni.webp",
+      "logo": "images/logos/lorenzo-taini-immersioni.webp",
       "updatedAt": "2026-07-12T15:59:19.031Z",
       "country": "Italia"
     },
@@ -575,7 +575,7 @@
       "latitude": 27.909512,
       "longitude": 34.325092,
       "notes": "Considerato un punto di riferimento storico per i subacquei.",
-      "logo": "images/loghi/camel-dive-club.webp",
+      "logo": "images/logos/camel-dive-club.webp",
       "updatedAt": "2026-07-12T00:00:00.000Z",
       "country": "Egitto"
     },
@@ -606,7 +606,7 @@
       "latitude": 27.9692,
       "longitude": 34.4194,
       "notes": "Segnalata un'istruttrice italiana particolarmente competente.",
-      "logo": "images/loghi/scorpion-dive-club.webp",
+      "logo": "images/logos/scorpion-dive-club.webp",
       "updatedAt": "2026-07-12T16:16:35.149Z",
       "country": "Egitto"
     },
@@ -640,7 +640,7 @@
       "latitude": 28.03765,
       "longitude": 34.43423,
       "notes": null,
-      "logo": "images/loghi/pyramids-diving-center.webp",
+      "logo": "images/logos/pyramids-diving-center.webp",
       "updatedAt": "2026-07-12T16:17:02.897Z",
       "country": "Egitto"
     },
@@ -668,7 +668,7 @@
       "latitude": 25.2764092,
       "longitude": 34.7736769,
       "notes": "Dispongono di una navetta e offrono il prelievo anche a chi non alloggia nel resort.",
-      "logo": "images/loghi/monkey-divers.webp",
+      "logo": "images/logos/monkey-divers.webp",
       "updatedAt": "2026-07-12T16:09:46.204Z",
       "country": "Egitto"
     },
@@ -696,7 +696,7 @@
       "latitude": 27.2587,
       "longitude": 33.8183,
       "notes": "In un'occasione è stato trovato chiuso al mattino. Apre nel pomeriggio.",
-      "logo": "images/loghi/funny-divers.webp",
+      "logo": "images/logos/funny-divers.webp",
       "updatedAt": "2026-07-12T16:02:07.995Z",
       "country": "Egitto"
     },
@@ -724,7 +724,7 @@
       "latitude": 27.86164,
       "longitude": 34.29014,
       "notes": "Diving del resort Domina Coral Bay. L'esperienza in immersione non è stata del tutto positiva.",
-      "logo": "images/loghi/sheikh-coast-diving-center.webp",
+      "logo": "images/logos/sheikh-coast-diving-center.webp",
       "updatedAt": "2026-07-12T16:12:23.863Z",
       "country": "Egitto"
     },
@@ -755,7 +755,7 @@
       "latitude": 35.519317,
       "longitude": 23.926029,
       "notes": "Esperienza positiva.",
-      "logo": "images/loghi/scuba-world.webp",
+      "logo": "images/logos/scuba-world.webp",
       "updatedAt": "2026-07-12T16:19:21.980Z",
       "country": "Grecia"
     },
@@ -789,7 +789,7 @@
       "latitude": 7.9507244,
       "longitude": 98.2811941,
       "notes": "Consigliato per le isole Similan. La base si trova a Kamala, Phuket.",
-      "logo": "images/loghi/merlin-divers.webp",
+      "logo": "images/logos/merlin-divers.webp",
       "updatedAt": "2026-07-12T15:45:32.094Z",
       "country": "Thailandia"
     },
@@ -817,7 +817,7 @@
       "latitude": 10.071255,
       "longitude": 99.828341,
       "notes": null,
-      "logo": "images/loghi/the-dearly-dive.webp",
+      "logo": "images/logos/the-dearly-dive.webp",
       "updatedAt": "2026-07-12T16:17:55.330Z",
       "country": "Thailandia"
     },
@@ -842,7 +842,7 @@
       "latitude": 10.0682549,
       "longitude": 99.8270142,
       "notes": null,
-      "logo": "images/loghi/ocean-sound-dive-yoga.webp",
+      "logo": "images/logos/ocean-sound-dive-yoga.webp",
       "updatedAt": "2026-07-12T16:03:28.800Z",
       "country": "Thailandia"
     },
@@ -873,7 +873,7 @@
       "latitude": 20.6365344,
       "longitude": -87.0639844,
       "notes": "Considerato un punto di riferimento. Organizza immersioni in cenotes meno turistici.",
-      "logo": "images/loghi/phantom-divers.webp",
+      "logo": "images/logos/phantom-divers.webp",
       "updatedAt": "2026-07-12T16:11:37.647Z",
       "country": "Messico"
     },
@@ -901,7 +901,7 @@
       "latitude": 20.6366729,
       "longitude": -87.0658933,
       "notes": "Consigliato per i cenotes di Playa del Carmen. Esperienza positiva.",
-      "logo": "images/loghi/pluto-dive.webp",
+      "logo": "images/logos/pluto-dive.webp",
       "updatedAt": "2026-07-12T16:11:07.463Z",
       "country": "Messico"
     },
@@ -926,7 +926,7 @@
       "latitude": 20.5085,
       "longitude": -86.9425,
       "notes": "Esperienza positiva.",
-      "logo": "images/loghi/trippy-divers.webp",
+      "logo": "images/logos/trippy-divers.webp",
       "updatedAt": "2026-07-12T15:39:56.460Z",
       "country": "Messico"
     },
@@ -960,7 +960,7 @@
       "latitude": 12.571813,
       "longitude": -70.045239,
       "notes": "Le immersioni partono direttamente dalla spiaggia.",
-      "logo": "images/loghi/red-sail-sports-aruba.webp",
+      "logo": "images/logos/red-sail-sports-aruba.webp",
       "updatedAt": "2026-07-12T16:13:09.179Z",
       "country": "Aruba"
     },
@@ -988,7 +988,7 @@
       "latitude": 12.4960558,
       "longitude": -70.0143205,
       "notes": "Valutato positivamente.",
-      "logo": "images/loghi/se-aruba-fly-n-dive.webp",
+      "logo": "images/logos/se-aruba-fly-n-dive.webp",
       "updatedAt": "2026-07-12T16:12:50.604Z",
       "country": "Aruba"
     },
@@ -1022,7 +1022,7 @@
       "latitude": 12.5808306,
       "longitude": -81.6876362,
       "notes": "Descritto come molto professionale.",
-      "logo": "images/loghi/divers-team.webp",
+      "logo": "images/logos/divers-team.webp",
       "updatedAt": "2026-07-12T15:58:11.880Z",
       "country": "Colombia"
     },
@@ -1050,7 +1050,7 @@
       "latitude": -8.3686,
       "longitude": 116.115,
       "notes": "Consigliato per le isole Gili. La base è presso il resort Anema; ottima visibilità e personale molto professionale.",
-      "logo": "images/loghi/terumbu-divers.webp",
+      "logo": "images/logos/terumbu-divers.webp",
       "updatedAt": "2026-07-12T15:51:41.764Z",
       "country": "Indonesia"
     },
@@ -1081,7 +1081,7 @@
       "latitude": -8.3545932,
       "longitude": 116.0771465,
       "notes": "Sconsigliato: professionalità e sicurezza sono state giudicate insufficienti.",
-      "logo": "images/loghi/blue-marlin-dive-gili-air.webp",
+      "logo": "images/logos/blue-marlin-dive-gili-air.webp",
       "updatedAt": "2026-07-12T15:55:50.958Z",
       "country": "Indonesia"
     },
@@ -1112,7 +1112,7 @@
       "latitude": -8.666481,
       "longitude": 115.448921,
       "notes": null,
-      "logo": "images/loghi/blue-corner-dive.webp",
+      "logo": "images/logos/blue-corner-dive.webp",
       "updatedAt": "2026-07-12T00:00:00.000Z",
       "country": "Indonesia"
     },
@@ -1143,7 +1143,7 @@
       "latitude": -8.6752608,
       "longitude": 115.4921124,
       "notes": null,
-      "logo": "images/loghi/scuba-junkie-penida.webp",
+      "logo": "images/logos/scuba-junkie-penida.webp",
       "updatedAt": "2026-07-12T16:19:45.303Z",
       "country": "Indonesia"
     },
@@ -1171,7 +1171,7 @@
       "latitude": -8.8920688,
       "longitude": 116.2772838,
       "notes": null,
-      "logo": "images/loghi/blue-marlin-dive-kuta-lombok.webp",
+      "logo": "images/logos/blue-marlin-dive-kuta-lombok.webp",
       "updatedAt": "2026-07-12T15:54:24.342Z",
       "country": "Indonesia"
     },
@@ -1202,7 +1202,7 @@
       "latitude": -8.4885197,
       "longitude": 119.8772361,
       "notes": null,
-      "logo": "images/loghi/dragon-dive-komodo.webp",
+      "logo": "images/logos/dragon-dive-komodo.webp",
       "updatedAt": "2026-07-12T15:56:37.881Z",
       "country": "Indonesia"
     },
@@ -1233,7 +1233,7 @@
       "latitude": -0.441879,
       "longitude": 130.753298,
       "notes": null,
-      "logo": "images/loghi/scuba-republic-raja-ampat.webp",
+      "logo": "images/logos/scuba-republic-raja-ampat.webp",
       "updatedAt": "2026-07-12T16:18:55.936Z",
       "country": "Indonesia"
     },
@@ -1261,7 +1261,7 @@
       "latitude": 5.158562,
       "longitude": 73.133451,
       "notes": "Gestione italiana.",
-      "logo": "images/loghi/dharavandhoo-divers.webp",
+      "logo": "images/logos/dharavandhoo-divers.webp",
       "updatedAt": "2026-07-12T15:41:07.234Z",
       "country": "Maldive"
     },
@@ -1295,7 +1295,7 @@
       "latitude": 3.6800674,
       "longitude": 73.4164422,
       "notes": "Ben organizzati, con buona attrezzatura a noleggio.",
-      "logo": "images/loghi/fulidhoo-dive-water-sports.webp",
+      "logo": "images/logos/fulidhoo-dive-water-sports.webp",
       "updatedAt": "2026-07-12T15:46:37.166Z",
       "country": "Maldive"
     },
@@ -1326,7 +1326,7 @@
       "latitude": 5.549968,
       "longitude": 73.466668,
       "notes": "Dispongono di scooter subacquei.",
-      "logo": "images/loghi/prodivers-kuredu.webp",
+      "logo": "images/logos/prodivers-kuredu.webp",
       "updatedAt": "2026-07-12T00:00:00.000Z",
       "country": "Maldive"
     },
@@ -1360,7 +1360,7 @@
       "latitude": 28.86233,
       "longitude": -13.854558,
       "notes": "Organizzano immersioni al Museo Atlantico.",
-      "logo": "images/loghi/dive-college-lanzarote.webp",
+      "logo": "images/logos/dive-college-lanzarote.webp",
       "updatedAt": "2026-07-12T15:57:29.271Z",
       "country": "Spagna"
     },
@@ -1388,7 +1388,7 @@
       "latitude": 28.080623,
       "longitude": -16.734558,
       "notes": "Organizzano immersioni e corsi su tutta l'isola.",
-      "logo": "images/loghi/excel-scuba-tenerife.webp",
+      "logo": "images/logos/excel-scuba-tenerife.webp",
       "updatedAt": "2026-07-12T15:52:31.771Z",
       "country": "Spagna"
     },
@@ -1416,7 +1416,7 @@
       "latitude": -6.2979664,
       "longitude": 39.5408516,
       "notes": "Gestione italiana.",
-      "logo": "images/loghi/pole-pole-divers.webp",
+      "logo": "images/logos/pole-pole-divers.webp",
       "updatedAt": "2026-07-12T16:10:43.772Z",
       "country": "Tanzania"
     },
@@ -1447,7 +1447,7 @@
       "latitude": 32.6418761,
       "longitude": -16.9185371,
       "notes": "Esperienza molto positiva.",
-      "logo": "images/loghi/azul-diving-center.webp",
+      "logo": "images/logos/azul-diving-center.webp",
       "updatedAt": "2026-07-12T15:39:08.581Z",
       "country": "Portogallo"
     },
@@ -1475,7 +1475,7 @@
       "latitude": 32.637788,
       "longitude": -16.928369,
       "notes": "Esperienza molto positiva.",
-      "logo": "images/loghi/cipreia-dive-club.webp",
+      "logo": "images/logos/cipreia-dive-club.webp",
       "updatedAt": "2026-07-12T15:40:21.753Z",
       "country": "Portogallo"
     },
@@ -1503,7 +1503,7 @@
       "latitude": 26.24227,
       "longitude": 127.677736,
       "notes": null,
-      "logo": "images/loghi/sea-sir-naha.webp",
+      "logo": "images/logos/sea-sir-naha.webp",
       "updatedAt": "2026-07-12T15:50:05.492Z",
       "country": "Giappone"
     },
@@ -1534,7 +1534,7 @@
       "latitude": 25.127727,
       "longitude": 55.294904,
       "notes": "È la piscina per immersioni più profonda del mondo. I prezzi sono elevati.",
-      "logo": "images/loghi/deep-dive-dubai.webp",
+      "logo": "images/logos/deep-dive-dubai.webp",
       "updatedAt": "2026-07-12T00:00:00.000Z",
       "country": "Emirati Arabi Uniti"
     },
@@ -1560,7 +1560,7 @@
       "longitude": 8.447935,
       "notes": null,
       "updatedAt": "2026-07-07T15:10:48.506Z",
-      "logo": "images/loghi/triton-diving-club.webp",
+      "logo": "images/logos/triton-diving-club.webp",
       "country": "Italia"
     },
     {
@@ -1588,7 +1588,7 @@
       "latitude": 42.859332,
       "longitude": 10.420867,
       "notes": "Ben organizzato e disponibile.",
-      "logo": "images/loghi/bolle-dazoto.webp",
+      "logo": "images/logos/bolle-dazoto.webp",
       "updatedAt": "2026-07-12T15:57:49.197Z",
       "country": "Italia"
     },
@@ -1619,7 +1619,7 @@
       "latitude": 38.3015084,
       "longitude": 16.3365938,
       "notes": "Ben organizzati e attrezzati. Propongono immersioni su due relitti al largo di Punta Stilo, tra 10 e 15 metri di profondità, e corsi di archeologia subacquea.",
-      "logo": "images/loghi/megale-hellas-diving-center.webp",
+      "logo": "images/logos/megale-hellas-diving-center.webp",
       "updatedAt": "2026-07-12T16:00:06.152Z",
       "country": "Italia"
     },
@@ -1647,7 +1647,7 @@
       "latitude": 35.5019646,
       "longitude": 12.6016027,
       "notes": "Molto valido.",
-      "logo": "images/loghi/pelagos-20.webp",
+      "logo": "images/logos/pelagos-20.webp",
       "updatedAt": "2026-07-12T15:44:21.939Z",
       "country": "Italia"
     },
@@ -1678,7 +1678,7 @@
       "latitude": 35.499839,
       "longitude": 12.6080307,
       "notes": "Esperienza descritta come sempre molto positiva.",
-      "logo": "images/loghi/poseidon-diving-lampedusa.webp",
+      "logo": "images/logos/poseidon-diving-lampedusa.webp",
       "updatedAt": "2026-07-12T16:01:13.347Z",
       "country": "Italia"
     },
@@ -1709,7 +1709,7 @@
       "latitude": 40.8172666,
       "longitude": 14.0714284,
       "notes": "Consigliato per il Parco Archeologico Sommerso di Baia. Esperienza descritta come positiva.",
-      "logo": "images/loghi/sea-point-centro-subacqueo.webp",
+      "logo": "images/logos/sea-point-centro-subacqueo.webp",
       "updatedAt": "2026-07-12T16:15:16.554Z",
       "country": "Italia"
     },
@@ -1738,7 +1738,7 @@
       "latitude": 40.8194314,
       "longitude": 14.1354842,
       "notes": "Consigliato per il Parco Archeologico Sommerso di Baia.",
-      "logo": "images/loghi/centro-sub-campi-flegrei.webp",
+      "logo": "images/logos/centro-sub-campi-flegrei.webp",
       "updatedAt": "2026-07-12T15:53:31.983Z",
       "country": "Italia"
     },
@@ -1769,7 +1769,7 @@
       "latitude": 35.9867699,
       "longitude": 14.3473745,
       "notes": "Sono stati apprezzati la base al porto e i servizi offerti tra un'immersione e l'altra.",
-      "logo": "images/loghi/orange-shark-diving-centre.webp",
+      "logo": "images/logos/orange-shark-diving-centre.webp",
       "updatedAt": "2026-07-12T16:16:05.034Z",
       "country": "Malta"
     },
@@ -1800,7 +1800,7 @@
       "latitude": 28.0638246,
       "longitude": -16.7283675,
       "notes": "Esperienza descritta come positiva, con immersioni anche in corrente.",
-      "logo": "images/loghi/aqua-marina-diving-center.webp",
+      "logo": "images/logos/aqua-marina-diving-center.webp",
       "updatedAt": "2026-07-12T00:00:00.000Z",
       "country": "Spagna"
     },
@@ -1828,7 +1828,7 @@
       "latitude": 42.5651137,
       "longitude": 8.7585163,
       "notes": null,
-      "logo": "images/loghi/plongee-castille.webp",
+      "logo": "images/logos/plongee-castille.webp",
       "updatedAt": "2026-07-12T15:44:46.305Z",
       "country": "Francia"
     },
@@ -1856,7 +1856,7 @@
       "latitude": 3.9442406,
       "longitude": 73.4902394,
       "notes": null,
-      "logo": "images/loghi/maafushi-dive-water-sports.webp",
+      "logo": "images/logos/maafushi-dive-water-sports.webp",
       "updatedAt": "2026-07-12T15:48:59.210Z",
       "country": "Maldive"
     },
@@ -1888,7 +1888,7 @@
       "latitude": 44.3306122,
       "longitude": 9.2113342,
       "notes": null,
-      "logo": "images/loghi/diving-group-portofino.webp",
+      "logo": "images/logos/diving-group-portofino.webp",
       "updatedAt": "2026-07-12T15:43:30.220Z",
       "country": "Italia"
     },
@@ -1913,7 +1913,7 @@
       "latitude": 29.525119,
       "longitude": 35.010578,
       "notes": "Esperienza descritta come molto positiva.",
-      "logo": "images/loghi/red-coral-dive-center.webp",
+      "logo": "images/logos/red-coral-dive-center.webp",
       "updatedAt": "2026-07-12T16:18:31.792Z",
       "country": "Giordania"
     },
@@ -1941,7 +1941,7 @@
       "latitude": 29.5303088,
       "longitude": 35.0020994,
       "notes": "Esperienza positiva. Le immersioni da riva sono poco profonde e non particolarmente interessanti.",
-      "logo": "images/loghi/aqaba-international-diving-center.webp",
+      "logo": "images/logos/aqaba-international-diving-center.webp",
       "updatedAt": "2026-07-12T15:38:15.292Z",
       "country": "Giordania"
     },
@@ -1969,7 +1969,7 @@
       "latitude": 28.1491695,
       "longitude": -14.2326931,
       "notes": null,
-      "logo": "images/loghi/dive-pro-fuerte.webp",
+      "logo": "images/logos/dive-pro-fuerte.webp",
       "updatedAt": "2026-07-12T15:55:01.420Z",
       "country": "Spagna"
     },
@@ -2000,7 +2000,7 @@
       "latitude": -8.4955574,
       "longitude": 116.0473424,
       "notes": "Descritto come ottimo e molto affidabile.",
-      "logo": "images/loghi/lombok-scuba-dive-center.webp",
+      "logo": "images/logos/lombok-scuba-dive-center.webp",
       "updatedAt": "2026-07-12T16:09:19.077Z",
       "country": "Indonesia"
     },
@@ -2034,7 +2034,7 @@
       "latitude": -8.7072807,
       "longitude": 115.2530554,
       "notes": "Descritto come professionale, con immersioni eccellenti.",
-      "logo": "images/loghi/bali-aqua-nusa-penida-dive-center.webp",
+      "logo": "images/logos/bali-aqua-nusa-penida-dive-center.webp",
       "updatedAt": "2026-07-12T16:04:21.291Z",
       "country": "Indonesia"
     },
@@ -2062,7 +2062,7 @@
       "latitude": 38.7089581,
       "longitude": 13.194438,
       "notes": "Consigliato per Ustica. Sono stati apprezzati la base al porto e i servizi offerti tra un'immersione e l'altra.",
-      "logo": "images/loghi/orca-diving.webp",
+      "logo": "images/logos/orca-diving.webp",
       "updatedAt": "2026-07-12T16:10:07.656Z",
       "country": "Italia"
     },
@@ -2093,7 +2093,7 @@
       "latitude": 38.708699,
       "longitude": 13.19436,
       "notes": "Esperienza positiva. Offrono supporto per l'alloggio e ristoro tra un'immersione e l'altra.",
-      "logo": "images/loghi/evasioni-blu-diving.webp",
+      "logo": "images/logos/evasioni-blu-diving.webp",
       "updatedAt": "2026-07-12T15:45:55.100Z",
       "country": "Italia"
     },
@@ -2124,7 +2124,7 @@
       "latitude": 40.2807163,
       "longitude": 9.6306617,
       "notes": "Esperienza descritta come positiva.",
-      "logo": "images/loghi/argonauta-diving.webp",
+      "logo": "images/logos/argonauta-diving.webp",
       "updatedAt": "2026-07-12T00:00:00.000Z",
       "country": "Italia"
     },
@@ -2152,7 +2152,7 @@
       "latitude": 28.9204771,
       "longitude": -13.6703226,
       "notes": null,
-      "logo": "images/loghi/manta-diving.webp",
+      "logo": "images/logos/manta-diving.webp",
       "updatedAt": "2026-07-12T15:47:28.286Z",
       "country": "Spagna"
     },
@@ -2186,7 +2186,7 @@
       "latitude": 20.2135219,
       "longitude": -87.4562377,
       "notes": "Consigliato per Tulum e per le immersioni nei cenotes.",
-      "logo": "images/loghi/koox-diving.webp",
+      "logo": "images/logos/koox-diving.webp",
       "updatedAt": "2026-07-12T15:42:37.571Z",
       "country": "Messico"
     },
@@ -2217,7 +2217,7 @@
       "latitude": 27.096492,
       "longitude": 33.835219,
       "notes": null,
-      "logo": "images/loghi/red-sea-life-diving-center.webp",
+      "logo": "images/logos/red-sea-life-diving-center.webp",
       "updatedAt": "2026-07-12T16:13:31.330Z",
       "country": "Egitto"
     },
@@ -2250,7 +2250,7 @@
       "latitude": 38.1984723,
       "longitude": 13.2499713,
       "notes": null,
-      "logo": "images/loghi/diving-saracen.webp",
+      "logo": "images/logos/diving-saracen.webp",
       "updatedAt": "2026-07-12T15:48:07.646Z",
       "country": "Italia"
     },
@@ -2278,7 +2278,7 @@
       "latitude": 3.944838,
       "longitude": 73.49099,
       "notes": "Prezzi contenuti e guide giovani e amichevoli.",
-      "logo": "images/loghi/ecodive.webp",
+      "logo": "images/logos/ecodive.webp",
       "updatedAt": "2026-07-12T15:50:25.938Z",
       "country": "Maldive"
     },
@@ -2306,7 +2306,7 @@
       "latitude": 27.91697,
       "longitude": 34.349816,
       "notes": "Gestione italiana molto consigliata.",
-      "logo": "images/loghi/scuba-dreamer-diving-college.webp",
+      "logo": "images/logos/scuba-dreamer-diving-college.webp",
       "updatedAt": "2026-07-12T16:20:15.439Z",
       "country": "Egitto"
     },
@@ -2337,7 +2337,7 @@
       "latitude": 35.5020642,
       "longitude": 12.6061259,
       "notes": "Esperienza descritta come molto positiva.",
-      "logo": "images/loghi/moby-diving.webp",
+      "logo": "images/logos/moby-diving.webp",
       "updatedAt": "2026-07-12T15:43:58.379Z",
       "country": "Italia"
     },
@@ -2365,7 +2365,7 @@
       "latitude": 16.596,
       "longitude": -22.907,
       "notes": null,
-      "logo": "images/loghi/cabo-verde-diving.webp",
+      "logo": "images/logos/cabo-verde-diving.webp",
       "updatedAt": "2026-07-12T15:53:54.287Z",
       "country": "Capo Verde"
     },
@@ -2390,7 +2390,7 @@
       "latitude": 41.160992,
       "longitude": 9.405393,
       "notes": null,
-      "logo": "images/loghi/blue-zone-diving-center.webp",
+      "logo": "images/logos/blue-zone-diving-center.webp",
       "updatedAt": "2026-07-12T15:58:35.369Z",
       "country": "Italia"
     },
@@ -2418,7 +2418,7 @@
       "latitude": 39.1284087,
       "longitude": 9.5132615,
       "notes": null,
-      "logo": "images/loghi/acquaman-diving-center.webp",
+      "logo": "images/logos/acquaman-diving-center.webp",
       "updatedAt": "2026-07-12T15:33:33.278Z",
       "country": "Italia"
     },
@@ -2443,7 +2443,7 @@
       "latitude": 39.874355,
       "longitude": 15.787668,
       "notes": null,
-      "logo": "images/loghi/dinosub.webp",
+      "logo": "images/logos/dinosub.webp",
       "updatedAt": "2026-07-12T15:56:58.877Z",
       "country": "Italia"
     },
@@ -2471,7 +2471,7 @@
       "latitude": 20.5074125,
       "longitude": -86.9435379,
       "notes": null,
-      "logo": "images/loghi/cozumel-dive-school.webp",
+      "logo": "images/logos/cozumel-dive-school.webp",
       "updatedAt": "2026-07-12T15:40:43.632Z",
       "country": "Messico"
     },
@@ -2506,7 +2506,7 @@
       "latitude": 35.4483041,
       "longitude": 24.2001768,
       "notes": "Indicato per raggiungere la Grotta dell'Elefante, a Creta. L'organizzazione è stata percepita come troppo impersonale.",
-      "logo": "images/loghi/omega-divers.webp",
+      "logo": "images/logos/omega-divers.webp",
       "updatedAt": "2026-07-12T16:15:37.991Z",
       "country": "Grecia"
     },
@@ -2534,7 +2534,7 @@
       "latitude": 7.7933049,
       "longitude": 98.3149138,
       "notes": "Consigliato per Phuket e per i siti di Racha Noi, Racha Yai e Koh Doc Mai.",
-      "logo": "images/loghi/andys-scuba-diving.webp",
+      "logo": "images/logos/andys-scuba-diving.webp",
       "updatedAt": "2026-07-12T00:00:00.000Z",
       "country": "Thailandia"
     },
@@ -2568,7 +2568,7 @@
       "latitude": 7.8255957,
       "longitude": 98.2965198,
       "notes": "Comodo servizio di prelievo in hotel.",
-      "logo": "images/loghi/phuket-dive-tours.webp",
+      "logo": "images/logos/phuket-dive-tours.webp",
       "updatedAt": "2026-07-12T15:51:19.702Z",
       "country": "Thailandia"
     },
@@ -2596,7 +2596,7 @@
       "latitude": 25.5071814,
       "longitude": 56.3647284,
       "notes": "Una persona ha rinunciato a causa del tragitto, considerato troppo lungo.",
-      "logo": "images/loghi/al-boom-diving.webp",
+      "logo": "images/logos/al-boom-diving.webp",
       "updatedAt": "2026-07-12T15:37:40.655Z",
       "country": "Emirati Arabi Uniti"
     },
@@ -2625,7 +2625,7 @@
       "latitude": 28.499488,
       "longitude": 34.518366,
       "notes": "Esperienza descritta come positiva.",
-      "logo": "images/loghi/freediving-training-center-dahab.webp",
+      "logo": "images/logos/freediving-training-center-dahab.webp",
       "updatedAt": "2026-07-12T15:42:59.984Z",
       "country": "Egitto"
     },
@@ -2653,7 +2653,7 @@
       "latitude": 41.0962338,
       "longitude": 9.4359809,
       "notes": null,
-      "logo": "images/loghi/anthias-diving.webp",
+      "logo": "images/logos/anthias-diving.webp",
       "updatedAt": "2026-07-12T00:00:00.000Z",
       "country": "Italia"
     },
@@ -2681,7 +2681,7 @@
       "latitude": 41.2117604,
       "longitude": 9.3926183,
       "notes": null,
-      "logo": "images/loghi/area-11-diving.webp",
+      "logo": "images/logos/area-11-diving.webp",
       "updatedAt": "2026-07-12T15:38:44.246Z",
       "country": "Italia"
     },
@@ -2740,7 +2740,7 @@
       "latitude": 42.785728,
       "longitude": 10.245499,
       "notes": "Esperienza descritta come molto positiva, soprattutto nella sede Airone.",
-      "logo": "images/loghi/diving-in-elba.webp",
+      "logo": "images/logos/diving-in-elba.webp",
       "updatedAt": "2026-07-12T15:58:57.252Z",
       "country": "Italia"
     },
@@ -2768,7 +2768,7 @@
       "latitude": 42.8073747,
       "longitude": 10.140915,
       "notes": null,
-      "logo": "images/loghi/il-careno.webp",
+      "logo": "images/logos/il-careno.webp",
       "updatedAt": "2026-07-12T15:48:33.391Z",
       "country": "Italia"
     },
@@ -2797,7 +2797,7 @@
       "latitude": 42.806864,
       "longitude": 10.1938194,
       "notes": "Organizza anche immersioni a Pianosa.",
-      "logo": "images/loghi/elba-diving-center.webp",
+      "logo": "images/logos/elba-diving-center.webp",
       "updatedAt": "2026-07-12T16:00:49.743Z",
       "country": "Italia"
     },
@@ -2829,7 +2829,7 @@
       "longitude": -16.7204267,
       "notes": null,
       "updatedAt": "2026-07-07T15:06:56.876Z",
-      "logo": "images/loghi/big-fish-dive-center.webp",
+      "logo": "images/logos/big-fish-dive-center.webp",
       "country": "Spagna"
     },
     {
@@ -2857,7 +2857,7 @@
       "longitude": 9.1856598,
       "notes": null,
       "updatedAt": "2026-07-07T15:07:31.045Z",
-      "logo": "images/loghi/blu-dive-center.webp",
+      "logo": "images/logos/blu-dive-center.webp",
       "country": "Italia"
     }
   ]
