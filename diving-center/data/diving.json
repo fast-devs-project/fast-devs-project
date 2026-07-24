@@ -1,0 +1,2864 @@
+{
+  "version": 5,
+  "centers": [
+    {
+      "id": "07b2dda9-6b69-4100-88ce-33018c4bbcel",
+      "name": "Aloha Divers",
+      "city": "Okinawa",
+      "address": "Okinawa-ken Nakagami-gun Yomitan Son Toguchi 41-9, Okinawa-shi, Okinawa 904-0315 - Japan",
+      "phones": [
+        "+81 90 5289 9095"
+      ],
+      "social": [
+        {
+          "facebook": "https://www.facebook.com/mergulhoemokinawa"
+        },
+        {
+          "instagram": "https://www.instagram.com/alohadivers_okinawa"
+        },
+        {
+          "youtube": "https://www.youtube.com/channel/UC-cA4oDMUMm5CG6L3TioxWA"
+        },
+        {
+          "tripadvisor": "https://www.tripadvisor.com/Attraction_Review-g1120814-d10497261-Reviews-Aloha_Divers_Okinawa-Yomitan_son_Nakagami_gun_Okinawa_Prefecture_Kyushu.html"
+        }
+      ],
+      "email": "alohadiversokinawa@hotmail.com",
+      "website": "https://www.alohadiversokinawa.com",
+      "latitude": 26.3662,
+      "longitude": 127.741,
+      "notes": "Organizzano durante l'anno tour speciali per gli squali martello, i relitti e le isole Kerama.",
+      "logo": "images/loghi/aloha-divers.webp",
+      "updatedAt": "2026-07-12T17:57:54.895Z",
+      "country": "Giappone"
+    },
+    {
+      "id": "07b2dda9-6b69-4100-88ce-33018c4bbced",
+      "name": "Palmes Beach",
+      "city": "Menton",
+      "address": "43 Nouveau Port de Garavan, 06500 Menton - France",
+      "phones": [
+        "+39 375 549 9192"
+      ],
+      "social": [
+        {
+          "facebook": "https://www.facebook.com/profile.php?id=100063481695200"
+        },
+        {
+          "tripadvisor": "https://www.tripadvisor.com/Attraction_Review-g187231-d4138421-Reviews-Palmes_Beach-Menton_French_Riviera_Cote_d_Azur_Provence_Alpes_Cote_d_Azur.html"
+        }
+      ],
+      "email": "info@palmesbeachmenton.fr",
+      "website": "https://www.palmesbeachmenton.fr",
+      "latitude": 43.7836005,
+      "longitude": 7.5159685,
+      "notes": null,
+      "updatedAt": "2026-07-07T15:10:32.374Z",
+      "logo": "images/loghi/palmes-beach.webp",
+      "country": "Francia"
+    },
+    {
+      "id": "10b7c2a0-3af8-4e41-a1d5-9be84817ae16",
+      "name": "Marina di Campo Diving",
+      "city": "Marina di Campo",
+      "address": "Via Renato Fucini 452, Campo nell'Elba (LI) - Italy",
+      "phones": [
+        "+39 0565 977058",
+        "+39 347 390 1026"
+      ],
+      "social": [
+        {
+          "facebook": "https://www.facebook.com/marinadicampodiving"
+        },
+        {
+          "instagram": "https://www.instagram.com/marinadicampodiving"
+        },
+        {
+          "tripadvisor": "https://www.tripadvisor.com/Attraction_Review-g194708-d7063292-Reviews-Marina_di_Campo_Diving-Marina_di_Campo_Elba_Island_Province_of_Livorno_Tuscany.html"
+        }
+      ],
+      "email": "info@marinadicampodiving.com",
+      "website": "https://www.marinadicampodiving.com",
+      "latitude": 42.746533,
+      "longitude": 10.2336776,
+      "notes": null,
+      "updatedAt": "2026-07-07T15:09:05.635Z",
+      "logo": "images/loghi/marina-di-campo-diving.webp",
+      "country": "Italia"
+    },
+    {
+      "id": "2becd308-b6ee-4c18-9582-68fcd1cb169f",
+      "name": "Discovery Divers",
+      "city": "Amari Koh Samui Resort",
+      "address": "Amari Koh Samui Resort, North Chaweng, Koh Samui, 84320 - Thailand",
+      "phones": [
+        "+66 95 271 0017"
+      ],
+      "social": [
+        {
+          "facebook": "https://www.facebook.com/discoverydivecentre"
+        },
+        {
+          "instagram": "https://www.instagram.com/discoverydivecentre"
+        },
+        {
+          "youtube": "https://www.youtube.com/@discoverydivers9529"
+        },
+        {
+          "tripadvisor": "https://www.tripadvisor.com/Attraction_Review-g1179396-d547537-Reviews-Discovery_Dive_Centre-Bophut_Ko_Samui_Surat_Thani_Province.html"
+        }
+      ],
+      "email": "info@discoverydivers.com",
+      "website": "https://discoverydivers.com",
+      "latitude": 9.5274446,
+      "longitude": 100.060472,
+      "notes": "Immersioni costose, ma ben organizzate. Il servizio include il trasferimento da e per l'hotel, il pranzo, la barca e l'attrezzatura. Istruttori e guide precisi e professionali.",
+      "updatedAt": "2026-07-07T15:08:06.334Z",
+      "logo": "images/loghi/discovery-divers.webp",
+      "country": "Thailandia"
+    },
+    {
+      "id": "347c992c-50ed-4066-852b-746a01a60cdb",
+      "name": "Divenjoy",
+      "city": "Noli",
+      "address": "Via Aurelia 52 – 17026 Noli – SV - Italy",
+      "phones": [
+        "+39 393 365 7323"
+      ],
+      "social": [
+        {
+          "facebook": "https://www.facebook.com/divenjoy13"
+        },
+        {
+          "instagram": "https://www.instagram.com/divenjoy_noli"
+        },
+        {
+          "tripadvisor": "https://www.tripadvisor.com/Attraction_Review-g666789-d10807478-Reviews-Divenjoy-Noli_Italian_Riviera_Liguria.html"
+        }
+      ],
+      "email": "info@divenjoy.it",
+      "website": "https://www.divenjoy.it",
+      "latitude": 44.2067187,
+      "longitude": 8.4169073,
+      "notes": "Il diving si trova direttamente sulla spiaggia e dispone anche di un pontile galleggiante per le immersioni non da riva. Il personale è risultato più gentile al telefono che di persona.",
+      "updatedAt": "2026-07-07T15:08:24.705Z",
+      "logo": "images/loghi/divenjoy.webp",
+      "country": "Italia"
+    },
+    {
+      "id": "3a422060-18fd-4411-9fc9-edaeddac9811",
+      "name": "Marina Diving Center",
+      "city": "Loano",
+      "address": "Porto Marina di Loano, Lungomare Madonna di Loreto, Bel Vedere n.2 Loano (SV) - Italy",
+      "phones": [
+        "+39 335 661 1106"
+      ],
+      "social": [
+        {
+          "youtube": "https://www.youtube.com/channel/UCxgD94y5rbp_IEteSFlp_AQ"
+        },
+        {
+          "tripadvisor": "https://www.tripadvisor.com/Attraction_Review-g194801-d6739753-Reviews-Marina_Diving_Center-Loano_Italian_Riviera_Liguria.html"
+        }
+      ],
+      "email": null,
+      "website": "https://www.marinadiving.com/it",
+      "latitude": 44.1330896,
+      "longitude": 8.263711,
+      "notes": null,
+      "updatedAt": "2026-07-07T15:09:20.450Z",
+      "logo": "images/loghi/marina-diving-center.webp",
+      "country": "Italia"
+    },
+    {
+      "id": "46a6fb52-dffd-464f-b60b-602ad760e2f5",
+      "name": "Sharm Scuba Service",
+      "city": "Sharm El Sheikh",
+      "address": "Tivoli Hotel Aquapark, Sharm El Sheikh 2, South Sinai Governorate 8762112 - Egypt",
+      "phones": [
+        "+20 10 18922981"
+      ],
+      "social": [
+        {
+          "facebook": "https://www.facebook.com/sharmscubaservicediving"
+        },
+        {
+          "instagram": "https://www.instagram.com/sharmscubaservice"
+        },
+        {
+          "youtube": "https://www.youtube.com/channel/UCpSbKtKj2KfTRzqYixb8GRQ"
+        },
+        {
+          "tripadvisor": "https://www.tripadvisor.com/Attraction_Review-g297555-d7714613-Reviews-Sharm_Scuba_Service-Sharm_El_Sheikh_South_Sinai_Red_Sea_and_Sinai.html"
+        }
+      ],
+      "email": "diving@sharmscubaservice.com",
+      "website": "https://www.sharmscubaservice.com",
+      "latitude": 27.8622189,
+      "longitude": 34.2957364,
+      "notes": "Diving a gestione italiana. Offrono il prelievo presso qualunque alloggio.",
+      "updatedAt": "2026-07-07T15:11:04.541Z",
+      "logo": "images/loghi/sharm-scuba-service.webp",
+      "country": "Egitto"
+    },
+    {
+      "id": "5af14a13-098a-4cce-90da-ed710930a863",
+      "name": "Diving 5 Terre",
+      "city": "Riomaggiore",
+      "address": "Via S. Giacomo snc - Riomaggiore (SP) - Italy",
+      "phones": [
+        "+39 339 834 2798"
+      ],
+      "social": [
+        {
+          "facebook": "https://www.facebook.com/diving5terre"
+        },
+        {
+          "instagram": "https://www.instagram.com/diving5Terre"
+        },
+        {
+          "tripadvisor": "https://www.tripadvisor.com/Attraction_Review-g187821-d8280813-Reviews-Diving_5Terre-Riomaggiore_Cinque_Terre_Italian_Riviera_Liguria.html"
+        }
+      ],
+      "email": null,
+      "website": "https://www.5terrediving.it",
+      "latitude": 44.0987407,
+      "longitude": 9.7378312,
+      "notes": null,
+      "updatedAt": "2026-07-07T15:08:37.961Z",
+      "logo": "images/loghi/diving-5-terre.webp",
+      "country": "Italia"
+    },
+    {
+      "id": "6dddd2c8-cf7a-426e-be34-b884a17ef4b4",
+      "name": "Poseidon Dive Centre",
+      "city": "Protaras",
+      "address": "Shop 7, 469 Kavo Greko Avenue, Protaras, 5296 Paralimni - Cyprus",
+      "phones": [
+        "+357 23 834284",
+        "+357 97 804786"
+      ],
+      "social": [
+        {
+          "facebook": "https://www.facebook.com/poseidoncyprus"
+        },
+        {
+          "instagram": "https://www.instagram.com/poseidoncyprus"
+        },
+        {
+          "tripadvisor": "https://www.tripadvisor.com/Attraction_Review-g667803-d2236427-Reviews-Poseidon_Dive_Centre-Protaras_Paralimni_Famagusta_District.html"
+        }
+      ],
+      "email": "info@poseidoncyprus.com",
+      "website": "https://www.poseidoncyprus.com",
+      "latitude": 35.01041425729429,
+      "longitude": 34.05776465827173,
+      "notes": null,
+      "updatedAt": "2026-07-07T15:12:37.591Z",
+      "logo": "images/loghi/poseidon-dive-centre.webp",
+      "country": "Cipro"
+    },
+    {
+      "id": "718b02f8-3863-4d14-8f7f-8c326abc751f",
+      "name": "Scuba Caribe",
+      "city": "Playa del Carmen",
+      "address": "Avenida Xaman-Ha, Manzana 6, Lote 6, Playacar Fase II Interior Hotel Riu, Playacar, 77710 Playa del Carmen, Q.R. - Mexico",
+      "phones": [
+        "+52 998 180 3877"
+      ],
+      "social": [
+        {
+          "facebook": "https://www.facebook.com/scubacaribe"
+        },
+        {
+          "instagram": "https://www.instagram.com/scubacaribe"
+        },
+        {
+          "youtube": "https://www.youtube.com/channel/UCofAj0I6YKaVwIP-XoFvPww"
+        },
+        {
+          "twitter": "https://twitter.com/scubacaribe"
+        },
+        {
+          "tripadvisor": "https://www.tripadvisor.com/Attraction_Review-g150812-d669762-Reviews-Scubacaribe-Playa_del_Carmen_Yucatan_Peninsula.html"
+        }
+      ],
+      "email": null,
+      "website": "https://www.scubacaribe.com/diving/mexico/playa-del-carmen",
+      "latitude": 20.6087815,
+      "longitude": -87.0887121,
+      "notes": null,
+      "updatedAt": "2026-07-07T15:11:21.192Z",
+      "logo": "images/loghi/scuba-caribe.webp",
+      "country": "Messico"
+    },
+    {
+      "id": "83b9009f-0c77-4b70-a220-afee0a94e675",
+      "name": "Royal Octopus",
+      "city": "Kolymbari, Crete",
+      "address": "Kolymbari, Crete, 73006 - Greece,",
+      "phones": [
+        "+30 693 675 8469"
+      ],
+      "social": [
+        {
+          "facebook": "https://www.facebook.com/profile.php?id=100047362725304"
+        },
+        {
+          "instagram": "https://www.instagram.com/royaloctopus2018"
+        },
+        {
+          "tripadvisor": "https://www.tripadvisor.com/Attraction_Review-g1187586-d14913800-Reviews-Royal_Octopus_DIVE_CENTER-Kolymbari_Platanias_Chania_Prefecture_Crete.html"
+        }
+      ],
+      "email": null,
+      "website": "https://royaloctopus.gr",
+      "latitude": 35.5462601,
+      "longitude": 23.7785286,
+      "notes": "Esperienza positiva. Non raggiunge la Grotta dell'Elefante, che si trova fuori zona.",
+      "updatedAt": "2026-07-07T15:11:34.658Z",
+      "logo": "images/loghi/royal-octopus.webp",
+      "country": "Grecia"
+    },
+    {
+      "id": "88252ebf-803e-4358-8dd3-e280ca694478",
+      "name": "Pollo Diving",
+      "city": "Porto Pollo",
+      "address": "Via Angolo Azzurro 12, Porto Pollo, Palau - Italy",
+      "phones": [
+        "+39 348 525 8167",
+        "+31 6 1320 7326"
+      ],
+      "social": [
+        {
+          "instagram": "https://www.instagram.com/pollodiving"
+        },
+        {
+          "tripadvisor": "https://www.tripadvisor.com/Attraction_Review-g8593008-d17733732-Reviews-Pollo_Diving_ASD-Porto_Pollo_Province_of_Olbia_Tempio_Sardinia.html"
+        }
+      ],
+      "email": "pollodivingasd@gmail.com",
+      "website": "https://pollodiving.it",
+      "latitude": 41.18237,
+      "longitude": 9.3262988,
+      "notes": null,
+      "updatedAt": "2026-07-07T15:13:14.795Z",
+      "logo": "images/loghi/pollo-diving.webp",
+      "country": "Italia"
+    },
+    {
+      "id": "9706f5ce-b819-4634-b3a7-a16b6576bb37",
+      "name": "OK Diving Malta",
+      "city": "San Pawl il-Baħar",
+      "address": "Sirens, Triq San Geraldu, San Pawl il-Baħar SPB 3341 - Malta",
+      "phones": [
+        "+356 9974 0479"
+      ],
+      "social": [
+        {
+          "facebook": "https://www.facebook.com/okdivingmalta"
+        },
+        {
+          "instagram": "https://www.instagram.com/okdivingmalta"
+        },
+        {
+          "twitter": "https://twitter.com/okdivingmalta"
+        },
+        {
+          "tripadvisor": "https://www.tripadvisor.com/Attraction_Review-g608946-d10383411-Reviews-OK_Diving_Malta-St_Paul_s_Bay_Island_of_Malta.html"
+        }
+      ],
+      "email": "info@okdivingmalta.com",
+      "website": "https://okdivingmalta.com",
+      "latitude": 35.94887,
+      "longitude": 14.4012311,
+      "notes": null,
+      "updatedAt": "2026-07-07T15:10:08.242Z",
+      "logo": "images/loghi/ok-diving-malta.webp",
+      "country": "Malta"
+    },
+    {
+      "id": "a73ee7c9-293a-4b61-abed-f347db0a1c8f",
+      "name": "MasSub Diving Center",
+      "city": "Lavagna",
+      "address": "117 Calata, Via Porto Turistico 16033 Lavagna GE - Italy",
+      "phones": [
+        "+39 335 643 5624"
+      ],
+      "social": [
+        {
+          "facebook": "https://www.facebook.com/MassubDivingCenter"
+        },
+        {
+          "instagram": "https://www.instagram.com/massub_diving_portofino"
+        },
+        {
+          "youtube": "https://www.youtube.com/@massubdivingportofino8745"
+        },
+        {
+          "tripadvisor": "https://www.tripadvisor.com/Attraction_Review-g194788-d3157963-Reviews-Massub_Diving_Center_Portofino-Lavagna_Italian_Riviera_Liguria.html"
+        }
+      ],
+      "email": "info@massub.com",
+      "website": "https://massub.com",
+      "latitude": 44.3083142,
+      "longitude": 9.3369636,
+      "notes": null,
+      "updatedAt": "2026-07-07T15:09:43.931Z",
+      "logo": "images/loghi/massub-diving-center.webp",
+      "country": "Italia"
+    },
+    {
+      "id": "aa77148a-e006-46ef-9611-b9824feae658",
+      "name": "Reef Oasis Viva Dominican",
+      "city": "Bayahibe",
+      "address": "Viva Wyndham Dominicus Beach Avendia Eladia, Bayahibe 23000, Dominican Republic",
+      "phones": [
+        "+1 809-686-5658"
+      ],
+      "social": [
+        {
+          "facebook": "https://www.facebook.com/ReefOasisDiveClub"
+        },
+        {
+          "instagram": "https://www.instagram.com/reefoasisdiveclub"
+        },
+        {
+          "youtube": "https://www.youtube.com/user/ReefOasisDiveClubTV"
+        },
+        {
+          "twitter": "https://twitter.com/reefoasisdiving"
+        },
+        {
+          "tripadvisor": "https://www.tripadvisor.com/Attraction_Review-g663484-d7702036-Reviews-Reef_Oasis_Viva_Dominican-Bayahibe_La_Altagracia_Province_Dominican_Republic.html"
+        }
+      ],
+      "email": null,
+      "website": "https://www.reefoasisdiveclub.com/diving-dominican-republic",
+      "latitude": 18.3490053,
+      "longitude": -68.8288237,
+      "notes": "Da evitare. È preferibile cercare un diving appena fuori dal villaggio e chiedere di FrancoNero.",
+      "updatedAt": "2026-07-07T15:12:01.095Z",
+      "logo": "images/loghi/reef-oasis-viva-dominican.webp",
+      "country": "Repubblica Dominicana"
+    },
+    {
+      "id": "ae5899b2-468d-4f40-bf85-000000000044",
+      "name": "Free Divers Italy",
+      "city": "Erice",
+      "address": "c/o Hotel Tirreno, Via Enea 37, 91016 Pizzolungo, Erice (TP), Italy",
+      "phones": [
+        "+39 393 709 0638"
+      ],
+      "social": [
+        {
+          "facebook": "https://www.facebook.com/freediversitaly"
+        },
+        {
+          "instagram": "https://www.instagram.com/free_divers_sicilia"
+        },
+        {
+          "youtube": "https://www.youtube.com/channel/UCMDVNGpRy2R22xSdKvH4lVw"
+        },
+        {
+          "tripadvisor": "https://www.tripadvisor.com/Attraction_Review-g1097281-d6534349-Reviews-Free_Divers_Diving_Center-Pizzolungo_Erice_Province_of_Trapani_Sicily.html"
+        }
+      ],
+      "email": "info@freediversitaly.it",
+      "website": "https://www.freediversitaly.it",
+      "latitude": 38.059411,
+      "longitude": 12.558409,
+      "notes": "Esperienza positiva, compresa un'immersione sul relitto della petroliera Pavlos.",
+      "logo": "images/loghi/free-divers-italy.webp",
+      "updatedAt": "2026-07-12T15:47:49.584Z",
+      "country": "Italia"
+    },
+    {
+      "id": "ae5899b2-468d-4f40-bf85-000000000045",
+      "name": "Air Sub Diving",
+      "city": "Villasimius",
+      "address": "Via Roma 121, 09049 Villasimius (CA), Italy",
+      "phones": [
+        "+39 070 792033"
+      ],
+      "social": [
+        {
+          "facebook": "https://www.facebook.com/airsubdiving"
+        },
+        {
+          "instagram": "https://www.instagram.com/airsub_diving_villasimius"
+        },
+        {
+          "tripadvisor": "https://www.tripadvisor.com/Attraction_Review-g194949-d12948666-Reviews-Air_Sub_Diving-Villasimius_Province_of_Cagliari_Sardinia.html"
+        }
+      ],
+      "email": "info@airsubdiving.com",
+      "website": "https://www.airsubdiving.com",
+      "latitude": 39.1451583,
+      "longitude": 9.5128602,
+      "notes": "Esperienza descritta come molto positiva.",
+      "logo": "images/loghi/air-sub-diving.webp",
+      "updatedAt": "2026-07-12T00:00:00.000Z",
+      "country": "Italia"
+    },
+    {
+      "id": "ae5899b2-468d-4f40-bf85-000000000046",
+      "name": "SubAquaDive",
+      "city": "Villasimius",
+      "address": "Via degli Oleandri, Porto Turistico, 09049 Villasimius (SU), Italy",
+      "phones": [
+        "+39 070 797098"
+      ],
+      "social": [
+        {
+          "facebook": "https://www.facebook.com/SubaquaDiveService"
+        },
+        {
+          "instagram": "https://www.instagram.com/subaquadive_service"
+        },
+        {
+          "tripadvisor": "https://www.tripadvisor.com/Attraction_Review-g194949-d7104260-Reviews-SubAquaDive_Service-Villasimius_Province_of_Cagliari_Sardinia.html"
+        }
+      ],
+      "email": "info@subaquadive.it",
+      "website": "https://www.subaquadive.it",
+      "latitude": 39.1187123,
+      "longitude": 9.5074776,
+      "notes": "Esperienza positiva.",
+      "logo": null,
+      "updatedAt": "2026-07-12T16:14:44.515Z",
+      "country": "Italia"
+    },
+    {
+      "id": "ae5899b2-468d-4f40-bf85-000000000047",
+      "name": "Lorenzo Taini Immersioni",
+      "city": "Sanremo",
+      "address": "Via Salvo d'Acquisto 12, 18038 Sanremo (IM), Italy",
+      "phones": [
+        "+39 339 869 1077"
+      ],
+      "social": [
+        {
+          "instagram": "https://www.instagram.com/lorenzo_immersioni.sanremo"
+        }
+      ],
+      "email": "info@immersionisanremo.com",
+      "website": "https://immersionisanremo.com",
+      "latitude": 43.8199926,
+      "longitude": 7.7864325,
+      "notes": null,
+      "logo": "images/loghi/lorenzo-taini-immersioni.webp",
+      "updatedAt": "2026-07-12T15:59:19.031Z",
+      "country": "Italia"
+    },
+    {
+      "id": "ae5899b2-468d-4f40-bf85-000000000048",
+      "name": "Camel Dive Club",
+      "city": "Sharm El Sheikh",
+      "address": "Naama Bay, Sharm El Sheikh, South Sinai, Egypt",
+      "phones": [
+        "+20 69 3600700"
+      ],
+      "social": [
+        {
+          "facebook": "https://www.facebook.com/cameldive.sharm"
+        },
+        {
+          "instagram": "https://www.instagram.com/camel_dive_club"
+        },
+        {
+          "tripadvisor": "https://www.tripadvisor.com/Attraction_Review-g297555-d2400261-Reviews-Camel_Dive_Club-Sharm_El_Sheikh_South_Sinai_Red_Sea_and_Sinai.html"
+        }
+      ],
+      "email": "info@cameldive.com",
+      "website": "https://www.cameldive.com",
+      "latitude": 27.909512,
+      "longitude": 34.325092,
+      "notes": "Considerato un punto di riferimento storico per i subacquei.",
+      "logo": "images/loghi/camel-dive-club.webp",
+      "updatedAt": "2026-07-12T00:00:00.000Z",
+      "country": "Egitto"
+    },
+    {
+      "id": "ae5899b2-468d-4f40-bf85-000000000049",
+      "name": "Scorpion Dive Club",
+      "city": "Sharm El Sheikh",
+      "address": "Grand Rotana Resort & Spa, Shark's Bay, Sharm El Sheikh 46619, Egypt",
+      "phones": [
+        "+20 10 69088508"
+      ],
+      "social": [
+        {
+          "facebook": "https://www.facebook.com/scorpiondiveclub"
+        },
+        {
+          "instagram": "https://www.instagram.com/scorpiondiveclub"
+        },
+        {
+          "youtube": "https://www.youtube.com/@ScorpionDivingCenters"
+        },
+        {
+          "tripadvisor": "https://www.tripadvisor.com/Attraction_Review-g297555-d34276981-Reviews-Scorpion_Dive_Club_Movenpick-Sharm_El_Sheikh_South_Sinai_Red_Sea_and_Sinai.html"
+        }
+      ],
+      "email": "info.en@scorpiondive.com",
+      "website": "https://scorpiondive.com",
+      "latitude": 27.9692,
+      "longitude": 34.4194,
+      "notes": "Segnalata un'istruttrice italiana particolarmente competente.",
+      "logo": "images/loghi/scorpion-dive-club.webp",
+      "updatedAt": "2026-07-12T16:16:35.149Z",
+      "country": "Egitto"
+    },
+    {
+      "id": "ae5899b2-468d-4f40-bf85-000000000050",
+      "name": "Pyramids Diving Center",
+      "city": "Sharm El Sheikh",
+      "address": "c/o Rixos Premium Seagate, Nabq Bay, Sharm El Sheikh 46628, Egypt",
+      "phones": [
+        "+20 11 27787023"
+      ],
+      "social": [
+        {
+          "facebook": "https://www.facebook.com/pyramidsdivingcenter"
+        },
+        {
+          "instagram": "https://www.instagram.com/pyramidsdivingcenter"
+        },
+        {
+          "youtube": "https://www.youtube.com/@pyramidsdivingcenter7340"
+        },
+        {
+          "twitter": "https://twitter.com/PyramidsDC"
+        },
+        {
+          "tripadvisor": "https://www.tripadvisor.com/Attraction_Review-g297555-d1432066-Reviews-Pyramids_Diving_Center-Sharm_El_Sheikh_South_Sinai_Red_Sea_and_Sinai.html"
+        }
+      ],
+      "email": "info@pyramidsdivingcenter.com",
+      "website": "https://www.pyramidsdivingcenter.com",
+      "latitude": 28.03765,
+      "longitude": 34.43423,
+      "notes": null,
+      "logo": "images/loghi/pyramids-diving-center.webp",
+      "updatedAt": "2026-07-12T16:17:02.897Z",
+      "country": "Egitto"
+    },
+    {
+      "id": "ae5899b2-468d-4f40-bf85-000000000051",
+      "name": "Monkey Divers",
+      "city": "Marsa Alam",
+      "address": "Blend Elphistone Resort, Marsa Alam, Red Sea, Egypt",
+      "phones": [
+        "+20 12 89749175"
+      ],
+      "social": [
+        {
+          "facebook": "https://www.facebook.com/monkeydiversdivingcollege"
+        },
+        {
+          "instagram": "https://www.instagram.com/monkeydiversdc"
+        },
+        {
+          "tripadvisor": "https://www.tripadvisor.com/Attraction_Review-g311425-d8750288-Reviews-Monkey_Divers_Diving_College-Marsa_Alam_Red_Sea_and_Sinai.html"
+        }
+      ],
+      "email": "info@monkey-divers.com",
+      "website": "https://www.monkey-divers.com",
+      "latitude": 25.2764092,
+      "longitude": 34.7736769,
+      "notes": "Dispongono di una navetta e offrono il prelievo anche a chi non alloggia nel resort.",
+      "logo": "images/loghi/monkey-divers.webp",
+      "updatedAt": "2026-07-12T16:09:46.204Z",
+      "country": "Egitto"
+    },
+    {
+      "id": "ae5899b2-468d-4f40-bf85-000000000052",
+      "name": "Funny Divers",
+      "city": "Hurghada",
+      "address": "Sheraton Road, di fronte al Triton Empire Hotel, Dahar, Hurghada, Red Sea, Egypt",
+      "phones": [
+        "+20 12 24193164"
+      ],
+      "social": [
+        {
+          "facebook": "https://www.facebook.com/FunnyDiversDive"
+        },
+        {
+          "instagram": "https://www.instagram.com/funnydivers"
+        },
+        {
+          "tripadvisor": "https://www.tripadvisor.com/Attraction_Review-g297549-d4173037-Reviews-FunnyDivers_Dive_Center-Hurghada_Red_Sea_and_Sinai.html"
+        }
+      ],
+      "email": "",
+      "website": "https://funnydivers.com",
+      "latitude": 27.2587,
+      "longitude": 33.8183,
+      "notes": "In un'occasione è stato trovato chiuso al mattino. Apre nel pomeriggio.",
+      "logo": "images/loghi/funny-divers.webp",
+      "updatedAt": "2026-07-12T16:02:07.995Z",
+      "country": "Egitto"
+    },
+    {
+      "id": "ae5899b2-468d-4f40-bf85-000000000053",
+      "name": "Sheikh Coast Diving Center",
+      "city": "Sharm El Sheikh",
+      "address": "c/o Domina Coral Bay Resort, Marsa El Dekhela, Sharm El Sheikh 46628, Egypt",
+      "phones": [
+        "+20 12 22492942"
+      ],
+      "social": [
+        {
+          "facebook": "https://www.facebook.com/Sheikh.Coast"
+        },
+        {
+          "instagram": "https://www.instagram.com/sheikhcoast"
+        },
+        {
+          "tripadvisor": "https://www.tripadvisor.com/Attraction_Review-g297555-d3525116-Reviews-Sheikh_Coast_Diving_Center-Sharm_El_Sheikh_South_Sinai_Red_Sea_and_Sinai.html"
+        }
+      ],
+      "email": "",
+      "website": "https://www.sheikhcoast.com",
+      "latitude": 27.86164,
+      "longitude": 34.29014,
+      "notes": "Diving del resort Domina Coral Bay. L'esperienza in immersione non è stata del tutto positiva.",
+      "logo": "images/loghi/sheikh-coast-diving-center.webp",
+      "updatedAt": "2026-07-12T16:12:23.863Z",
+      "country": "Egitto"
+    },
+    {
+      "id": "ae5899b2-468d-4f40-bf85-000000000054",
+      "name": "Scuba World",
+      "city": "Agia Marina, Crete",
+      "address": "PEO Chanion - Kissamou, Agia Marina, 73014 Chania, Creta, Greece",
+      "phones": [
+        "+30 2821 083724"
+      ],
+      "social": [
+        {
+          "facebook": "https://www.facebook.com/scubaworlddivingcenter"
+        },
+        {
+          "instagram": "https://www.instagram.com/scuba.world"
+        },
+        {
+          "youtube": "https://www.youtube.com/@scubaworld8475"
+        },
+        {
+          "tripadvisor": "https://www.tripadvisor.com/Attraction_Review-g1049093-d16655475-Reviews-Scuba_World_Diving_Center-Agia_Marina_Chania_Prefecture_Crete.html"
+        }
+      ],
+      "email": "info@scubaworld.gr",
+      "website": "https://www.scubaworld.gr",
+      "latitude": 35.519317,
+      "longitude": 23.926029,
+      "notes": "Esperienza positiva.",
+      "logo": "images/loghi/scuba-world.webp",
+      "updatedAt": "2026-07-12T16:19:21.980Z",
+      "country": "Grecia"
+    },
+    {
+      "id": "ae5899b2-468d-4f40-bf85-000000000055",
+      "name": "Merlin Divers",
+      "city": "Kamala, Phuket",
+      "address": "74/3 Moo 3, Rim Had Road, Kamala, Kathu, Phuket 83150, Thailand",
+      "phones": [
+        "+66763855518"
+      ],
+      "social": [
+        {
+          "facebook": "https://www.facebook.com/merlindiversphuket"
+        },
+        {
+          "instagram": "https://www.instagram.com/merlindiversphuket"
+        },
+        {
+          "youtube": "https://www.youtube.com/user/PhuketDiversThailand"
+        },
+        {
+          "twitter": "https://twitter.com/phuketdivers"
+        },
+        {
+          "tripadvisor": "https://www.tripadvisor.com/Attraction_Review-g1379324-d1885417-Reviews-Merlin_Divers_Kamala_Diving_Center-Kamala_Kathu_Phuket.html"
+        }
+      ],
+      "email": "info@phuket-diving-thailand.net",
+      "website": "https://www.phuket-diving-thailand.net",
+      "latitude": 7.9507244,
+      "longitude": 98.2811941,
+      "notes": "Consigliato per le isole Similan. La base si trova a Kamala, Phuket.",
+      "logo": "images/loghi/merlin-divers.webp",
+      "updatedAt": "2026-07-12T15:45:32.094Z",
+      "country": "Thailandia"
+    },
+    {
+      "id": "ae5899b2-468d-4f40-bf85-000000000056",
+      "name": "The Dearly Dive",
+      "city": "Koh Tao",
+      "address": "14/55 Moo 3, Chalok Baan Kao, Koh Tao, Surat Thani 84360, Thailand",
+      "phones": [
+        "+66 77 332 494"
+      ],
+      "social": [
+        {
+          "facebook": "https://www.facebook.com/thedearlykohtaohostel"
+        },
+        {
+          "instagram": "https://www.instagram.com/thedearly.kohtao"
+        },
+        {
+          "tripadvisor": "https://www.tripadvisor.com/Attraction_Review-g303910-d23454556-Reviews-The_Dearly_Dive-Koh_Tao_Surat_Thani_Province.html"
+        }
+      ],
+      "email": "info@thedearlykohtaohostel.com",
+      "website": "https://www.thedearlykohtaohostel.com/diving",
+      "latitude": 10.071255,
+      "longitude": 99.828341,
+      "notes": null,
+      "logo": "images/loghi/the-dearly-dive.webp",
+      "updatedAt": "2026-07-12T16:17:55.330Z",
+      "country": "Thailandia"
+    },
+    {
+      "id": "ae5899b2-468d-4f40-bf85-000000000057",
+      "name": "Ocean Sound Dive + Yoga",
+      "city": "Koh Tao",
+      "address": "22/22 Moo 3, Chalok Baan Kao, Koh Tao, Surat Thani 84360, Thailand",
+      "phones": [
+        "+66 96 729 1120"
+      ],
+      "social": [
+        {
+          "instagram": "https://www.instagram.com/oceansounddiveyoga"
+        },
+        {
+          "tripadvisor": "https://www.tripadvisor.com/Attraction_Review-g303910-d2720965-Reviews-Ocean_Sound_Dive_Yoga-Koh_Tao_Surat_Thani_Province.html"
+        }
+      ],
+      "email": "info@oceansoundkohtao.com",
+      "website": "https://www.oceansoundkohtao.com",
+      "latitude": 10.0682549,
+      "longitude": 99.8270142,
+      "notes": null,
+      "logo": "images/loghi/ocean-sound-dive-yoga.webp",
+      "updatedAt": "2026-07-12T16:03:28.800Z",
+      "country": "Thailandia"
+    },
+    {
+      "id": "ae5899b2-468d-4f40-bf85-000000000058",
+      "name": "Phantom Divers",
+      "city": "Playa del Carmen",
+      "address": "1a Avenida Norte #238, por Calle 14, Playa del Carmen, Quintana Roo 77710, Mexico",
+      "phones": [
+        "+52 984 879 3988"
+      ],
+      "social": [
+        {
+          "facebook": "https://www.facebook.com/PhantomDiversMexico"
+        },
+        {
+          "instagram": "https://www.instagram.com/phantomdiversmexico"
+        },
+        {
+          "youtube": "https://www.youtube.com/user/phantomdiversmexico"
+        },
+        {
+          "tripadvisor": "https://www.tripadvisor.com/Attraction_Review-g150812-d1219563-Reviews-Phantom_Divers-Playa_del_Carmen_Yucatan_Peninsula.html"
+        }
+      ],
+      "email": "info@phantomdivers.com",
+      "website": "https://phantomdivers.com",
+      "latitude": 20.6365344,
+      "longitude": -87.0639844,
+      "notes": "Considerato un punto di riferimento. Organizza immersioni in cenotes meno turistici.",
+      "logo": "images/loghi/phantom-divers.webp",
+      "updatedAt": "2026-07-12T16:11:37.647Z",
+      "country": "Messico"
+    },
+    {
+      "id": "ae5899b2-468d-4f40-bf85-000000000059",
+      "name": "Pluto Dive",
+      "city": "Playa del Carmen",
+      "address": "Calle 40, tra 5a e 10a Avenida, Playa del Carmen, Quintana Roo, Mexico",
+      "phones": [
+        "+52 984 151 9045"
+      ],
+      "social": [
+        {
+          "facebook": "https://www.facebook.com/plutodive"
+        },
+        {
+          "instagram": "https://www.instagram.com/plutodive"
+        },
+        {
+          "tripadvisor": "https://www.tripadvisor.com/Attraction_Review-g150812-d1237709-Reviews-Pluto_Dive-Playa_del_Carmen_Yucatan_Peninsula.html"
+        }
+      ],
+      "email": "plutodive@gmail.com",
+      "website": "https://plutodive.com",
+      "latitude": 20.6366729,
+      "longitude": -87.0658933,
+      "notes": "Consigliato per i cenotes di Playa del Carmen. Esperienza positiva.",
+      "logo": "images/loghi/pluto-dive.webp",
+      "updatedAt": "2026-07-12T16:11:07.463Z",
+      "country": "Messico"
+    },
+    {
+      "id": "ae5899b2-468d-4f40-bf85-000000000060",
+      "name": "Trippy Divers",
+      "city": "Cozumel",
+      "address": "C. Jose Maria Morelos 510, 77668 Cozumel, Q.R., Mexico",
+      "phones": [
+        "+52 998 147 4665"
+      ],
+      "social": [
+        {
+          "facebook": "https://www.facebook.com/p/trippydivers-100064565238915"
+        },
+        {
+          "instagram": "https://www.instagram.com/trippydivers"
+        }
+      ],
+      "email": "info@trippydivers.com",
+      "website": "https://trippydivers.com",
+      "latitude": 20.5085,
+      "longitude": -86.9425,
+      "notes": "Esperienza positiva.",
+      "logo": "images/loghi/trippy-divers.webp",
+      "updatedAt": "2026-07-12T15:39:56.460Z",
+      "country": "Messico"
+    },
+    {
+      "id": "ae5899b2-468d-4f40-bf85-000000000061",
+      "name": "Red Sail Sports Aruba",
+      "city": "Noord",
+      "address": "J.E. Irausquin Blvd 85, Palm Beach, Noord, Aruba",
+      "phones": [
+        "+297 523 1600"
+      ],
+      "social": [
+        {
+          "facebook": "https://www.facebook.com/RedSailSportsAruba"
+        },
+        {
+          "instagram": "https://www.instagram.com/redsailaruba"
+        },
+        {
+          "youtube": "https://www.youtube.com/channel/UCzDk3ABf6122oazyrWVyLdw"
+        },
+        {
+          "twitter": "https://x.com/redsailaruba"
+        },
+        {
+          "tripadvisor": "https://www.tripadvisor.com/Attraction_Review-g147248-d1210018-Reviews-Red_Sail_Sports_Aruba-Oranjestad_Aruba.html"
+        }
+      ],
+      "email": "info@redsailaruba.com",
+      "website": "https://redsailaruba.com",
+      "latitude": 12.571813,
+      "longitude": -70.045239,
+      "notes": "Le immersioni partono direttamente dalla spiaggia.",
+      "logo": "images/loghi/red-sail-sports-aruba.webp",
+      "updatedAt": "2026-07-12T16:13:09.179Z",
+      "country": "Aruba"
+    },
+    {
+      "id": "ae5899b2-468d-4f40-bf85-000000000062",
+      "name": "S.E. Aruba Fly 'N Dive",
+      "city": "Oranjestad",
+      "address": "Bucutiweg 20, Oranjestad, Aruba",
+      "phones": [
+        "+297 588 1150"
+      ],
+      "social": [
+        {
+          "facebook": "https://www.facebook.com/searubaflyndive"
+        },
+        {
+          "instagram": "https://www.instagram.com/searuba.fly.n.dive"
+        },
+        {
+          "tripadvisor": "https://www.tripadvisor.com/Attraction_Review-g147248-d1972062-Reviews-S_E_Aruba_Fly_n_Dive-Oranjestad_Aruba.html"
+        }
+      ],
+      "email": "info@se-aruba.com",
+      "website": "https://se-aruba.com",
+      "latitude": 12.4960558,
+      "longitude": -70.0143205,
+      "notes": "Valutato positivamente.",
+      "logo": "images/loghi/se-aruba-fly-n-dive.webp",
+      "updatedAt": "2026-07-12T16:12:50.604Z",
+      "country": "Aruba"
+    },
+    {
+      "id": "ae5899b2-468d-4f40-bf85-000000000063",
+      "name": "Divers Team",
+      "city": "San Andrés",
+      "address": "Avenida Colombia 1-19 Local 1, c/o Hotel Royal Decameron Aquarium, San Andrés, Colombia",
+      "phones": [
+        "+57 315 7701285"
+      ],
+      "social": [
+        {
+          "facebook": "https://www.facebook.com/diversteam.net"
+        },
+        {
+          "instagram": "https://www.instagram.com/divers.team"
+        },
+        {
+          "youtube": "https://www.youtube.com/@diversteam"
+        },
+        {
+          "twitter": "https://x.com/DiversTeam"
+        },
+        {
+          "tripadvisor": "https://www.tripadvisor.com/Attraction_Review-g3493965-d11663481-Reviews-Divers_Team-San_Andres_San_Andres_Island_San_Andres_and_Providencia_Department.html"
+        }
+      ],
+      "email": "nelson@diversteam.net",
+      "website": "https://www.diversteam.net",
+      "latitude": 12.5808306,
+      "longitude": -81.6876362,
+      "notes": "Descritto come molto professionale.",
+      "logo": "images/loghi/divers-team.webp",
+      "updatedAt": "2026-07-12T15:58:11.880Z",
+      "country": "Colombia"
+    },
+    {
+      "id": "ae5899b2-468d-4f40-bf85-000000000064",
+      "name": "Terumbu Divers",
+      "city": "Tanjung, Lombok",
+      "address": "Anema Villa and Resort, Jl. Raya Sigar Penjalin, Pantai Sire, Tanjung, Lombok Utara 83352, Indonesia",
+      "phones": [
+        "+62 877-6004-8540"
+      ],
+      "social": [
+        {
+          "facebook": "https://www.facebook.com/terumbudivers"
+        },
+        {
+          "instagram": "https://www.instagram.com/terumbudivers"
+        },
+        {
+          "tripadvisor": "https://www.tripadvisor.com/Attraction_Review-g297733-d33685990-Reviews-Terumbu_Divers-Lombok_West_Nusa_Tenggara.html"
+        }
+      ],
+      "email": "contact@terumbudivers.com",
+      "website": "https://terumbudivers.com",
+      "latitude": -8.3686,
+      "longitude": 116.115,
+      "notes": "Consigliato per le isole Gili. La base è presso il resort Anema; ottima visibilità e personale molto professionale.",
+      "logo": "images/loghi/terumbu-divers.webp",
+      "updatedAt": "2026-07-12T15:51:41.764Z",
+      "country": "Indonesia"
+    },
+    {
+      "id": "ae5899b2-468d-4f40-bf85-000000000065",
+      "name": "Blue Marlin Dive Gili Air",
+      "city": "Gili Air, Lombok",
+      "address": "Sunset Beach, Gili Air, Gili Indah, North Lombok 83355, Indonesia",
+      "phones": [
+        "+62 813-3283-9446"
+      ],
+      "social": [
+        {
+          "facebook": "https://www.facebook.com/bluemarlinair"
+        },
+        {
+          "instagram": "https://www.instagram.com/bluemarlinair"
+        },
+        {
+          "tiktok": "https://www.tiktok.com/@bluemarlingiliair"
+        },
+        {
+          "tripadvisor": "https://www.tripadvisor.com/Attraction_Review-g664667-d10210233-Reviews-Blue_Marlin_Dive_Gili_Air-Gili_Air_Gili_Islands_Pemenang_Lombok_West_Nusa_Tengga.html"
+        }
+      ],
+      "email": "info@bluemarlingiliair.com",
+      "website": "https://www.bluemarlingiliair.com",
+      "latitude": -8.3545932,
+      "longitude": 116.0771465,
+      "notes": "Sconsigliato: professionalità e sicurezza sono state giudicate insufficienti.",
+      "logo": "images/loghi/blue-marlin-dive-gili-air.webp",
+      "updatedAt": "2026-07-12T15:55:50.958Z",
+      "country": "Indonesia"
+    },
+    {
+      "id": "ae5899b2-468d-4f40-bf85-000000000066",
+      "name": "Blue Corner Dive",
+      "city": "Nusa Lembongan, Bali",
+      "address": "Jungut Batu, Nusa Lembongan, Bali 80771, Indonesia",
+      "phones": [
+        "+62 812-3761-8151"
+      ],
+      "social": [
+        {
+          "facebook": "https://www.facebook.com/BlueCornerDive"
+        },
+        {
+          "instagram": "https://www.instagram.com/bluecornerdive"
+        },
+        {
+          "tiktok": "https://www.tiktok.com/@bluecornerdive"
+        },
+        {
+          "tripadvisor": "https://www.tripadvisor.com/Attraction_Review-g1137831-d2192794-Reviews-Blue_Corner_Dive-Nusa_Lembongan_Bali.html"
+        }
+      ],
+      "email": "lembongan@bluecornerdive.com",
+      "website": "https://www.bluecornerdive.com",
+      "latitude": -8.666481,
+      "longitude": 115.448921,
+      "notes": null,
+      "logo": "images/loghi/blue-corner-dive.webp",
+      "updatedAt": "2026-07-12T00:00:00.000Z",
+      "country": "Indonesia"
+    },
+    {
+      "id": "ae5899b2-468d-4f40-bf85-000000000067",
+      "name": "Scuba Junkie Penida",
+      "city": "Nusa Penida, Bali",
+      "address": "Banjar Nyuh, Jln Raya Toyapakeh-Ped, Nusa Penida, Klungkung, Bali, Indonesia",
+      "phones": [
+        "+62 811-3907-078"
+      ],
+      "social": [
+        {
+          "facebook": "https://www.facebook.com/scuba.junkie.penida"
+        },
+        {
+          "instagram": "https://www.instagram.com/scuba.junkie.penida"
+        },
+        {
+          "youtube": "https://www.youtube.com/channel/UC90uI2v_UHAMyYeRWtXdr2Q"
+        },
+        {
+          "tripadvisor": "https://www.tripadvisor.com/Attraction_Review-g2538506-d15551840-Reviews-Scuba_Junkie_Penida-Nusa_Penida_Bali.html"
+        }
+      ],
+      "email": "penida@scubajunkie.com",
+      "website": "https://www.scubajunkiepenida.com",
+      "latitude": -8.6752608,
+      "longitude": 115.4921124,
+      "notes": null,
+      "logo": "images/loghi/scuba-junkie-penida.webp",
+      "updatedAt": "2026-07-12T16:19:45.303Z",
+      "country": "Indonesia"
+    },
+    {
+      "id": "ae5899b2-468d-4f40-bf85-000000000068",
+      "name": "Blue Marlin Dive Kuta Lombok",
+      "city": "Kuta, Lombok",
+      "address": "Jalan Raya Kuta No.1, Kuta, Pujut, Lombok Tengah 83573, Indonesia",
+      "phones": [
+        "+62 823-4098-6987"
+      ],
+      "social": [
+        {
+          "facebook": "https://www.facebook.com/bluemarlinkutalombok"
+        },
+        {
+          "instagram": "https://www.instagram.com/bluemarlindivekutalombok"
+        },
+        {
+          "tripadvisor": "https://www.tripadvisor.com/Attraction_Review-g2155769-d17420512-Reviews-Blue_Marlin_Dive_Kuta_Lombok-Kuta_Lombok_West_Nusa_Tenggara.html"
+        }
+      ],
+      "email": "info@bluemarlinlombok.com",
+      "website": "https://www.bluemarlinlombok.com",
+      "latitude": -8.8920688,
+      "longitude": 116.2772838,
+      "notes": null,
+      "logo": "images/loghi/blue-marlin-dive-kuta-lombok.webp",
+      "updatedAt": "2026-07-12T15:54:24.342Z",
+      "country": "Indonesia"
+    },
+    {
+      "id": "ae5899b2-468d-4f40-bf85-000000000069",
+      "name": "Dragon Dive Komodo",
+      "city": "Labuan Bajo",
+      "address": "Jalan Mutiara, Kampung Ujung, Labuan Bajo, Komodo, Nusa Tenggara Timur 86754, Indonesia",
+      "phones": [
+        "+62 811-3823-490"
+      ],
+      "social": [
+        {
+          "facebook": "https://www.facebook.com/dragondivekomodo"
+        },
+        {
+          "instagram": "https://www.instagram.com/dragondivekomodo"
+        },
+        {
+          "youtube": "https://www.youtube.com/@dragondivekomodo"
+        },
+        {
+          "tripadvisor": "https://www.tripadvisor.com/Attraction_Review-g1777483-d10778775-Reviews-Dragon_Dive_Komodo-Labuan_Bajo_Flores_East_Nusa_Tenggara.html"
+        }
+      ],
+      "email": "diving@dragondivekomodo.com",
+      "website": "https://dragondivekomodo.com",
+      "latitude": -8.4885197,
+      "longitude": 119.8772361,
+      "notes": null,
+      "logo": "images/loghi/dragon-dive-komodo.webp",
+      "updatedAt": "2026-07-12T15:56:37.881Z",
+      "country": "Indonesia"
+    },
+    {
+      "id": "ae5899b2-468d-4f40-bf85-000000000070",
+      "name": "Scuba Republic Raja Ampat",
+      "city": "Waisai, Raja Ampat",
+      "address": "Waisai, Waigeo Selatan, Raja Ampat, Southwest Papua 98482, Indonesia",
+      "phones": [
+        "+62 851-9002-4880"
+      ],
+      "social": [
+        {
+          "facebook": "https://www.facebook.com/scubarepublicliveaboards"
+        },
+        {
+          "instagram": "https://www.instagram.com/scubarepublicliveaboards"
+        },
+        {
+          "youtube": "https://www.youtube.com/@scubarepublicindonesia"
+        },
+        {
+          "tripadvisor": "https://www.tripadvisor.com/Hotel_Review-g3632533-d12219114-Reviews-Scuba_Republic_Raja_Ampat-Waisai_Raja_Ampat_West_Papua.html"
+        }
+      ],
+      "email": "",
+      "website": "https://www.scuba-republic.com",
+      "latitude": -0.441879,
+      "longitude": 130.753298,
+      "notes": null,
+      "logo": "images/loghi/scuba-republic-raja-ampat.webp",
+      "updatedAt": "2026-07-12T16:18:55.936Z",
+      "country": "Indonesia"
+    },
+    {
+      "id": "ae5899b2-468d-4f40-bf85-000000000071",
+      "name": "Dharavandhoo Divers",
+      "city": "Dharavandhoo, Baa Atoll",
+      "address": "Dharavandhoo Island, Baa Atoll 06060, Maldives",
+      "phones": [
+        "+960 995-0101"
+      ],
+      "social": [
+        {
+          "facebook": "https://www.facebook.com/DharavandhooDiversMaldives"
+        },
+        {
+          "instagram": "https://www.instagram.com/dharavandhoodivers"
+        },
+        {
+          "tripadvisor": "https://www.tripadvisor.com/Attraction_Review-g4366469-d8736946-Reviews-Dharavandhoo_Divers-Dharavandhoo.html"
+        }
+      ],
+      "email": "info@dharavandhoodiving.com",
+      "website": "https://www.dharavandhoodiving.com",
+      "latitude": 5.158562,
+      "longitude": 73.133451,
+      "notes": "Gestione italiana.",
+      "logo": "images/loghi/dharavandhoo-divers.webp",
+      "updatedAt": "2026-07-12T15:41:07.234Z",
+      "country": "Maldive"
+    },
+    {
+      "id": "ae5899b2-468d-4f40-bf85-000000000072",
+      "name": "Fulidhoo Dive & Water Sports",
+      "city": "Fulidhoo, Vaavu Atoll",
+      "address": "Muraka Building, Beachside, Fulidhoo Island, Vaavu Atoll 10010, Maldives",
+      "phones": [
+        "+960 799-9351"
+      ],
+      "social": [
+        {
+          "facebook": "https://www.facebook.com/fulidhoodive"
+        },
+        {
+          "instagram": "https://www.instagram.com/fulidhoo_dive_maldives"
+        },
+        {
+          "youtube": "https://www.youtube.com/channel/UCAsZh1pjl9OwKHrdlZTKzGA"
+        },
+        {
+          "twitter": "https://twitter.com/fulidhoodive"
+        },
+        {
+          "tripadvisor": "https://www.tripadvisor.com/Attraction_Review-g4093191-d12786437-Reviews-Fulidhoo_Dive_Water_Sports-Fulidhoo.html"
+        }
+      ],
+      "email": "hello@fulidhoodive.com",
+      "website": "https://fulidhoodive.com",
+      "latitude": 3.6800674,
+      "longitude": 73.4164422,
+      "notes": "Ben organizzati, con buona attrezzatura a noleggio.",
+      "logo": "images/loghi/fulidhoo-dive-water-sports.webp",
+      "updatedAt": "2026-07-12T15:46:37.166Z",
+      "country": "Maldive"
+    },
+    {
+      "id": "ae5899b2-468d-4f40-bf85-000000000073",
+      "name": "Prodivers Kuredu",
+      "city": "Kuredu, Lhaviyani Atoll",
+      "address": "Kuredu Island Resort & Spa, Lhaviyani Atoll, Maldives",
+      "phones": [
+        "+960 662-0343"
+      ],
+      "social": [
+        {
+          "facebook": "https://www.facebook.com/ProdiversMaldives"
+        },
+        {
+          "instagram": "https://www.instagram.com/prodiversmaldives"
+        },
+        {
+          "youtube": "https://www.youtube.com/channel/UC23cf-FJHrGO3JuNrsXmPZQ"
+        },
+        {
+          "tripadvisor": "https://www.tripadvisor.com/Attraction_Review-g1480252-d2618770-Reviews-Prodivers_Maldives-Kuredu.html"
+        }
+      ],
+      "email": "info@prodivers.com",
+      "website": "https://www.prodivers.com",
+      "latitude": 5.549968,
+      "longitude": 73.466668,
+      "notes": "Dispongono di scooter subacquei.",
+      "logo": "images/loghi/prodivers-kuredu.webp",
+      "updatedAt": "2026-07-12T00:00:00.000Z",
+      "country": "Maldive"
+    },
+    {
+      "id": "ae5899b2-468d-4f40-bf85-000000000074",
+      "name": "Dive College Lanzarote",
+      "city": "Playa Blanca, Lanzarote",
+      "address": "Playa Blanca, Lanzarote, Spain",
+      "phones": [
+        "+34 928 51 86 68"
+      ],
+      "social": [
+        {
+          "facebook": "https://www.facebook.com/DiveCollegeLanzarote"
+        },
+        {
+          "instagram": "https://www.instagram.com/divecollegelanzarote"
+        },
+        {
+          "youtube": "https://www.youtube.com/user/divecollegelanzarote"
+        },
+        {
+          "twitter": "https://twitter.com/DiveCollege"
+        },
+        {
+          "tripadvisor": "https://www.tripadvisor.com/Attraction_Review-g652121-d4560744-Reviews-Dive_College_Lanzarote-Playa_Blanca_Lanzarote_Canary_Islands.html"
+        }
+      ],
+      "email": "info@divecollegelanzarote.com",
+      "website": "https://www.divecollegelanzarote.com/en",
+      "latitude": 28.86233,
+      "longitude": -13.854558,
+      "notes": "Organizzano immersioni al Museo Atlantico.",
+      "logo": "images/loghi/dive-college-lanzarote.webp",
+      "updatedAt": "2026-07-12T15:57:29.271Z",
+      "country": "Spagna"
+    },
+    {
+      "id": "ae5899b2-468d-4f40-bf85-000000000075",
+      "name": "Excel Scuba Tenerife",
+      "city": "Costa Adeje, Tenerife",
+      "address": "Hotel La Nina, Local 8, Avenida de Espana, Costa Adeje, 38660 Tenerife, Spain",
+      "phones": [
+        "+34 664 16 56 36"
+      ],
+      "social": [
+        {
+          "facebook": "https://www.facebook.com/excelscubatenerife"
+        },
+        {
+          "instagram": "https://www.instagram.com/excelscubatenerife2019"
+        },
+        {
+          "tripadvisor": "https://www.tripadvisor.com/Attraction_Review-g562820-d8145877-Reviews-Excel_Scuba_Tenerife-Playa_de_las_Americas_Arona_Tenerife_Canary_Islands.html"
+        }
+      ],
+      "email": "info@excel-scuba.com",
+      "website": "https://www.excel-scuba.com",
+      "latitude": 28.080623,
+      "longitude": -16.734558,
+      "notes": "Organizzano immersioni e corsi su tutta l'isola.",
+      "logo": "images/loghi/excel-scuba-tenerife.webp",
+      "updatedAt": "2026-07-12T15:52:31.771Z",
+      "country": "Spagna"
+    },
+    {
+      "id": "ae5899b2-468d-4f40-bf85-000000000076",
+      "name": "Pole Pole Divers",
+      "city": "Jambiani, Zanzibar",
+      "address": "Jambiani, Kibigija, Zanzibar, Tanzania",
+      "phones": [
+        "+255 778 823 897"
+      ],
+      "social": [
+        {
+          "facebook": "https://www.facebook.com/Pole-Pole-Divers-Diving-Center-100313508024603"
+        },
+        {
+          "instagram": "https://www.instagram.com/pole_pole_divers"
+        },
+        {
+          "tripadvisor": "https://www.tripadvisor.com/Attraction_Review-g635745-d18313358-Reviews-Pole_Pole_Divers_Diving_Center-Jambiani_Zanzibar_Island_Zanzibar_Archipelago.html"
+        }
+      ],
+      "email": "",
+      "website": "http://www.polepoledivers.it",
+      "latitude": -6.2979664,
+      "longitude": 39.5408516,
+      "notes": "Gestione italiana.",
+      "logo": "images/loghi/pole-pole-divers.webp",
+      "updatedAt": "2026-07-12T16:10:43.772Z",
+      "country": "Tanzania"
+    },
+    {
+      "id": "ae5899b2-468d-4f40-bf85-000000000077",
+      "name": "Azul Diving Center",
+      "city": "Caniçal, Madeira",
+      "address": "Dreams Madeira Resort, Quinta do Lorde Marina, 9200-044 Caniçal, Madeira, Portugal",
+      "phones": [
+        "+351 914 256 575"
+      ],
+      "social": [
+        {
+          "facebook": "https://www.facebook.com/azuldivingmadeira"
+        },
+        {
+          "instagram": "https://www.instagram.com/azuldivingmadeira"
+        },
+        {
+          "youtube": "https://www.youtube.com/@azuldivingcentermadeira1945"
+        },
+        {
+          "tripadvisor": "https://www.tripadvisor.com/Attraction_Review-g189167-d6868589-Reviews-Azul_Diving_Center-Funchal_Madeira_Madeira_Islands.html"
+        }
+      ],
+      "email": "info@azuldiving.com",
+      "website": "https://azuldiving.com",
+      "latitude": 32.6418761,
+      "longitude": -16.9185371,
+      "notes": "Esperienza molto positiva.",
+      "logo": "images/loghi/azul-diving-center.webp",
+      "updatedAt": "2026-07-12T15:39:08.581Z",
+      "country": "Portogallo"
+    },
+    {
+      "id": "ae5899b2-468d-4f40-bf85-000000000078",
+      "name": "Cipreia Dive Club",
+      "city": "Funchal, Madeira",
+      "address": "Estrada Monumental 177, VidaMar Resort Hotel Madeira, 9000-100 Funchal, Portugal",
+      "phones": [
+        "+351 910 931 027"
+      ],
+      "social": [
+        {
+          "facebook": "https://www.facebook.com/CipreiaDiveClub"
+        },
+        {
+          "instagram": "https://www.instagram.com/cipreiadiveclub"
+        },
+        {
+          "tripadvisor": "https://www.tripadvisor.com/Attraction_Review-g189167-d24080534-Reviews-Cipreia_Dive_Club-Funchal_Madeira_Madeira_Islands.html"
+        }
+      ],
+      "email": "funchal@cipreiadiveclub.com",
+      "website": "https://cipreiadiveclub.com",
+      "latitude": 32.637788,
+      "longitude": -16.928369,
+      "notes": "Esperienza molto positiva.",
+      "logo": "images/loghi/cipreia-dive-club.webp",
+      "updatedAt": "2026-07-12T15:40:21.753Z",
+      "country": "Portogallo"
+    },
+    {
+      "id": "ae5899b2-468d-4f40-bf85-000000000079",
+      "name": "Sea Sir Naha",
+      "city": "Naha, Okinawa",
+      "address": "2-3-13 Minato-machi, Naha 900-0001, Okinawa, Japan",
+      "phones": [
+        "+81 120-102-743"
+      ],
+      "social": [
+        {
+          "facebook": "https://www.facebook.com/seasirnaha"
+        },
+        {
+          "instagram": "https://www.instagram.com/marinehouse_seasir_official"
+        },
+        {
+          "tripadvisor": "https://www.tripadvisor.com/Attraction_Review-g298224-d5970255-Reviews-Marine_House_Seasir_Naha-Naha_Okinawa_Prefecture_Kyushu.html"
+        }
+      ],
+      "email": "",
+      "website": "https://seasir.com/lang",
+      "latitude": 26.24227,
+      "longitude": 127.677736,
+      "notes": null,
+      "logo": "images/loghi/sea-sir-naha.webp",
+      "updatedAt": "2026-07-12T15:50:05.492Z",
+      "country": "Giappone"
+    },
+    {
+      "id": "ae5899b2-468d-4f40-bf85-000000000080",
+      "name": "Deep Dive Dubai",
+      "city": "Dubai",
+      "address": "NAS Sports Complex, Nad Al Sheba 1, Dubai, United Arab Emirates",
+      "phones": [
+        "+971 4 501 9444"
+      ],
+      "social": [
+        {
+          "facebook": "https://www.facebook.com/DeepDiveDubai"
+        },
+        {
+          "instagram": "https://www.instagram.com/deepdivedubai"
+        },
+        {
+          "youtube": "https://www.youtube.com/channel/UCdwJ7SM-3jQGEVDy2OI_S5g"
+        },
+        {
+          "tripadvisor": "https://www.tripadvisor.com/Attraction_Review-g295424-d23547091-Reviews-Deep_Dive_Dubai-Dubai_Emirate_of_Dubai.html"
+        }
+      ],
+      "email": "info@deepdivedubai.com",
+      "website": "https://www.deepdivedubai.com",
+      "latitude": 25.127727,
+      "longitude": 55.294904,
+      "notes": "È la piscina per immersioni più profonda del mondo. I prezzi sono elevati.",
+      "logo": "images/loghi/deep-dive-dubai.webp",
+      "updatedAt": "2026-07-12T00:00:00.000Z",
+      "country": "Emirati Arabi Uniti"
+    },
+    {
+      "id": "ae5899b2-468d-4f40-bf85-57955ad8a18b",
+      "name": "Triton Diving Club",
+      "city": "Bergeggi",
+      "address": "Via Aurelia, 5 - 17042 - Bergeggi (SV) - Italy",
+      "phones": [
+        "+39 349 478 2936"
+      ],
+      "social": [
+        {
+          "facebook": "https://www.facebook.com/p/Triton-Diving-Club-Bergeggi-100057540216056"
+        },
+        {
+          "instagram": "https://www.instagram.com/triton_diving_club"
+        }
+      ],
+      "email": "tritondivingbergeggi@gmail.com",
+      "website": "https://www.tritondivingsavona.com",
+      "latitude": 44.2513331,
+      "longitude": 8.447935,
+      "notes": null,
+      "updatedAt": "2026-07-07T15:10:48.506Z",
+      "logo": "images/loghi/triton-diving-club.webp",
+      "country": "Italia"
+    },
+    {
+      "id": "c1f5c011-9ef1-4f1c-80d1-000000000001",
+      "name": "Bolle d'Azoto",
+      "city": "Cavo, Isola d'Elba",
+      "address": "Via Alcide de Gasperi 16, 57038 Cavo, Isola d'Elba, Italy",
+      "phones": [
+        "+39 348 650 6276",
+        "+39 393 589 5203"
+      ],
+      "social": [
+        {
+          "facebook": "https://www.facebook.com/bolledazotodivingcenter"
+        },
+        {
+          "instagram": "https://www.instagram.com/diving_center_bolle_d_azoto"
+        },
+        {
+          "tripadvisor": "https://www.tripadvisor.com/Attraction_Review-g202314-d25206441-Reviews-Bolle_d_Azoto_Elba-Elba_Island_Province_of_Livorno_Tuscany.html"
+        }
+      ],
+      "email": "bolledazotoelba@gmail.com",
+      "website": "https://www.bolledazoto.it",
+      "latitude": 42.859332,
+      "longitude": 10.420867,
+      "notes": "Ben organizzato e disponibile.",
+      "logo": "images/loghi/bolle-dazoto.webp",
+      "updatedAt": "2026-07-12T15:57:49.197Z",
+      "country": "Italia"
+    },
+    {
+      "id": "c1f5c011-9ef1-4f1c-80d1-000000000002",
+      "name": "Megale Hellas Diving Center",
+      "city": "Marina di Gioiosa Ionica",
+      "address": "Via Cristoforo Colombo, II trav. 1/b, 89046 Marina di Gioiosa Ionica RC, Italy",
+      "phones": [
+        "+39 329 464 0045"
+      ],
+      "social": [
+        {
+          "facebook": "https://www.facebook.com/diving.megalehellas.7"
+        },
+        {
+          "instagram": "https://www.instagram.com/diving.megalehellas"
+        },
+        {
+          "youtube": "https://www.youtube.com/@megalehellas8588"
+        },
+        {
+          "tripadvisor": "https://www.tripadvisor.com/Attraction_Review-g651982-d7008403-Reviews-Megale_Hellas_Diving_Center-Marina_di_Gioiosa_Ionica_Province_of_Reggio_Calabria_.html"
+        }
+      ],
+      "email": "info@megalehellas.net",
+      "website": "https://www.megalehellas.net",
+      "latitude": 38.3015084,
+      "longitude": 16.3365938,
+      "notes": "Ben organizzati e attrezzati. Propongono immersioni su due relitti al largo di Punta Stilo, tra 10 e 15 metri di profondità, e corsi di archeologia subacquea.",
+      "logo": "images/loghi/megale-hellas-diving-center.webp",
+      "updatedAt": "2026-07-12T16:00:06.152Z",
+      "country": "Italia"
+    },
+    {
+      "id": "c1f5c011-9ef1-4f1c-80d1-000000000003",
+      "name": "Pelagos 2.0",
+      "city": "Lampedusa",
+      "address": "Lungomare Porto Nuovo angolo Via dei Depositi, 92010 Lampedusa AG, Italy",
+      "phones": [
+        "+39 335 660 9443"
+      ],
+      "social": [
+        {
+          "facebook": "https://www.facebook.com/pelagos2.0"
+        },
+        {
+          "instagram": "https://www.instagram.com/pelagos2.0"
+        },
+        {
+          "tripadvisor": "https://www.tripadvisor.com/Attraction_Review-g262047-d9990131-Reviews-Pelagos_Diving_Center-Lampedusa_Islands_of_Sicily_Sicily.html"
+        }
+      ],
+      "email": "booking@pelagoslampedusa.it",
+      "website": "https://www.pelagoslampedusa.it",
+      "latitude": 35.5019646,
+      "longitude": 12.6016027,
+      "notes": "Molto valido.",
+      "logo": "images/loghi/pelagos-20.webp",
+      "updatedAt": "2026-07-12T15:44:21.939Z",
+      "country": "Italia"
+    },
+    {
+      "id": "c1f5c011-9ef1-4f1c-80d1-000000000004",
+      "name": "Poseidon Diving Lampedusa",
+      "city": "Lampedusa",
+      "address": "Lungomare Luigi Rizzo, Lampedusa, Italy",
+      "phones": [
+        "+39 388 897 4708"
+      ],
+      "social": [
+        {
+          "facebook": "https://www.facebook.com/poseidondivinglampedusa"
+        },
+        {
+          "instagram": "https://www.instagram.com/poseidondivinglampedusa"
+        },
+        {
+          "youtube": "https://www.youtube.com/@poseidondivinglampedusa1648"
+        },
+        {
+          "tripadvisor": "https://www.tripadvisor.com/Attraction_Review-g262047-d21049397-Reviews-Poseidon_diving-Lampedusa_Islands_of_Sicily_Sicily.html"
+        }
+      ],
+      "email": "info@poseidondivinglampedusa.it",
+      "website": "https://www.poseidondivinglampedusa.it",
+      "latitude": 35.499839,
+      "longitude": 12.6080307,
+      "notes": "Esperienza descritta come sempre molto positiva.",
+      "logo": "images/loghi/poseidon-diving-lampedusa.webp",
+      "updatedAt": "2026-07-12T16:01:13.347Z",
+      "country": "Italia"
+    },
+    {
+      "id": "c1f5c011-9ef1-4f1c-80d1-000000000005",
+      "name": "Sea Point Centro Subacqueo",
+      "city": "Baia, Bacoli",
+      "address": "Via Molo di Baia, 14 - 80078 Bacoli (Napoli) - Italy",
+      "phones": [
+        "+39 081 868 8868",
+        "+39 366 435 9212",
+        "+39 349 391 8874",
+        "+39 329 654 8353"
+      ],
+      "social": [
+        {
+          "facebook": "https://www.facebook.com/seapoint.baia"
+        },
+        {
+          "instagram": "https://www.instagram.com/seapointitaly"
+        },
+        {
+          "tripadvisor": "https://www.tripadvisor.com/Attraction_Review-g1078128-d6475332-Reviews-Sea_Point_Centro_Subacqueo-Bacoli_Province_of_Naples_Campania.html"
+        }
+      ],
+      "email": "info@seapointitaly.it",
+      "website": "https://www.seapointitaly.it",
+      "latitude": 40.8172666,
+      "longitude": 14.0714284,
+      "notes": "Consigliato per il Parco Archeologico Sommerso di Baia. Esperienza descritta come positiva.",
+      "logo": "images/loghi/sea-point-centro-subacqueo.webp",
+      "updatedAt": "2026-07-12T16:15:16.554Z",
+      "country": "Italia"
+    },
+    {
+      "id": "c1f5c011-9ef1-4f1c-80d1-000000000006",
+      "name": "Centro Sub Campi Flegrei",
+      "city": "Pozzuoli",
+      "address": "Via Miliscola 165, presso Lido Montenuovo, 80078 Pozzuoli (NA), Italy",
+      "phones": [
+        "+39 081 853 1563",
+        "+39 329 215 5239"
+      ],
+      "social": [
+        {
+          "facebook": "https://www.facebook.com/CSCFItalia"
+        },
+        {
+          "instagram": "https://www.instagram.com/centrosubcampiflegrei"
+        },
+        {
+          "tripadvisor": "https://www.tripadvisor.com/Attraction_Review-g194864-d1763840-Reviews-Centro_Sub_Campi_Flegrei-Pozzuoli_Province_of_Naples_Campania.html"
+        }
+      ],
+      "email": "",
+      "website": "https://www.centrosubcampiflegrei.it",
+      "latitude": 40.8194314,
+      "longitude": 14.1354842,
+      "notes": "Consigliato per il Parco Archeologico Sommerso di Baia.",
+      "logo": "images/loghi/centro-sub-campi-flegrei.webp",
+      "updatedAt": "2026-07-12T15:53:31.983Z",
+      "country": "Italia"
+    },
+    {
+      "id": "c1f5c011-9ef1-4f1c-80d1-000000000007",
+      "name": "Orange Shark Diving Centre",
+      "city": "Mellieħa",
+      "address": "Ramla Bay Resort, Triq ir-Ramla, Mellieħa, Malta",
+      "phones": [
+        "+356 7901 8617"
+      ],
+      "social": [
+        {
+          "facebook": "https://www.facebook.com/orangesharkdivingcentres"
+        },
+        {
+          "instagram": "https://www.instagram.com/orangesharkmaltadiving"
+        },
+        {
+          "youtube": "https://www.youtube.com/@orangesharkmalta6985"
+        },
+        {
+          "tripadvisor": "https://www.tripadvisor.com/Attraction_Review-g230152-d12251345-Reviews-Orangeshark_Diving_Centre-Mellieha_Island_of_Malta.html"
+        }
+      ],
+      "email": "info@orangeshark.eu",
+      "website": "https://orangeshark.eu",
+      "latitude": 35.9867699,
+      "longitude": 14.3473745,
+      "notes": "Sono stati apprezzati la base al porto e i servizi offerti tra un'immersione e l'altra.",
+      "logo": "images/loghi/orange-shark-diving-centre.webp",
+      "updatedAt": "2026-07-12T16:16:05.034Z",
+      "country": "Malta"
+    },
+    {
+      "id": "c1f5c011-9ef1-4f1c-80d1-000000000008",
+      "name": "Aqua Marina Diving Center",
+      "city": "Playa de las Américas, Tenerife",
+      "address": "Paseo Verode, behind Hotel Oro Blanco, Av. Arquitecto Gómez Cuesta 12, Playa de las Américas, 38660 Arona, Tenerife, Spain",
+      "phones": [
+        "+34 678 66 26 70"
+      ],
+      "social": [
+        {
+          "facebook": "https://www.facebook.com/AquaMarinaDivingTenerife"
+        },
+        {
+          "instagram": "https://www.instagram.com/aquamarinadivingtenerife"
+        },
+        {
+          "youtube": "https://www.youtube.com/user/AquaMarinaDive"
+        },
+        {
+          "tripadvisor": "https://www.tripadvisor.com/Attraction_Review-g562820-d2540522-Reviews-Aqua_Marina-Playa_de_las_Americas_Arona_Tenerife_Canary_Islands.html"
+        }
+      ],
+      "email": "aquamarinatenerife@gmail.com",
+      "website": "https://aqua-marina.com",
+      "latitude": 28.0638246,
+      "longitude": -16.7283675,
+      "notes": "Esperienza descritta come positiva, con immersioni anche in corrente.",
+      "logo": "images/loghi/aqua-marina-diving-center.webp",
+      "updatedAt": "2026-07-12T00:00:00.000Z",
+      "country": "Spagna"
+    },
+    {
+      "id": "c1f5c011-9ef1-4f1c-80d1-000000000009",
+      "name": "Plongée Castille",
+      "city": "Calvi, Corsica",
+      "address": "Port de plaisance, 20260 Calvi, Corsica, France",
+      "phones": [
+        "+33 6 07 89 77 63"
+      ],
+      "social": [
+        {
+          "facebook": "https://www.facebook.com/Plongee.CASTILLE"
+        },
+        {
+          "instagram": "https://www.instagram.com/plongeecastille"
+        },
+        {
+          "tripadvisor": "https://www.tripadvisor.com/Attraction_Review-g196482-d4881149-Reviews-Plongee_Castille-Calvi_Haute_Corse_Corsica.html"
+        }
+      ],
+      "email": "plongeecastille@gmail.com",
+      "website": "https://www.plongeecastille.com",
+      "latitude": 42.5651137,
+      "longitude": 8.7585163,
+      "notes": null,
+      "logo": "images/loghi/plongee-castille.webp",
+      "updatedAt": "2026-07-12T15:44:46.305Z",
+      "country": "Francia"
+    },
+    {
+      "id": "c1f5c011-9ef1-4f1c-80d1-000000000010",
+      "name": "Maafushi Dive & Water Sports",
+      "city": "Maafushi",
+      "address": "Miskiy Magu Road, Maafushi, Maldives",
+      "phones": [
+        "+960 991-1116"
+      ],
+      "social": [
+        {
+          "facebook": "https://www.facebook.com/maafushidive"
+        },
+        {
+          "instagram": "https://www.instagram.com/maafushidive"
+        },
+        {
+          "tripadvisor": "https://www.tripadvisor.com/Attraction_Review-g2553632-d3610671-Reviews-Maafushi_Dive_Water_Sports-Maafushi_Island.html"
+        }
+      ],
+      "email": "info@maafushidive.com",
+      "website": "https://www.maafushidive.com",
+      "latitude": 3.9442406,
+      "longitude": 73.4902394,
+      "notes": null,
+      "logo": "images/loghi/maafushi-dive-water-sports.webp",
+      "updatedAt": "2026-07-12T15:48:59.210Z",
+      "country": "Maldive"
+    },
+    {
+      "id": "c1f5c011-9ef1-4f1c-80d1-000000000011",
+      "name": "Diving Group Portofino",
+      "city": "Santa Margherita Ligure",
+      "address": "Via Favale 25, Santa Margherita Ligure (GE), Italy",
+      "phones": [
+        "+39 335 725 9758",
+        "+39 0185 187 0244"
+      ],
+      "social": [
+        {
+          "facebook": "https://www.facebook.com/divingportofino"
+        },
+        {
+          "instagram": "https://www.instagram.com/diving_group_portofino"
+        },
+        {
+          "youtube": "https://www.youtube.com/user/dwsdiving/videos"
+        },
+        {
+          "tripadvisor": "https://www.tripadvisor.com/Attraction_Review-g187827-d3400177-Reviews-Diving_Group_Portofino-Santa_Margherita_Ligure_Italian_Riviera_Liguria.html"
+        }
+      ],
+      "email": "info@dgportofino.com",
+      "website": "https://dgportofino.com",
+      "latitude": 44.3306122,
+      "longitude": 9.2113342,
+      "notes": null,
+      "logo": "images/loghi/diving-group-portofino.webp",
+      "updatedAt": "2026-07-12T15:43:30.220Z",
+      "country": "Italia"
+    },
+    {
+      "id": "c1f5c011-9ef1-4f1c-80d1-000000000012",
+      "name": "Red Coral Dive Center",
+      "city": "Aqaba",
+      "address": "Pr. Mohammad St., Aqaba 77110, Jordan",
+      "phones": [
+        "+962 7 9620 9798"
+      ],
+      "social": [
+        {
+          "facebook": "https://www.facebook.com/Divenredsea"
+        },
+        {
+          "tripadvisor": "https://www.tripadvisor.com/Attraction_Review-g298101-d19927183-Reviews-Red_Coral_Dive_Center-Aqaba_Al_Aqabah_Governorate.html"
+        }
+      ],
+      "email": "divenreef@gmail.com",
+      "website": "https://redcoraldivingcenter.com",
+      "latitude": 29.525119,
+      "longitude": 35.010578,
+      "notes": "Esperienza descritta come molto positiva.",
+      "logo": "images/loghi/red-coral-dive-center.webp",
+      "updatedAt": "2026-07-12T16:18:31.792Z",
+      "country": "Giordania"
+    },
+    {
+      "id": "c1f5c011-9ef1-4f1c-80d1-000000000013",
+      "name": "Aqaba International Diving Center",
+      "city": "Aqaba",
+      "address": "King Hussein Street, Aqaba, Jordan",
+      "phones": [
+        "+962 7 9694 9082"
+      ],
+      "social": [
+        {
+          "facebook": "https://www.facebook.com/AqabaInternationalDiveCenter"
+        },
+        {
+          "instagram": "https://www.instagram.com/aqaba_diving"
+        },
+        {
+          "tripadvisor": "https://www.tripadvisor.com/Attraction_Review-g298101-d637773-Reviews-Aqaba_International_Dive_Center-Aqaba_Al_Aqabah_Governorate.html"
+        }
+      ],
+      "email": "aqabascuba99@gmail.com",
+      "website": "https://aqabadivingcenter.com",
+      "latitude": 29.5303088,
+      "longitude": 35.0020994,
+      "notes": "Esperienza positiva. Le immersioni da riva sono poco profonde e non particolarmente interessanti.",
+      "logo": "images/loghi/aqaba-international-diving-center.webp",
+      "updatedAt": "2026-07-12T15:38:15.292Z",
+      "country": "Giordania"
+    },
+    {
+      "id": "c1f5c011-9ef1-4f1c-80d1-000000000014",
+      "name": "Dive Pro Fuerte",
+      "city": "Costa Calma, Fuerteventura",
+      "address": "Hotel R2 Pajara Beach, Punta del Roquito 9, Costa Calma, Fuerteventura, Spain",
+      "phones": [
+        "+34 682 29 18 49"
+      ],
+      "social": [
+        {
+          "facebook": "https://www.facebook.com/fuerteventuraplongee"
+        },
+        {
+          "instagram": "https://www.instagram.com/diveprofuerte"
+        },
+        {
+          "tripadvisor": "https://www.tripadvisor.com/Attraction_Review-g659634-d15042165-Reviews-Dive_Pro_Fuerte-Costa_Calma_Pajara_Jandia_Peninsula_Fuerteventura_Canary_Islands.html"
+        }
+      ],
+      "email": "costacalma@diveprofuerte.com",
+      "website": "https://www.diveprofuerte.com",
+      "latitude": 28.1491695,
+      "longitude": -14.2326931,
+      "notes": null,
+      "logo": "images/loghi/dive-pro-fuerte.webp",
+      "updatedAt": "2026-07-12T15:55:01.420Z",
+      "country": "Spagna"
+    },
+    {
+      "id": "c1f5c011-9ef1-4f1c-80d1-000000000015",
+      "name": "Lombok Scuba Dive Center",
+      "city": "Lombok",
+      "address": "Jalan Raya Senggigi KM 8, Senggigi, Batu Layar, Lombok Barat, 83355, Indonesia",
+      "phones": [
+        "+62 812-4644-6450"
+      ],
+      "social": [
+        {
+          "facebook": "https://www.facebook.com/lombokscuba.dive.7"
+        },
+        {
+          "instagram": "https://www.instagram.com/lombokscubadivecenter"
+        },
+        {
+          "tiktok": "https://www.tiktok.com/@lombokscubadive"
+        },
+        {
+          "tripadvisor": "https://www.tripadvisor.com/Attraction_Review-g1592993-d17592817-Reviews-LSD_Lombok_Scuba_Dive_Center-Senggigi_Lombok_West_Nusa_Tenggara.html"
+        }
+      ],
+      "email": "lombokscubadive@gmail.com",
+      "website": "https://lombokscubadive.wixsite.com/website",
+      "latitude": -8.4955574,
+      "longitude": 116.0473424,
+      "notes": "Descritto come ottimo e molto affidabile.",
+      "logo": "images/loghi/lombok-scuba-dive-center.webp",
+      "updatedAt": "2026-07-12T16:09:19.077Z",
+      "country": "Indonesia"
+    },
+    {
+      "id": "c1f5c011-9ef1-4f1c-80d1-000000000016",
+      "name": "Bali Aqua - Nusa Penida Dive Center",
+      "city": "Nusa Penida, Bali",
+      "address": "Jalan Sekar Waru No. 1, Sanur, Bali 80228, Indonesia",
+      "phones": [
+        "+62 812-3777-9099"
+      ],
+      "social": [
+        {
+          "facebook": "https://www.facebook.com/baliaqua"
+        },
+        {
+          "instagram": "https://www.instagram.com/baliaqua"
+        },
+        {
+          "youtube": "https://www.youtube.com/channel/UCGTnrUxjqUJKB9wGJ7oVHmg"
+        },
+        {
+          "twitter": "https://x.com/baliaqua"
+        },
+        {
+          "tripadvisor": "https://www.tripadvisor.com/Attraction_Review-g297700-d2146178-Reviews-Bali_Aqua_Diving-Sanur_Denpasar_Bali.html"
+        }
+      ],
+      "email": "info@baliaqua.com",
+      "website": "https://baliaqua.com",
+      "latitude": -8.7072807,
+      "longitude": 115.2530554,
+      "notes": "Descritto come professionale, con immersioni eccellenti.",
+      "logo": "images/loghi/bali-aqua-nusa-penida-dive-center.webp",
+      "updatedAt": "2026-07-12T16:04:21.291Z",
+      "country": "Indonesia"
+    },
+    {
+      "id": "c1f5c011-9ef1-4f1c-80d1-000000000017",
+      "name": "Orca Diving",
+      "city": "Ustica",
+      "address": "Via Cristoforo Colombo 39, 90051 Ustica PA, Italy",
+      "phones": [
+        "+39 334 216 1588"
+      ],
+      "social": [
+        {
+          "facebook": "https://www.facebook.com/orca.divingustica"
+        },
+        {
+          "instagram": "https://www.instagram.com/orca_diving_ustica"
+        },
+        {
+          "tripadvisor": "https://www.tripadvisor.com/Attraction_Review-g608928-d3249674-Reviews-Orca_Diving_Ustica-Ustica_Islands_of_Sicily_Sicily.html"
+        }
+      ],
+      "email": "info@orcadivingustica.com",
+      "website": "https://www.orcadivingustica.com",
+      "latitude": 38.7089581,
+      "longitude": 13.194438,
+      "notes": "Consigliato per Ustica. Sono stati apprezzati la base al porto e i servizi offerti tra un'immersione e l'altra.",
+      "logo": "images/loghi/orca-diving.webp",
+      "updatedAt": "2026-07-12T16:10:07.656Z",
+      "country": "Italia"
+    },
+    {
+      "id": "c1f5c011-9ef1-4f1c-80d1-000000000018",
+      "name": "Evasioni Blu Diving",
+      "city": "Ustica",
+      "address": "Via Cristoforo Colombo 30, 90051 Ustica (PA), Italy",
+      "phones": [
+        "+39 351 513 3785"
+      ],
+      "social": [
+        {
+          "facebook": "https://www.facebook.com/evasionibludiving"
+        },
+        {
+          "instagram": "https://www.instagram.com/evasionibludiving"
+        },
+        {
+          "youtube": "https://www.youtube.com/channel/UCBgamQlMSk6GS-NPes_RNNw"
+        },
+        {
+          "tripadvisor": "https://www.tripadvisor.com/Attraction_Review-g608928-d19319341-Reviews-Evasioni_Blu_Diving_Ustica-Ustica_Islands_of_Sicily_Sicily.html"
+        }
+      ],
+      "email": "info@evasionibludiving.it",
+      "website": "https://www.evasionibludiving.com/it",
+      "latitude": 38.708699,
+      "longitude": 13.19436,
+      "notes": "Esperienza positiva. Offrono supporto per l'alloggio e ristoro tra un'immersione e l'altra.",
+      "logo": "images/loghi/evasioni-blu-diving.webp",
+      "updatedAt": "2026-07-12T15:45:55.100Z",
+      "country": "Italia"
+    },
+    {
+      "id": "c1f5c011-9ef1-4f1c-80d1-000000000019",
+      "name": "Argonauta Diving",
+      "city": "Cala Gonone",
+      "address": "Via Caboto s.n.c., 08022 Cala Gonone NU, Italy",
+      "phones": [
+        "+39 333 411 6048"
+      ],
+      "social": [
+        {
+          "facebook": "https://www.facebook.com/argonautadivingsardinia"
+        },
+        {
+          "instagram": "https://www.instagram.com/argonauta_diving"
+        },
+        {
+          "youtube": "https://www.youtube.com/@argonautadivingcalagonone1902"
+        },
+        {
+          "tripadvisor": "https://www.tripadvisor.com/Attraction_Review-g608907-d3390080-Reviews-Argonauta_Diving_Club-Cala_Gonone_Dorgali_Province_of_Nuoro_Sardinia.html"
+        }
+      ],
+      "email": "calagonone@argonauta.it",
+      "website": "https://www.argonauta.it/en",
+      "latitude": 40.2807163,
+      "longitude": 9.6306617,
+      "notes": "Esperienza descritta come positiva.",
+      "logo": "images/loghi/argonauta-diving.webp",
+      "updatedAt": "2026-07-12T00:00:00.000Z",
+      "country": "Italia"
+    },
+    {
+      "id": "c1f5c011-9ef1-4f1c-80d1-000000000020",
+      "name": "Manta Diving",
+      "city": "Lanzarote",
+      "address": "Calle Tenerife 2, Puerto del Carmen, 35510 Las Palmas, Spain",
+      "phones": [
+        "+34 928 51 68 15"
+      ],
+      "social": [
+        {
+          "facebook": "https://www.facebook.com/Manta.Diving"
+        },
+        {
+          "instagram": "https://www.instagram.com/mantadivinglanzarote"
+        },
+        {
+          "tripadvisor": "https://www.tripadvisor.com/Attraction_Review-g662290-d1382723-Reviews-Manta_Diving_Lanzarote-Puerto_Del_Carmen_Tias_Lanzarote_Canary_Islands.html"
+        }
+      ],
+      "email": "info@mantadivinglanzarote.com",
+      "website": "https://manta-diving-lanzarote.com",
+      "latitude": 28.9204771,
+      "longitude": -13.6703226,
+      "notes": null,
+      "logo": "images/loghi/manta-diving.webp",
+      "updatedAt": "2026-07-12T15:47:28.286Z",
+      "country": "Spagna"
+    },
+    {
+      "id": "c1f5c011-9ef1-4f1c-80d1-000000000021",
+      "name": "Koox Diving",
+      "city": "Tulum",
+      "address": "Av. Cobá Sur Supermanzana 4 Manzana 107 Lote 2-1, entre calle 7 y 9 Oriente, 77760 Tulum, Q.R., Mexico",
+      "phones": [
+        "+5219841415502"
+      ],
+      "social": [
+        {
+          "facebook": "https://www.facebook.com/kooxadventures"
+        },
+        {
+          "instagram": "https://www.instagram.com/kooxadventures"
+        },
+        {
+          "youtube": "https://www.youtube.com/user/kooxdiving"
+        },
+        {
+          "twitter": "https://twitter.com/kooxadventure"
+        },
+        {
+          "tripadvisor": "https://www.tripadvisor.com/Attraction_Review-g150813-d2284674-Reviews-Koox_Diving-Tulum_Yucatan_Peninsula.html"
+        }
+      ],
+      "email": "",
+      "website": "https://www.kooxdiving.com",
+      "latitude": 20.2135219,
+      "longitude": -87.4562377,
+      "notes": "Consigliato per Tulum e per le immersioni nei cenotes.",
+      "logo": "images/loghi/koox-diving.webp",
+      "updatedAt": "2026-07-12T15:42:37.571Z",
+      "country": "Messico"
+    },
+    {
+      "id": "c1f5c011-9ef1-4f1c-80d1-000000000022",
+      "name": "Red Sea Life Diving Center",
+      "city": "Hurghada",
+      "address": "Desert Rose Resort, Safaga Road, PO Box 191, Hurghada, Egypt",
+      "phones": [
+        "+20 11 21465312"
+      ],
+      "social": [
+        {
+          "facebook": "https://www.facebook.com/redsealife.eg"
+        },
+        {
+          "instagram": "https://www.instagram.com/redsealife.eg"
+        },
+        {
+          "youtube": "https://www.youtube.com/channel/UCFOd5Qyw3msIjVuYWRDYcUg"
+        },
+        {
+          "tripadvisor": "https://www.tripadvisor.com/Attraction_Review-g297549-d9735356-Reviews-Red_Sea_Life_Diving_Center-Hurghada_Red_Sea_and_Sinai.html"
+        }
+      ],
+      "email": "info@redsealife.com",
+      "website": "https://redsealife.com",
+      "latitude": 27.096492,
+      "longitude": 33.835219,
+      "notes": null,
+      "logo": "images/loghi/red-sea-life-diving-center.webp",
+      "updatedAt": "2026-07-12T16:13:31.330Z",
+      "country": "Egitto"
+    },
+    {
+      "id": "c1f5c011-9ef1-4f1c-80d1-000000000023",
+      "name": "Diving Saracen",
+      "city": "Isola delle Femmine",
+      "address": "Via Palermo 10, 90040 Isola delle Femmine (PA), Italy",
+      "phones": [
+        "+39 347 728 3341",
+        "+39 335 782 6436",
+        "+39 329 398 2687"
+      ],
+      "social": [
+        {
+          "facebook": "https://www.facebook.com/DivingCenterPalermo"
+        },
+        {
+          "instagram": "https://www.instagram.com/divingcentersaracen"
+        },
+        {
+          "youtube": "https://www.youtube.com/channel/UCFM_jN5qwd5qo6dxCgO1EiQ"
+        },
+        {
+          "tripadvisor": "https://www.tripadvisor.com/Attraction_Review-g1055429-d21140550-Reviews-Diving_Center_Saracen-Isola_Delle_Femmine_Province_of_Palermo_Sicily.html"
+        }
+      ],
+      "email": "info@divingcentersaracen.com",
+      "website": "https://divingcentersaracen.it",
+      "latitude": 38.1984723,
+      "longitude": 13.2499713,
+      "notes": null,
+      "logo": "images/loghi/diving-saracen.webp",
+      "updatedAt": "2026-07-12T15:48:07.646Z",
+      "country": "Italia"
+    },
+    {
+      "id": "c1f5c011-9ef1-4f1c-80d1-000000000024",
+      "name": "Ecodive",
+      "city": "Maafushi",
+      "address": "Parindhaage, Mirhi Magu, K. Maafushi, Maldives",
+      "phones": [
+        "+960 967-4405"
+      ],
+      "social": [
+        {
+          "facebook": "https://www.facebook.com/ecodiveclubmaafushi"
+        },
+        {
+          "instagram": "https://www.instagram.com/ecodiveclub_maafushi"
+        },
+        {
+          "tripadvisor": "https://www.tripadvisor.com/Attraction_Review-g2553632-d12911051-Reviews-Eco_Dive_Club-Maafushi_Island.html"
+        }
+      ],
+      "email": "info@eco-diveclub.com",
+      "website": "https://www.eco-diveclub.com",
+      "latitude": 3.944838,
+      "longitude": 73.49099,
+      "notes": "Prezzi contenuti e guide giovani e amichevoli.",
+      "logo": "images/loghi/ecodive.webp",
+      "updatedAt": "2026-07-12T15:50:25.938Z",
+      "country": "Maldive"
+    },
+    {
+      "id": "c1f5c011-9ef1-4f1c-80d1-000000000025",
+      "name": "Scuba Dreamer Diving College",
+      "city": "Sharm El Sheikh",
+      "address": "Park Regency (ex Hyatt), Sharm El Sheikh, Egypt",
+      "phones": [
+        "+20 11 54440474"
+      ],
+      "social": [
+        {
+          "facebook": "https://www.facebook.com/scubadreamerSHARM"
+        },
+        {
+          "instagram": "https://www.instagram.com/scubadreamer_diving_college_"
+        },
+        {
+          "tripadvisor": "https://www.tripadvisor.com/Attraction_Review-g297555-d8428616-Reviews-Scubadreamer-Sharm_El_Sheikh_South_Sinai_Red_Sea_and_Sinai.html"
+        }
+      ],
+      "email": "info@scubadreamer.it",
+      "website": "https://www.scubadreamer.it",
+      "latitude": 27.91697,
+      "longitude": 34.349816,
+      "notes": "Gestione italiana molto consigliata.",
+      "logo": "images/loghi/scuba-dreamer-diving-college.webp",
+      "updatedAt": "2026-07-12T16:20:15.439Z",
+      "country": "Egitto"
+    },
+    {
+      "id": "c1f5c011-9ef1-4f1c-80d1-000000000026",
+      "name": "Moby Diving",
+      "city": "Lampedusa",
+      "address": "Via delle Grotte 6, Porto Nuovo - La Salina, 92010 Isola di Lampedusa, Italy",
+      "phones": [
+        "+39 335 528 1984"
+      ],
+      "social": [
+        {
+          "facebook": "https://www.facebook.com/mobydivingcenter"
+        },
+        {
+          "instagram": "https://www.instagram.com/mobydivinglampedusa"
+        },
+        {
+          "twitter": "https://twitter.com/mobydiving"
+        },
+        {
+          "tripadvisor": "https://www.tripadvisor.com/Attraction_Review-g262047-d2543434-Reviews-Moby_Diving_Center_Lampedusa-Lampedusa_Islands_of_Sicily_Sicily.html"
+        }
+      ],
+      "email": "info@mobydiving.it",
+      "website": "https://www.mobydiving.it",
+      "latitude": 35.5020642,
+      "longitude": 12.6061259,
+      "notes": "Esperienza descritta come molto positiva.",
+      "logo": "images/loghi/moby-diving.webp",
+      "updatedAt": "2026-07-12T15:43:58.379Z",
+      "country": "Italia"
+    },
+    {
+      "id": "c1f5c011-9ef1-4f1c-80d1-000000000027",
+      "name": "Cabo Verde Diving",
+      "city": "Isola di Sal",
+      "address": "Santa Maria 4111, Cape Verde",
+      "phones": [
+        "+238 595 37 96"
+      ],
+      "social": [
+        {
+          "facebook": "https://www.facebook.com/209079551935"
+        },
+        {
+          "instagram": "https://www.instagram.com/caboverdediving"
+        },
+        {
+          "tripadvisor": "https://www.tripadvisor.com/Attraction_Review-g482847-d3725254-Reviews-Cabo_Verde_Diving-Ilha_do_Sal.html"
+        }
+      ],
+      "email": "",
+      "website": "https://www.caboverdediving.net",
+      "latitude": 16.596,
+      "longitude": -22.907,
+      "notes": null,
+      "logo": "images/loghi/cabo-verde-diving.webp",
+      "updatedAt": "2026-07-12T15:53:54.287Z",
+      "country": "Capo Verde"
+    },
+    {
+      "id": "c1f5c011-9ef1-4f1c-80d1-000000000028",
+      "name": "Blue Zone Diving Center",
+      "city": "Palau, Sardegna",
+      "address": "Camping Capo D'Orso, Via Le Saline 1, 07020 Palau (SS), Italy",
+      "phones": [
+        "+39 380 587 6892"
+      ],
+      "social": [
+        {
+          "facebook": "https://www.facebook.com/blue.zone.sardinia"
+        },
+        {
+          "instagram": "https://www.instagram.com/bluezone_sardinia"
+        }
+      ],
+      "email": "info@bluezonesardinia.eu",
+      "website": "https://capodorso.bluezonesardinia.eu",
+      "latitude": 41.160992,
+      "longitude": 9.405393,
+      "notes": null,
+      "logo": "images/loghi/blue-zone-diving-center.webp",
+      "updatedAt": "2026-07-12T15:58:35.369Z",
+      "country": "Italia"
+    },
+    {
+      "id": "c1f5c011-9ef1-4f1c-80d1-000000000029",
+      "name": "Acquaman Diving Center",
+      "city": "Villasimius",
+      "address": "Via delle Aquile, snc, Loc. Campulongu, 09049 Villasimius SU, Italy",
+      "phones": [
+        "+39 328 105 4215"
+      ],
+      "social": [
+        {
+          "facebook": "https://www.facebook.com/acquamandivingcenter"
+        },
+        {
+          "instagram": "https://www.instagram.com/acquamandivingcenter"
+        },
+        {
+          "tripadvisor": "https://www.tripadvisor.com/Attraction_Review-g194949-d12900956-Reviews-Acquaman_Diving_Center-Villasimius_Province_of_Cagliari_Sardinia.html"
+        }
+      ],
+      "email": "acquaman.villasimius@tiscali.it",
+      "website": "https://www.acquaman.com",
+      "latitude": 39.1284087,
+      "longitude": 9.5132615,
+      "notes": null,
+      "logo": "images/loghi/acquaman-diving-center.webp",
+      "updatedAt": "2026-07-12T15:33:33.278Z",
+      "country": "Italia"
+    },
+    {
+      "id": "c1f5c011-9ef1-4f1c-80d1-000000000030",
+      "name": "Dinosub",
+      "city": "Praia a Mare",
+      "address": "Contrada Fiuzzi, 87028 Praia a Mare (CS), Italy",
+      "phones": [
+        "+39 349 362 4201"
+      ],
+      "social": [
+        {
+          "facebook": "https://www.facebook.com/dinosub.it"
+        },
+        {
+          "instagram": "https://www.instagram.com/dinosubpraiaamare"
+        }
+      ],
+      "email": "dinosub@gmail.com",
+      "website": "https://www.dinosub.it",
+      "latitude": 39.874355,
+      "longitude": 15.787668,
+      "notes": null,
+      "logo": "images/loghi/dinosub.webp",
+      "updatedAt": "2026-07-12T15:56:58.877Z",
+      "country": "Italia"
+    },
+    {
+      "id": "c1f5c011-9ef1-4f1c-80d1-000000000031",
+      "name": "Cozumel Dive School",
+      "city": "Cozumel",
+      "address": "Calle 2 Norte #680, Colonia 10 de Abril, San Miguel de Cozumel 77622, Mexico",
+      "phones": [
+        "+52 987 107 0606"
+      ],
+      "social": [
+        {
+          "facebook": "https://www.facebook.com/cozumeldiveschool"
+        },
+        {
+          "instagram": "https://www.instagram.com/cozumeldiveschool"
+        },
+        {
+          "tripadvisor": "https://www.tripadvisor.com/Attraction_Review-g150809-d7788217-Reviews-Cozumel_Dive_School-Cozumel_Yucatan_Peninsula.html"
+        }
+      ],
+      "email": "cozumeldiveschool@gmail.com",
+      "website": "https://www.cozumeldiveschool.mx",
+      "latitude": 20.5074125,
+      "longitude": -86.9435379,
+      "notes": null,
+      "logo": "images/loghi/cozumel-dive-school.webp",
+      "updatedAt": "2026-07-12T15:40:43.632Z",
+      "country": "Messico"
+    },
+    {
+      "id": "c1f5c011-9ef1-4f1c-80d1-000000000032",
+      "name": "Omega Divers",
+      "city": "Almyrida, Crete",
+      "address": "Main office, Almyrida, Chania, Crete, Greece",
+      "phones": [
+        "+30 2825 031412",
+        "+30 6945 999921"
+      ],
+      "social": [
+        {
+          "facebook": "https://www.facebook.com/omegadiverschania"
+        },
+        {
+          "instagram": "https://www.instagram.com/omegadivers"
+        },
+        {
+          "youtube": "https://www.youtube.com/user/omegadiverschania"
+        },
+        {
+          "twitter": "https://x.com/omegadivers"
+        },
+        {
+          "tripadvisor": "https://www.tripadvisor.com/Attraction_Review-g775923-d2149291-Reviews-Omega_Divers_Chania_Diving_Center-Almyrida_Chania_Prefecture_Crete.html"
+        }
+      ],
+      "email": "info@omegadivers.com",
+      "website": "https://www.omegadivers.com",
+      "latitude": 35.4483041,
+      "longitude": 24.2001768,
+      "notes": "Indicato per raggiungere la Grotta dell'Elefante, a Creta. L'organizzazione è stata percepita come troppo impersonale.",
+      "logo": "images/loghi/omega-divers.webp",
+      "updatedAt": "2026-07-12T16:15:37.991Z",
+      "country": "Grecia"
+    },
+    {
+      "id": "c1f5c011-9ef1-4f1c-80d1-000000000033",
+      "name": "Andy's Scuba Diving",
+      "city": "Patong, Phuket",
+      "address": "25/17 Soi Sowsod, Rawai, Phuket 83130, Thailand",
+      "phones": [
+        "+66 80 601 3901"
+      ],
+      "social": [
+        {
+          "facebook": "https://www.facebook.com/AndyScubaDiving"
+        },
+        {
+          "instagram": "https://www.instagram.com/andyscubadivingphuket"
+        },
+        {
+          "tripadvisor": "https://www.tripadvisor.com/Attraction_Review-g297934-d2056161-Reviews-Andy_s_Scuba_Diving-Rawai_Phuket.html"
+        }
+      ],
+      "email": null,
+      "website": "https://andyscubadiving.com",
+      "latitude": 7.7933049,
+      "longitude": 98.3149138,
+      "notes": "Consigliato per Phuket e per i siti di Racha Noi, Racha Yai e Koh Doc Mai.",
+      "logo": "images/loghi/andys-scuba-diving.webp",
+      "updatedAt": "2026-07-12T00:00:00.000Z",
+      "country": "Thailandia"
+    },
+    {
+      "id": "c1f5c011-9ef1-4f1c-80d1-000000000034",
+      "name": "Phuket Dive Tours",
+      "city": "Patong, Phuket",
+      "address": "33 Thanon Sainamyen, Tambon Patong, Kathu, Phuket, 83150 - Thailand",
+      "phones": [
+        "+66 87 022 5356"
+      ],
+      "social": [
+        {
+          "facebook": "https://www.facebook.com/phuketdivetours"
+        },
+        {
+          "instagram": "https://www.instagram.com/phuketdivetours"
+        },
+        {
+          "youtube": "https://www.youtube.com/phuketdivetours"
+        },
+        {
+          "twitter": "https://twitter.com/phuketdivetours"
+        },
+        {
+          "tripadvisor": "https://www.tripadvisor.com/Attraction_Review-g1210687-d3780482-Reviews-Phuket_Dive_Tours-Kata_Beach_Karon_Phuket.html"
+        }
+      ],
+      "email": "",
+      "website": "https://www.phuketdivetours.com",
+      "latitude": 7.8255957,
+      "longitude": 98.2965198,
+      "notes": "Comodo servizio di prelievo in hotel.",
+      "logo": "images/loghi/phuket-dive-tours.webp",
+      "updatedAt": "2026-07-12T15:51:19.702Z",
+      "country": "Thailandia"
+    },
+    {
+      "id": "c1f5c011-9ef1-4f1c-80d1-000000000035",
+      "name": "Al Boom Diving",
+      "city": "Fujairah",
+      "address": "Le Meridien Al Aqah Beach Resort, Al Aqah, Fujairah, United Arab Emirates",
+      "phones": [
+        "+971 4 342 2993"
+      ],
+      "social": [
+        {
+          "facebook": "https://www.facebook.com/AlBoomDiving"
+        },
+        {
+          "instagram": "https://www.instagram.com/alboomdiving"
+        },
+        {
+          "tripadvisor": "https://www.tripadvisor.com/Attraction_Review-g311321-d1539412-Reviews-Al_Boom_Diving-Fujairah_Emirate_of_Fujairah.html"
+        }
+      ],
+      "email": "support@alboomdiving.com",
+      "website": "https://www.alboomdiving.com/en",
+      "latitude": 25.5071814,
+      "longitude": 56.3647284,
+      "notes": "Una persona ha rinunciato a causa del tragitto, considerato troppo lungo.",
+      "logo": "images/loghi/al-boom-diving.webp",
+      "updatedAt": "2026-07-12T15:37:40.655Z",
+      "country": "Emirati Arabi Uniti"
+    },
+    {
+      "id": "c1f5c011-9ef1-4f1c-80d1-000000000036",
+      "name": "Freediving Training Center Dahab",
+      "city": "Dahab",
+      "address": "Dahab Divers, El Fanar Street, PO Box 4, Dahab Masbat 46617, South Sinai, Egypt",
+      "phones": [
+        "+33 6 74 34 29 39",
+        "+20 12 83234901"
+      ],
+      "social": [
+        {
+          "facebook": "https://www.facebook.com/people/Freediving-Training-Center-Dahab/61572661594072"
+        },
+        {
+          "instagram": "https://www.instagram.com/ftc.dahab"
+        },
+        {
+          "tripadvisor": "https://www.tripadvisor.com/Attraction_Review-g297547-d34165627-Reviews-Freediving_Training_Center_FTC_Dahab-Dahab_South_Sinai_Red_Sea_and_Sinai.html"
+        }
+      ],
+      "email": "contact@freedivingtrainingcenter.com",
+      "website": "https://freedivingtrainingcenter.com",
+      "latitude": 28.499488,
+      "longitude": 34.518366,
+      "notes": "Esperienza descritta come positiva.",
+      "logo": "images/loghi/freediving-training-center-dahab.webp",
+      "updatedAt": "2026-07-12T15:42:59.984Z",
+      "country": "Egitto"
+    },
+    {
+      "id": "c1f5c011-9ef1-4f1c-80d1-000000000037",
+      "name": "Anthias Diving",
+      "city": "Cannigione",
+      "address": "STR PROV KM 3,800 CANNIGIONE – PALAU – 07021 – ARZACHENA (SS) - Italy",
+      "phones": [
+        "+39 345 4512689"
+      ],
+      "social": [
+        {
+          "facebook": "https://www.facebook.com/anthias.diving"
+        },
+        {
+          "instagram": "https://www.instagram.com/anthiasdiving"
+        },
+        {
+          "tripadvisor": "https://www.tripadvisor.com/Attraction_Review-g671579-d8442438-Reviews-Anthias_Diving-Cannigione_Arzachena_Province_of_Olbia_Tempio_Sardinia.html"
+        }
+      ],
+      "email": "asdanthiasdiving@gmail.com",
+      "website": "https://www.anthiasdiving.com",
+      "latitude": 41.0962338,
+      "longitude": 9.4359809,
+      "notes": null,
+      "logo": "images/loghi/anthias-diving.webp",
+      "updatedAt": "2026-07-12T00:00:00.000Z",
+      "country": "Italia"
+    },
+    {
+      "id": "c1f5c011-9ef1-4f1c-80d1-000000000038",
+      "name": "Area 11 Diving",
+      "city": "La Maddalena",
+      "address": "Via Padule 100, C/O R. Cala Majore, 07024 La Maddalena SS, Italy",
+      "phones": [
+        "+39 345 583 6868"
+      ],
+      "social": [
+        {
+          "facebook": "https://www.facebook.com/area11diver"
+        },
+        {
+          "instagram": "https://www.instagram.com/area11diver"
+        },
+        {
+          "tripadvisor": "https://www.tripadvisor.com/Attraction_Review-g612430-d4503055-Reviews-Area_11_Diver-La_Maddalena_Maddalena_Islands_Province_of_Sassari_Sardinia.html"
+        }
+      ],
+      "email": "info@area11diver.com",
+      "website": "https://www.area11diver.com",
+      "latitude": 41.2117604,
+      "longitude": 9.3926183,
+      "notes": null,
+      "logo": "images/loghi/area-11-diving.webp",
+      "updatedAt": "2026-07-12T15:38:44.246Z",
+      "country": "Italia"
+    },
+    {
+      "id": "c1f5c011-9ef1-4f1c-80d1-000000000039",
+      "name": "Bikini Diving",
+      "city": "Castellammare di Stabia",
+      "address": "Viale Alcide De Gasperi 313, 80053 Castellammare di Stabia NA, Italy",
+      "phones": [
+        "+39 338 944 9567"
+      ],
+      "social": [
+        {
+          "facebook": "https://www.facebook.com/BikiniDiving"
+        },
+        {
+          "tripadvisor": "https://www.tripadvisor.com/Attraction_Review-g194718-d15020337-Reviews-Bikini_Diving-Castellammare_di_Stabia_Province_of_Naples_Campania.html"
+        }
+      ],
+      "email": "info@bikinidiving.com",
+      "website": "https://www.bikinidiving.com",
+      "latitude": 40.7269297,
+      "longitude": 14.4732854,
+      "notes": "Citato come base per il Banco di Santa Croce e frequentato da molti subacquei.",
+      "logo": null,
+      "updatedAt": "2026-07-12T00:00:00.000Z",
+      "country": "Italia"
+    },
+    {
+      "id": "c1f5c011-9ef1-4f1c-80d1-000000000041",
+      "name": "Diving in Elba",
+      "city": "Procchio, Isola d'Elba",
+      "address": "Piazza del Mare 2, Procchio, 57030 Marciana (LI), Italy",
+      "phones": [
+        "+39 347 371 5788"
+      ],
+      "social": [
+        {
+          "facebook": "https://www.facebook.com/divinginelba"
+        },
+        {
+          "instagram": "https://www.instagram.com/divinginelba"
+        },
+        {
+          "youtube": "https://www.youtube.com/user/divinginelba"
+        },
+        {
+          "tiktok": "https://www.tiktok.com/@divinginelba"
+        },
+        {
+          "tripadvisor": "https://www.tripadvisor.com/Attraction_Review-g194810-d4234447-Reviews-Diving_in_Elba-Marciana_Elba_Island_Province_of_Livorno_Tuscany.html"
+        }
+      ],
+      "email": "info@divinginelba.com",
+      "website": "https://www.divinginelba.com",
+      "latitude": 42.785728,
+      "longitude": 10.245499,
+      "notes": "Esperienza descritta come molto positiva, soprattutto nella sede Airone.",
+      "logo": "images/loghi/diving-in-elba.webp",
+      "updatedAt": "2026-07-12T15:58:57.252Z",
+      "country": "Italia"
+    },
+    {
+      "id": "c1f5c011-9ef1-4f1c-80d1-000000000042",
+      "name": "Il Careno",
+      "city": "Sant'Andrea, Isola d'Elba",
+      "address": "Piazza del Mare 12, 57030 Loc. Sant'Andrea, Marciana LI, Italy",
+      "phones": [
+        "+39 339 302 9777"
+      ],
+      "social": [
+        {
+          "facebook": "https://www.facebook.com/il.careno"
+        },
+        {
+          "instagram": "https://www.instagram.com/ilcareno"
+        },
+        {
+          "tripadvisor": "https://www.tripadvisor.com/Attraction_Review-g6160989-d17755222-Reviews-Diving_Il_Careno-Sant_Andrea_Marciana_Elba_Island_Province_of_Livorno_Tuscany.html"
+        }
+      ],
+      "email": "info@ilcareno.it",
+      "website": "https://www.ilcareno.com",
+      "latitude": 42.8073747,
+      "longitude": 10.140915,
+      "notes": null,
+      "logo": "images/loghi/il-careno.webp",
+      "updatedAt": "2026-07-12T15:48:33.391Z",
+      "country": "Italia"
+    },
+    {
+      "id": "c1f5c011-9ef1-4f1c-80d1-000000000043",
+      "name": "Elba Diving Center",
+      "city": "Marciana Marina, Isola d'Elba",
+      "address": "Viale Aldo Moro 42, 57033 Marciana Marina (LI), Italy",
+      "phones": [
+        "+39 0565 904256",
+        "+39 339 733 8902"
+      ],
+      "social": [
+        {
+          "facebook": "https://www.facebook.com/elbadiving"
+        },
+        {
+          "instagram": "https://www.instagram.com/elbadiving"
+        },
+        {
+          "tripadvisor": "https://www.tripadvisor.com/Attraction_Review-g194811-d3319984-Reviews-Elba_Diving-Marciana_Marina_Elba_Island_Province_of_Livorno_Tuscany.html"
+        }
+      ],
+      "email": "info@elbadiving.it",
+      "website": "https://www.elbadiving.it",
+      "latitude": 42.806864,
+      "longitude": 10.1938194,
+      "notes": "Organizza anche immersioni a Pianosa.",
+      "logo": "images/loghi/elba-diving-center.webp",
+      "updatedAt": "2026-07-12T16:00:49.743Z",
+      "country": "Italia"
+    },
+    {
+      "id": "dfd221c8-6ace-4715-a268-9b8a4d63d424",
+      "name": "BIG FISH Dive Center",
+      "city": "Los Cristianos, Tenerife",
+      "address": "Calle Jesus Dominguez Grillo 19 local 2, Los Cristianos, 38650 Tenerife - Spain",
+      "phones": [
+        "+34 672 95 88 29"
+      ],
+      "social": [
+        {
+          "facebook": "https://www.facebook.com/BigFishTenerife"
+        },
+        {
+          "instagram": "https://www.instagram.com/bigfish_tenerife"
+        },
+        {
+          "youtube": "https://www.youtube.com/@bigfishdivecentertenerife539"
+        },
+        {
+          "tripadvisor": "https://www.tripadvisor.com/Attraction_Review-g315919-d5005276-Reviews-Big_Fish_Dive_Center-Adeje_Tenerife_Canary_Islands.html"
+        }
+      ],
+      "email": null,
+      "website": "http://www.bigfishtenerife.com",
+      "latitude": 28.0502568,
+      "longitude": -16.7204267,
+      "notes": null,
+      "updatedAt": "2026-07-07T15:06:56.876Z",
+      "logo": "images/loghi/big-fish-dive-center.webp",
+      "country": "Spagna"
+    },
+    {
+      "id": "e670c1ac-a63c-44b9-92eb-8ceb54a17bc8",
+      "name": "Blu Dive Center",
+      "city": "Santa Teresa Gallura, Sardegna",
+      "address": "Via Nazionale, 73 - 07028 Santa Teresa Gallura (OT) Sardegna - Italy",
+      "phones": [
+        "+39 328 717 3499"
+      ],
+      "social": [
+        {
+          "facebook": "https://www.facebook.com/bludivecenter"
+        },
+        {
+          "instagram": "https://www.instagram.com/blu.dive"
+        },
+        {
+          "tripadvisor": "https://www.tripadvisor.com/Attraction_Review-g608922-d2279232-Reviews-Blu_Dive_Center-Santa_Teresa_Gallura_Province_of_Olbia_Tempio_Sardinia.html"
+        }
+      ],
+      "email": null,
+      "website": "https://www.bludivecenter.com",
+      "latitude": 41.2316932,
+      "longitude": 9.1856598,
+      "notes": null,
+      "updatedAt": "2026-07-07T15:07:31.045Z",
+      "logo": "images/loghi/blu-dive-center.webp",
+      "country": "Italia"
+    }
+  ]
+}
