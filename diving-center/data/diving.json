@@ -1,5 +1,5 @@
 {
-  "version": 5,
+  "version": 9,
   "centers": [
     {
       "id": "07b2dda9-6b69-4100-88ce-33018c4bbce1",
@@ -112,8 +112,19 @@
         "tripadvisor": "https://www.tripadvisor.com/Attraction_Review-g1179396-d547537-Reviews-Discovery_Dive_Centre-Bophut_Ko_Samui_Surat_Thani_Province.html"
       },
       "notes": "Immersioni costose, ma ben organizzate. Il servizio include il trasferimento da e per l'hotel, il pranzo, la barca e l'attrezzatura. Istruttori e guide precisi e professionali.",
-      "updatedAt": "2026-07-07T15:08:06.334Z",
-      "logo": "images/logos/discovery-divers.webp"
+      "updatedAt": "2026-07-28T10:35:37.000Z",
+      "logo": "images/logos/discovery-divers.webp",
+      "openingHours": [
+        {
+          "from": "11:00",
+          "to": "18:00"
+        }
+      ],
+      "padi": {
+        "affiliateId": "6311",
+        "membershipLevel": "PADI 5 Star Dive Center",
+        "url": "https://travel.padi.com/dive-center/thailand/samui-discovery-divers-co-ltd-2/"
+      }
     },
     {
       "id": "347c992c-50ed-4066-852b-746a01a60cdb",
@@ -140,8 +151,59 @@
         "tripadvisor": "https://www.tripadvisor.com/Attraction_Review-g666789-d10807478-Reviews-Divenjoy-Noli_Italian_Riviera_Liguria.html"
       },
       "notes": "Il diving si trova direttamente sulla spiaggia e dispone anche di un pontile galleggiante per le immersioni non da riva. Il personale è risultato più gentile al telefono che di persona.",
-      "updatedAt": "2026-07-07T15:08:24.705Z",
-      "logo": "images/logos/divenjoy.webp"
+      "updatedAt": "2026-07-28T10:35:37.000Z",
+      "logo": "images/logos/divenjoy.webp",
+      "openingHours": {
+        "weekly": {
+          "monday": [
+            {
+              "from": "09:00",
+              "to": "17:00"
+            }
+          ],
+          "tuesday": [
+            {
+              "from": "09:00",
+              "to": "17:00"
+            }
+          ],
+          "wednesday": [
+            {
+              "from": "09:00",
+              "to": "17:00"
+            }
+          ],
+          "thursday": [
+            {
+              "from": "09:00",
+              "to": "17:00"
+            }
+          ],
+          "friday": [
+            {
+              "from": "09:00",
+              "to": "17:00"
+            }
+          ],
+          "saturday": [
+            {
+              "from": "08:30",
+              "to": "18:30"
+            }
+          ],
+          "sunday": [
+            {
+              "from": "08:30",
+              "to": "18:30"
+            }
+          ]
+        }
+      },
+      "padi": {
+        "affiliateId": "799162",
+        "membershipLevel": "PADI 5 Star IDC Resort",
+        "url": "https://travel.padi.com/dive-center/italy/divenjoy/"
+      }
     },
     {
       "id": "3a422060-18fd-4411-9fc9-edaeddac9811",
@@ -299,7 +361,7 @@
         }
       },
       "contacts": {
-        "email": null,
+        "email": "info@royaloctopus.gr",
         "website": "https://royaloctopus.gr",
         "phones": [
           "+30 693 675 8469"
@@ -311,8 +373,19 @@
         "tripadvisor": "https://www.tripadvisor.com/Attraction_Review-g1187586-d14913800-Reviews-Royal_Octopus_DIVE_CENTER-Kolymbari_Platanias_Chania_Prefecture_Crete.html"
       },
       "notes": "Esperienza positiva. Non raggiunge la Grotta dell'Elefante, che si trova fuori zona.",
-      "updatedAt": "2026-07-07T15:11:34.658Z",
-      "logo": "images/logos/royal-octopus.webp"
+      "updatedAt": "2026-07-28T10:35:37.000Z",
+      "logo": "images/logos/royal-octopus.webp",
+      "openingHours": [
+        {
+          "from": "09:00",
+          "to": "21:00"
+        }
+      ],
+      "padi": {
+        "affiliateId": "26735",
+        "membershipLevel": "PADI 5 Star Dive Center",
+        "url": "https://travel.padi.com/dive-center/greece/royal-octopus-dive-center/"
+      }
     },
     {
       "id": "88252ebf-803e-4358-8dd3-e280ca694478",
@@ -336,11 +409,23 @@
       },
       "social": {
         "instagram": "https://www.instagram.com/pollodiving",
-        "tripadvisor": "https://www.tripadvisor.com/Attraction_Review-g8593008-d17733732-Reviews-Pollo_Diving_ASD-Porto_Pollo_Province_of_Olbia_Tempio_Sardinia.html"
+        "tripadvisor": "https://www.tripadvisor.com/Attraction_Review-g8593008-d17733732-Reviews-Pollo_Diving_ASD-Porto_Pollo_Province_of_Olbia_Tempio_Sardinia.html",
+        "facebook": "https://www.facebook.com/pollodiving"
       },
       "notes": null,
-      "updatedAt": "2026-07-07T15:13:14.795Z",
-      "logo": "images/logos/pollo-diving.webp"
+      "updatedAt": "2026-07-28T10:35:37.000Z",
+      "logo": "images/logos/pollo-diving.webp",
+      "openingHours": [
+        {
+          "from": "09:00",
+          "to": "20:00"
+        }
+      ],
+      "padi": {
+        "affiliateId": "27325",
+        "membershipLevel": "PADI Resort",
+        "url": "https://travel.padi.com/dive-center/italy/pollo-diving/"
+      }
     },
     {
       "id": "9706f5ce-b819-4634-b3a7-a16b6576bb37",
@@ -413,7 +498,7 @@
         }
       },
       "contacts": {
-        "email": null,
+        "email": "caribbean@reefoasisdiveclub.com",
         "website": "https://www.reefoasisdiveclub.com/diving-dominican-republic",
         "phones": [
           "+1 809-686-5658"
@@ -424,11 +509,23 @@
         "instagram": "https://www.instagram.com/reefoasisdiveclub",
         "youtube": "https://www.youtube.com/user/ReefOasisDiveClubTV",
         "twitter": "https://twitter.com/reefoasisdiving",
-        "tripadvisor": "https://www.tripadvisor.com/Attraction_Review-g663484-d7702036-Reviews-Reef_Oasis_Viva_Dominican-Bayahibe_La_Altagracia_Province_Dominican_Republic.html"
+        "tripadvisor": "https://www.tripadvisor.com/Attraction_Review-g663484-d7702036-Reviews-Reef_Oasis_Viva_Dominican-Bayahibe_La_Altagracia_Province_Dominican_Republic.html",
+        "tiktok": "https://www.tiktok.com/@reefoasisdiveclub"
       },
       "notes": "Da evitare. È preferibile cercare un diving appena fuori dal villaggio e chiedere di FrancoNero.",
-      "updatedAt": "2026-07-07T15:12:01.095Z",
-      "logo": "images/logos/reef-oasis-viva-dominican.webp"
+      "updatedAt": "2026-07-28T10:35:37.000Z",
+      "logo": "images/logos/reef-oasis-viva-dominican.webp",
+      "openingHours": [
+        {
+          "from": "08:00",
+          "to": "17:00"
+        }
+      ],
+      "padi": {
+        "affiliateId": "19979",
+        "membershipLevel": "PADI 5 Star IDC Resort",
+        "url": "https://travel.padi.com/dive-center/dominican-republic/reef-oasis-viva-dominican/"
+      }
     },
     {
       "id": "ae5899b2-468d-4f40-bf85-000000000044",
@@ -485,7 +582,18 @@
       },
       "notes": "Esperienza descritta come molto positiva.",
       "logo": "images/logos/air-sub-diving.webp",
-      "updatedAt": "2026-07-12T00:00:00.000Z"
+      "updatedAt": "2026-07-28T10:35:37.000Z",
+      "openingHours": [
+        {
+          "from": "08:30",
+          "to": "20:00"
+        }
+      ],
+      "padi": {
+        "affiliateId": "9225",
+        "membershipLevel": "PADI 5 Star Dive Center",
+        "url": "https://travel.padi.com/dive-center/italy/air-sub-service-srl/"
+      }
     },
     {
       "id": "ae5899b2-468d-4f40-bf85-000000000046",
@@ -654,7 +762,18 @@
       },
       "notes": "Dispongono di una navetta e offrono il prelievo anche a chi non alloggia nel resort.",
       "logo": "images/logos/monkey-divers.webp",
-      "updatedAt": "2026-07-12T16:09:46.204Z"
+      "updatedAt": "2026-07-28T10:35:37.000Z",
+      "openingHours": [
+        {
+          "from": "08:00",
+          "to": "17:30"
+        }
+      ],
+      "padi": {
+        "affiliateId": "23812",
+        "membershipLevel": "PADI 5 Star IDC Resort",
+        "url": "https://travel.padi.com/dive-center/egypt/monkey-divers-diving-college/"
+      }
     },
     {
       "id": "ae5899b2-468d-4f40-bf85-000000000052",
@@ -669,7 +788,7 @@
         }
       },
       "contacts": {
-        "email": null,
+        "email": "info@funnydivers.com",
         "website": "https://funnydivers.com",
         "phones": [
           "+20 12 24193164"
@@ -682,7 +801,58 @@
       },
       "notes": "In un'occasione è stato trovato chiuso al mattino. Apre nel pomeriggio.",
       "logo": "images/logos/funny-divers.webp",
-      "updatedAt": "2026-07-12T16:02:07.995Z"
+      "updatedAt": "2026-07-28T10:35:37.000Z",
+      "openingHours": {
+        "weekly": {
+          "monday": [
+            {
+              "from": "09:00",
+              "to": "18:00"
+            }
+          ],
+          "tuesday": [
+            {
+              "from": "08:00",
+              "to": "18:00"
+            }
+          ],
+          "wednesday": [
+            {
+              "from": "09:00",
+              "to": "18:00"
+            }
+          ],
+          "thursday": [
+            {
+              "from": "09:00",
+              "to": "18:00"
+            }
+          ],
+          "friday": [
+            {
+              "from": "09:00",
+              "to": "18:00"
+            }
+          ],
+          "saturday": [
+            {
+              "from": "09:00",
+              "to": "18:00"
+            }
+          ],
+          "sunday": [
+            {
+              "from": "09:00",
+              "to": "18:00"
+            }
+          ]
+        }
+      },
+      "padi": {
+        "affiliateId": "24331",
+        "membershipLevel": "PADI 5 Star Dive Center",
+        "url": "https://travel.padi.com/dive-center/egypt/funny-divers-2/"
+      }
     },
     {
       "id": "ae5899b2-468d-4f40-bf85-000000000053",
@@ -739,7 +909,18 @@
       },
       "notes": "Esperienza positiva.",
       "logo": "images/logos/scuba-world.webp",
-      "updatedAt": "2026-07-12T16:19:21.980Z"
+      "updatedAt": "2026-07-28T10:35:37.000Z",
+      "openingHours": [
+        {
+          "from": "18:00",
+          "to": "21:00"
+        }
+      ],
+      "padi": {
+        "affiliateId": "26172",
+        "membershipLevel": "PADI 5 Star Dive Center",
+        "url": "https://travel.padi.com/dive-center/greece/scuba-world-diving-center/"
+      }
     },
     {
       "id": "ae5899b2-468d-4f40-bf85-000000000055",
@@ -797,7 +978,18 @@
       },
       "notes": null,
       "logo": "images/logos/the-dearly-dive.webp",
-      "updatedAt": "2026-07-12T16:17:55.330Z"
+      "updatedAt": "2026-07-28T10:35:37.000Z",
+      "openingHours": [
+        {
+          "from": "08:00",
+          "to": "18:00"
+        }
+      ],
+      "padi": {
+        "affiliateId": "27850",
+        "membershipLevel": "PADI 5 Star IDC Resort",
+        "url": "https://travel.padi.com/dive-center/thailand/the-dearly-dive/"
+      }
     },
     {
       "id": "ae5899b2-468d-4f40-bf85-000000000057",
@@ -824,7 +1016,58 @@
       },
       "notes": null,
       "logo": "images/logos/ocean-sound-dive-yoga.webp",
-      "updatedAt": "2026-07-12T16:03:28.800Z"
+      "updatedAt": "2026-07-28T10:35:37.000Z",
+      "openingHours": {
+        "weekly": {
+          "monday": [
+            {
+              "from": "09:00",
+              "to": "18:00"
+            }
+          ],
+          "tuesday": [
+            {
+              "from": "09:00",
+              "to": "18:00"
+            }
+          ],
+          "wednesday": [
+            {
+              "from": "09:00",
+              "to": "18:00"
+            }
+          ],
+          "thursday": [
+            {
+              "from": "09:00",
+              "to": "18:00"
+            }
+          ],
+          "friday": [
+            {
+              "from": "09:00",
+              "to": "18:00"
+            }
+          ],
+          "saturday": [
+            {
+              "from": "09:00",
+              "to": "14:00"
+            }
+          ],
+          "sunday": [
+            {
+              "from": "09:00",
+              "to": "14:00"
+            }
+          ]
+        }
+      },
+      "padi": {
+        "affiliateId": "24258",
+        "membershipLevel": "PADI 5 Star Dive Center",
+        "url": "https://travel.padi.com/dive-center/thailand/ocean-sound-dive-yoga/"
+      }
     },
     {
       "id": "ae5899b2-468d-4f40-bf85-000000000058",
@@ -938,7 +1181,82 @@
       },
       "notes": "Le immersioni partono direttamente dalla spiaggia.",
       "logo": "images/logos/red-sail-sports-aruba.webp",
-      "updatedAt": "2026-07-12T16:13:09.179Z"
+      "updatedAt": "2026-07-28T10:35:37.000Z",
+      "openingHours": {
+        "weekly": {
+          "monday": [
+            {
+              "from": "08:00",
+              "to": "20:00"
+            },
+            {
+              "from": "08:30",
+              "to": "20:30"
+            }
+          ],
+          "tuesday": [
+            {
+              "from": "08:00",
+              "to": "20:00"
+            },
+            {
+              "from": "08:30",
+              "to": "17:00"
+            }
+          ],
+          "wednesday": [
+            {
+              "from": "08:00",
+              "to": "20:00"
+            },
+            {
+              "from": "08:30",
+              "to": "17:00"
+            }
+          ],
+          "thursday": [
+            {
+              "from": "08:00",
+              "to": "20:00"
+            },
+            {
+              "from": "08:30",
+              "to": "20:30"
+            }
+          ],
+          "friday": [
+            {
+              "from": "08:00",
+              "to": "20:00"
+            },
+            {
+              "from": "08:30",
+              "to": "17:30"
+            }
+          ],
+          "saturday": [
+            {
+              "from": "08:00",
+              "to": "20:00"
+            },
+            {
+              "from": "08:30",
+              "to": "17:30"
+            }
+          ],
+          "sunday": [
+            {
+              "from": "08:00",
+              "to": "20:00"
+            }
+          ]
+        }
+      },
+      "padi": {
+        "affiliateId": "2054",
+        "membershipLevel": "PADI 5 Star Dive Resort",
+        "url": "https://travel.padi.com/dive-center/aruba/red-sail-sports-aruba-nv/"
+      }
     },
     {
       "id": "ae5899b2-468d-4f40-bf85-000000000062",
@@ -966,7 +1284,12 @@
       },
       "notes": "Valutato positivamente.",
       "logo": "images/logos/se-aruba-fly-n-dive.webp",
-      "updatedAt": "2026-07-12T16:12:50.604Z"
+      "updatedAt": "2026-07-28T10:35:37.000Z",
+      "padi": {
+        "affiliateId": "20171",
+        "membershipLevel": "PADI 5 Star Dive Resort",
+        "url": "https://travel.padi.com/dive-center/aruba/se-aruba-flyn-dive/"
+      }
     },
     {
       "id": "ae5899b2-468d-4f40-bf85-000000000063",
@@ -996,7 +1319,58 @@
       },
       "notes": "Descritto come molto professionale.",
       "logo": "images/logos/divers-team.webp",
-      "updatedAt": "2026-07-12T15:58:11.880Z"
+      "updatedAt": "2026-07-28T10:35:37.000Z",
+      "openingHours": {
+        "weekly": {
+          "monday": [
+            {
+              "from": "08:30",
+              "to": "18:00"
+            }
+          ],
+          "tuesday": [
+            {
+              "from": "08:30",
+              "to": "18:00"
+            }
+          ],
+          "wednesday": [
+            {
+              "from": "08:30",
+              "to": "18:00"
+            }
+          ],
+          "thursday": [
+            {
+              "from": "08:30",
+              "to": "18:00"
+            }
+          ],
+          "friday": [
+            {
+              "from": "08:30",
+              "to": "18:00"
+            }
+          ],
+          "saturday": [
+            {
+              "from": "08:30",
+              "to": "16:00"
+            }
+          ],
+          "sunday": [
+            {
+              "from": "08:30",
+              "to": "12:00"
+            }
+          ]
+        }
+      },
+      "padi": {
+        "affiliateId": "10430",
+        "membershipLevel": "PADI Resort",
+        "url": "https://travel.padi.com/dive-center/colombia/divers-team-2/"
+      }
     },
     {
       "id": "ae5899b2-468d-4f40-bf85-000000000064",
@@ -1024,7 +1398,18 @@
       },
       "notes": "Consigliato per le isole Gili. La base è presso il resort Anema; ottima visibilità e personale molto professionale.",
       "logo": "images/logos/terumbu-divers.webp",
-      "updatedAt": "2026-07-12T15:51:41.764Z"
+      "updatedAt": "2026-07-28T10:35:37.000Z",
+      "openingHours": [
+        {
+          "from": "08:00",
+          "to": "18:00"
+        }
+      ],
+      "padi": {
+        "affiliateId": "6226",
+        "membershipLevel": "PADI 5 Star Dive Resort",
+        "url": "https://travel.padi.com/dive-center/indonesia/terumbu-divers/"
+      }
     },
     {
       "id": "ae5899b2-468d-4f40-bf85-000000000065",
@@ -1053,7 +1438,18 @@
       },
       "notes": "Sconsigliato: professionalità e sicurezza sono state giudicate insufficienti.",
       "logo": "images/logos/blue-marlin-dive-gili-air.webp",
-      "updatedAt": "2026-07-12T15:55:50.958Z"
+      "updatedAt": "2026-07-28T10:35:37.000Z",
+      "openingHours": [
+        {
+          "from": "07:00",
+          "to": "19:30"
+        }
+      ],
+      "padi": {
+        "affiliateId": "25442",
+        "membershipLevel": "PADI 5 Star IDC Resort",
+        "url": "https://travel.padi.com/dive-center/indonesia/blue-marlin-dive-gili-air/"
+      }
     },
     {
       "id": "ae5899b2-468d-4f40-bf85-000000000066",
@@ -1078,11 +1474,24 @@
         "facebook": "https://www.facebook.com/BlueCornerDive",
         "instagram": "https://www.instagram.com/bluecornerdive",
         "tiktok": "https://www.tiktok.com/@bluecornerdive",
-        "tripadvisor": "https://www.tripadvisor.com/Attraction_Review-g1137831-d2192794-Reviews-Blue_Corner_Dive-Nusa_Lembongan_Bali.html"
+        "tripadvisor": "https://www.tripadvisor.com/Attraction_Review-g1137831-d2192794-Reviews-Blue_Corner_Dive-Nusa_Lembongan_Bali.html",
+        "twitter": "https://twitter.com/#!/BCDLembongan",
+        "youtube": "https://www.youtube.com/channel/UCo8ErrorlX8gx4CwqBE52Ng"
       },
       "notes": null,
       "logo": "images/logos/blue-corner-dive.webp",
-      "updatedAt": "2026-07-12T00:00:00.000Z"
+      "updatedAt": "2026-07-28T10:35:37.000Z",
+      "openingHours": [
+        {
+          "from": "07:00",
+          "to": "18:30"
+        }
+      ],
+      "padi": {
+        "affiliateId": "22557",
+        "membershipLevel": "PADI 5 Star CDC",
+        "url": "https://travel.padi.com/dive-center/indonesia/blue-corner-dive/"
+      }
     },
     {
       "id": "ae5899b2-468d-4f40-bf85-000000000067",
@@ -1111,7 +1520,18 @@
       },
       "notes": null,
       "logo": "images/logos/scuba-junkie-penida.webp",
-      "updatedAt": "2026-07-12T16:19:45.303Z"
+      "updatedAt": "2026-07-28T10:35:37.000Z",
+      "openingHours": [
+        {
+          "from": "07:00",
+          "to": "17:00"
+        }
+      ],
+      "padi": {
+        "affiliateId": "26943",
+        "membershipLevel": "PADI 5 Star IDC Resort",
+        "url": "https://travel.padi.com/dive-center/indonesia/scuba-junkie-penida/"
+      }
     },
     {
       "id": "ae5899b2-468d-4f40-bf85-000000000068",
@@ -1139,7 +1559,58 @@
       },
       "notes": null,
       "logo": "images/logos/blue-marlin-dive-kuta-lombok.webp",
-      "updatedAt": "2026-07-12T15:54:24.342Z"
+      "updatedAt": "2026-07-28T10:35:37.000Z",
+      "openingHours": {
+        "weekly": {
+          "monday": [
+            {
+              "from": "07:00",
+              "to": "18:00"
+            }
+          ],
+          "tuesday": [
+            {
+              "from": "07:00",
+              "to": "18:00"
+            }
+          ],
+          "wednesday": [
+            {
+              "from": "06:00",
+              "to": "18:00"
+            }
+          ],
+          "thursday": [
+            {
+              "from": "06:00",
+              "to": "18:00"
+            }
+          ],
+          "friday": [
+            {
+              "from": "07:00",
+              "to": "18:00"
+            }
+          ],
+          "saturday": [
+            {
+              "from": "07:00",
+              "to": "18:00"
+            }
+          ],
+          "sunday": [
+            {
+              "from": "07:00",
+              "to": "18:00"
+            }
+          ]
+        }
+      },
+      "padi": {
+        "affiliateId": "6389",
+        "membershipLevel": "PADI 5 Star Dive Center",
+        "url": "https://travel.padi.com/dive-center/indonesia/blue-marlin-dive-lombok/"
+      }
     },
     {
       "id": "ae5899b2-468d-4f40-bf85-000000000069",
@@ -1168,7 +1639,18 @@
       },
       "notes": null,
       "logo": "images/logos/dragon-dive-komodo.webp",
-      "updatedAt": "2026-07-12T15:56:37.881Z"
+      "updatedAt": "2026-07-28T10:35:37.000Z",
+      "openingHours": [
+        {
+          "from": "08:00",
+          "to": "20:00"
+        }
+      ],
+      "padi": {
+        "affiliateId": "22159",
+        "membershipLevel": "PADI 5 Star IDC",
+        "url": "https://travel.padi.com/dive-center/indonesia/dragon-dive-komodo/"
+      }
     },
     {
       "id": "ae5899b2-468d-4f40-bf85-000000000070",
@@ -1225,7 +1707,58 @@
       },
       "notes": "Gestione italiana.",
       "logo": "images/logos/dharavandhoo-divers.webp",
-      "updatedAt": "2026-07-12T15:41:07.234Z"
+      "updatedAt": "2026-07-28T10:35:37.000Z",
+      "openingHours": {
+        "weekly": {
+          "monday": [
+            {
+              "from": "09:00",
+              "to": "18:00"
+            }
+          ],
+          "tuesday": [
+            {
+              "from": "09:00",
+              "to": "18:00"
+            }
+          ],
+          "wednesday": [
+            {
+              "from": "09:00",
+              "to": "18:00"
+            }
+          ],
+          "thursday": [
+            {
+              "from": "09:00",
+              "to": "18:00"
+            }
+          ],
+          "friday": [
+            {
+              "from": "09:00",
+              "to": "18:00"
+            }
+          ],
+          "saturday": [
+            {
+              "from": "09:00",
+              "to": "15:00"
+            }
+          ],
+          "sunday": [
+            {
+              "from": "09:00",
+              "to": "18:00"
+            }
+          ]
+        }
+      },
+      "padi": {
+        "affiliateId": "24514",
+        "membershipLevel": "PADI 5 Star Dive Center",
+        "url": "https://travel.padi.com/dive-center/maldives/dharavandhoo-divers/"
+      }
     },
     {
       "id": "ae5899b2-468d-4f40-bf85-000000000072",
@@ -1255,7 +1788,18 @@
       },
       "notes": "Ben organizzati, con buona attrezzatura a noleggio.",
       "logo": "images/logos/fulidhoo-dive-water-sports.webp",
-      "updatedAt": "2026-07-12T15:46:37.166Z"
+      "updatedAt": "2026-07-28T10:35:37.000Z",
+      "openingHours": [
+        {
+          "from": "08:00",
+          "to": "18:00"
+        }
+      ],
+      "padi": {
+        "affiliateId": "25760",
+        "membershipLevel": "PADI 5 Star IDC Resort",
+        "url": "https://travel.padi.com/dive-center/maldives/fulidhoo-dive-water-sports-2/"
+      }
     },
     {
       "id": "ae5899b2-468d-4f40-bf85-000000000073",
@@ -1284,7 +1828,86 @@
       },
       "notes": "Dispongono di scooter subacquei.",
       "logo": "images/logos/prodivers-kuredu.webp",
-      "updatedAt": "2026-07-12T00:00:00.000Z"
+      "updatedAt": "2026-07-28T10:35:37.000Z",
+      "openingHours": {
+        "weekly": {
+          "monday": [
+            {
+              "from": "08:30",
+              "to": "12:00"
+            },
+            {
+              "from": "14:00",
+              "to": "18:00"
+            }
+          ],
+          "tuesday": [
+            {
+              "from": "08:30",
+              "to": "12:00"
+            },
+            {
+              "from": "14:00",
+              "to": "18:00"
+            }
+          ],
+          "wednesday": [
+            {
+              "from": "08:30",
+              "to": "12:00"
+            },
+            {
+              "from": "14:00",
+              "to": "18:00"
+            }
+          ],
+          "thursday": [
+            {
+              "from": "08:30",
+              "to": "12:00"
+            },
+            {
+              "from": "14:00",
+              "to": "18:00"
+            }
+          ],
+          "friday": [
+            {
+              "from": "14:00",
+              "to": "18:00"
+            },
+            {
+              "from": "08:30",
+              "to": "12:00"
+            }
+          ],
+          "saturday": [
+            {
+              "from": "08:30",
+              "to": "12:00"
+            },
+            {
+              "from": "14:00",
+              "to": "18:00"
+            }
+          ],
+          "sunday": [
+            {
+              "from": "08:30",
+              "to": "12:00"
+            },
+            {
+              "from": "14:00",
+              "to": "18:00"
+            }
+          ]
+        }
+      },
+      "padi": {
+        "affiliateId": "9094",
+        "membershipLevel": "PADI 5 Star IDC",
+        "url": "https://travel.padi.com/dive-center/maldives/kuredu-prodivers/"
+      }
     },
     {
       "id": "ae5899b2-468d-4f40-bf85-000000000074",
@@ -1314,7 +1937,53 @@
       },
       "notes": "Organizzano immersioni al Museo Atlantico.",
       "logo": "images/logos/dive-college-lanzarote.webp",
-      "updatedAt": "2026-07-12T15:57:29.271Z"
+      "updatedAt": "2026-07-28T10:35:37.000Z",
+      "openingHours": {
+        "weekly": {
+          "monday": [
+            {
+              "from": "09:00",
+              "to": "18:00"
+            }
+          ],
+          "tuesday": [
+            {
+              "from": "09:00",
+              "to": "18:00"
+            }
+          ],
+          "wednesday": [
+            {
+              "from": "09:00",
+              "to": "18:00"
+            }
+          ],
+          "thursday": [
+            {
+              "from": "09:00",
+              "to": "18:00"
+            }
+          ],
+          "friday": [
+            {
+              "from": "09:00",
+              "to": "18:00"
+            }
+          ],
+          "saturday": [
+            {
+              "from": "09:00",
+              "to": "18:00"
+            }
+          ],
+          "sunday": "closed"
+        }
+      },
+      "padi": {
+        "affiliateId": "798463",
+        "membershipLevel": "PADI 5 Star IDC",
+        "url": "https://travel.padi.com/dive-center/spain/dive-college-lanzarote/"
+      }
     },
     {
       "id": "ae5899b2-468d-4f40-bf85-000000000075",
@@ -1357,7 +2026,7 @@
         }
       },
       "contacts": {
-        "email": null,
+        "email": "info@polepoledivers.it",
         "website": "https://www.polepoledivers.it",
         "phones": [
           "+255 778 823 897"
@@ -1370,7 +2039,18 @@
       },
       "notes": "Gestione italiana.",
       "logo": "images/logos/pole-pole-divers.webp",
-      "updatedAt": "2026-07-12T16:10:43.772Z"
+      "updatedAt": "2026-07-28T10:35:37.000Z",
+      "openingHours": [
+        {
+          "from": "08:00",
+          "to": "18:00"
+        }
+      ],
+      "padi": {
+        "affiliateId": "29386",
+        "membershipLevel": "PADI Dive Center",
+        "url": "https://travel.padi.com/dive-center/tanzania/pole-pole-divers/"
+      }
     },
     {
       "id": "ae5899b2-468d-4f40-bf85-000000000077",
@@ -1399,7 +2079,53 @@
       },
       "notes": "Esperienza molto positiva.",
       "logo": "images/logos/azul-diving-center.webp",
-      "updatedAt": "2026-07-12T15:39:08.581Z"
+      "updatedAt": "2026-07-28T10:35:37.000Z",
+      "openingHours": {
+        "weekly": {
+          "monday": [
+            {
+              "from": "09:30",
+              "to": "17:30"
+            }
+          ],
+          "tuesday": [
+            {
+              "from": "09:30",
+              "to": "17:30"
+            }
+          ],
+          "wednesday": [
+            {
+              "from": "09:30",
+              "to": "17:30"
+            }
+          ],
+          "thursday": [
+            {
+              "from": "09:30",
+              "to": "17:30"
+            }
+          ],
+          "friday": [
+            {
+              "from": "09:30",
+              "to": "17:30"
+            }
+          ],
+          "saturday": [
+            {
+              "from": "09:30",
+              "to": "17:30"
+            }
+          ],
+          "sunday": "closed"
+        }
+      },
+      "padi": {
+        "affiliateId": "28400",
+        "membershipLevel": "PADI 5 Star Dive Center",
+        "url": "https://travel.padi.com/dive-center/portugal/azul-diving-center-madeira/"
+      }
     },
     {
       "id": "ae5899b2-468d-4f40-bf85-000000000078",
@@ -1484,7 +2210,18 @@
       },
       "notes": "È la piscina per immersioni più profonda del mondo. I prezzi sono elevati.",
       "logo": "images/logos/deep-dive-dubai.webp",
-      "updatedAt": "2026-07-12T00:00:00.000Z"
+      "updatedAt": "2026-07-28T10:35:37.000Z",
+      "openingHours": [
+        {
+          "from": "09:00",
+          "to": "18:00"
+        }
+      ],
+      "padi": {
+        "affiliateId": "28297",
+        "membershipLevel": "PADI 5 Star IDC",
+        "url": "https://travel.padi.com/dive-center/united-arab-emirates/deep-dive-dubai/"
+      }
     },
     {
       "id": "ae5899b2-468d-4f40-bf85-57955ad8a18b",
@@ -1597,7 +2334,18 @@
       },
       "notes": "Molto valido.",
       "logo": "images/logos/pelagos-20.webp",
-      "updatedAt": "2026-07-12T15:44:21.939Z"
+      "updatedAt": "2026-07-28T10:35:37.000Z",
+      "openingHours": [
+        {
+          "from": "07:30",
+          "to": "19:30"
+        }
+      ],
+      "padi": {
+        "affiliateId": "799467",
+        "membershipLevel": "PADI 5 Star Dive Center",
+        "url": "https://travel.padi.com/dive-center/italy/pelagos-dc-lampedusa/"
+      }
     },
     {
       "id": "c1f5c011-9ef1-4f1c-80d1-000000000004",
@@ -1672,7 +2420,7 @@
         }
       },
       "contacts": {
-        "email": null,
+        "email": "info@centrosubcampiflegrei.it",
         "website": "https://www.centrosubcampiflegrei.it",
         "phones": [
           "+39 081 853 1563",
@@ -1686,7 +2434,18 @@
       },
       "notes": "Consigliato per il Parco Archeologico Sommerso di Baia.",
       "logo": "images/logos/centro-sub-campi-flegrei.webp",
-      "updatedAt": "2026-07-12T15:53:31.983Z"
+      "updatedAt": "2026-07-28T10:35:37.000Z",
+      "openingHours": [
+        {
+          "from": "09:00",
+          "to": "18:00"
+        }
+      ],
+      "padi": {
+        "affiliateId": "798439",
+        "membershipLevel": "PADI 5 Star IDC",
+        "url": "https://travel.padi.com/dive-center/italy/centro-sub-campi-flegrei-srl/"
+      }
     },
     {
       "id": "c1f5c011-9ef1-4f1c-80d1-000000000007",
@@ -1744,7 +2503,18 @@
       },
       "notes": "Esperienza descritta come positiva, con immersioni anche in corrente.",
       "logo": "images/logos/aqua-marina-diving-center.webp",
-      "updatedAt": "2026-07-12T00:00:00.000Z"
+      "updatedAt": "2026-07-28T10:35:37.000Z",
+      "openingHours": [
+        {
+          "from": "09:00",
+          "to": "17:00"
+        }
+      ],
+      "padi": {
+        "affiliateId": "798165",
+        "membershipLevel": "PADI 5 Star IDC",
+        "url": "https://travel.padi.com/dive-center/spain/aqua-marina/"
+      }
     },
     {
       "id": "c1f5c011-9ef1-4f1c-80d1-000000000009",
@@ -1772,7 +2542,18 @@
       },
       "notes": null,
       "logo": "images/logos/plongee-castille.webp",
-      "updatedAt": "2026-07-12T15:44:46.305Z"
+      "updatedAt": "2026-07-28T10:35:37.000Z",
+      "openingHours": [
+        {
+          "from": "07:30",
+          "to": "20:00"
+        }
+      ],
+      "padi": {
+        "affiliateId": "798008",
+        "membershipLevel": "PADI 5 Star Dive Resort",
+        "url": "https://travel.padi.com/dive-center/france/centre-de-plongee-castille/"
+      }
     },
     {
       "id": "c1f5c011-9ef1-4f1c-80d1-000000000010",
@@ -1800,7 +2581,18 @@
       },
       "notes": null,
       "logo": "images/logos/maafushi-dive-water-sports.webp",
-      "updatedAt": "2026-07-12T15:48:59.210Z"
+      "updatedAt": "2026-07-28T10:35:37.000Z",
+      "openingHours": [
+        {
+          "from": "08:00",
+          "to": "22:00"
+        }
+      ],
+      "padi": {
+        "affiliateId": "23424",
+        "membershipLevel": "PADI 5 Star Dive Resort",
+        "url": "https://travel.padi.com/dive-center/maldives/maafushi-dive-center/"
+      }
     },
     {
       "id": "c1f5c011-9ef1-4f1c-80d1-000000000011",
@@ -1830,7 +2622,58 @@
       },
       "notes": null,
       "logo": "images/logos/diving-group-portofino.webp",
-      "updatedAt": "2026-07-12T15:43:30.220Z"
+      "updatedAt": "2026-07-28T10:35:37.000Z",
+      "openingHours": {
+        "weekly": {
+          "monday": [
+            {
+              "from": "08:30",
+              "to": "18:00"
+            }
+          ],
+          "tuesday": [
+            {
+              "from": "08:30",
+              "to": "18:00"
+            }
+          ],
+          "wednesday": [
+            {
+              "from": "08:30",
+              "to": "18:00"
+            }
+          ],
+          "thursday": [
+            {
+              "from": "08:30",
+              "to": "18:00"
+            }
+          ],
+          "friday": [
+            {
+              "from": "08:30",
+              "to": "18:00"
+            }
+          ],
+          "saturday": [
+            {
+              "from": "07:30",
+              "to": "18:00"
+            }
+          ],
+          "sunday": [
+            {
+              "from": "07:30",
+              "to": "18:00"
+            }
+          ]
+        }
+      },
+      "padi": {
+        "affiliateId": "799353",
+        "membershipLevel": "PADI 5 Star Dive Resort",
+        "url": "https://travel.padi.com/dive-center/italy/diving-group-portofino/"
+      }
     },
     {
       "id": "c1f5c011-9ef1-4f1c-80d1-000000000012",
@@ -1885,7 +2728,18 @@
       },
       "notes": "Esperienza positiva. Le immersioni da riva sono poco profonde e non particolarmente interessanti.",
       "logo": "images/logos/aqaba-international-diving-center.webp",
-      "updatedAt": "2026-07-12T15:38:15.292Z"
+      "updatedAt": "2026-07-28T10:35:37.000Z",
+      "openingHours": [
+        {
+          "from": "09:00",
+          "to": "17:00"
+        }
+      ],
+      "padi": {
+        "affiliateId": "28991",
+        "membershipLevel": "PADI 5 Star Dive Center",
+        "url": "https://travel.padi.com/dive-center/jordan/aqaba-moon-diving-center/"
+      }
     },
     {
       "id": "c1f5c011-9ef1-4f1c-80d1-000000000014",
@@ -1913,7 +2767,18 @@
       },
       "notes": null,
       "logo": "images/logos/dive-pro-fuerte.webp",
-      "updatedAt": "2026-07-12T15:55:01.420Z"
+      "updatedAt": "2026-07-28T10:35:37.000Z",
+      "openingHours": [
+        {
+          "from": "09:00",
+          "to": "17:00"
+        }
+      ],
+      "padi": {
+        "affiliateId": "23523",
+        "membershipLevel": "PADI 5 Star Dive Resort",
+        "url": "https://travel.padi.com/dive-center/spain/dive-pro-fuerte/"
+      }
     },
     {
       "id": "c1f5c011-9ef1-4f1c-80d1-000000000015",
@@ -1942,7 +2807,18 @@
       },
       "notes": "Descritto come ottimo e molto affidabile.",
       "logo": "images/logos/lombok-scuba-dive-center.webp",
-      "updatedAt": "2026-07-12T16:09:19.077Z"
+      "updatedAt": "2026-07-28T10:35:37.000Z",
+      "openingHours": [
+        {
+          "from": "09:00",
+          "to": "20:00"
+        }
+      ],
+      "padi": {
+        "affiliateId": "29517",
+        "membershipLevel": "PADI Dive Center",
+        "url": "https://travel.padi.com/dive-center/indonesia/lombok-scuba-dive-center/"
+      }
     },
     {
       "id": "c1f5c011-9ef1-4f1c-80d1-000000000016",
@@ -1972,7 +2848,58 @@
       },
       "notes": "Descritto come professionale, con immersioni eccellenti.",
       "logo": "images/logos/bali-aqua-nusa-penida-dive-center.webp",
-      "updatedAt": "2026-07-12T16:04:21.291Z"
+      "updatedAt": "2026-07-28T10:35:37.000Z",
+      "openingHours": {
+        "weekly": {
+          "monday": [
+            {
+              "from": "07:00",
+              "to": "18:00"
+            }
+          ],
+          "tuesday": [
+            {
+              "from": "07:00",
+              "to": "18:00"
+            }
+          ],
+          "wednesday": [
+            {
+              "from": "07:00",
+              "to": "18:00"
+            }
+          ],
+          "thursday": [
+            {
+              "from": "07:00",
+              "to": "18:00"
+            }
+          ],
+          "friday": [
+            {
+              "from": "07:00",
+              "to": "18:00"
+            }
+          ],
+          "saturday": [
+            {
+              "from": "07:00",
+              "to": "18:00"
+            }
+          ],
+          "sunday": [
+            {
+              "from": "07:00",
+              "to": "13:00"
+            }
+          ]
+        }
+      },
+      "padi": {
+        "affiliateId": "36425",
+        "membershipLevel": "PADI 5 Star Dive Center",
+        "url": "https://travel.padi.com/dive-center/indonesia/bali-aqua/"
+      }
     },
     {
       "id": "c1f5c011-9ef1-4f1c-80d1-000000000017",
@@ -2000,7 +2927,18 @@
       },
       "notes": "Consigliato per Ustica. Sono stati apprezzati la base al porto e i servizi offerti tra un'immersione e l'altra.",
       "logo": "images/logos/orca-diving.webp",
-      "updatedAt": "2026-07-12T16:10:07.656Z"
+      "updatedAt": "2026-07-28T10:35:37.000Z",
+      "openingHours": [
+        {
+          "from": "08:00",
+          "to": "19:00"
+        }
+      ],
+      "padi": {
+        "affiliateId": "24668",
+        "membershipLevel": "PADI 5 Star Dive Resort",
+        "url": "https://travel.padi.com/dive-center/italy/orca-diving-ustica/"
+      }
     },
     {
       "id": "c1f5c011-9ef1-4f1c-80d1-000000000018",
@@ -2029,7 +2967,53 @@
       },
       "notes": "Esperienza positiva. Offrono supporto per l'alloggio e ristoro tra un'immersione e l'altra.",
       "logo": "images/logos/evasioni-blu-diving.webp",
-      "updatedAt": "2026-07-12T15:45:55.100Z"
+      "updatedAt": "2026-07-28T10:35:37.000Z",
+      "openingHours": {
+        "weekly": {
+          "monday": [
+            {
+              "from": "07:45",
+              "to": "18:00"
+            }
+          ],
+          "tuesday": [
+            {
+              "from": "07:45",
+              "to": "18:00"
+            }
+          ],
+          "wednesday": [
+            {
+              "from": "07:45",
+              "to": "18:00"
+            }
+          ],
+          "thursday": [
+            {
+              "from": "07:45",
+              "to": "18:00"
+            }
+          ],
+          "friday": [
+            {
+              "from": "07:45",
+              "to": "18:00"
+            }
+          ],
+          "saturday": [
+            {
+              "from": "07:45",
+              "to": "18:00"
+            }
+          ],
+          "sunday": null
+        }
+      },
+      "padi": {
+        "affiliateId": "26048",
+        "membershipLevel": "PADI 5 Star IDC Resort",
+        "url": "https://travel.padi.com/dive-center/italy/evasioni-blu-diving-3/"
+      }
     },
     {
       "id": "c1f5c011-9ef1-4f1c-80d1-000000000019",
@@ -2058,7 +3042,18 @@
       },
       "notes": "Esperienza descritta come positiva.",
       "logo": "images/logos/argonauta-diving.webp",
-      "updatedAt": "2026-07-12T00:00:00.000Z"
+      "updatedAt": "2026-07-28T10:35:37.000Z",
+      "openingHours": [
+        {
+          "from": "08:30",
+          "to": "17:00"
+        }
+      ],
+      "padi": {
+        "affiliateId": "9538",
+        "membershipLevel": "PADI 5 Star Dive Resort",
+        "url": "https://travel.padi.com/dive-center/italy/argonauta-cala-gonone/"
+      }
     },
     {
       "id": "c1f5c011-9ef1-4f1c-80d1-000000000020",
@@ -2145,7 +3140,18 @@
       },
       "notes": null,
       "logo": "images/logos/red-sea-life-diving-center.webp",
-      "updatedAt": "2026-07-12T16:13:31.330Z"
+      "updatedAt": "2026-07-28T10:35:37.000Z",
+      "openingHours": [
+        {
+          "from": "08:00",
+          "to": "17:00"
+        }
+      ],
+      "padi": {
+        "affiliateId": "32190",
+        "membershipLevel": "PADI 5 Star IDC",
+        "url": "https://travel.padi.com/dive-center/egypt/red-sea-life/"
+      }
     },
     {
       "id": "c1f5c011-9ef1-4f1c-80d1-000000000023",
@@ -2257,11 +3263,23 @@
         "facebook": "https://www.facebook.com/mobydivingcenter",
         "instagram": "https://www.instagram.com/mobydivinglampedusa",
         "twitter": "https://twitter.com/mobydiving",
-        "tripadvisor": "https://www.tripadvisor.com/Attraction_Review-g262047-d2543434-Reviews-Moby_Diving_Center_Lampedusa-Lampedusa_Islands_of_Sicily_Sicily.html"
+        "tripadvisor": "https://www.tripadvisor.com/Attraction_Review-g262047-d2543434-Reviews-Moby_Diving_Center_Lampedusa-Lampedusa_Islands_of_Sicily_Sicily.html",
+        "youtube": "https://www.youtube.com/channel/UCBIpYmk0XAyJqO4v9ltMSCA"
       },
       "notes": "Esperienza descritta come molto positiva.",
       "logo": "images/logos/moby-diving.webp",
-      "updatedAt": "2026-07-12T15:43:58.379Z"
+      "updatedAt": "2026-07-28T10:35:37.000Z",
+      "openingHours": [
+        {
+          "from": "08:00",
+          "to": "20:00"
+        }
+      ],
+      "padi": {
+        "affiliateId": "24056",
+        "membershipLevel": "PADI 5 Star IDC Resort",
+        "url": "https://travel.padi.com/dive-center/italy/moby-diving/"
+      }
     },
     {
       "id": "c1f5c011-9ef1-4f1c-80d1-000000000027",
@@ -2399,7 +3417,18 @@
       },
       "notes": null,
       "logo": "images/logos/cozumel-dive-school.webp",
-      "updatedAt": "2026-07-12T15:40:43.632Z"
+      "updatedAt": "2026-07-28T10:35:37.000Z",
+      "openingHours": [
+        {
+          "from": "08:00",
+          "to": "17:00"
+        }
+      ],
+      "padi": {
+        "affiliateId": "24794",
+        "membershipLevel": "PADI 5 Star CDC",
+        "url": "https://travel.padi.com/dive-center/mexico/cozumel-dive-school/"
+      }
     },
     {
       "id": "c1f5c011-9ef1-4f1c-80d1-000000000032",
@@ -2430,7 +3459,18 @@
       },
       "notes": "Indicato per raggiungere la Grotta dell'Elefante, a Creta. L'organizzazione è stata percepita come troppo impersonale.",
       "logo": "images/logos/omega-divers.webp",
-      "updatedAt": "2026-07-12T16:15:37.991Z"
+      "updatedAt": "2026-07-28T10:35:37.000Z",
+      "openingHours": [
+        {
+          "from": "09:00",
+          "to": "19:00"
+        }
+      ],
+      "padi": {
+        "affiliateId": "22236",
+        "membershipLevel": "PADI 5 Star IDC Resort",
+        "url": "https://travel.padi.com/dive-center/greece/omega-divers/"
+      }
     },
     {
       "id": "c1f5c011-9ef1-4f1c-80d1-000000000033",
@@ -2445,7 +3485,7 @@
         }
       },
       "contacts": {
-        "email": null,
+        "email": "info@andyscubadiving.com",
         "website": "https://andyscubadiving.com",
         "phones": [
           "+66 80 601 3901"
@@ -2458,7 +3498,18 @@
       },
       "notes": "Consigliato per Phuket e per i siti di Racha Noi, Racha Yai e Koh Doc Mai.",
       "logo": "images/logos/andys-scuba-diving.webp",
-      "updatedAt": "2026-07-12T00:00:00.000Z"
+      "updatedAt": "2026-07-28T10:35:37.000Z",
+      "openingHours": [
+        {
+          "from": "07:00",
+          "to": "20:00"
+        }
+      ],
+      "padi": {
+        "affiliateId": "23909",
+        "membershipLevel": "PADI Dive Center",
+        "url": "https://travel.padi.com/dive-center/thailand/andys-scuba-diving/"
+      }
     },
     {
       "id": "c1f5c011-9ef1-4f1c-80d1-000000000034",
@@ -2573,7 +3624,18 @@
       },
       "notes": null,
       "logo": "images/logos/anthias-diving.webp",
-      "updatedAt": "2026-07-12T00:00:00.000Z"
+      "updatedAt": "2026-07-28T10:35:37.000Z",
+      "openingHours": [
+        {
+          "from": "07:30",
+          "to": "19:00"
+        }
+      ],
+      "padi": {
+        "affiliateId": "798877",
+        "membershipLevel": "PADI 5 Star Dive Resort",
+        "url": "https://travel.padi.com/dive-center/italy/anthias-diving-2/"
+      }
     },
     {
       "id": "c1f5c011-9ef1-4f1c-80d1-000000000038",
@@ -2730,7 +3792,7 @@
         }
       },
       "contacts": {
-        "email": null,
+        "email": "info@bigfishtenerife.com",
         "website": "https://bigfishtenerife.com",
         "phones": [
           "+34 672 95 88 29"
@@ -2743,8 +3805,19 @@
         "tripadvisor": "https://www.tripadvisor.com/Attraction_Review-g315919-d5005276-Reviews-Big_Fish_Dive_Center-Adeje_Tenerife_Canary_Islands.html"
       },
       "notes": null,
-      "updatedAt": "2026-07-07T15:06:56.876Z",
-      "logo": "images/logos/big-fish-dive-center.webp"
+      "updatedAt": "2026-07-28T10:35:37.000Z",
+      "logo": "images/logos/big-fish-dive-center.webp",
+      "openingHours": [
+        {
+          "from": "09:00",
+          "to": "17:00"
+        }
+      ],
+      "padi": {
+        "affiliateId": "25351",
+        "membershipLevel": "PADI 5 Star IDC",
+        "url": "https://travel.padi.com/dive-center/spain/big-fish-2/"
+      }
     },
     {
       "id": "e670c1ac-a63c-44b9-92eb-8ceb54a17bc8",
