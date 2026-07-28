@@ -35,7 +35,7 @@
       "name": "Palmes Beach",
       "location": {
         "city": "Menton",
-        "address": "43 Nouveau Port de Garavan, 06500 Menton - France",
+        "address": "43 Nouveau Port de Garavan, 06500 Menton, France",
         "country": "Francia",
         "coordinates": {
           "latitude": 43.7836005,
@@ -62,7 +62,7 @@
       "name": "Marina di Campo Diving",
       "location": {
         "city": "Marina di Campo",
-        "address": "Via Renato Fucini 452, Campo nell'Elba (LI) - Italy",
+        "address": "Via Renato Fucini 452, Campo nell'Elba (LI), Italy",
         "country": "Italia",
         "coordinates": {
           "latitude": 42.746533,
@@ -91,7 +91,7 @@
       "name": "Discovery Divers",
       "location": {
         "city": "Amari Koh Samui Resort",
-        "address": "Amari Koh Samui Resort, North Chaweng, Koh Samui, 84320 - Thailand",
+        "address": "Amari Koh Samui Resort, North Chaweng, Koh Samui, 84320, Thailand",
         "country": "Thailandia",
         "coordinates": {
           "latitude": 9.5274446,
@@ -131,7 +131,7 @@
       "name": "Divenjoy",
       "location": {
         "city": "Noli",
-        "address": "Via Aurelia 52 – 17026 Noli – SV - Italy",
+        "address": "Via Aurelia 52, 17026 Noli, SV, Italy",
         "country": "Italia",
         "coordinates": {
           "latitude": 44.2067187,
@@ -210,7 +210,7 @@
       "name": "Marina Diving Center",
       "location": {
         "city": "Loano",
-        "address": "Porto Marina di Loano, Lungomare Madonna di Loreto, Bel Vedere n.2 Loano (SV) - Italy",
+        "address": "Porto Marina di Loano, Lungomare Madonna di Loreto, Bel Vedere n.2 Loano (SV), Italy",
         "country": "Italia",
         "coordinates": {
           "latitude": 44.1330896,
@@ -237,7 +237,7 @@
       "name": "Sharm Scuba Service",
       "location": {
         "city": "Sharm El Sheikh",
-        "address": "Tivoli Hotel Aquapark, Sharm El Sheikh 2, South Sinai Governorate 8762112 - Egypt",
+        "address": "Tivoli Hotel Aquapark, Sharm El Sheikh 2, South Sinai Governorate 8762112, Egypt",
         "country": "Egitto",
         "coordinates": {
           "latitude": 27.8622189,
@@ -266,7 +266,7 @@
       "name": "Diving 5 Terre",
       "location": {
         "city": "Riomaggiore",
-        "address": "Via S. Giacomo snc - Riomaggiore (SP) - Italy",
+        "address": "Via S. Giacomo snc, Riomaggiore (SP), Italy",
         "country": "Italia",
         "coordinates": {
           "latitude": 44.0987407,
@@ -294,7 +294,7 @@
       "name": "Poseidon Dive Centre",
       "location": {
         "city": "Protaras",
-        "address": "Shop 7, 469 Kavo Greko Avenue, Protaras, 5296 Paralimni - Cyprus",
+        "address": "Shop 7, 469 Kavo Greko Avenue, Protaras, 5296 Paralimni, Cyprus",
         "country": "Cipro",
         "coordinates": {
           "latitude": 35.01041425729429,
@@ -323,7 +323,7 @@
       "name": "Scuba Caribe",
       "location": {
         "city": "Playa del Carmen",
-        "address": "Avenida Xaman-Ha, Manzana 6, Lote 6, Playacar Fase II Interior Hotel Riu, Playacar, 77710 Playa del Carmen, Q.R. - Mexico",
+        "address": "Avenida Xaman-Ha, Manzana 6, Lote 6, Playacar Fase II Interior Hotel Riu, Playacar, 77710 Playa del Carmen, Q.R., Mexico",
         "country": "Messico",
         "coordinates": {
           "latitude": 20.6087815,
@@ -353,7 +353,7 @@
       "name": "Royal Octopus",
       "location": {
         "city": "Kolymbari, Crete",
-        "address": "Kolymbari, Crete, 73006 - Greece",
+        "address": "Kolymbari, Crete, 73006, Greece",
         "country": "Grecia",
         "coordinates": {
           "latitude": 35.5462601,
@@ -392,7 +392,7 @@
       "name": "Pollo Diving",
       "location": {
         "city": "Porto Pollo",
-        "address": "Via Angolo Azzurro 12, Porto Pollo, Palau - Italy",
+        "address": "Via Angolo Azzurro 12, Porto Pollo, Palau, Italy",
         "country": "Italia",
         "coordinates": {
           "latitude": 41.18237,
@@ -404,7 +404,7 @@
         "website": "https://pollodiving.it",
         "phones": [
           "+39 348 525 8167",
-          "+31 6 1320 7326"
+          "+31 6 13207326"
         ]
       },
       "social": {
@@ -432,7 +432,7 @@
       "name": "OK Diving Malta",
       "location": {
         "city": "San Pawl il-Baħar",
-        "address": "Sirens, Triq San Geraldu, San Pawl il-Baħar SPB 3341 - Malta",
+        "address": "Sirens, Triq San Geraldu, San Pawl il-Baħar SPB 3341, Malta",
         "country": "Malta",
         "coordinates": {
           "latitude": 35.94887,
@@ -461,7 +461,7 @@
       "name": "MasSub Diving Center",
       "location": {
         "city": "Lavagna",
-        "address": "117 Calata, Via Porto Turistico 16033 Lavagna GE - Italy",
+        "address": "117 Calata, Via Porto Turistico 16033 Lavagna GE, Italy",
         "country": "Italia",
         "coordinates": {
           "latitude": 44.3083142,
@@ -887,7 +887,7 @@
       "name": "Scuba World",
       "location": {
         "city": "Agia Marina, Crete",
-        "address": "PEO Chanion - Kissamou, Agia Marina, 73014 Chania, Creta, Greece",
+        "address": "PEO Chanion-Kissamou, Agia Marina, 73014 Chania, Crete, Greece",
         "country": "Grecia",
         "coordinates": {
           "latitude": 35.519317,
@@ -938,7 +938,7 @@
         "email": "info@phuket-diving-thailand.net",
         "website": "https://www.phuket-diving-thailand.net",
         "phones": [
-          "+66763855518"
+          "+66 76 385 518"
         ]
       },
       "social": {
@@ -1012,7 +1012,8 @@
       },
       "social": {
         "instagram": "https://www.instagram.com/oceansounddiveyoga",
-        "tripadvisor": "https://www.tripadvisor.com/Attraction_Review-g303910-d2720965-Reviews-Ocean_Sound_Dive_Yoga-Koh_Tao_Surat_Thani_Province.html"
+        "tripadvisor": "https://www.tripadvisor.com/Attraction_Review-g303910-d2720965-Reviews-Ocean_Sound_Dive_Yoga-Koh_Tao_Surat_Thani_Province.html",
+        "facebook": "https://www.facebook.com/oceansoundkohtao"
       },
       "notes": null,
       "logo": "images/logos/ocean-sound-dive-yoga.webp",
@@ -1388,13 +1389,14 @@
         "email": "contact@terumbudivers.com",
         "website": "https://terumbudivers.com",
         "phones": [
-          "+62 877-6004-8540"
+          "+62 877 6004 8540"
         ]
       },
       "social": {
         "facebook": "https://www.facebook.com/terumbudivers",
         "instagram": "https://www.instagram.com/terumbudivers",
-        "tripadvisor": "https://www.tripadvisor.com/Attraction_Review-g297733-d33685990-Reviews-Terumbu_Divers-Lombok_West_Nusa_Tenggara.html"
+        "tripadvisor": "https://www.tripadvisor.com/Attraction_Review-g297733-d33685990-Reviews-Terumbu_Divers-Lombok_West_Nusa_Tenggara.html",
+        "youtube": "https://www.youtube.com/channel/UCnOXYvacTZe9gNSx1EdVy1Q"
       },
       "notes": "Consigliato per le isole Gili. La base è presso il resort Anema; ottima visibilità e personale molto professionale.",
       "logo": "images/logos/terumbu-divers.webp",
@@ -1467,7 +1469,7 @@
         "email": "lembongan@bluecornerdive.com",
         "website": "https://www.bluecornerdive.com",
         "phones": [
-          "+62 812-3761-8151"
+          "+62 812 3761 8151"
         ]
       },
       "social": {
@@ -1509,7 +1511,7 @@
         "email": "penida@scubajunkie.com",
         "website": "https://www.scubajunkiepenida.com",
         "phones": [
-          "+62 811-3907-078"
+          "+62 811 3907 078"
         ]
       },
       "social": {
@@ -1549,7 +1551,7 @@
         "email": "info@bluemarlinlombok.com",
         "website": "https://www.bluemarlinlombok.com",
         "phones": [
-          "+62 823-4098-6987"
+          "+62 823 4098 6987"
         ]
       },
       "social": {
@@ -1628,7 +1630,7 @@
         "email": "diving@dragondivekomodo.com",
         "website": "https://dragondivekomodo.com",
         "phones": [
-          "+62 811-3823-490"
+          "+62 811 3823 490"
         ]
       },
       "social": {
@@ -1668,7 +1670,7 @@
         "email": null,
         "website": "https://www.scuba-republic.com",
         "phones": [
-          "+62 851-9002-4880"
+          "+62 851 9002 4880"
         ]
       },
       "social": {
@@ -1784,7 +1786,8 @@
         "instagram": "https://www.instagram.com/fulidhoo_dive_maldives",
         "youtube": "https://www.youtube.com/channel/UCAsZh1pjl9OwKHrdlZTKzGA",
         "twitter": "https://twitter.com/fulidhoodive",
-        "tripadvisor": "https://www.tripadvisor.com/Attraction_Review-g4093191-d12786437-Reviews-Fulidhoo_Dive_Water_Sports-Fulidhoo.html"
+        "tripadvisor": "https://www.tripadvisor.com/Attraction_Review-g4093191-d12786437-Reviews-Fulidhoo_Dive_Water_Sports-Fulidhoo.html",
+        "tiktok": "https://www.tiktok.com/@fulidhoodivemaldives"
       },
       "notes": "Ben organizzati, con buona attrezzatura a noleggio.",
       "logo": "images/logos/fulidhoo-dive-water-sports.webp",
@@ -1817,14 +1820,15 @@
         "email": "info@prodivers.com",
         "website": "https://www.prodivers.com",
         "phones": [
-          "+960 662-0343"
+          "+960 662 0343"
         ]
       },
       "social": {
         "facebook": "https://www.facebook.com/ProdiversMaldives",
         "instagram": "https://www.instagram.com/prodiversmaldives",
         "youtube": "https://www.youtube.com/channel/UC23cf-FJHrGO3JuNrsXmPZQ",
-        "tripadvisor": "https://www.tripadvisor.com/Attraction_Review-g1480252-d2618770-Reviews-Prodivers_Maldives-Kuredu.html"
+        "tripadvisor": "https://www.tripadvisor.com/Attraction_Review-g1480252-d2618770-Reviews-Prodivers_Maldives-Kuredu.html",
+        "twitter": "https://twitter.com/PDMaldives"
       },
       "notes": "Dispongono di scooter subacquei.",
       "logo": "images/logos/prodivers-kuredu.webp",
@@ -2171,7 +2175,7 @@
         "email": null,
         "website": "https://seasir.com/lang",
         "phones": [
-          "+81 120-102-743"
+          "+81 120 102 743"
         ]
       },
       "social": {
@@ -2228,7 +2232,7 @@
       "name": "Triton Diving Club",
       "location": {
         "city": "Bergeggi",
-        "address": "Via Aurelia, 5 - 17042 - Bergeggi (SV) - Italy",
+        "address": "Via Aurelia 5, 17042 Bergeggi (SV), Italy",
         "country": "Italia",
         "coordinates": {
           "latitude": 44.2513331,
@@ -2381,7 +2385,7 @@
       "name": "Sea Point Centro Subacqueo",
       "location": {
         "city": "Baia, Bacoli",
-        "address": "Via Molo di Baia, 14 - 80078 Bacoli (Napoli) - Italy",
+        "address": "Via Molo di Baia 14, 80078 Bacoli (Napoli), Italy",
         "country": "Italia",
         "coordinates": {
           "latitude": 40.8172666,
@@ -3341,7 +3345,7 @@
       "name": "Acquaman Diving Center",
       "location": {
         "city": "Villasimius",
-        "address": "Via delle Aquile, snc, Loc. Campulongu, 09049 Villasimius SU, Italy",
+        "address": "Via delle Aquile snc, Loc. Campulongu, 09049 Villasimius SU, Italy",
         "country": "Italia",
         "coordinates": {
           "latitude": 39.1284087,
@@ -3516,7 +3520,7 @@
       "name": "Phuket Dive Tours",
       "location": {
         "city": "Patong, Phuket",
-        "address": "33 Thanon Sainamyen, Tambon Patong, Kathu, Phuket, 83150 - Thailand",
+        "address": "33 Thanon Sainamyen, Tambon Patong, Kathu, Phuket, 83150, Thailand",
         "country": "Thailandia",
         "coordinates": {
           "latitude": 7.8255957,
@@ -3567,7 +3571,12 @@
       },
       "notes": "Una persona ha rinunciato a causa del tragitto, considerato troppo lungo.",
       "logo": "images/logos/al-boom-diving.webp",
-      "updatedAt": "2026-07-12T15:37:40.655Z"
+      "updatedAt": "2026-07-28T10:35:37.000Z",
+      "padi": {
+        "affiliateId": "32303",
+        "membershipLevel": "PADI 5 Star IDC Resort",
+        "url": "https://travel.padi.com/dive-center/united-arab-emirates/al-boom-diving-le-meridien-al-aqah/"
+      }
     },
     {
       "id": "c1f5c011-9ef1-4f1c-80d1-000000000036",
@@ -3603,7 +3612,7 @@
       "name": "Anthias Diving",
       "location": {
         "city": "Cannigione",
-        "address": "STR PROV KM 3,800 CANNIGIONE – PALAU – 07021 – ARZACHENA (SS) - Italy",
+        "address": "Str. Prov. km 3,800 Cannigione, Palau, 07021 Arzachena (SS), Italy",
         "country": "Italia",
         "coordinates": {
           "latitude": 41.0962338,
@@ -3642,7 +3651,7 @@
       "name": "Area 11 Diving",
       "location": {
         "city": "La Maddalena",
-        "address": "Via Padule 100, C/O R. Cala Majore, 07024 La Maddalena SS, Italy",
+        "address": "Via Padule 100, c/o R. Cala Majore, 07024 La Maddalena SS, Italy",
         "country": "Italia",
         "coordinates": {
           "latitude": 41.2117604,
@@ -3784,7 +3793,7 @@
       "name": "BIG FISH Dive Center",
       "location": {
         "city": "Los Cristianos, Tenerife",
-        "address": "Calle Jesus Dominguez Grillo 19 local 2, Los Cristianos, 38650 Tenerife - Spain",
+        "address": "Calle Jesus Dominguez Grillo 19 local 2, Los Cristianos, 38650 Tenerife, Spain",
         "country": "Spagna",
         "coordinates": {
           "latitude": 28.0502568,
@@ -3824,7 +3833,7 @@
       "name": "Blu Dive Center",
       "location": {
         "city": "Santa Teresa Gallura, Sardegna",
-        "address": "Via Nazionale, 73 - 07028 Santa Teresa Gallura (OT) Sardegna - Italy",
+        "address": "Via Nazionale 73, 07028 Santa Teresa Gallura (OT) Sardegna, Italy",
         "country": "Italia",
         "coordinates": {
           "latitude": 41.2316932,
