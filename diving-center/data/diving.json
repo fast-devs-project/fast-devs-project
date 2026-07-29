@@ -1,5 +1,5 @@
 {
-  "version": 6,
+  "version": 1,
   "centers": [
     {
       "id": "07b2dda9-6b69-4100-88ce-33018c4bbce1",
@@ -8,6 +8,7 @@
         "city": "Okinawa",
         "address": "Okinawa-ken Nakagami-gun Yomitan Son Toguchi 41-9, Okinawa-shi, Okinawa 904-0315, Japan",
         "country": "Giappone",
+        "countryCode": "JP",
         "coordinates": {
           "latitude": 26.3662,
           "longitude": 127.741
@@ -37,6 +38,7 @@
         "city": "Menton",
         "address": "43 Nouveau Port de Garavan, 06500 Menton, France",
         "country": "Francia",
+        "countryCode": "FR",
         "coordinates": {
           "latitude": 43.7836005,
           "longitude": 7.5159685
@@ -64,6 +66,7 @@
         "city": "Marina di Campo",
         "address": "Via Renato Fucini 452, Campo nell'Elba (LI), Italy",
         "country": "Italia",
+        "countryCode": "IT",
         "coordinates": {
           "latitude": 42.746533,
           "longitude": 10.2336776
@@ -93,6 +96,7 @@
         "city": "Amari Koh Samui Resort",
         "address": "Amari Koh Samui Resort, North Chaweng, Koh Samui, 84320, Thailand",
         "country": "Thailandia",
+        "countryCode": "TH",
         "coordinates": {
           "latitude": 9.5274446,
           "longitude": 100.060472
@@ -133,6 +137,7 @@
         "city": "Noli",
         "address": "Via Aurelia 52, 17026 Noli, SV, Italy",
         "country": "Italia",
+        "countryCode": "IT",
         "coordinates": {
           "latitude": 44.2067187,
           "longitude": 8.4169073
@@ -212,6 +217,7 @@
         "city": "Loano",
         "address": "Porto Marina di Loano, Lungomare Madonna di Loreto, Bel Vedere n.2 Loano (SV), Italy",
         "country": "Italia",
+        "countryCode": "IT",
         "coordinates": {
           "latitude": 44.1330896,
           "longitude": 8.263711
@@ -239,6 +245,7 @@
         "city": "Sharm El Sheikh",
         "address": "Tivoli Hotel Aquapark, Sharm El Sheikh 2, South Sinai Governorate 8762112, Egypt",
         "country": "Egitto",
+        "countryCode": "EG",
         "coordinates": {
           "latitude": 27.8622189,
           "longitude": 34.2957364
@@ -268,6 +275,7 @@
         "city": "Riomaggiore",
         "address": "Via S. Giacomo snc, Riomaggiore (SP), Italy",
         "country": "Italia",
+        "countryCode": "IT",
         "coordinates": {
           "latitude": 44.0987407,
           "longitude": 9.7378312
@@ -296,6 +304,7 @@
         "city": "Protaras",
         "address": "Shop 7, 469 Kavo Greko Avenue, Protaras, 5296 Paralimni, Cyprus",
         "country": "Cipro",
+        "countryCode": "CY",
         "coordinates": {
           "latitude": 35.01041425729429,
           "longitude": 34.05776465827173
@@ -325,6 +334,7 @@
         "city": "Playa del Carmen",
         "address": "Avenida Xaman-Ha, Manzana 6, Lote 6, Playacar Fase II Interior Hotel Riu, Playacar, 77710 Playa del Carmen, Q.R., Mexico",
         "country": "Messico",
+        "countryCode": "MX",
         "coordinates": {
           "latitude": 20.6087815,
           "longitude": -87.0887121
@@ -355,6 +365,7 @@
         "city": "Kolymbari, Crete",
         "address": "Kolymbari, Crete, 73006, Greece",
         "country": "Grecia",
+        "countryCode": "GR",
         "coordinates": {
           "latitude": 35.5462601,
           "longitude": 23.7785286
@@ -394,6 +405,7 @@
         "city": "Porto Pollo",
         "address": "Via Angolo Azzurro 12, Porto Pollo, Palau, Italy",
         "country": "Italia",
+        "countryCode": "IT",
         "coordinates": {
           "latitude": 41.18237,
           "longitude": 9.3262988
@@ -434,6 +446,7 @@
         "city": "San Pawl il-Baħar",
         "address": "Sirens, Triq San Geraldu, San Pawl il-Baħar SPB 3341, Malta",
         "country": "Malta",
+        "countryCode": "MT",
         "coordinates": {
           "latitude": 35.94887,
           "longitude": 14.4012311
@@ -463,6 +476,7 @@
         "city": "Lavagna",
         "address": "117 Calata, Via Porto Turistico 16033 Lavagna GE, Italy",
         "country": "Italia",
+        "countryCode": "IT",
         "coordinates": {
           "latitude": 44.3083142,
           "longitude": 9.3369636
@@ -492,6 +506,7 @@
         "city": "Bayahibe",
         "address": "Viva Wyndham Dominicus Beach Avendia Eladia, Bayahibe 23000, Dominican Republic",
         "country": "Repubblica Dominicana",
+        "countryCode": "DO",
         "coordinates": {
           "latitude": 18.3490053,
           "longitude": -68.8288237
@@ -534,6 +549,7 @@
         "city": "Erice",
         "address": "c/o Hotel Tirreno, Via Enea 37, 91016 Pizzolungo, Erice (TP), Italy",
         "country": "Italia",
+        "countryCode": "IT",
         "coordinates": {
           "latitude": 38.059411,
           "longitude": 12.558409
@@ -563,6 +579,7 @@
         "city": "Villasimius",
         "address": "Via Roma 121, 09049 Villasimius (CA), Italy",
         "country": "Italia",
+        "countryCode": "IT",
         "coordinates": {
           "latitude": 39.1451583,
           "longitude": 9.5128602
@@ -602,6 +619,7 @@
         "city": "Villasimius",
         "address": "Via degli Oleandri, Porto Turistico, 09049 Villasimius (SU), Italy",
         "country": "Italia",
+        "countryCode": "IT",
         "coordinates": {
           "latitude": 39.1187123,
           "longitude": 9.5074776
@@ -630,6 +648,7 @@
         "city": "Sanremo",
         "address": "Via Salvo d'Acquisto 12, 18038 Sanremo (IM), Italy",
         "country": "Italia",
+        "countryCode": "IT",
         "coordinates": {
           "latitude": 43.8199926,
           "longitude": 7.7864325
@@ -656,6 +675,7 @@
         "city": "Sharm El Sheikh",
         "address": "Naama Bay, Sharm El Sheikh, South Sinai, Egypt",
         "country": "Egitto",
+        "countryCode": "EG",
         "coordinates": {
           "latitude": 27.909512,
           "longitude": 34.325092
@@ -684,6 +704,7 @@
         "city": "Sharm El Sheikh",
         "address": "Grand Rotana Resort & Spa, Shark's Bay, Sharm El Sheikh 46619, Egypt",
         "country": "Egitto",
+        "countryCode": "EG",
         "coordinates": {
           "latitude": 27.9692,
           "longitude": 34.4194
@@ -713,6 +734,7 @@
         "city": "Sharm El Sheikh",
         "address": "c/o Rixos Premium Seagate, Nabq Bay, Sharm El Sheikh 46628, Egypt",
         "country": "Egitto",
+        "countryCode": "EG",
         "coordinates": {
           "latitude": 28.03765,
           "longitude": 34.43423
@@ -743,6 +765,7 @@
         "city": "Marsa Alam",
         "address": "Blend Elphistone Resort, Marsa Alam, Red Sea, Egypt",
         "country": "Egitto",
+        "countryCode": "EG",
         "coordinates": {
           "latitude": 25.2764092,
           "longitude": 34.7736769
@@ -782,6 +805,7 @@
         "city": "Hurghada",
         "address": "Sheraton Road, di fronte al Triton Empire Hotel, Dahar, Hurghada, Red Sea, Egypt",
         "country": "Egitto",
+        "countryCode": "EG",
         "coordinates": {
           "latitude": 27.2587,
           "longitude": 33.8183
@@ -861,6 +885,7 @@
         "city": "Sharm El Sheikh",
         "address": "c/o Domina Coral Bay Resort, Marsa El Dekhela, Sharm El Sheikh 46628, Egypt",
         "country": "Egitto",
+        "countryCode": "EG",
         "coordinates": {
           "latitude": 27.86164,
           "longitude": 34.29014
@@ -889,6 +914,7 @@
         "city": "Agia Marina, Crete",
         "address": "PEO Chanion-Kissamou, Agia Marina, 73014 Chania, Crete, Greece",
         "country": "Grecia",
+        "countryCode": "GR",
         "coordinates": {
           "latitude": 35.519317,
           "longitude": 23.926029
@@ -929,6 +955,7 @@
         "city": "Kamala, Phuket",
         "address": "74/3 Moo 3, Rim Had Road, Kamala, Kathu, Phuket 83150, Thailand",
         "country": "Thailandia",
+        "countryCode": "TH",
         "coordinates": {
           "latitude": 7.9507244,
           "longitude": 98.2811941
@@ -959,6 +986,7 @@
         "city": "Koh Tao",
         "address": "14/55 Moo 3, Chalok Baan Kao, Koh Tao, Surat Thani 84360, Thailand",
         "country": "Thailandia",
+        "countryCode": "TH",
         "coordinates": {
           "latitude": 10.071255,
           "longitude": 99.828341
@@ -998,6 +1026,7 @@
         "city": "Koh Tao",
         "address": "22/22 Moo 3, Chalok Baan Kao, Koh Tao, Surat Thani 84360, Thailand",
         "country": "Thailandia",
+        "countryCode": "TH",
         "coordinates": {
           "latitude": 10.0682549,
           "longitude": 99.8270142
@@ -1077,6 +1106,7 @@
         "city": "Playa del Carmen",
         "address": "1a Avenida Norte #238, por Calle 14, Playa del Carmen, Quintana Roo 77710, Mexico",
         "country": "Messico",
+        "countryCode": "MX",
         "coordinates": {
           "latitude": 20.6365344,
           "longitude": -87.0639844
@@ -1106,6 +1136,7 @@
         "city": "Playa del Carmen",
         "address": "Calle 40, tra 5a e 10a Avenida, Playa del Carmen, Quintana Roo, Mexico",
         "country": "Messico",
+        "countryCode": "MX",
         "coordinates": {
           "latitude": 20.6366729,
           "longitude": -87.0658933
@@ -1134,6 +1165,7 @@
         "city": "Cozumel",
         "address": "C. Jose Maria Morelos 510, 77668 Cozumel, Q.R., Mexico",
         "country": "Messico",
+        "countryCode": "MX",
         "coordinates": {
           "latitude": 20.5085,
           "longitude": -86.9425
@@ -1161,6 +1193,7 @@
         "city": "Noord",
         "address": "J.E. Irausquin Blvd 85, Palm Beach, Noord, Aruba",
         "country": "Aruba",
+        "countryCode": "AW",
         "coordinates": {
           "latitude": 12.571813,
           "longitude": -70.045239
@@ -1266,6 +1299,7 @@
         "city": "Oranjestad",
         "address": "Bucutiweg 20, Oranjestad, Aruba",
         "country": "Aruba",
+        "countryCode": "AW",
         "coordinates": {
           "latitude": 12.4960558,
           "longitude": -70.0143205
@@ -1299,6 +1333,7 @@
         "city": "San Andrés",
         "address": "Avenida Colombia 1-19 Local 1, c/o Hotel Royal Decameron Aquarium, San Andrés, Colombia",
         "country": "Colombia",
+        "countryCode": "CO",
         "coordinates": {
           "latitude": 12.5808306,
           "longitude": -81.6876362
@@ -1380,6 +1415,7 @@
         "city": "Tanjung, Lombok",
         "address": "Anema Villa and Resort, Jl. Raya Sigar Penjalin, Pantai Sire, Tanjung, Lombok Utara 83352, Indonesia",
         "country": "Indonesia",
+        "countryCode": "ID",
         "coordinates": {
           "latitude": -8.3686,
           "longitude": 116.115
@@ -1420,6 +1456,7 @@
         "city": "Gili Air, Lombok",
         "address": "Sunset Beach, Gili Air, Gili Indah, North Lombok 83355, Indonesia",
         "country": "Indonesia",
+        "countryCode": "ID",
         "coordinates": {
           "latitude": -8.3545932,
           "longitude": 116.0771465
@@ -1460,6 +1497,7 @@
         "city": "Nusa Lembongan, Bali",
         "address": "Jungut Batu, Nusa Lembongan, Bali 80771, Indonesia",
         "country": "Indonesia",
+        "countryCode": "ID",
         "coordinates": {
           "latitude": -8.666481,
           "longitude": 115.448921
@@ -1502,6 +1540,7 @@
         "city": "Nusa Penida, Bali",
         "address": "Banjar Nyuh, Jln Raya Toyapakeh-Ped, Nusa Penida, Klungkung, Bali, Indonesia",
         "country": "Indonesia",
+        "countryCode": "ID",
         "coordinates": {
           "latitude": -8.6752608,
           "longitude": 115.4921124
@@ -1542,6 +1581,7 @@
         "city": "Kuta, Lombok",
         "address": "Jalan Raya Kuta No.1, Kuta, Pujut, Lombok Tengah 83573, Indonesia",
         "country": "Indonesia",
+        "countryCode": "ID",
         "coordinates": {
           "latitude": -8.8920688,
           "longitude": 116.2772838
@@ -1621,6 +1661,7 @@
         "city": "Labuan Bajo",
         "address": "Jalan Mutiara, Kampung Ujung, Labuan Bajo, Komodo, Nusa Tenggara Timur 86754, Indonesia",
         "country": "Indonesia",
+        "countryCode": "ID",
         "coordinates": {
           "latitude": -8.4885197,
           "longitude": 119.8772361
@@ -1661,6 +1702,7 @@
         "city": "Waisai, Raja Ampat",
         "address": "Waisai, Waigeo Selatan, Raja Ampat, Southwest Papua 98482, Indonesia",
         "country": "Indonesia",
+        "countryCode": "ID",
         "coordinates": {
           "latitude": -0.441879,
           "longitude": 130.753298
@@ -1690,6 +1732,7 @@
         "city": "Dharavandhoo, Baa Atoll",
         "address": "Dharavandhoo Island, Baa Atoll 06060, Maldives",
         "country": "Maldive",
+        "countryCode": "MV",
         "coordinates": {
           "latitude": 5.158562,
           "longitude": 73.133451
@@ -1769,6 +1812,7 @@
         "city": "Fulidhoo, Vaavu Atoll",
         "address": "Muraka Building, Beachside, Fulidhoo Island, Vaavu Atoll 10010, Maldives",
         "country": "Maldive",
+        "countryCode": "MV",
         "coordinates": {
           "latitude": 3.6800674,
           "longitude": 73.4164422
@@ -1811,6 +1855,7 @@
         "city": "Kuredu, Lhaviyani Atoll",
         "address": "Kuredu Island Resort & Spa, Lhaviyani Atoll, Maldives",
         "country": "Maldive",
+        "countryCode": "MV",
         "coordinates": {
           "latitude": 5.549968,
           "longitude": 73.466668
@@ -1920,6 +1965,7 @@
         "city": "Playa Blanca, Lanzarote",
         "address": "Playa Blanca, Lanzarote, Spain",
         "country": "Spagna",
+        "countryCode": "ES",
         "coordinates": {
           "latitude": 28.86233,
           "longitude": -13.854558
@@ -1996,6 +2042,7 @@
         "city": "Costa Adeje, Tenerife",
         "address": "Hotel La Nina, Local 8, Avenida de Espana, Costa Adeje, 38660 Tenerife, Spain",
         "country": "Spagna",
+        "countryCode": "ES",
         "coordinates": {
           "latitude": 28.080623,
           "longitude": -16.734558
@@ -2024,6 +2071,7 @@
         "city": "Jambiani, Zanzibar",
         "address": "Jambiani, Kibigija, Zanzibar, Tanzania",
         "country": "Tanzania",
+        "countryCode": "TZ",
         "coordinates": {
           "latitude": -6.2979664,
           "longitude": 39.5408516
@@ -2063,6 +2111,7 @@
         "city": "Caniçal, Madeira",
         "address": "Dreams Madeira Resort, Quinta do Lorde Marina, 9200-044 Caniçal, Madeira, Portugal",
         "country": "Portogallo",
+        "countryCode": "PT",
         "coordinates": {
           "latitude": 32.6418761,
           "longitude": -16.9185371
@@ -2138,6 +2187,7 @@
         "city": "Funchal, Madeira",
         "address": "Estrada Monumental 177, VidaMar Resort Hotel Madeira, 9000-100 Funchal, Portugal",
         "country": "Portogallo",
+        "countryCode": "PT",
         "coordinates": {
           "latitude": 32.637788,
           "longitude": -16.928369
@@ -2166,6 +2216,7 @@
         "city": "Naha, Okinawa",
         "address": "2-3-13 Minato-machi, Naha 900-0001, Okinawa, Japan",
         "country": "Giappone",
+        "countryCode": "JP",
         "coordinates": {
           "latitude": 26.24227,
           "longitude": 127.677736
@@ -2194,6 +2245,7 @@
         "city": "Dubai",
         "address": "NAS Sports Complex, Nad Al Sheba 1, Dubai, United Arab Emirates",
         "country": "Emirati Arabi Uniti",
+        "countryCode": "AE",
         "coordinates": {
           "latitude": 25.127727,
           "longitude": 55.294904
@@ -2234,6 +2286,7 @@
         "city": "Bergeggi",
         "address": "Via Aurelia 5, 17042 Bergeggi (SV), Italy",
         "country": "Italia",
+        "countryCode": "IT",
         "coordinates": {
           "latitude": 44.2513331,
           "longitude": 8.447935
@@ -2261,6 +2314,7 @@
         "city": "Cavo, Isola d'Elba",
         "address": "Via Alcide de Gasperi 16, 57038 Cavo, Isola d'Elba, Italy",
         "country": "Italia",
+        "countryCode": "IT",
         "coordinates": {
           "latitude": 42.859332,
           "longitude": 10.420867
@@ -2290,6 +2344,7 @@
         "city": "Marina di Gioiosa Ionica",
         "address": "Via Cristoforo Colombo, II trav. 1/b, 89046 Marina di Gioiosa Ionica RC, Italy",
         "country": "Italia",
+        "countryCode": "IT",
         "coordinates": {
           "latitude": 38.3015084,
           "longitude": 16.3365938
@@ -2319,6 +2374,7 @@
         "city": "Lampedusa",
         "address": "Lungomare Porto Nuovo angolo Via dei Depositi, 92010 Lampedusa AG, Italy",
         "country": "Italia",
+        "countryCode": "IT",
         "coordinates": {
           "latitude": 35.5019646,
           "longitude": 12.6016027
@@ -2358,6 +2414,7 @@
         "city": "Lampedusa",
         "address": "Lungomare Luigi Rizzo, Lampedusa, Italy",
         "country": "Italia",
+        "countryCode": "IT",
         "coordinates": {
           "latitude": 35.499839,
           "longitude": 12.6080307
@@ -2387,6 +2444,7 @@
         "city": "Baia, Bacoli",
         "address": "Via Molo di Baia 14, 80078 Bacoli (Napoli), Italy",
         "country": "Italia",
+        "countryCode": "IT",
         "coordinates": {
           "latitude": 40.8172666,
           "longitude": 14.0714284
@@ -2418,6 +2476,7 @@
         "city": "Pozzuoli",
         "address": "Via Miliscola 165, presso Lido Montenuovo, 80078 Pozzuoli (NA), Italy",
         "country": "Italia",
+        "countryCode": "IT",
         "coordinates": {
           "latitude": 40.8194314,
           "longitude": 14.1354842
@@ -2458,6 +2517,7 @@
         "city": "Mellieħa",
         "address": "Ramla Bay Resort, Triq ir-Ramla, Mellieħa, Malta",
         "country": "Malta",
+        "countryCode": "MT",
         "coordinates": {
           "latitude": 35.9867699,
           "longitude": 14.3473745
@@ -2487,6 +2547,7 @@
         "city": "Playa de las Américas, Tenerife",
         "address": "Paseo Verode, behind Hotel Oro Blanco, Av. Arquitecto Gómez Cuesta 12, Playa de las Américas, 38660 Arona, Tenerife, Spain",
         "country": "Spagna",
+        "countryCode": "ES",
         "coordinates": {
           "latitude": 28.0638246,
           "longitude": -16.7283675
@@ -2527,6 +2588,7 @@
         "city": "Calvi, Corsica",
         "address": "Port de plaisance, 20260 Calvi, Corsica, France",
         "country": "Francia",
+        "countryCode": "FR",
         "coordinates": {
           "latitude": 42.5651137,
           "longitude": 8.7585163
@@ -2566,6 +2628,7 @@
         "city": "Maafushi",
         "address": "Miskiy Magu Road, Maafushi, Maldives",
         "country": "Maldive",
+        "countryCode": "MV",
         "coordinates": {
           "latitude": 3.9442406,
           "longitude": 73.4902394
@@ -2605,6 +2668,7 @@
         "city": "Santa Margherita Ligure",
         "address": "Via Favale 25, Santa Margherita Ligure (GE), Italy",
         "country": "Italia",
+        "countryCode": "IT",
         "coordinates": {
           "latitude": 44.3306122,
           "longitude": 9.2113342
@@ -2686,6 +2750,7 @@
         "city": "Aqaba",
         "address": "Pr. Mohammad St., Aqaba 77110, Jordan",
         "country": "Giordania",
+        "countryCode": "JO",
         "coordinates": {
           "latitude": 29.525119,
           "longitude": 35.010578
@@ -2713,6 +2778,7 @@
         "city": "Aqaba",
         "address": "King Hussein Street, Aqaba, Jordan",
         "country": "Giordania",
+        "countryCode": "JO",
         "coordinates": {
           "latitude": 29.5303088,
           "longitude": 35.0020994
@@ -2753,6 +2819,7 @@
         "city": "Costa Calma, Fuerteventura",
         "address": "Hotel R2 Pajara Beach, Punta del Roquito 9, Costa Calma, Fuerteventura, Spain",
         "country": "Spagna",
+        "countryCode": "ES",
         "coordinates": {
           "latitude": 28.1491695,
           "longitude": -14.2326931
@@ -2792,6 +2859,7 @@
         "city": "Lombok",
         "address": "Jalan Raya Senggigi KM 8, Senggigi, Batu Layar, Lombok Barat, 83355, Indonesia",
         "country": "Indonesia",
+        "countryCode": "ID",
         "coordinates": {
           "latitude": -8.4955574,
           "longitude": 116.0473424
@@ -2832,6 +2900,7 @@
         "city": "Nusa Penida, Bali",
         "address": "Jalan Sekar Waru No. 1, Sanur, Bali 80228, Indonesia",
         "country": "Indonesia",
+        "countryCode": "ID",
         "coordinates": {
           "latitude": -8.7072807,
           "longitude": 115.2530554
@@ -2913,6 +2982,7 @@
         "city": "Ustica",
         "address": "Via Cristoforo Colombo 39, 90051 Ustica PA, Italy",
         "country": "Italia",
+        "countryCode": "IT",
         "coordinates": {
           "latitude": 38.7089581,
           "longitude": 13.194438
@@ -2952,6 +3022,7 @@
         "city": "Ustica",
         "address": "Via Cristoforo Colombo 30, 90051 Ustica (PA), Italy",
         "country": "Italia",
+        "countryCode": "IT",
         "coordinates": {
           "latitude": 38.708699,
           "longitude": 13.19436
@@ -3027,6 +3098,7 @@
         "city": "Cala Gonone",
         "address": "Via Caboto s.n.c., 08022 Cala Gonone NU, Italy",
         "country": "Italia",
+        "countryCode": "IT",
         "coordinates": {
           "latitude": 40.2807163,
           "longitude": 9.6306617
@@ -3067,6 +3139,7 @@
         "city": "Lanzarote",
         "address": "Calle Tenerife 2, Puerto del Carmen, 35510 Las Palmas, Spain",
         "country": "Spagna",
+        "countryCode": "ES",
         "coordinates": {
           "latitude": 28.9204771,
           "longitude": -13.6703226
@@ -3095,6 +3168,7 @@
         "city": "Tulum",
         "address": "Av. Cobá Sur Supermanzana 4 Manzana 107 Lote 2-1, entre calle 7 y 9 Oriente, 77760 Tulum, Q.R., Mexico",
         "country": "Messico",
+        "countryCode": "MX",
         "coordinates": {
           "latitude": 20.2135219,
           "longitude": -87.4562377
@@ -3125,6 +3199,7 @@
         "city": "Hurghada",
         "address": "Desert Rose Resort, Safaga Road, PO Box 191, Hurghada, Egypt",
         "country": "Egitto",
+        "countryCode": "EG",
         "coordinates": {
           "latitude": 27.096492,
           "longitude": 33.835219
@@ -3165,6 +3240,7 @@
         "city": "Isola delle Femmine",
         "address": "Via Palermo 10, 90040 Isola delle Femmine (PA), Italy",
         "country": "Italia",
+        "countryCode": "IT",
         "coordinates": {
           "latitude": 38.1984723,
           "longitude": 13.2499713
@@ -3196,6 +3272,7 @@
         "city": "Maafushi",
         "address": "Parindhaage, Mirhi Magu, K. Maafushi, Maldives",
         "country": "Maldive",
+        "countryCode": "MV",
         "coordinates": {
           "latitude": 3.944838,
           "longitude": 73.49099
@@ -3224,6 +3301,7 @@
         "city": "Sharm El Sheikh",
         "address": "Park Regency (ex Hyatt), Sharm El Sheikh, Egypt",
         "country": "Egitto",
+        "countryCode": "EG",
         "coordinates": {
           "latitude": 27.91697,
           "longitude": 34.349816
@@ -3252,6 +3330,7 @@
         "city": "Lampedusa",
         "address": "Via delle Grotte 6, Porto Nuovo, La Salina, 92010 Isola di Lampedusa, Italy",
         "country": "Italia",
+        "countryCode": "IT",
         "coordinates": {
           "latitude": 35.5020642,
           "longitude": 12.6061259
@@ -3293,6 +3372,7 @@
         "city": "Isola di Sal",
         "address": "Santa Maria 4111, Cape Verde",
         "country": "Capo Verde",
+        "countryCode": "CV",
         "coordinates": {
           "latitude": 16.596,
           "longitude": -22.907
@@ -3321,6 +3401,7 @@
         "city": "Palau, Sardegna",
         "address": "Camping Capo D'Orso, Via Le Saline 1, 07020 Palau (SS), Italy",
         "country": "Italia",
+        "countryCode": "IT",
         "coordinates": {
           "latitude": 41.160992,
           "longitude": 9.405393
@@ -3348,6 +3429,7 @@
         "city": "Villasimius",
         "address": "Via delle Aquile snc, Loc. Campulongu, 09049 Villasimius SU, Italy",
         "country": "Italia",
+        "countryCode": "IT",
         "coordinates": {
           "latitude": 39.1284087,
           "longitude": 9.5132615
@@ -3376,6 +3458,7 @@
         "city": "Praia a Mare",
         "address": "Contrada Fiuzzi, 87028 Praia a Mare (CS), Italy",
         "country": "Italia",
+        "countryCode": "IT",
         "coordinates": {
           "latitude": 39.874355,
           "longitude": 15.787668
@@ -3403,6 +3486,7 @@
         "city": "Cozumel",
         "address": "Calle 2 Norte #680, Colonia 10 de Abril, San Miguel de Cozumel 77622, Mexico",
         "country": "Messico",
+        "countryCode": "MX",
         "coordinates": {
           "latitude": 20.5074125,
           "longitude": -86.9435379
@@ -3442,6 +3526,7 @@
         "city": "Almyrida, Crete",
         "address": "Main office, Almyrida, Chania, Crete, Greece",
         "country": "Grecia",
+        "countryCode": "GR",
         "coordinates": {
           "latitude": 35.4483041,
           "longitude": 24.2001768
@@ -3484,6 +3569,7 @@
         "city": "Patong, Phuket",
         "address": "25/17 Soi Sowsod, Rawai, Phuket 83130, Thailand",
         "country": "Thailandia",
+        "countryCode": "TH",
         "coordinates": {
           "latitude": 7.7933049,
           "longitude": 98.3149138
@@ -3523,6 +3609,7 @@
         "city": "Patong, Phuket",
         "address": "33 Thanon Sainamyen, Tambon Patong, Kathu, Phuket, 83150, Thailand",
         "country": "Thailandia",
+        "countryCode": "TH",
         "coordinates": {
           "latitude": 7.8255957,
           "longitude": 98.2965198
@@ -3553,6 +3640,7 @@
         "city": "Fujairah",
         "address": "Le Meridien Al Aqah Beach Resort, Al Aqah, Fujairah, United Arab Emirates",
         "country": "Emirati Arabi Uniti",
+        "countryCode": "AE",
         "coordinates": {
           "latitude": 25.5071814,
           "longitude": 56.3647284
@@ -3586,6 +3674,7 @@
         "city": "Dahab",
         "address": "Dahab Divers, El Fanar Street, PO Box 4, Dahab Masbat 46617, South Sinai, Egypt",
         "country": "Egitto",
+        "countryCode": "EG",
         "coordinates": {
           "latitude": 28.499488,
           "longitude": 34.518366
@@ -3615,6 +3704,7 @@
         "city": "Cannigione",
         "address": "Str. Prov. km 3,800 Cannigione, Palau, 07021 Arzachena (SS), Italy",
         "country": "Italia",
+        "countryCode": "IT",
         "coordinates": {
           "latitude": 41.0962338,
           "longitude": 9.4359809
@@ -3654,6 +3744,7 @@
         "city": "La Maddalena",
         "address": "Via Padule 100, c/o R. Cala Majore, 07024 La Maddalena SS, Italy",
         "country": "Italia",
+        "countryCode": "IT",
         "coordinates": {
           "latitude": 41.2117604,
           "longitude": 9.3926183
@@ -3682,6 +3773,7 @@
         "city": "Castellammare di Stabia",
         "address": "Viale Alcide De Gasperi 313, 80053 Castellammare di Stabia NA, Italy",
         "country": "Italia",
+        "countryCode": "IT",
         "coordinates": {
           "latitude": 40.7269297,
           "longitude": 14.4732854
@@ -3709,6 +3801,7 @@
         "city": "Procchio, Isola d'Elba",
         "address": "Piazza del Mare 2, Procchio, 57030 Marciana (LI), Italy",
         "country": "Italia",
+        "countryCode": "IT",
         "coordinates": {
           "latitude": 42.785728,
           "longitude": 10.245499
@@ -3739,6 +3832,7 @@
         "city": "Sant'Andrea, Isola d'Elba",
         "address": "Piazza del Mare 12, 57030 Loc. Sant'Andrea, Marciana LI, Italy",
         "country": "Italia",
+        "countryCode": "IT",
         "coordinates": {
           "latitude": 42.8073747,
           "longitude": 10.140915
@@ -3767,6 +3861,7 @@
         "city": "Marciana Marina, Isola d'Elba",
         "address": "Viale Aldo Moro 42, 57033 Marciana Marina (LI), Italy",
         "country": "Italia",
+        "countryCode": "IT",
         "coordinates": {
           "latitude": 42.806864,
           "longitude": 10.1938194
@@ -3796,6 +3891,7 @@
         "city": "Los Cristianos, Tenerife",
         "address": "Calle Jesus Dominguez Grillo 19 local 2, Los Cristianos, 38650 Tenerife, Spain",
         "country": "Spagna",
+        "countryCode": "ES",
         "coordinates": {
           "latitude": 28.0502568,
           "longitude": -16.7204267
@@ -3836,6 +3932,7 @@
         "city": "Santa Teresa Gallura, Sardegna",
         "address": "Via Nazionale 73, 07028 Santa Teresa Gallura (OT) Sardegna, Italy",
         "country": "Italia",
+        "countryCode": "IT",
         "coordinates": {
           "latitude": 41.2316932,
           "longitude": 9.1856598
