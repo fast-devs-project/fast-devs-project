@@ -2728,7 +2728,8 @@
       "social": {
         "facebook": "https://www.facebook.com/AqabaInternationalDiveCenter",
         "instagram": "https://www.instagram.com/aqaba_diving",
-        "tripadvisor": "https://www.tripadvisor.com/Attraction_Review-g298101-d637773-Reviews-Aqaba_International_Dive_Center-Aqaba_Al_Aqabah_Governorate.html"
+        "tripadvisor": "https://www.tripadvisor.com/Attraction_Review-g298101-d637773-Reviews-Aqaba_International_Dive_Center-Aqaba_Al_Aqabah_Governorate.html",
+        "youtube": "https://www.youtube.com/channel/UCtwudC7ak8PNqHMpnsFfx0w"
       },
       "notes": "Esperienza positiva. Le immersioni da riva sono poco profonde e non particolarmente interessanti.",
       "logo": "images/logos/aqaba-international-diving-center.webp",
@@ -3103,7 +3104,7 @@
         "email": null,
         "website": "https://www.kooxdiving.com",
         "phones": [
-          "+5219841415502"
+          "+52 984 141 5502"
         ]
       },
       "social": {
@@ -3451,7 +3452,7 @@
         "website": "https://www.omegadivers.com",
         "phones": [
           "+30 2825 031412",
-          "+30 6945 999921"
+          "+30 694 599 9921"
         ]
       },
       "social": {
@@ -3841,14 +3842,13 @@
         }
       },
       "contacts": {
-        "email": null,
+        "email": "diving@bludivecenter.com",
         "website": "https://www.bludivecenter.com",
         "phones": [
           "+39 328 717 3499"
         ]
       },
       "social": {
-        "facebook": "https://www.facebook.com/bludivecenter",
         "instagram": "https://www.instagram.com/blu.dive",
         "tripadvisor": "https://www.tripadvisor.com/Attraction_Review-g608922-d2279232-Reviews-Blu_Dive_Center-Santa_Teresa_Gallura_Province_of_Olbia_Tempio_Sardinia.html"
       },
