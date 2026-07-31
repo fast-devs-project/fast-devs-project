@@ -49517,31 +49517,6 @@
       "updatedAt": "2026-07-28T23:07:09.294Z"
     },
     {
-      "id": "783eddd6-fab6-4f67-9608-5d20dbe5b784",
-      "name": "Al-Haddad SCUBA - Sheraton Resort",
-      "location": {
-        "city": "Jeddah",
-        "address": "Sheraton Red Sea Resort, 23821 Jeddah, Saudi Arabia",
-        "country": "Arabia Saudita",
-        "countryCode": "SA",
-        "coordinates": {
-          "latitude": 21.7330851096,
-          "longitude": 39.0698367884
-        }
-      },
-      "contacts": {
-        "email": "A.kelani@haddadscuba.com",
-        "website": "https://haddadscuba.com",
-        "phones": [
-          "+966 57 005 7038"
-        ]
-      },
-      "social": null,
-      "notes": null,
-      "logo": "https://t0.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://haddadscuba.com&size=256",
-      "updatedAt": "2026-07-28T23:07:09.294Z"
-    },
-    {
       "id": "820c6a12-28ba-4cc0-9440-3877d02b98d1",
       "name": "Corals & Shells (Oshy’s Oceans)",
       "location": {
