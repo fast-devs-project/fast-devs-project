@@ -30261,31 +30261,6 @@
       "updatedAt": "2026-07-28T23:07:09.294Z"
     },
     {
-      "id": "1c8d9f10-bc94-4a03-81ee-f66166e1808a",
-      "name": "ASD Focus",
-      "location": {
-        "city": "Santa Teresa Gallura",
-        "address": "Via la Marina, 07028 Santa Teresa Gallura (Ss), Italy",
-        "country": "Italia",
-        "countryCode": "IT",
-        "coordinates": {
-          "latitude": 41.2367096628,
-          "longitude": 9.1937334387
-        }
-      },
-      "contacts": {
-        "email": "serenella.pes@gmail.com",
-        "website": "https://www.facebook.com/Focus-asd-104103422300767",
-        "phones": [
-          "+39 338 680 8576"
-        ]
-      },
-      "social": null,
-      "notes": null,
-      "logo": "images/logos/asd-focus.webp",
-      "updatedAt": "2026-07-28T23:07:09.294Z"
-    },
-    {
       "id": "e5065d55-e80a-4e56-9da0-8033cdb2ccab",
       "name": "ASD Mondo Sommerso",
       "location": {
@@ -35294,7 +35269,7 @@
     },
     {
       "id": "57692773-7b75-4641-a215-84b3eea7c59d",
-      "name": "Sadanbeobin Gyeongnamsahoemunhwagyoyug Center",
+      "name": "AquaHilocs",
       "location": {
         "city": "Changwon-Si, Gyeongsangnam-do",
         "address": "Nosannam 7-Gil, Masanhappo-Gu, 51284 Changwon-Si, Gyeongsangnam-do, South Korea",
@@ -49568,7 +49543,7 @@
     },
     {
       "id": "820c6a12-28ba-4cc0-9440-3877d02b98d1",
-      "name": "corals & Shells (Oshy’s Oceans)",
+      "name": "Corals & Shells (Oshy’s Oceans)",
       "location": {
         "city": "Alkhobar",
         "address": "6297 Alrahma, 34742 Alkhobar, Saudi Arabia",
