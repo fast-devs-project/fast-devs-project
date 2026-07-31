@@ -1,5 +1,5 @@
 {
-  "version": 3,
+  "version": 4,
   "centers": [
     {
       "id": "07b2dda9-6b69-4100-88ce-33018c4bbce1",
@@ -4696,31 +4696,6 @@
       "social": null,
       "notes": null,
       "logo": "https://t0.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://www.androsbeachclub.com&size=256",
-      "updatedAt": "2026-07-28T23:07:09.294Z"
-    },
-    {
-      "id": "c388cfc8-913d-4c69-b442-fce9d0c47272",
-      "name": "Bahamas Aggressor",
-      "location": {
-        "city": "Nassau",
-        "address": "Nassau, Bahamas",
-        "country": "Bahamas",
-        "countryCode": "BS",
-        "coordinates": {
-          "latitude": 25.0788337302,
-          "longitude": -77.3364169312
-        }
-      },
-      "contacts": {
-        "email": "certs.BHA@aggressor.com",
-        "website": "https://www.agressor.com",
-        "phones": [
-          "+1 706 993 2531"
-        ]
-      },
-      "social": null,
-      "notes": null,
-      "logo": "https://t0.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://www.agressor.com&size=256",
       "updatedAt": "2026-07-28T23:07:09.294Z"
     },
     {
@@ -31903,7 +31878,7 @@
       "name": "Ortona Sub",
       "location": {
         "city": "Ortona",
-        "address": "Via Papa Giovanni Xxiii Snc, 66026 Ortona (Ch), Italy",
+        "address": "Via Papa Giovanni XXIII Snc, 66026 Ortona (Ch), Italy",
         "country": "Italia",
         "countryCode": "IT",
         "coordinates": {
@@ -46919,31 +46894,6 @@
       "updatedAt": "2026-07-28T23:07:09.294Z"
     },
     {
-      "id": "b3753cd8-38f1-4a89-9cd1-2d3313a41276",
-      "name": "Rock Islands Aggressor",
-      "location": {
-        "city": "Palau",
-        "address": "Palau, Palau",
-        "country": "Palau",
-        "countryCode": "PW",
-        "coordinates": {
-          "latitude": 7.5486766446052895,
-          "longitude": 134.6183967590332
-        }
-      },
-      "contacts": {
-        "email": "certs.RIA@aggressor.com",
-        "website": "https://www.aggressor.com",
-        "phones": [
-          "+1 706 993 2531"
-        ]
-      },
-      "social": null,
-      "notes": null,
-      "logo": "https://t0.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://www.aggressor.com&size=256",
-      "updatedAt": "2026-07-28T23:07:09.294Z"
-    },
-    {
       "id": "c48ad7ea-fef5-47e8-9a29-e90640d74c98",
       "name": "Akademia Podwodna",
       "location": {
@@ -51285,7 +51235,7 @@
     },
     {
       "id": "d94d767e-bd25-4d2d-8ec4-2689fbb88f9e",
-      "name": "TURKS and CAICOS AGGRESSOR II",
+      "name": "Turks and Caicos Aggressor II",
       "location": {
         "city": "Providenciales",
         "address": "Turtle Cove Marina, Providenciales, Turks & Caicos Islands",
