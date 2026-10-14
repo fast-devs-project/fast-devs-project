@@ -7,23 +7,33 @@
     "badge_en": "Most popular",
     "image": "images/kit/pro-kit.webp",
     "gradient": "linear-gradient(135deg,#D4A017,#F59E0B)",
-    "description": "Sblocca tutte le funzionalità presenti e future dell'app con un unico acquisto una tantum.",
-    "description_en": "Unlock all current and future app features with a single one-time purchase.",
+    "description": "Sblocca con un unico acquisto una tantum le funzionalità di tutti gli altri kit, insieme a strumenti avanzati esclusivi.",
+    "description_en": "Unlock the features of all other kits, plus exclusive advanced tools, with a single one-time purchase.",
     "features": [
-      "Sblocco di tutte le funzionalità presenti e future",
-      "Pulizia profonda della RAM",
-      "Live Activity RAM con aggiornamento automatico ogni 10 secondi",
-      "Pulizia automatica della RAM tramite Live Activity",
-      "Supporto file .synced",
-      "Copia & incolla di tutti i dati del dispositivo"
+      "Accesso alle funzionalità di tutti gli altri kit disponibili sulla piattaforma",
+      "Pulizia profonda della memoria RAM",
+      "Analisi dei file .synced, con dati su salute, cicli, capacità, temperature e utilizzo della batteria, quando presenti nel file",
+      "Copia e incolla dei dati visualizzati",
+      "Scelta delle unità di misura per temperatura, distanza, altitudine e pressione",
+      {
+        "platform": "iPhone e iPad",
+        "items": [
+          "Condivisione dei dati del dispositivo sulla rete locale, consultabili da un browser o da Device Monitor² per Mac tramite codice di accesso"
+        ]
+      }
     ],
     "features_en": [
-      "Unlock all current and future features",
-      "Deep RAM cleanup",
-      "RAM Live Activity with automatic update every 10 seconds",
-      "Automatic RAM cleanup via Live Activity",
-      ".synced file support",
-      "Copy & paste all device data"
+      "Access to the features of all other kits available on your platform",
+      "Deep RAM cleaning",
+      "Analyze .synced files for battery health, cycles, capacity, temperatures, and usage, when included in the file",
+      "Copy and paste for displayed data",
+      "A choice of measurement units for temperature, distance, altitude, and pressure",
+      {
+        "platform": "iPhone and iPad",
+        "items": [
+          "Share device data over your local network and view it in a browser or Device Monitor² for Mac using an access code"
+        ]
+      }
     ]
   },
   {
@@ -34,19 +44,21 @@
     "badge_en": "Latest",
     "image": "images/kit/pip-kit.webp",
     "gradient": "linear-gradient(135deg,#14B8A6,#06B6D4)",
-    "description": "Monitora RAM, CPU e rete in Picture in Picture, sempre visibile sopra ogni altra app.",
-    "description_en": "Monitor RAM, CPU and network in Picture in Picture, always visible above every other app.",
+    "description": "Monitora RAM, CPU, NETWORK e, sui dispositivi compatibili, gli FPS dello schermo in Picture in Picture su iPhone e iPad mentre usi altre app.",
+    "description_en": "Monitor RAM, CPU, NETWORK and, on compatible devices, screen FPS in Picture in Picture on iPhone and iPad while using other apps.",
     "features": [
       "Pannello RAM in Picture in Picture",
       "Pannello CPU in Picture in Picture",
-      "Pannello Network in Picture in Picture",
+      "Pannello NETWORK in Picture in Picture",
+      "FPS dei fotogrammi catturati dallo schermo in Picture in Picture (iOS/iPadOS 27 o successivi, dispositivi compatibili)",
       "Visibile sopra qualsiasi altra app",
       "Modalità compact e extended"
     ],
     "features_en": [
       "RAM panel in Picture in Picture",
       "CPU panel in Picture in Picture",
-      "Network panel in Picture in Picture",
+      "NETWORK panel in Picture in Picture",
+      "FPS of frames captured from the screen in Picture in Picture (iOS/iPadOS 27 or later, compatible devices)",
       "Visible above any other app",
       "Compact and extended modes"
     ]
@@ -59,27 +71,57 @@
     "badge_en": null,
     "image": "images/kit/test-kit.webp",
     "gradient": "linear-gradient(135deg,#3B82F6,#2563EB)",
-    "description": "Testa tutti i sensori e le funzionalità hardware del tuo dispositivo in modo approfondito.",
-    "description_en": "Test all sensors and hardware features of your device in depth.",
+    "description": "Verifica hardware, sensori e rete su iPhone, iPad e Mac, con test disponibili in base al dispositivo.",
+    "description_en": "Test hardware, sensors and networks on iPhone, iPad and Mac, with tests depending on your device.",
     "features": [
-      "GPS, Bussola, Altimetro",
-      "Accelerometro, Magnetometro, Giroscopio, Barometro",
-      "Device Motion, Coprocessore di Movimento, Pedometro",
-      "Bluetooth e iBeacon",
-      "Microfono (con livello decibel), Sensore di Prossimità, NFC",
-      "Vibrazione & Haptic Feedback, Multitouch",
-      "Ping, Acid3, Speed Test, Network Device Scanner",
-      "Luminosità, Screen Color, Fotocamera, Flash"
+      "Bluetooth, Microfono, Volume, Altoparlanti e Fotocamera",
+      "Strumenti di rete: Ping, Traceroute, DNS Lookup, Acid3, Speed Test e scansione dei dispositivi di rete",
+      {
+        "platform": "iPhone e iPad",
+        "items": [
+          "GPS, Bussola e Altimetro",
+          "Accelerometro, Shake, Magnetometro, Giroscopio e Barometro",
+          "Device Motion, Coprocessore di Movimento e Pedometro",
+          "iBeacon, NFC e Sensore di Prossimità",
+          "Touch ID o Face ID, se disponibili",
+          "Vibrazione, Feedback Aptico e Flash",
+          "LiDAR sui dispositivi compatibili: profondità, nuvole di punti, mesh 3D e misurazione delle distanze",
+          "Luminosità, Touchscreen con una griglia per verificare l'intera superficie e Multi-touch",
+          "Colori dello schermo, anche personalizzati, e lampeggio"
+        ]
+      },
+      {
+        "platform": "Mac",
+        "items": [
+          "Touch ID, se disponibile",
+          "JavaScript tra gli strumenti di rete"
+        ]
+      }
     ],
     "features_en": [
-      "GPS, Compass, Altimeter",
-      "Accelerometer, Magnetometer, Gyroscope, Barometer",
-      "Device Motion, Motion Coprocessor, Pedometer",
-      "Bluetooth and iBeacon",
-      "Microphone (with decibel level), Proximity Sensor, NFC",
-      "Vibration & Haptic Feedback, Multitouch",
-      "Ping, Acid3, Speed Test, Network Device Scanner",
-      "Brightness, Screen Color, Camera, Flash"
+      "Bluetooth, Microphone, Volume, Speakers and Camera",
+      "Network tools: Ping, Traceroute, DNS Lookup, Acid3, Speed Test and network device scanning",
+      {
+        "platform": "iPhone and iPad",
+        "items": [
+          "GPS, Compass and Altimeter",
+          "Accelerometer, Shake, Magnetometer, Gyroscope and Barometer",
+          "Device Motion, Motion Coprocessor and Pedometer",
+          "iBeacon, NFC and Proximity Sensor",
+          "Touch ID or Face ID, if available",
+          "Vibration, Haptic Feedback and Flash",
+          "LiDAR on compatible devices: depth, point clouds, 3D meshes and distance measurements",
+          "Brightness, Touchscreen with a grid to check the entire surface and Multi-touch",
+          "Screen colors, including custom colors, and blinking"
+        ]
+      },
+      {
+        "platform": "Mac",
+        "items": [
+          "Touch ID, if available",
+          "JavaScript among the network tools"
+        ]
+      }
     ]
   },
   {
@@ -97,16 +139,14 @@
       "Export in formato CSV",
       "Export in formato XLSX (Excel)",
       "Export in formato RTF",
-      "Grafici inclusi nel report",
-      "Apertura diretta dall'app File di iOS"
+      "Informazioni hardware dettagliate e grafici dei pannelli visibili nel report PDF"
     ],
     "features_en": [
       "Export as PDF",
       "Export as CSV",
       "Export as XLSX (Excel)",
       "Export as RTF",
-      "Charts included in the report",
-      "Open directly from the iOS Files app"
+      "Detailed hardware information and charts for visible panels in the PDF report"
     ]
   },
   {
@@ -117,21 +157,17 @@
     "badge_en": null,
     "image": "images/kit/notification-kit.webp",
     "gradient": "linear-gradient(135deg,#FBBF24,#F59E0B)",
-    "description": "Ricevi notifiche push intelligenti quando il dispositivo supera le soglie configurate.",
-    "description_en": "Receive smart push notifications when the device exceeds the configured thresholds.",
+    "description": "Ricevi un avviso quando la RAM è quasi piena o la temperatura del dispositivo è elevata, nelle fasce orarie che preferisci.",
+    "description_en": "Get alerted when RAM is almost full or the device temperature rises, during the time ranges you prefer.",
     "features": [
-      "Notifica push quando la RAM supera la soglia configurabile",
-      "Notifica push quando la temperatura supera la norma",
-      "Soglie personalizzabili dall'utente",
-      "Rich Notification con grafico RAM",
-      "Notifica quando la RAM occupata supera il 95%"
+      "Avviso quando la RAM è quasi piena",
+      "Avviso quando la temperatura è elevata",
+      "Fasce orarie personalizzabili per la consegna degli avvisi"
     ],
     "features_en": [
-      "Push notification when RAM exceeds the configurable threshold",
-      "Push notification when temperature exceeds normal levels",
-      "User-configurable thresholds",
-      "Rich Notification with RAM chart",
-      "Notification when RAM usage exceeds 95%"
+      "Alert when RAM is almost full",
+      "Alert when the device temperature rises",
+      "Custom time ranges for receiving alerts"
     ]
   },
   {
@@ -142,14 +178,14 @@
     "badge_en": null,
     "image": "images/kit/ads-kit.webp",
     "gradient": "linear-gradient(135deg,#EF4444,#DC2626)",
-    "description": "Rimuovi tutta la pubblicità dall'app per un'esperienza completamente pulita e senza distrazioni.",
-    "description_en": "Remove all advertising from the app for a completely clean, distraction-free experience.",
+    "description": "Rimuovi i banner promozionali dall'app per un'esperienza pulita e senza distrazioni.",
+    "description_en": "Remove promotional banners from the app for a clean, distraction-free experience.",
     "features": [
-      "Rimozione di tutta la pubblicità dall'app",
+      "Rimozione dei banner promozionali",
       "Esperienza d'uso senza interruzioni"
     ],
     "features_en": [
-      "Remove all advertising from the app",
+      "Removal of promotional banners",
       "Uninterrupted user experience"
     ]
   }

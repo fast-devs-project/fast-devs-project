@@ -52,6 +52,16 @@ The `device-monitor/`, `iwindrose/`, and `televideo-pro/` sites use the same gen
 
 The hero version badge is derived automatically from the **first entry** of `changelog.json`. When releasing, prepend the new version object and set the previous entry's `"badge"` to `null`.
 
+### Device Monitor² kits review (every 3 months)
+
+The content of every kit in `device-monitor/data/kits.json` (`description`, `features`, and their `_en` variants) must be reviewed every 3 months against the current App Store descriptions for iOS and macOS, which are the source of truth. Kit features change between app releases, so stale entries are expected.
+
+- **Last review: 2026-10-14.** At session start, if more than 3 months have passed since this date, remind the user that the kits review is due before doing anything else.
+- Ask the user for the current App Store descriptions; do not infer kit features from memory or other JSON files.
+- Review each kit individually: remove features no longer listed, add new ones, and keep Italian and English arrays aligned.
+- When a feature differs by platform, use a platform group object instead of a plain string: `{ "platform": "iPhone e iPad", "items": [...] }` (English: `"iPhone and iPad"`, `"Mac"`). Features shared by all platforms stay plain strings listed before the groups.
+- After the review, update the "Last review" date above.
+
 Gallery thumbnail aspect ratios (set via `--thumb-ratio` in JS): iPhone `499/1080`, iPad `2560/1919`, Apple Watch `1/1`, Apple TV `16/9`, Mac `16/10`.
 
 ## Releasing

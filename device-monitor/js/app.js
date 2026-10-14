@@ -125,10 +125,15 @@ async function renderKits() {
     const features = (isEn && k.features_en) ? k.features_en : k.features;
     const badge = (isEn && k.badge_en !== undefined) ? k.badge_en : k.badge;
 
+    // A feature is either a string or a platform group: { platform, items: [...] }
     const featuresHtml = features.map(f => `
       <li class="kit-feature">
         <span class="kit-feature-check">${icon('check')}</span>
-        <span>${f}</span>
+        ${typeof f === 'string' ? `<span>${f}</span>` : `
+        <div>
+          <span class="kit-feature-platform">${f.platform}:</span>
+          <ul class="kit-subfeatures">${f.items.map(item => `<li>${item}</li>`).join('')}</ul>
+        </div>`}
       </li>`).join('');
 
     const badgeHtml = badge
