@@ -1,10 +1,78 @@
 [
   {
+    "version": "27.0.0",
+    "platform": "ios",
+    "date": "14/10/2026",
+    "badge": "Ultima versione",
+    "badge_en": "Latest version",
+    "highlights": [
+      "Possibilità di visualizzare i principali dati del proprio device sull'app per Mac o browser web",
+      "Aggiunto il supporto ad iOS 27 e il supporto preliminare all’iPhone Duo",
+      "Su iPad e iPhone Duo, i pannelli si dispongono automaticamente su un massimo di tre colonne, in base allo spazio disponibile",
+      "Pulizia RAM coordinata tra app, widget, Comandi Rapidi e Centro di Controllo, con avanzamento visibile e possibilità di interrompere l’operazione",
+      "Nuovi sistemi di misurazione metrici, statunitensi e britannici",
+      "Grafici CPU, RAM e STORAGE riprogettati per adattarsi meglio a ogni schermo",
+      "Report Kit rinnovato, con una presentazione più chiara e informazioni hardware più complete",
+      "Nuove dimensioni e nuovi layout per i widget",
+      "Fasce orarie configurabili per le notifiche relative a RAM e temperatura",
+      "Nuovo test del touchscreen basato su una griglia interattiva",
+      "Strumenti di rete migliorati per Speed Test, Ping, Traceroute e ricerca DNS, con risultati più chiari e un nuovo tachimetro",
+      "Aggiunto il nuovo test LiDAR dentro il “Test Kit”",
+      "Supporto all’impostazione di sistema “Movimento ridotto”",
+      "Nuova esperienza introduttiva, miglioramenti per Apple Watch e numerose correzioni di stabilità, localizzazione e interfaccia"
+    ],
+    "highlights_en": [
+      "Ability to view key data from your device on the Mac app or in a web browser",
+      "Added support for iOS 27 and preliminary support for the iPhone Duo",
+      "On iPad and iPhone Duo, panels automatically arrange into up to three columns, depending on the available space",
+      "Coordinated RAM cleaning across the app, widgets, Shortcuts, and Control Center, with visible progress and the ability to stop an active operation",
+      "New Metric, US, and UK measurement systems",
+      "Redesigned CPU, RAM, and STORAGE charts that adapt better to every screen",
+      "A redesigned Report Kit with a clearer presentation and more complete hardware information",
+      "New widget sizes and layouts",
+      "Configurable delivery times for RAM and temperature notifications",
+      "A new interactive grid-based touchscreen test",
+      "Improved network tools for Speed Test, Ping, Traceroute, and DNS Lookup, with clearer results and a new speedometer",
+      "New LiDAR test inside the “Test Kit”",
+      "Support for the system Reduce Motion setting",
+      "A refreshed onboarding experience, Apple Watch improvements, and numerous stability, localization, and interface fixes"
+    ]
+  },
+  {
+    "version": "27.0.0",
+    "platform": "macos",
+    "date": "14/10/2026",
+    "badge": "Ultima versione",
+    "badge_en": "Latest version",
+    "highlights": [
+      "Aggiunto il supporto a macOS 27 Golden Gate",
+      "Nuova dashboard integrata per consultare i dati di un iPhone o iPad sulla stessa rete, con rilevamento automatico del dispositivo",
+      "I pannelli si dispongono automaticamente su un massimo di tre colonne, in base allo spazio disponibile",
+      "Nuovi strumenti di rete: Speed Test, Ping, Traceroute e ricerca DNS, con risultati più chiari",
+      "Scelta delle unità metriche, statunitensi o britanniche per temperatura, distanza, altitudine e pressione",
+      "Grafici CPU, RAM e archiviazione riprogettati e report hardware più completi",
+      "L’app rimane aperta in background quando chiudi la finestra, pronta quando ne hai bisogno",
+      "Animazioni aggiornate per rispettare l’impostazione di sistema Movimento ridotto, insieme a correzioni e miglioramenti generali",
+      "Correzioni di bug minori e miglioramenti delle prestazioni"
+    ],
+    "highlights_en": [
+      "Added support for macOS 27 Golden Gate",
+      "A new built-in dashboard lets you view data from an iPhone or iPad on the same network, with automatic device discovery",
+      "Panels automatically arrange into up to three columns, depending on the available space",
+      "New network tools: Speed Test, Ping, Traceroute, and DNS lookup, with clearer results",
+      "Choose Metric, US, or UK units for temperature, distance, altitude, and pressure",
+      "Redesigned CPU, RAM, and storage charts, plus more complete hardware reports",
+      "The app stays open in the background when you close its window, ready when you need it",
+      "Animations now respect the system Reduce Motion setting, alongside general fixes and improvements",
+      "Minor bug fixes and performance improvements"
+    ]
+  },
+  {
     "version": "26.6.1",
     "platform": "ios",
     "date": "11/07/2026",
-    "badge": "Ultima versione",
-    "badge_en": "Latest version",
+    "badge": null,
+    "badge_en": null,
     "highlights": [
       "Aggiunta la legenda dei core nel PiP della CPU",
       "Aggiunto il nuovo test “Colori intermittenti” per il display all’interno del Test Kit",
@@ -24,8 +92,8 @@
     "version": "26.6.3",
     "platform": "macos",
     "date": "10/07/2026",
-    "badge": "Ultima versione",
-    "badge_en": "Latest version",
+    "badge": null,
+    "badge_en": null,
     "highlights": [
       "Correzioni di bug minori e miglioramenti delle prestazioni"
     ],
