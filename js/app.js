@@ -6,16 +6,24 @@ const CACHE_VER = new URL(document.currentScript?.src || window.location.href).s
 
 /* ============================================================
    DATA LOADER
+   Returns null if fetch() fails or the JSON is invalid. Results are
+   cached, so re-renders on language switch don't download the files again.
    ============================================================ */
-async function loadJSON(path) {
-  try {
-    const res = await fetch(`${path}?v=${CACHE_VER}`);
-    if (!res.ok) throw new Error(res.status);
-    return res.json();
-  } catch {
-    console.warn(`[FDP] Could not fetch ${path}`);
-    return null;
+const _jsonCache = new Map();
+
+function loadJSON(path) {
+  if (!_jsonCache.has(path)) {
+    _jsonCache.set(path, fetch(`${path}?v=${CACHE_VER}`)
+      .then(res => {
+        if (!res.ok) throw new Error(res.status);
+        return res.json();
+      })
+      .catch(() => {
+        console.warn(`[FDP] Could not fetch ${path}`);
+        return null;
+      }));
   }
+  return _jsonCache.get(path);
 }
 
 /* ============================================================
@@ -25,8 +33,17 @@ let _strings = {};
 let _currentLang = 'it';
 
 async function initI18n() {
+  /* avvia in parallelo il download dei contenuti (loadJSON è in cache) */
+  loadJSON('data/apps.json');
+  loadJSON('data/blog.json');
+
   const data = await loadJSON('data/i18n.json');
-  if (!data) return;
+  if (!data) {
+    /* fail soft: senza traduzioni renderizza comunque app e blog in 'it' */
+    renderApps();
+    renderBlog();
+    return;
+  }
 
   const saved = localStorage.getItem('site_lang');
   const browser = navigator.language?.slice(0, 2).toLowerCase();
@@ -51,7 +68,7 @@ function t(key) {
 }
 
 function applyLang(lang) {
-  const strings = _strings[lang] || _strings['it'];
+  const strings = _strings[lang] || _strings['it'] || {};
   document.documentElement.lang = lang;
 
   document.querySelectorAll('.lang-btn').forEach(btn => {
@@ -159,6 +176,8 @@ async function renderApps() {
 /* ============================================================
    RENDER — BLOG
    ============================================================ */
+let _blogPosts = [];
+
 async function renderBlog() {
   const data = await loadJSON('data/blog.json');
   const container = document.getElementById('blog-container');
@@ -276,22 +295,31 @@ async function renderBlog() {
     if (!open) observeReveal();
   });
 
-  /* Blog modal — click on card */
-  container.addEventListener('click', e => {
-    const card = e.target.closest('[data-blog-idx]');
-    if (!card) return;
-    const idx = parseInt(card.dataset.blogIdx);
-    openBlogModal(data[idx]);
-  });
+  /* Blog modal — click on card (listener registrati una sola volta:
+     renderBlog() viene richiamata a ogni cambio lingua) */
+  _blogPosts = data;
+  if (!container.dataset.modalListeners) {
+    container.dataset.modalListeners = 'true';
 
-  container.addEventListener('keydown', e => {
-    if (e.key === 'Enter' || e.key === ' ') {
+    container.addEventListener('click', e => {
+      if (e.target.closest('a')) return;
       const card = e.target.closest('[data-blog-idx]');
       if (!card) return;
       const idx = parseInt(card.dataset.blogIdx);
-      openBlogModal(data[idx]);
-    }
-  });
+      openBlogModal(_blogPosts[idx]);
+    });
+
+    container.addEventListener('keydown', e => {
+      if (e.key === 'Enter' || e.key === ' ') {
+        if (e.target.closest('a')) return;
+        const card = e.target.closest('[data-blog-idx]');
+        if (!card) return;
+        if (e.key === ' ') e.preventDefault();
+        const idx = parseInt(card.dataset.blogIdx);
+        openBlogModal(_blogPosts[idx]);
+      }
+    });
+  }
 
   observeReveal();
 }
@@ -299,15 +327,21 @@ async function renderBlog() {
 /* ============================================================
    BLOG MODAL
    ============================================================ */
+let _blogReturnFocus = null;
+
 function openBlogModal(post) {
   const modal = document.getElementById('blog-modal');
   const localizedPost = getLocalizedPost(post);
-  modal.querySelector('.blog-modal-img').src = post.image || '';
-  modal.querySelector('.blog-modal-img').alt = localizedPost.title;
+  const img = modal.querySelector('.blog-modal-img');
+  if (post.image) img.src = post.image;
+  else img.removeAttribute('src');
+  img.alt = localizedPost.title;
   modal.querySelector('.blog-modal-title').textContent = localizedPost.title;
   modal.querySelector('.blog-modal-date').textContent = localizedPost.date;
   modal.querySelector('.blog-modal-text').innerHTML = localizedPost.content;
+  _blogReturnFocus = document.activeElement;
   modal.classList.add('open');
+  modal.querySelector('.blog-modal-close')?.focus();
   document.body.style.overflow = 'hidden';
 }
 
@@ -322,8 +356,11 @@ function getLocalizedPost(post) {
 
 function closeBlogModal() {
   const modal = document.getElementById('blog-modal');
+  if (!modal?.classList.contains('open')) return;
   modal.classList.remove('open');
   document.body.style.overflow = '';
+  _blogReturnFocus?.focus();
+  _blogReturnFocus = null;
 }
 
 /* ============================================================
@@ -341,7 +378,10 @@ function initContact() {
     const honey = String(data.get('_honey') || '').trim();
     const filledTooFast = Date.now() - formReadyAt < 3000;
 
-    if (honey || filledTooFast) {
+    if (honey) return;
+    /* Invio troppo rapido (es. autofill): avvisa invece di scartare in silenzio */
+    if (filledTooFast) {
+      showEmailAlert('email-alert-error');
       return;
     }
 
@@ -355,12 +395,12 @@ function initContact() {
         body: data
       });
 
-      if (res.ok) {
-        form.reset();
-        showEmailAlert();
-      }
+      if (!res.ok) throw new Error(res.status);
+      form.reset();
+      showEmailAlert('email-alert');
     } catch {
-      /* Silently fail — form reset anyway */
+      /* Il form non viene resettato: l'utente può riprovare senza riscrivere */
+      showEmailAlert('email-alert-error');
     } finally {
       btn.disabled = false;
       btn.style.opacity = '';
@@ -368,8 +408,8 @@ function initContact() {
   });
 }
 
-function showEmailAlert() {
-  const alert = document.getElementById('email-alert');
+function showEmailAlert(id) {
+  const alert = document.getElementById(id);
   if (!alert) return;
   alert.classList.add('visible');
   setTimeout(() => alert.classList.remove('visible'), 4000);
@@ -396,6 +436,7 @@ function initNav() {
   links?.querySelectorAll('a').forEach(a => {
     a.addEventListener('click', () => {
       links.classList.remove('open');
+      toggle?.setAttribute('aria-expanded', 'false');
     });
   });
 }
@@ -440,7 +481,12 @@ document.addEventListener('DOMContentLoaded', async () => {
 
   /* Scroll to hash anchor after all dynamic content is rendered */
   if (location.hash) {
-    const target = document.querySelector(location.hash);
+    let target = null;
+    try {
+      target = document.getElementById(decodeURIComponent(location.hash.slice(1)));
+    } catch {
+      /* hash malformato: ignora */
+    }
     if (target) {
       requestAnimationFrame(() => {
         requestAnimationFrame(() => {

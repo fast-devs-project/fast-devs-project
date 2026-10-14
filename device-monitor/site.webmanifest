@@ -1,7 +1,7 @@
 {
   "name": "Device Monitor²",
   "short_name": "Device Monitor²",
-  "description": "Monitor RAM, CPU, GPU, BATTERY, NETWORK and SONSORS on iPhone, iPad, Apple Watch and Mac.",
+  "description": "Monitor RAM, CPU, GPU, BATTERY, NETWORK and SENSORS on iPhone, iPad, Apple Watch and Mac.",
   "start_url": "./",
   "scope": "./",
   "display": "standalone",

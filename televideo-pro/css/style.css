@@ -69,10 +69,7 @@ button {
   font-family: inherit;
 }
 
-ul {
-  list-style: none;
-}
-
+ul,
 ol {
   list-style: none;
 }
@@ -931,11 +928,7 @@ body::before {
   right: 1.5rem;
 }
 
-.lightbox-prev:hover {
-  background: rgba(255, 255, 255, 0.2);
-  transform: translateY(-50%) scale(1.08);
-}
-
+.lightbox-prev:hover,
 .lightbox-next:hover {
   background: rgba(255, 255, 255, 0.2);
   transform: translateY(-50%) scale(1.08);
@@ -1137,6 +1130,13 @@ body::before {
   color: var(--text-muted);
 }
 
+.changelog-badges {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 4px;
+}
+
 .changelog-badge {
   display: inline-block;
   padding: 2px 8px;
@@ -1145,13 +1145,17 @@ body::before {
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 0.05em;
-  background: rgba(239, 68, 68, 0.15);
-  color: var(--accent-red);
-  border: 1px solid rgba(239, 68, 68, 0.2);
+  /* --badge-color arriva da CHANGELOG_BADGES in app.js */
+  color: var(--badge-color, var(--accent-red));
+  background: color-mix(in srgb, currentColor 15%, transparent);
+  border: 1px solid color-mix(in srgb, currentColor 20%, transparent);
 }
 
-.changelog-content {
-  flex: 1;
+.changelog-divider {
+  width: 1px;
+  background: var(--border);
+  align-self: stretch;
+  margin-inline: 0.25rem;
 }
 
 .changelog-highlights {
@@ -1329,7 +1333,8 @@ body::before {
   transition: background var(--transition), color var(--transition);
 }
 
-.footer-social:hover {
+.footer-social:hover,
+.footer-social:focus-visible {
   background: rgba(255, 255, 255, 0.15);
   color: #fff;
 }
@@ -1426,10 +1431,18 @@ body::before {
     gap: 0.75rem;
   }
 
+  .changelog-divider {
+    display: none;
+  }
+
   .changelog-version-col {
     flex-direction: row;
     align-items: center;
     min-width: unset;
+  }
+
+  .changelog-badges {
+    align-items: flex-start;
   }
 }
 
@@ -1469,4 +1482,26 @@ body::before {
 ::selection {
   background: rgba(239, 68, 68, 0.3);
   color: var(--text-primary);
+}
+
+/* ——— REDUCED MOTION ——— */
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+
+  /* niente fade-in allo scroll: i contenuti sono subito visibili */
+  .reveal {
+    opacity: 1;
+    transform: none;
+  }
 }

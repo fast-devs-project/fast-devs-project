@@ -1,10 +1,11 @@
 {
   "it": {
-    "nav.home": "Home",
     "nav.apps": "Le nostre App",
     "nav.blog": "Blog",
     "nav.contact": "Contatti",
-    "hero.tagline": "Italian indie Apple app developer",
+    "nav.aria.main": "Navigazione principale",
+    "nav.aria.cta": "Vedi tutte le app su App Store",
+    "nav.aria.menu": "Apri menu",
     "hero.subtitle": "Sviluppiamo app native per l'ecosistema Apple: iPhone, iPad, Apple Watch e Mac.",
     "apps.label": "Le nostre App",
     "apps.title": "App pensate per",
@@ -23,6 +24,8 @@
     "blog.empty": "Nessun articolo disponibile al momento. Torna presto!",
     "blog.expand": "Mostra articoli precedenti",
     "blog.collapse": "Nascondi articoli precedenti",
+    "blog.modal.aria": "Articolo",
+    "blog.modal.close": "Chiudi",
     "contact.label": "Contatti",
     "contact.title": "Scrivici",
     "contact.title.gradient": "un messaggio",
@@ -33,17 +36,21 @@
     "contact.message": "Messaggio",
     "contact.send": "Invia messaggio",
     "contact.success": "Messaggio inviato con successo!",
+    "contact.error": "Invio non riuscito. Riprova tra qualche istante.",
     "footer.desc": "Sviluppatore indie italiano di app Apple. App native per iPhone, iPad, Apple Watch e Mac.",
-    "footer.copyright": "© 2010-2026 Fast-Devs Project by Marco Ricca. All rights reserved.",
+    "footer.copyright": "© 2010-2026 Fast-Devs Project di Marco Ricca. Tutti i diritti riservati.",
     "footer.trademark": "Apple, iPhone, iPad, Apple Watch e Mac sono marchi di Apple Inc.",
-    "footer.aria.twitter": "Segui Fast-Devs Project su X (Twitter)"
+    "footer.aria.twitter": "Segui Fast-Devs Project su X (Twitter)",
+    "footer.aria.links": "Link footer",
+    "footer.aria.lang": "Lingua"
   },
   "en": {
-    "nav.home": "Home",
     "nav.apps": "Our Apps",
     "nav.blog": "Blog",
     "nav.contact": "Contact",
-    "hero.tagline": "Italian indie Apple app developer",
+    "nav.aria.main": "Main navigation",
+    "nav.aria.cta": "See all apps on the App Store",
+    "nav.aria.menu": "Open menu",
     "hero.subtitle": "We build native apps for the Apple ecosystem: iPhone, iPad, Apple Watch and Mac.",
     "apps.label": "Our Apps",
     "apps.title": "Apps designed for",
@@ -62,6 +69,8 @@
     "blog.empty": "No articles available at the moment. Check back soon!",
     "blog.expand": "Show older articles",
     "blog.collapse": "Hide older articles",
+    "blog.modal.aria": "Article",
+    "blog.modal.close": "Close",
     "contact.label": "Contact",
     "contact.title": "Send us",
     "contact.title.gradient": "a message",
@@ -72,9 +81,12 @@
     "contact.message": "Message",
     "contact.send": "Send message",
     "contact.success": "Message sent successfully!",
+    "contact.error": "Message not sent. Please try again in a moment.",
     "footer.desc": "Italian indie Apple app developer. Native apps for iPhone, iPad, Apple Watch and Mac.",
     "footer.copyright": "© 2010-2026 Fast-Devs Project by Marco Ricca. All rights reserved.",
     "footer.trademark": "Apple, iPhone, iPad, Apple Watch and Mac are trademarks of Apple Inc.",
-    "footer.aria.twitter": "Follow Fast-Devs Project on X (Twitter)"
+    "footer.aria.twitter": "Follow Fast-Devs Project on X (Twitter)",
+    "footer.aria.links": "Footer links",
+    "footer.aria.lang": "Language"
   }
 }

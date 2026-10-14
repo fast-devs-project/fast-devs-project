@@ -13,20 +13,20 @@
     content="fast-devs project, apple app developer, indie developer, iphone, ipad, apple watch, mac, app, swift">
   <meta name="author" content="Fast-Devs Project">
   <meta name="robots" content="index, follow">
-  <link rel="canonical" href="https://fast-devs-project.github.io/fast-devs-project/">
+  <link rel="canonical" href="https://fastdevsproject.com/">
 
   <!-- Open Graph -->
   <meta property="og:type" content="website">
-  <meta property="og:url" content="https://fast-devs-project.github.io/fast-devs-project/">
+  <meta property="og:url" content="https://fastdevsproject.com/">
   <meta property="og:title" content="Fast-Devs Project">
   <meta property="og:description"
     content="Sviluppatore iOS indipendente italiano. App native per iPhone, iPad, Apple Watch e Mac.">
-  <meta property="og:image" content="https://fast-devs-project.github.io/fast-devs-project/images/icon/fdp-icon.webp">
+  <meta property="og:image" content="https://fastdevsproject.com/images/icon/fdp-icon.webp">
   <meta property="og:image:secure_url"
-    content="https://fast-devs-project.github.io/fast-devs-project/images/icon/fdp-icon.webp">
+    content="https://fastdevsproject.com/images/icon/fdp-icon.webp">
   <meta property="og:image:type" content="image/webp">
-  <meta property="og:image:width" content="1024">
-  <meta property="og:image:height" content="1024">
+  <meta property="og:image:width" content="1254">
+  <meta property="og:image:height" content="1254">
   <meta property="og:image:alt" content="Fast-Devs Project logo">
   <meta property="og:locale" content="it_IT">
 
@@ -34,13 +34,13 @@
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="Fast-Devs Project — Italian indie Apple app developer">
   <meta name="twitter:description" content="Sviluppatore iOS indipendente italiano. App native per l'ecosistema Apple.">
-  <meta name="twitter:image" content="https://fast-devs-project.github.io/fast-devs-project/images/icon/fdp-icon.webp">
+  <meta name="twitter:image" content="https://fastdevsproject.com/images/icon/fdp-icon.webp">
   <meta name="twitter:image:alt" content="Fast-Devs Project logo">
   <meta name="twitter:site" content="@FastDevsProject">
 
   <!-- Favicon -->
   <link rel="icon" type="image/webp" href="images/favicon/favicon.webp">
-  <link rel="apple-touch-icon" href="images/icon/fdp-icon.webp">
+  <link rel="apple-touch-icon" sizes="180x180" href="images/icon/apple-touch-icon.png">
   <link rel="manifest" href="site.webmanifest">
   <meta name="apple-mobile-web-app-title" content="Fast-Devs Project">
   <meta name="mobile-web-app-capable" content="yes">
@@ -55,10 +55,10 @@
     imagesizes="(max-width: 768px) 90vw, 1500px" type="image/webp" fetchpriority="high">
 
   <!-- Preload critical content JSON so it loads in parallel with the JS, not after it -->
-  <link rel="preload" as="fetch" type="application/json" href="data/i18n.json?v=20261014151248" crossorigin>
+  <link rel="preload" as="fetch" type="application/json" href="data/i18n.json?v=20261014171854" crossorigin>
 
   <!-- Custom styles -->
-  <link rel="stylesheet" href="css/style.css?v=20261014151248">
+  <link rel="stylesheet" href="css/style.css?v=20261014171854">
 </head>
 
 <body>
@@ -66,7 +66,7 @@
   <!-- ═══════════════════════════════════════════════
      NAVIGATION
 ══════════════════════════════════════════════════ -->
-  <nav class="nav" role="navigation" aria-label="Navigazione principale">
+  <nav class="nav" role="navigation" data-i18n-aria="nav.aria.main" aria-label="Navigazione principale">
     <div class="container nav-inner">
       <a href="#" class="nav-brand">
         <img src="images/icon/fdp-circle.webp" alt="" aria-hidden="true" width="30" height="30" loading="eager"
@@ -82,7 +82,7 @@
       </ul>
 
       <a href="https://apps.apple.com/us/developer/fast-devs-project/id380985711" class="nav-cta" target="_blank"
-        rel="noopener" aria-label="Vedi tutte le app su App Store">
+        rel="noopener" data-i18n-aria="nav.aria.cta" aria-label="Vedi tutte le app su App Store">
         <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor" stroke="none" aria-hidden="true">
           <path
             d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.8-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M13 3.5c.73-.83 1.94-1.46 2.94-1.5.13 1.17-.34 2.35-1.04 3.19-.69.85-1.83 1.51-2.95 1.42-.15-1.15.41-2.35 1.05-3.11z" />
@@ -90,7 +90,7 @@
         App Store
       </a>
 
-      <button class="nav-mobile-toggle" aria-label="Apri menu" aria-expanded="false">
+      <button class="nav-mobile-toggle" data-i18n-aria="nav.aria.menu" aria-label="Apri menu" aria-expanded="false">
         <span></span>
         <span></span>
         <span></span>
@@ -205,14 +205,13 @@
             data-i18n-placeholder="contact.message" placeholder="Messaggio"></textarea>
         </div>
         <button type="submit" class="btn-submit" data-i18n="contact.send">Invia messaggio</button>
-        <div class="form-success" id="form-success" data-i18n="contact.success">Messaggio inviato con successo!</div>
       </form>
     </div>
   </section>
 
 
   <!-- Alert email inviata -->
-  <div id="email-alert" class="email-alert" role="alert" aria-live="polite">
+  <div id="email-alert" class="email-alert" aria-live="polite">
     <div class="email-alert-box">
       <div class="email-alert-icon">
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"
@@ -221,7 +220,22 @@
           <polyline points="9 12 11 14 15 10" />
         </svg>
       </div>
-      <p class="email-alert-text" data-i18n="contact.success">Email inviata correttamente!</p>
+      <p class="email-alert-text" data-i18n="contact.success">Messaggio inviato con successo!</p>
+    </div>
+  </div>
+
+  <!-- Alert email non inviata -->
+  <div id="email-alert-error" class="email-alert email-alert--error" aria-live="assertive">
+    <div class="email-alert-box">
+      <div class="email-alert-icon">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"
+          stroke-linejoin="round">
+          <circle cx="12" cy="12" r="10" />
+          <line x1="15" y1="9" x2="9" y2="15" />
+          <line x1="9" y1="9" x2="15" y2="15" />
+        </svg>
+      </div>
+      <p class="email-alert-text" data-i18n="contact.error">Invio non riuscito. Riprova tra qualche istante.</p>
     </div>
   </div>
 
@@ -243,28 +257,24 @@
           </p>
         </div>
 
-        <nav class="footer-links" aria-label="Link footer">
+        <nav class="footer-links" data-i18n-aria="footer.aria.links" aria-label="Link footer">
           <a href="#apps" data-i18n="nav.apps">Le nostre App</a>
         </nav>
       </div>
 
       <div class="footer-bottom">
         <p class="footer-copy">
-          <span data-i18n="footer.copyright">© 2010-2026 Fast-Devs Project by Marco Ricca. All rights
-            reserved.</span><br>
+          <span data-i18n="footer.copyright">© 2010-2026 Fast-Devs Project di Marco Ricca. Tutti i diritti riservati.</span><br>
           <span data-i18n="footer.trademark">Apple, iPhone, iPad, Apple Watch e Mac sono marchi di Apple Inc.</span>
         </p>
         <div class="footer-social">
-          <div class="lang-switcher" role="group" aria-label="Language">
+          <div class="lang-switcher" role="group" data-i18n-aria="footer.aria.lang" aria-label="Lingua">
             <button class="lang-btn active" data-lang="it" aria-pressed="true">IT</button>
             <button class="lang-btn" data-lang="en" aria-pressed="false">EN</button>
           </div>
 
-          <a href="https://x.com/FastDevsProject" target="_blank" rel="noopener" data-i18n-aria="footer.aria.twitter"
-            aria-label="Segui Fast-Devs Project su X (Twitter)"
-            style="display:grid;place-items:center;width:36px;height:36px;border-radius:8px;background:rgba(255,255,255,0.08);border:1px solid rgba(255,255,255,0.12);color:var(--text-secondary);transition:background var(--transition),color var(--transition);"
-            onmouseover="this.style.background='rgba(255,255,255,0.15)';this.style.color='#fff'"
-            onmouseout="this.style.background='rgba(255,255,255,0.08)';this.style.color='var(--text-secondary)'">
+          <a href="https://x.com/FastDevsProject" target="_blank" rel="noopener" class="footer-social-link"
+            data-i18n-aria="footer.aria.twitter" aria-label="Segui Fast-Devs Project su X (Twitter)">
             <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
               <path
                 d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-4.714-6.231-5.401 6.231H2.744l7.737-8.835L1.254 2.25H8.08l4.259 5.63L18.244 2.25zm-1.161 17.52h1.833L7.084 4.126H5.117L17.083 19.77z" />
@@ -277,11 +287,11 @@
 
 
   <!-- Blog Modal -->
-  <div id="blog-modal" class="blog-modal" role="dialog" aria-modal="true" aria-label="Articolo">
+  <div id="blog-modal" class="blog-modal" role="dialog" aria-modal="true" data-i18n-aria="blog.modal.aria" aria-label="Articolo">
     <div class="blog-modal-backdrop"></div>
     <div class="blog-modal-content">
-      <button class="blog-modal-close" aria-label="Chiudi">✕</button>
-      <img class="blog-modal-img" src="" alt="" loading="eager" decoding="async">
+      <button class="blog-modal-close" data-i18n-aria="blog.modal.close" aria-label="Chiudi">✕</button>
+      <img class="blog-modal-img" alt="" loading="eager" decoding="async">
       <div class="blog-modal-body">
         <h2 class="blog-modal-title"></h2>
         <p class="blog-modal-date"></p>
@@ -291,7 +301,7 @@
   </div>
 
   <!-- Scripts -->
-  <script src="js/app.js?v=20261014151248" defer></script>
+  <script src="js/app.js?v=20261014171854" defer></script>
 
 </body>
 

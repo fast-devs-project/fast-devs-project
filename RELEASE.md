@@ -18,24 +18,20 @@ The wrapper delegates to [`scripts/pre-commit-cache-bust.sh`](scripts/pre-commit
 
 ## Common Steps
 
-1. Add a new object at the top of the app's `data/changelog.json`.
-2. Move `"Ultima versione"` / `"Latest version"` to that new entry and set the previous entry's `"badge"` / `"badge_en"` to `null`.
+1. Add a new object at the top of the app's `data/changelog.json` (with `"platform"` on Device Monitor² and Televideo² Pro, see the template below).
+2. Add the `"latest"` badge key to that new entry (e.g. `"badge": ["latest", "major"]`) and remove only `"latest"` from the previous one of the same platform (set `"badge"` to `null` if nothing is left). Available keys: `latest`, `major`, `fix`, `first` (see `CHANGELOG_BADGES` in the app's `js/app.js`); labels come from `i18n.json`, so there is no `badge_en`.
 3. Update only the changed content JSON files for that app.
 4. Commit the release. The pre-commit hook bumps the `?v=` cache values automatically when site files are staged.
 
-The version shown in each landing-page hero comes from the first entry in `changelog.json`.
+The version shown in each landing-page hero comes from `changelog.json`: on sites that use `"platform"` (Device Monitor²: `ios` / `macos`; Televideo² Pro: `ios` / `tvos`) each hero version is the first entry of that platform, so `"latest"` goes on the newest entry of each platform; iWindRose² has no `platform` and uses the first entry.
 
-To force cache busting manually before a commit, run:
+To force cache busting manually before a commit, run (works from any directory):
 
 ```bash
 scripts/cache-bust.sh
 ```
 
-For automated publishing after a commit already exists, use the current commit hash:
-
-```bash
-scripts/cache-bust.sh commit
-```
+`scripts/cache-bust.sh commit` writes the current `HEAD` short hash instead. Note that committing that change re-runs the pre-commit hook, which overwrites the value with a fresh UTC timestamp. The `commit` mode therefore only sticks if you commit with `git commit --no-verify`, or in CI / deploy pipelines that publish the working tree without committing.
 
 ---
 
@@ -45,12 +41,14 @@ scripts/cache-bust.sh commit
 {
   "version": "X.Y.Z",
   "date": "DD/MM/YYYY",
-  "badge": "Ultima versione",
-  "badge_en": "Latest version",
+  "badge": "latest",
   "highlights": ["Descrizione modifica 1"],
-  "highlights_en": ["Change description 1"]
+  "highlights_en": ["Change description 1"],
+  "platform": "ios"
 },
 ```
+
+`"platform"` is used only by `device-monitor/` (`"ios"` or `"macos"`) and `televideo-pro/` (`"ios"` or `"tvos"`). Omit it for `iwindrose/`.
 
 ---
 
@@ -86,7 +84,8 @@ To preview a release before pushing, run a static server from the repo root and 
 ## Deploy to GitHub Pages
 
 ```bash
-git add .
+git add device-monitor/data/ iwindrose/data/   # add only the paths you changed
+git status                                     # check nothing unrelated is staged
 git commit -m "Release Device Monitor² vX.X.X / iWindRose² vX.X.X"
 git push
 ```

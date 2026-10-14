@@ -10,7 +10,7 @@
   "icons": [
     {
       "src": "images/icon/app-icon.webp",
-      "sizes": "1024x1024",
+      "sizes": "512x512",
       "type": "image/webp"
     }
   ]

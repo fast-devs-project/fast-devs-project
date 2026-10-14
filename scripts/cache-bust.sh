@@ -1,6 +1,9 @@
 #!/usr/bin/env zsh
 set -euo pipefail
 
+# Always operate on the repo root, whatever the caller's cwd.
+cd "$(git -C "${0:A:h}" rev-parse --show-toplevel)"
+
 usage() {
   cat <<'USAGE'
 Usage:
@@ -34,10 +37,21 @@ esac
 
 export CACHE_BUST_VERSION="$version"
 
-perl -0pi -e 's#((?:href|src)="(?:css/style\.css|js/icons\.js|js/app\.js|data/i18n\.json)\?v=)[^"]+#${1}$ENV{CACHE_BUST_VERSION}#g' \
-  index.html \
-  device-monitor/index.html \
-  iwindrose/index.html \
+targets=(
+  index.html
+  device-monitor/index.html
+  iwindrose/index.html
   televideo-pro/index.html
+)
+
+for file in "${targets[@]}"; do
+  if [[ ! -f "$file" ]]; then
+    echo "Missing target file: $file" >&2
+    exit 1
+  fi
+done
+
+perl -0pi -e 's#((?:href|src)="(?:css/style\.css|js/icons\.js|js/app\.js|data/i18n\.json)\?v=)[^"]+#${1}$ENV{CACHE_BUST_VERSION}#g' \
+  "${targets[@]}"
 
 echo "Cache version set to $version"

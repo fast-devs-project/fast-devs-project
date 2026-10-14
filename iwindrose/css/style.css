@@ -71,10 +71,7 @@ button {
   font-family: inherit;
 }
 
-ul {
-  list-style: none;
-}
-
+ul,
 ol {
   list-style: none;
 }
@@ -694,19 +691,6 @@ body::before {
   filter: blur(20px);
 }
 
-/* App Store badge */
-.appstore-badge img {
-  height: 44px;
-  width: auto;
-  transition: opacity var(--transition), transform var(--transition);
-  filter: brightness(1.05);
-}
-
-.appstore-badge:hover img {
-  opacity: 0.85;
-  transform: scale(1.04);
-}
-
 /* ——— FEATURES GRID ——— */
 .features-grid {
   display: grid;
@@ -1036,11 +1020,7 @@ body::before {
   right: 1.5rem;
 }
 
-.lightbox-prev:hover {
-  background: rgba(255, 255, 255, 0.2);
-  transform: translateY(-50%) scale(1.08);
-}
-
+.lightbox-prev:hover,
 .lightbox-next:hover {
   background: rgba(255, 255, 255, 0.2);
   transform: translateY(-50%) scale(1.08);
@@ -1234,6 +1214,13 @@ body::before {
   color: var(--text-muted);
 }
 
+.changelog-badges {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 4px;
+}
+
 .changelog-badge {
   display: inline-block;
   padding: 2px 8px;
@@ -1242,11 +1229,19 @@ body::before {
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 0.05em;
-  background: rgba(232, 106, 51, 0.15);
-  color: var(--accent-orange);
-  border: 1px solid rgba(232, 106, 51, 0.2);
+  /* --badge-color arriva da CHANGELOG_BADGES in app.js */
+  color: var(--badge-color, var(--accent-orange));
+  background: color-mix(in srgb, currentColor 15%, transparent);
+  border: 1px solid color-mix(in srgb, currentColor 20%, transparent);
 }
 
+
+.changelog-divider {
+  width: 1px;
+  background: var(--border);
+  align-self: stretch;
+  margin-inline: 0.25rem;
+}
 
 .changelog-highlights {
   display: flex;
@@ -1483,6 +1478,25 @@ body::before {
   color: #fff;
 }
 
+/* ——— FOOTER SOCIAL ——— */
+.footer-social {
+  display: grid;
+  place-items: center;
+  width: 36px;
+  height: 36px;
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.08);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  color: var(--text-secondary);
+  transition: background var(--transition), color var(--transition);
+}
+
+.footer-social:hover,
+.footer-social:focus-visible {
+  background: rgba(255, 255, 255, 0.15);
+  color: #fff;
+}
+
 /* ——— RESPONSIVE ——— */
 @media (max-width: 768px) {
   .nav-links {
@@ -1571,10 +1585,18 @@ body::before {
     gap: 0.75rem;
   }
 
+  .changelog-divider {
+    display: none;
+  }
+
   .changelog-version-col {
     flex-direction: row;
     align-items: center;
     min-width: unset;
+  }
+
+  .changelog-badges {
+    align-items: flex-start;
   }
 }
 
@@ -1614,4 +1636,26 @@ body::before {
 ::selection {
   background: rgba(232, 106, 51, 0.3);
   color: var(--text-primary);
+}
+
+/* ——— REDUCED MOTION ——— */
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+
+  /* niente fade-in allo scroll: i contenuti sono subito visibili */
+  .reveal {
+    opacity: 1;
+    transform: none;
+  }
 }

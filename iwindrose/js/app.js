@@ -3,7 +3,7 @@
    ============================================================ */
 
 /* ——— CONFIG ——— */
-const APP_STORE_URL = 'https://itunes.apple.com/app/iwindrose/id1403142267';
+const APP_STORE_URL = 'https://apps.apple.com/app/iwindrose/id1403142267';
 const SUPPORT_URL = '../#contact';
 const CACHE_VER = new URL(document.currentScript?.src || window.location.href).searchParams.get('v') || 'dev';
 const IWINDROSE_HERO_VIDEO = {
@@ -31,6 +31,14 @@ const FEATURE_COLORS = {
   export: { bg: 'rgba(6,182,212,0.12)', color: '#06B6D4' },
 };
 
+/* ——— Changelog badges: chiave → colore (testo in i18n "changelog.badge.<chiave>") ——— */
+const CHANGELOG_BADGES = {
+  latest: '#3B82F6',
+  major: '#E86A33',
+  fix: '#EF4444',
+  first: '#10B981',
+};
+
 const COMPAT_GRADIENTS = {
   iPhone: 'linear-gradient(135deg,#E86A33,#F59E0B)',
   iPad: 'linear-gradient(135deg,#8B5CF6,#E86A33)',
@@ -39,17 +47,25 @@ const COMPAT_GRADIENTS = {
 
 /* ============================================================
    DATA LOADER
+   Returns null if fetch() fails (e.g. CORS when opening index.html
+   from the filesystem) or the JSON is invalid. Results are cached, so
+   re-renders on language switch don't download the files again.
    ============================================================ */
+const _jsonCache = new Map();
 
-async function loadJSON(path) {
-  try {
-    const res = await fetch(`${path}?v=${CACHE_VER}`);
-    if (!res.ok) throw new Error(res.status);
-    return res.json();
-  } catch {
-    console.warn(`[iWindRose²] Could not fetch ${path} – check CORS or use a static server.`);
-    return null;
+function loadJSON(path) {
+  if (!_jsonCache.has(path)) {
+    _jsonCache.set(path, fetch(`${path}?v=${CACHE_VER}`)
+      .then(res => {
+        if (!res.ok) throw new Error(res.status);
+        return res.json();
+      })
+      .catch(() => {
+        console.warn(`[iWindRose²] Could not fetch ${path} – check CORS or use a static server.`);
+        return null;
+      }));
   }
+  return _jsonCache.get(path);
 }
 
 /* ============================================================
@@ -145,6 +161,8 @@ function initHeroVideo() {
     frame.classList.add('is-playing');
     frame.appendChild(iframe);
     playButton.remove();
+    /* il bottone col focus è sparito: sposta il focus sul player */
+    iframe.focus();
   });
 }
 
@@ -162,7 +180,7 @@ async function renderFeatures() {
     const title = (isEn && f.title_en) ? f.title_en : f.title;
     const desc = (isEn && f.description_en) ? f.description_en : f.description;
     return `
-      <div class="glass-card feature-card reveal reveal-delay-${(i % 5) + 1}">
+      <div class="glass-card feature-card reveal reveal-delay-${(i % 5) + 1}" role="listitem">
         <div class="feature-icon" style="background:${c.bg}; color:${c.color}">
           ${icon(f.icon)}
         </div>
@@ -213,7 +231,8 @@ async function renderGallery() {
 
   /* build tabs */
   tabsEl.innerHTML = sections.map(([key, sec], i) => `
-    <button class="gallery-tab${i === 0 ? ' active' : ''}"
+    <button class="gallery-tab${i === 0 ? ' active' : ''}" role="tab"
+            aria-selected="${i === 0}" aria-controls="gallery-panel-${key}"
             data-tab="${key}">${sec.label}</button>
   `).join('');
 
@@ -224,17 +243,22 @@ async function renderGallery() {
     const ratio = key === 'ipad' ? '2560/1919'
       : key === 'watch' ? '242/296' : '499/1080';
 
-    const thumbs = sec.screenshots.map(s => `
+    /* data-alt-it/en: applyLang aggiorna le didascalie senza ridisegnare (e ricaricare) la galleria */
+    const thumbs = sec.screenshots.map(s => {
+      const alt = (_currentLang === 'en' && s.alt_en) ? s.alt_en : s.alt;
+      return `
       <div class="gallery-thumb" style="--thumb-ratio:${ratio}" role="button"
            tabindex="0"
-           aria-label="${s.alt}"
-           data-src="${s.url}" data-alt="${s.alt}">
-        <img data-lazy-src="${s.url}" alt="${s.alt}" loading="lazy" decoding="async">
-      </div>`).join('');
+           aria-label="${alt}"
+           data-src="${s.url}" data-alt="${alt}"
+           data-alt-it="${s.alt}" data-alt-en="${s.alt_en || s.alt}">
+        <img data-lazy-src="${s.url}" alt="${alt}" loading="lazy" decoding="async">
+      </div>`;
+    }).join('');
 
     /* Anteponi la card video solo al pannello iPhone */
     const videoHtml = key === 'iphone' ? `
-      <div class="gallery-thumb is-video" style="--thumb-ratio:${ratio}" aria-label="${IWINDROSE_GALLERY_VIDEO.title}">
+      <div class="gallery-thumb is-video" style="--thumb-ratio:${ratio}">
         <div class="gallery-video-badge">
           <svg viewBox="0 0 24 24" fill="currentColor" stroke="none">
             <polygon points="5 3 19 12 5 21 5 3"/>
@@ -252,7 +276,8 @@ async function renderGallery() {
       </div>` : '';
 
     return `
-      <div class="gallery-panel${i === 0 ? ' active' : ''}" data-panel="${key}">
+      <div class="gallery-panel${i === 0 ? ' active' : ''}" id="gallery-panel-${key}" role="tabpanel"
+           data-panel="${key}">
         <div class="gallery-grid ${gridClass}">${videoHtml}${thumbs}</div>
       </div>`;
   }).join('');
@@ -263,8 +288,10 @@ async function renderGallery() {
   tabsEl.addEventListener('click', e => {
     const btn = e.target.closest('.gallery-tab');
     if (!btn) return;
-    tabsEl.querySelectorAll('.gallery-tab').forEach(t => t.classList.remove('active'));
-    btn.classList.add('active');
+    tabsEl.querySelectorAll('.gallery-tab').forEach(t => {
+      t.classList.toggle('active', t === btn);
+      t.setAttribute('aria-selected', t === btn);
+    });
     const panelKey = btn.dataset.tab;
     container.querySelectorAll('.gallery-panel').forEach(p => {
       p.classList.toggle('active', p.dataset.panel === panelKey);
@@ -309,10 +336,12 @@ async function renderChangelog() {
   const isEn = _currentLang === 'en';
 
   function buildCard(item, delay) {
-    const badge = (isEn && item.badge_en !== undefined) ? item.badge_en : item.badge;
     const highlights = (isEn && item.highlights_en) ? item.highlights_en : item.highlights;
-    const badgeHtml = badge
-      ? `<span class="changelog-badge">${badge}</span>`
+    const badges = [].concat(item.badge || []).filter(b => CHANGELOG_BADGES[b]);
+    const badgeHtml = badges.length
+      ? `<div class="changelog-badges">${badges.map(b =>
+          `<span class="changelog-badge" style="--badge-color:${CHANGELOG_BADGES[b]}">${t(`changelog.badge.${b}`)}</span>`
+        ).join('')}</div>`
       : '';
     const highlightsHtml = highlights.map(h =>
       `<li class="changelog-highlight">${h}</li>`
@@ -324,7 +353,7 @@ async function renderChangelog() {
           ${item.date ? `<div class="changelog-date">${item.date}</div>` : ''}
           ${badgeHtml}
         </div>
-        <div style="width:1px;background:var(--border);margin-inline:0.25rem;align-self:stretch"></div>
+        <div class="changelog-divider"></div>
         <div class="changelog-content">
           <ul class="changelog-highlights">${highlightsHtml}</ul>
         </div>
@@ -416,12 +445,16 @@ async function renderPress() {
    ============================================================ */
 let _lbThumbs = [];
 let _lbIdx = 0;
+let _lbReturnFocus = null;
 
 function openLightbox(thumbs, idx) {
   _lbThumbs = thumbs;
   _lbIdx = idx;
   _lbRender();
-  document.getElementById('lightbox').classList.add('open');
+  _lbReturnFocus = document.activeElement;
+  const lb = document.getElementById('lightbox');
+  lb.classList.add('open');
+  lb.querySelector('.lightbox-close').focus();
   document.body.style.overflow = 'hidden';
 }
 
@@ -453,6 +486,8 @@ function closeLightbox() {
   document.body.style.overflow = '';
   _lbThumbs = [];
   _lbIdx = 0;
+  _lbReturnFocus?.focus();
+  _lbReturnFocus = null;
 }
 
 /* ============================================================
@@ -505,6 +540,7 @@ function initNav() {
   links?.querySelectorAll('a').forEach(a => {
     a.addEventListener('click', () => {
       links.classList.remove('open');
+      toggle?.setAttribute('aria-expanded', 'false');
     });
   });
 }
@@ -537,6 +573,11 @@ async function initI18n() {
   });
 }
 
+/* Numeri nel formato della lingua: 4,7 · 44.317 (it) — 4.7 · 44,317 (en) */
+function formatNumber(value, lang = _currentLang) {
+  return Number(value).toLocaleString(lang === 'it' ? 'it-IT' : 'en-US');
+}
+
 function t(key) {
   return (_strings[_currentLang]?.[key]) ?? (_strings['it']?.[key]) ?? key;
 }
@@ -562,11 +603,24 @@ function applyLang(lang, rerenderDynamic = true) {
       return;
     }
     if (key === 'hero.rating') {
-      const count = el.dataset.count || '—';
+      const count = formatNumber(el.dataset.count, lang);
       el.textContent = val.replace('{count}', count);
       return;
     }
     el.textContent = val;
+  });
+
+  /* Didascalie della galleria */
+  document.querySelectorAll('.gallery-thumb[data-alt-it]').forEach(th => {
+    const alt = lang === 'en' ? th.dataset.altEn : th.dataset.altIt;
+    th.dataset.alt = alt;
+    th.setAttribute('aria-label', alt);
+    th.querySelector('img')?.setAttribute('alt', alt);
+  });
+
+  /* data-number → numero localizzato (+ data-suffix) */
+  document.querySelectorAll('[data-number]').forEach(el => {
+    el.textContent = formatNumber(el.dataset.number, lang) + (el.dataset.suffix || '');
   });
 
   document.querySelectorAll('[data-i18n-aria]').forEach(el => {
@@ -616,6 +670,7 @@ document.addEventListener('DOMContentLoaded', async () => {
   lb?.querySelector('.lightbox-next')?.addEventListener('click', () => _lbNav(+1));
   lb?.addEventListener('click', e => { if (e.target === lb) closeLightbox(); });
   document.addEventListener('keydown', e => {
+    if (!lb?.classList.contains('open')) return;
     if (e.key === 'Escape') closeLightbox();
     if (e.key === 'ArrowLeft') _lbNav(-1);
     if (e.key === 'ArrowRight') _lbNav(+1);
@@ -640,7 +695,7 @@ document.addEventListener('DOMContentLoaded', async () => {
 
   /* Scroll to hash anchor after all dynamic content is rendered */
   if (location.hash) {
-    const target = document.querySelector(location.hash);
+    const target = document.getElementById(decodeURIComponent(location.hash.slice(1)));
     if (target) {
       requestAnimationFrame(() => {
         requestAnimationFrame(() => {

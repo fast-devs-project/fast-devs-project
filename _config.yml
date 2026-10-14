@@ -1,0 +1,8 @@
+# GitHub Pages (Jekyll): file del repository da non pubblicare sul sito.
+# Sono documentazione e strumenti di lavoro, non contenuti del sito.
+exclude:
+  - AGENTS.md
+  - CLAUDE.md
+  - README.md
+  - RELEASE.md
+  - scripts/

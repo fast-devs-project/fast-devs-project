@@ -1,181 +1,216 @@
 {
   "iphone": {
     "label": "iPhone",
-    "aspect": "portrait",
     "screenshots": [
       {
         "url": "images/screenshots/iphone/iphone-0.webp",
-        "alt": "Device Monitor² su iPhone – Schermata principale"
+        "alt": "Device Monitor² su iPhone – Schermata principale",
+        "alt_en": "Device Monitor² on iPhone – Home screen"
       },
       {
         "url": "images/screenshots/iphone/iphone-1.webp",
-        "alt": "Device Monitor² su iPhone – Pannello RAM"
+        "alt": "Device Monitor² su iPhone – Pannello RAM",
+        "alt_en": "Device Monitor² on iPhone – RAM panel"
       },
       {
         "url": "images/screenshots/iphone/iphone-2.webp",
-        "alt": "Device Monitor² su iPhone – Pannello CPU"
+        "alt": "Device Monitor² su iPhone – Pannello CPU",
+        "alt_en": "Device Monitor² on iPhone – CPU panel"
       },
       {
         "url": "images/screenshots/iphone/iphone-3.webp",
-        "alt": "Device Monitor² su iPhone – Pannello Batteria"
+        "alt": "Device Monitor² su iPhone – Pannello Batteria",
+        "alt_en": "Device Monitor² on iPhone – Battery panel"
       },
       {
         "url": "images/screenshots/iphone/iphone-4.webp",
-        "alt": "Device Monitor² su iPhone – Pannello Network"
+        "alt": "Device Monitor² su iPhone – Pannello Network",
+        "alt_en": "Device Monitor² on iPhone – Network panel"
       },
       {
         "url": "images/screenshots/iphone/iphone-5.webp",
-        "alt": "Device Monitor² su iPhone – Test sensori"
+        "alt": "Device Monitor² su iPhone – Test sensori",
+        "alt_en": "Device Monitor² on iPhone – Sensor tests"
       },
       {
         "url": "images/screenshots/iphone/iphone-6.webp",
-        "alt": "Device Monitor² su iPhone – Widget"
+        "alt": "Device Monitor² su iPhone – Widget",
+        "alt_en": "Device Monitor² on iPhone – Widgets"
       },
       {
         "url": "images/screenshots/iphone/iphone-7.webp",
-        "alt": "Device Monitor² su iPhone – Pannello Storage"
+        "alt": "Device Monitor² su iPhone – Pannello Storage",
+        "alt_en": "Device Monitor² on iPhone – Storage panel"
       },
       {
         "url": "images/screenshots/iphone/iphone-8.webp",
-        "alt": "Device Monitor² su iPhone – Pannello Display"
+        "alt": "Device Monitor² su iPhone – Pannello Display",
+        "alt_en": "Device Monitor² on iPhone – Display panel"
       },
       {
         "url": "images/screenshots/iphone/iphone-9.webp",
-        "alt": "Device Monitor² su iPhone – Schermata 10"
+        "alt": "Device Monitor² su iPhone – Schermata 10",
+        "alt_en": "Device Monitor² on iPhone – Screen 10"
       }
     ]
   },
   "ipad": {
     "label": "iPad",
-    "aspect": "landscape",
     "screenshots": [
       {
         "url": "images/screenshots/ipad/ipad-0.webp",
-        "alt": "Device Monitor² su iPad – Schermata principale"
+        "alt": "Device Monitor² su iPad – Schermata principale",
+        "alt_en": "Device Monitor² on iPad – Home screen"
       },
       {
         "url": "images/screenshots/ipad/ipad-1.webp",
-        "alt": "Device Monitor² su iPad – Pannello RAM"
+        "alt": "Device Monitor² su iPad – Pannello RAM",
+        "alt_en": "Device Monitor² on iPad – RAM panel"
       },
       {
         "url": "images/screenshots/ipad/ipad-2.webp",
-        "alt": "Device Monitor² su iPad – Pannello CPU"
+        "alt": "Device Monitor² su iPad – Pannello CPU",
+        "alt_en": "Device Monitor² on iPad – CPU panel"
       },
       {
         "url": "images/screenshots/ipad/ipad-3.webp",
-        "alt": "Device Monitor² su iPad – Pannello Batteria"
+        "alt": "Device Monitor² su iPad – Pannello Batteria",
+        "alt_en": "Device Monitor² on iPad – Battery panel"
       },
       {
         "url": "images/screenshots/ipad/ipad-4.webp",
-        "alt": "Device Monitor² su iPad – Pannello Network"
+        "alt": "Device Monitor² su iPad – Pannello Network",
+        "alt_en": "Device Monitor² on iPad – Network panel"
       },
       {
         "url": "images/screenshots/ipad/ipad-5.webp",
-        "alt": "Device Monitor² su iPad – Test sensori"
+        "alt": "Device Monitor² su iPad – Test sensori",
+        "alt_en": "Device Monitor² on iPad – Sensor tests"
       },
       {
         "url": "images/screenshots/ipad/ipad-6.webp",
-        "alt": "Device Monitor² su iPad – Schermata 7"
+        "alt": "Device Monitor² su iPad – Schermata 7",
+        "alt_en": "Device Monitor² on iPad – Screen 7"
       },
       {
         "url": "images/screenshots/ipad/ipad-7.webp",
-        "alt": "Device Monitor² su iPad – Storage"
+        "alt": "Device Monitor² su iPad – Storage",
+        "alt_en": "Device Monitor² on iPad – Storage"
       },
       {
         "url": "images/screenshots/ipad/ipad-8.webp",
-        "alt": "Device Monitor² su iPad – Display"
+        "alt": "Device Monitor² su iPad – Display",
+        "alt_en": "Device Monitor² on iPad – Display"
       }
     ]
   },
   "watch": {
     "label": "Apple Watch",
-    "aspect": "square",
     "screenshots": [
       {
         "url": "images/screenshots/watch/watch-1.webp",
-        "alt": "Device Monitor² su Apple Watch – Schermata 1"
+        "alt": "Device Monitor² su Apple Watch – Schermata 1",
+        "alt_en": "Device Monitor² on Apple Watch – Screen 1"
       },
       {
         "url": "images/screenshots/watch/watch-2.webp",
-        "alt": "Device Monitor² su Apple Watch – Schermata 2"
+        "alt": "Device Monitor² su Apple Watch – Schermata 2",
+        "alt_en": "Device Monitor² on Apple Watch – Screen 2"
       },
       {
         "url": "images/screenshots/watch/watch-3.webp",
-        "alt": "Device Monitor² su Apple Watch – Schermata 3"
+        "alt": "Device Monitor² su Apple Watch – Schermata 3",
+        "alt_en": "Device Monitor² on Apple Watch – Screen 3"
       },
       {
         "url": "images/screenshots/watch/watch-4.webp",
-        "alt": "Device Monitor² su Apple Watch – Schermata 4"
+        "alt": "Device Monitor² su Apple Watch – Schermata 4",
+        "alt_en": "Device Monitor² on Apple Watch – Screen 4"
       },
       {
         "url": "images/screenshots/watch/watch-5.webp",
-        "alt": "Device Monitor² su Apple Watch – Schermata 5"
+        "alt": "Device Monitor² su Apple Watch – Schermata 5",
+        "alt_en": "Device Monitor² on Apple Watch – Screen 5"
       },
       {
         "url": "images/screenshots/watch/watch-6.webp",
-        "alt": "Device Monitor² su Apple Watch – Schermata 6"
+        "alt": "Device Monitor² su Apple Watch – Schermata 6",
+        "alt_en": "Device Monitor² on Apple Watch – Screen 6"
       },
       {
         "url": "images/screenshots/watch/watch-7.webp",
-        "alt": "Device Monitor² su Apple Watch – Schermata 7"
+        "alt": "Device Monitor² su Apple Watch – Schermata 7",
+        "alt_en": "Device Monitor² on Apple Watch – Screen 7"
       },
       {
         "url": "images/screenshots/watch/watch-8.webp",
-        "alt": "Device Monitor² su Apple Watch – Schermata 8"
+        "alt": "Device Monitor² su Apple Watch – Schermata 8",
+        "alt_en": "Device Monitor² on Apple Watch – Screen 8"
       },
       {
         "url": "images/screenshots/watch/watch-9.webp",
-        "alt": "Device Monitor² su Apple Watch – Schermata 9"
+        "alt": "Device Monitor² su Apple Watch – Schermata 9",
+        "alt_en": "Device Monitor² on Apple Watch – Screen 9"
       },
       {
         "url": "images/screenshots/watch/watch-10.webp",
-        "alt": "Device Monitor² su Apple Watch – Schermata 10"
+        "alt": "Device Monitor² su Apple Watch – Schermata 10",
+        "alt_en": "Device Monitor² on Apple Watch – Screen 10"
       }
     ]
   },
   "mac": {
     "label": "Mac",
-    "aspect": "landscape",
     "screenshots": [
       {
         "url": "images/screenshots/mac/mac0.webp",
-        "alt": "Device Monitor² su Mac – Schermata principale"
+        "alt": "Device Monitor² su Mac – Schermata principale",
+        "alt_en": "Device Monitor² on Mac – Home screen"
       },
       {
         "url": "images/screenshots/mac/mac1.webp",
-        "alt": "Device Monitor² su Mac – Schermata 1"
+        "alt": "Device Monitor² su Mac – Schermata 1",
+        "alt_en": "Device Monitor² on Mac – Screen 1"
       },
       {
         "url": "images/screenshots/mac/mac2.webp",
-        "alt": "Device Monitor² su Mac – Schermata 2"
+        "alt": "Device Monitor² su Mac – Schermata 2",
+        "alt_en": "Device Monitor² on Mac – Screen 2"
       },
       {
         "url": "images/screenshots/mac/mac3.webp",
-        "alt": "Device Monitor² su Mac – Schermata 3"
+        "alt": "Device Monitor² su Mac – Schermata 3",
+        "alt_en": "Device Monitor² on Mac – Screen 3"
       },
       {
         "url": "images/screenshots/mac/mac4.webp",
-        "alt": "Device Monitor² su Mac – Schermata 4"
+        "alt": "Device Monitor² su Mac – Schermata 4",
+        "alt_en": "Device Monitor² on Mac – Screen 4"
       },
       {
         "url": "images/screenshots/mac/mac5.webp",
-        "alt": "Device Monitor² su Mac – Schermata 5"
+        "alt": "Device Monitor² su Mac – Schermata 5",
+        "alt_en": "Device Monitor² on Mac – Screen 5"
       },
       {
         "url": "images/screenshots/mac/mac6.webp",
-        "alt": "Device Monitor² su Mac – Schermata 6"
+        "alt": "Device Monitor² su Mac – Schermata 6",
+        "alt_en": "Device Monitor² on Mac – Screen 6"
       },
       {
         "url": "images/screenshots/mac/mac7.webp",
-        "alt": "Device Monitor² su Mac – Schermata 7"
+        "alt": "Device Monitor² su Mac – Schermata 7",
+        "alt_en": "Device Monitor² on Mac – Screen 7"
       },
       {
         "url": "images/screenshots/mac/mac8.webp",
-        "alt": "Device Monitor² su Mac – Schermata 8"
+        "alt": "Device Monitor² su Mac – Schermata 8",
+        "alt_en": "Device Monitor² on Mac – Screen 8"
       },
       {
         "url": "images/screenshots/mac/mac9.webp",
-        "alt": "Device Monitor² su Mac – Schermata 9"
+        "alt": "Device Monitor² su Mac – Schermata 9",
+        "alt_en": "Device Monitor² on Mac – Screen 9"
       }
     ]
   }

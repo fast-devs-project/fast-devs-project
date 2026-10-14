@@ -41,6 +41,11 @@ The repo root is the main site. Each app landing page lives in its own subfolder
 │   ├── apps.json           # App listings
 │   └── blog.json           # Blog articles
 ├── images/                 # Main site images
+├── site.webmanifest        # Main site web app manifest
+├── CNAME                   # GitHub Pages custom domain (fastdevsproject.com)
+├── AGENTS.md, CLAUDE.md    # Guidance for coding agents
+├── README.md, RELEASE.md   # Project docs and release guide
+├── scripts/                # Cache-busting + pre-commit hook scripts, diving-center maintenance scripts
 │
 ├── device-monitor/         # Device Monitor² landing page
 │   ├── index.html
@@ -50,9 +55,13 @@ The repo root is the main site. Each app landing page lives in its own subfolder
 │   ├── index.html
 │   ├── css/, js/, data/, images/
 │
-└── televideo-pro/          # Televideo² Pro landing page
-    ├── index.html
-    ├── css/, js/, data/, images/
+├── televideo-pro/          # Televideo² Pro landing page
+│   ├── index.html
+│   ├── css/, js/, data/, images/
+│
+└── diving-center/          # Data feed for an external app (no HTML)
+    ├── data/diving.json    # Served at https://fastdevsproject.com/diving-center/data/diving.json
+    └── images/
 ```
 
 ---

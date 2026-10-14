@@ -1,119 +1,141 @@
 {
   "iphone": {
     "label": "iPhone",
-    "aspect": "portrait",
     "screenshots": [
       {
         "url": "images/screenshots/iphone/iphone-1.webp",
-        "alt": "iWindRose² su iPhone – Rosa dei Venti"
+        "alt": "iWindRose² su iPhone – Rosa dei Venti",
+        "alt_en": "iWindRose² on iPhone – Wind rose"
       },
       {
         "url": "images/screenshots/iphone/iphone-2.webp",
-        "alt": "iWindRose² su iPhone – Meteo"
+        "alt": "iWindRose² su iPhone – Meteo",
+        "alt_en": "iWindRose² on iPhone – Weather"
       },
       {
         "url": "images/screenshots/iphone/iphone-3.webp",
-        "alt": "iWindRose² su iPhone – Sole e Luna"
+        "alt": "iWindRose² su iPhone – Sole e Luna",
+        "alt_en": "iWindRose² on iPhone – Sun and Moon"
       },
       {
         "url": "images/screenshots/iphone/iphone-4.webp",
-        "alt": "iWindRose² su iPhone – Bollettini Meteomar"
+        "alt": "iWindRose² su iPhone – Bollettini Meteomar",
+        "alt_en": "iWindRose² on iPhone – Meteomar bulletins"
       },
       {
         "url": "images/screenshots/iphone/iphone-5.webp",
-        "alt": "iWindRose² su iPhone – Scale vento"
+        "alt": "iWindRose² su iPhone – Scale vento",
+        "alt_en": "iWindRose² on iPhone – Wind scales"
       },
       {
         "url": "images/screenshots/iphone/iphone-6.webp",
-        "alt": "iWindRose² su iPhone – Posizione"
+        "alt": "iWindRose² su iPhone – Posizione",
+        "alt_en": "iWindRose² on iPhone – Location"
       },
       {
         "url": "images/screenshots/iphone/iphone-7.webp",
-        "alt": "iWindRose² su iPhone – Maree"
+        "alt": "iWindRose² su iPhone – Maree",
+        "alt_en": "iWindRose² on iPhone – Tides"
       },
       {
         "url": "images/screenshots/iphone/iphone-8.webp",
-        "alt": "iWindRose² su iPhone – OpenWeatherMap"
+        "alt": "iWindRose² su iPhone – OpenWeatherMap",
+        "alt_en": "iWindRose² on iPhone – OpenWeatherMap"
       },
       {
         "url": "images/screenshots/iphone/iphone-9.webp",
-        "alt": "iWindRose² su iPhone – Widget"
+        "alt": "iWindRose² su iPhone – Widget",
+        "alt_en": "iWindRose² on iPhone – Widgets"
       }
     ]
   },
   "ipad": {
     "label": "iPad",
-    "aspect": "landscape",
     "screenshots": [
       {
         "url": "images/screenshots/ipad/ipad-1.webp",
-        "alt": "iWindRose² su iPad – Rosa dei Venti"
+        "alt": "iWindRose² su iPad – Rosa dei Venti",
+        "alt_en": "iWindRose² on iPad – Wind rose"
       },
       {
         "url": "images/screenshots/ipad/ipad-2.webp",
-        "alt": "iWindRose² su iPad – Meteo"
+        "alt": "iWindRose² su iPad – Meteo",
+        "alt_en": "iWindRose² on iPad – Weather"
       },
       {
         "url": "images/screenshots/ipad/ipad-3.webp",
-        "alt": "iWindRose² su iPad – Bollettini"
+        "alt": "iWindRose² su iPad – Bollettini",
+        "alt_en": "iWindRose² on iPad – Bulletins"
       },
       {
         "url": "images/screenshots/ipad/ipad-4.webp",
-        "alt": "iWindRose² su iPad – Scale"
+        "alt": "iWindRose² su iPad – Scale",
+        "alt_en": "iWindRose² on iPad – Scales"
       },
       {
         "url": "images/screenshots/ipad/ipad-5.webp",
-        "alt": "iWindRose² su iPad – LaMMA"
+        "alt": "iWindRose² su iPad – LaMMA",
+        "alt_en": "iWindRose² on iPad – LaMMA"
       },
       {
         "url": "images/screenshots/ipad/ipad-6.webp",
-        "alt": "iWindRose² su iPad – OpenWeatherMap"
+        "alt": "iWindRose² su iPad – OpenWeatherMap",
+        "alt_en": "iWindRose² on iPad – OpenWeatherMap"
       },
       {
         "url": "images/screenshots/ipad/ipad-7.webp",
-        "alt": "iWindRose² su iPad – Dettaglio venti"
+        "alt": "iWindRose² su iPad – Dettaglio venti",
+        "alt_en": "iWindRose² on iPad – Wind details"
       },
       {
         "url": "images/screenshots/ipad/ipad-8.webp",
-        "alt": "iWindRose² su iPad – Informazioni"
+        "alt": "iWindRose² su iPad – Informazioni",
+        "alt_en": "iWindRose² on iPad – Information"
       }
     ]
   },
   "watch": {
     "label": "Apple Watch",
-    "aspect": "square",
     "screenshots": [
       {
         "url": "images/screenshots/watch/watch-1.webp",
-        "alt": "iWindRose² su Apple Watch – Schermata 1"
+        "alt": "iWindRose² su Apple Watch – Schermata 1",
+        "alt_en": "iWindRose² on Apple Watch – Screen 1"
       },
       {
         "url": "images/screenshots/watch/watch-2.webp",
-        "alt": "iWindRose² su Apple Watch – Schermata 2"
+        "alt": "iWindRose² su Apple Watch – Schermata 2",
+        "alt_en": "iWindRose² on Apple Watch – Screen 2"
       },
       {
         "url": "images/screenshots/watch/watch-3.webp",
-        "alt": "iWindRose² su Apple Watch – Schermata 3"
+        "alt": "iWindRose² su Apple Watch – Schermata 3",
+        "alt_en": "iWindRose² on Apple Watch – Screen 3"
       },
       {
         "url": "images/screenshots/watch/watch-4.webp",
-        "alt": "iWindRose² su Apple Watch – Schermata 4"
+        "alt": "iWindRose² su Apple Watch – Schermata 4",
+        "alt_en": "iWindRose² on Apple Watch – Screen 4"
       },
       {
         "url": "images/screenshots/watch/watch-5.webp",
-        "alt": "iWindRose² su Apple Watch – Schermata 5"
+        "alt": "iWindRose² su Apple Watch – Schermata 5",
+        "alt_en": "iWindRose² on Apple Watch – Screen 5"
       },
       {
         "url": "images/screenshots/watch/watch-6.webp",
-        "alt": "iWindRose² su Apple Watch – Schermata 6"
+        "alt": "iWindRose² su Apple Watch – Schermata 6",
+        "alt_en": "iWindRose² on Apple Watch – Screen 6"
       },
       {
         "url": "images/screenshots/watch/watch-7.webp",
-        "alt": "iWindRose² su Apple Watch – Schermata 7"
+        "alt": "iWindRose² su Apple Watch – Schermata 7",
+        "alt_en": "iWindRose² on Apple Watch – Screen 7"
       },
       {
         "url": "images/screenshots/watch/watch-8.webp",
-        "alt": "iWindRose² su Apple Watch – Schermata 8"
+        "alt": "iWindRose² su Apple Watch – Schermata 8",
+        "alt_en": "iWindRose² on Apple Watch – Screen 8"
       }
     ]
   }

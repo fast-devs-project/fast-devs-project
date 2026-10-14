@@ -3,8 +3,7 @@
     "version": "27.0.0",
     "platform": "ios",
     "date": "14/10/2026",
-    "badge": "Ultima versione",
-    "badge_en": "Latest version",
+    "badge": ["latest", "major"],
     "highlights": [
       "Possibilità di visualizzare i principali dati del proprio device sull'app per Mac o browser web",
       "Aggiunto il supporto ad iOS 27 e il supporto preliminare all’iPhone Duo",
@@ -42,8 +41,7 @@
     "version": "27.0.0",
     "platform": "macos",
     "date": "14/10/2026",
-    "badge": "Ultima versione",
-    "badge_en": "Latest version",
+    "badge": ["latest", "major"],
     "highlights": [
       "Aggiunto il supporto a macOS 27 Golden Gate",
       "Nuova dashboard integrata per consultare i dati di un iPhone o iPad sulla stessa rete, con rilevamento automatico del dispositivo",
@@ -72,7 +70,6 @@
     "platform": "ios",
     "date": "11/07/2026",
     "badge": null,
-    "badge_en": null,
     "highlights": [
       "Aggiunta la legenda dei core nel PiP della CPU",
       "Aggiunto il nuovo test “Colori intermittenti” per il display all’interno del Test Kit",
@@ -93,7 +90,6 @@
     "platform": "macos",
     "date": "10/07/2026",
     "badge": null,
-    "badge_en": null,
     "highlights": [
       "Correzioni di bug minori e miglioramenti delle prestazioni"
     ],
@@ -106,7 +102,6 @@
     "platform": "macos",
     "date": "04/07/2026",
     "badge": null,
-    "badge_en": null,
     "highlights": [
       "Correzioni di bug minori e miglioramenti delle prestazioni"
     ],
@@ -119,7 +114,6 @@
     "platform": "macos",
     "date": "03/07/2026",
     "badge": null,
-    "badge_en": null,
     "highlights": [
       "Aggiunta la legenda dei core nel PiP della CPU",
       "Aggiunta la possibilità di scegliere l’unità di misura dalle impostazioni dell’app",
@@ -137,7 +131,6 @@
     "version": "26.6.0",
     "date": "23/06/2026",
     "badge": null,
-    "badge_en": null,
     "highlights": [
       "Nuove informazioni nelle sezioni DEVICE, RAM, STORAGE, CPU, GPU, BATTERIA, DISPLAY e CAMERA",
       "Alcune nuove informazioni disponibili anche su Apple Watch, dove supportate",
@@ -158,8 +151,7 @@
     "version": "26.6.0",
     "platform": "macos",
     "date": "20/06/2026",
-    "badge": "Major update",
-    "badge_en": "Major update",
+    "badge": "major",
     "highlights": [
       "Sezioni RAM, CPU e STORAGE migliorate con dati più ricchi e utili",
       "Nuove sezioni DEVICE, GPU e DISPLAY pensate per Mac",
@@ -185,7 +177,6 @@
     "version": "26.5.0",
     "date": "10/06/2026",
     "badge": null,
-    "badge_en": null,
     "highlights": [
       "Nuovo PiP Kit: RAM, CPU e NETWORK in Picture in Picture ovunque desideri",
       "Sezione NETWORK migliorata con nuove informazioni dettagliate su iOS e watchOS",
@@ -206,8 +197,7 @@
     "version": "26.5.0",
     "platform": "macos",
     "date": "25/05/2026",
-    "badge": "Prima versione",
-    "badge_en": "First version",
+    "badge": "first",
     "highlights": [
       "Prima versione stabile per macOS realizzata con Mac Catalyst"
     ],
@@ -219,7 +209,6 @@
     "version": "26.1.0",
     "date": "04/11/2025",
     "badge": null,
-    "badge_en": null,
     "highlights": [
       "Nuovo widget Home Screen per la sezione Device",
       "Grafici CPU sull'Apple Watch",
@@ -239,8 +228,7 @@
   {
     "version": "26.0.0",
     "date": "13/10/2025",
-    "badge": "Major update",
-    "badge_en": "Major update",
+    "badge": "major",
     "highlights": [
       "Design rinnovato in stile iOS 26",
       "Compatibilità con i nuovi iPhone e Apple Watch",
@@ -269,7 +257,6 @@
     "version": "10.4.1",
     "date": "28/05/2025",
     "badge": null,
-    "badge_en": null,
     "highlights": [
       "Apertura report Analytics dall'app File",
       "Minor fix"
@@ -284,7 +271,6 @@
     "version": "10.4.0",
     "date": "26/05/2025",
     "badge": null,
-    "badge_en": null,
     "highlights": [
       "Lettura file Analytics iOS",
       "Fix AirPlay",
@@ -301,7 +287,6 @@
     "version": "10.3.0",
     "date": "24/03/2025",
     "badge": null,
-    "badge_en": null,
     "highlights": [
       "Supporto iPhone 16e, iPad A16, iPad Air M3",
       "Fix Network Scanner",
@@ -318,7 +303,6 @@
     "version": "10.2.0",
     "date": "07/01/2025",
     "badge": null,
-    "badge_en": null,
     "highlights": [
       "Pulizia automatica RAM",
       "Miglioramenti Comandi Rapidi",
@@ -337,7 +321,6 @@
     "version": "10.1.1",
     "date": "17/12/2024",
     "badge": null,
-    "badge_en": null,
     "highlights": [
       "Chiusura automatica pagina acquisti dopo PRO Kit",
       "Fix export PDF",
@@ -354,7 +337,6 @@
     "version": "10.1.0",
     "date": "24/11/2024",
     "badge": null,
-    "badge_en": null,
     "highlights": [
       "Pannello GPU (richiede iOS 17+)",
       "Pannello Storage dettagliato",
@@ -375,7 +357,6 @@
     "version": "10.0.1",
     "date": "03/10/2024",
     "badge": null,
-    "badge_en": null,
     "highlights": [
       "Due bug fix minori"
     ],
@@ -388,7 +369,6 @@
     "version": "10.0.0",
     "date": "01/10/2024",
     "badge": null,
-    "badge_en": null,
     "highlights": [
       "Supporto iPhone 16",
       "Live Activity RAM (aggiornamento ogni 10 secondi)",
@@ -409,7 +389,6 @@
     "version": "9.5.0",
     "date": "02/06/2024",
     "badge": null,
-    "badge_en": null,
     "highlights": [
       "Test altoparlanti e microfoni",
       "Info build OS",
@@ -428,7 +407,6 @@
     "version": "9.4.0",
     "date": "21/05/2024",
     "badge": null,
-    "badge_en": null,
     "highlights": [
       "Test volume e JavaScript (Mac)",
       "Fix widget iOS 16"
@@ -443,7 +421,6 @@
     "version": "9.3.0",
     "date": "02/05/2024",
     "badge": null,
-    "badge_en": null,
     "highlights": [
       "Personalizzazione quick actions icona",
       "UI widget migliorata"
@@ -458,7 +435,6 @@
     "version": "9.2.1",
     "date": "06/04/2024",
     "badge": null,
-    "badge_en": null,
     "highlights": [
       "Info scala di rendering display",
       "Fix Bluetooth"
@@ -473,7 +449,6 @@
     "version": "9.2.0",
     "date": "05/04/2024",
     "badge": null,
-    "badge_en": null,
     "highlights": [
       "Controllo Haptic Touch",
       "Info risoluzione logica e fisica del display"
@@ -488,7 +463,6 @@
     "version": "9.1.0",
     "date": "03/04/2024",
     "badge": null,
-    "badge_en": null,
     "highlights": [
       "Grafico Speed Test",
       "Nuovi widget Device e Network",
@@ -505,7 +479,6 @@
     "version": "9.0.0",
     "date": "09/03/2024",
     "badge": null,
-    "badge_en": null,
     "highlights": [
       "Compatibilità Apple Watch (watchOS 10+)",
       "App nativa SwiftUI per watchOS",
@@ -522,7 +495,6 @@
     "version": "8.4.1",
     "date": "07/02/2024",
     "badge": null,
-    "badge_en": null,
     "highlights": [
       "Test display colore personalizzato",
       "Fix auricolari Bluetooth"
@@ -537,7 +509,6 @@
     "version": "8.4.0",
     "date": "06/02/2024",
     "badge": null,
-    "badge_en": null,
     "highlights": [
       "Test display colore personalizzato",
       "Fix auricolari Bluetooth"
@@ -552,7 +523,6 @@
     "version": "8.3.2",
     "date": "02/01/2024",
     "badge": null,
-    "badge_en": null,
     "highlights": [
       "Fix minori"
     ],
@@ -565,7 +535,6 @@
     "version": "8.3.1",
     "date": "19/12/2023",
     "badge": null,
-    "badge_en": null,
     "highlights": [
       "Effetto grafico acquisto in-app",
       "Fix crash dispositivi senza NFC"
@@ -580,7 +549,6 @@
     "version": "8.3.0",
     "date": "17/11/2023",
     "badge": null,
-    "badge_en": null,
     "highlights": [
       "Widget large ed extra-large Home Screen"
     ],
@@ -593,7 +561,6 @@
     "version": "8.2.0",
     "date": "22/10/2023",
     "badge": null,
-    "badge_en": null,
     "highlights": [
       "Test DNS Lookup",
       "Supporto lingua ceca",
@@ -610,7 +577,6 @@
     "version": "8.1.0",
     "date": "08/10/2023",
     "badge": null,
-    "badge_en": null,
     "highlights": [
       "Nuove info CPU e Display",
       "Test Traceroute",
@@ -627,7 +593,6 @@
     "version": "8.0.3",
     "date": "26/09/2023",
     "badge": null,
-    "badge_en": null,
     "highlights": [
       "Supporto iPhone 15",
       "Fix colori icone widget"
@@ -642,7 +607,6 @@
     "version": "8.0.2",
     "date": "2023",
     "badge": null,
-    "badge_en": null,
     "highlights": [
       "Algoritmo pulizia RAM migliorato",
       "Supporto iPhone 15",
@@ -659,7 +623,6 @@
     "version": "8.0.1",
     "date": "2023",
     "badge": null,
-    "badge_en": null,
     "highlights": [
       "Fix crash pulizia RAM",
       "Fix sezione Network",
@@ -676,7 +639,6 @@
     "version": "8.0.0",
     "date": "2023",
     "badge": null,
-    "badge_en": null,
     "highlights": [
       "Widget StandBy Mode (iOS 17)",
       "Grafici SwiftUI",
@@ -695,7 +657,6 @@
     "version": "7.2.0",
     "date": "2023",
     "badge": null,
-    "badge_en": null,
     "highlights": [
       "Opzione per nascondere RAM inattiva"
     ],
@@ -708,7 +669,6 @@
     "version": "7.1.0",
     "date": "2023",
     "badge": null,
-    "badge_en": null,
     "highlights": [
       "Bug fix versione Mac"
     ],
@@ -721,7 +681,6 @@
     "version": "7.0.0",
     "date": "2023",
     "badge": null,
-    "badge_en": null,
     "highlights": [
       "Algoritmo pulizia RAM ottimizzato per iPad M1/M2"
     ],
@@ -734,7 +693,6 @@
     "version": "6.3.0",
     "date": "2022",
     "badge": null,
-    "badge_en": null,
     "highlights": [
       "Nuove Siri Shortcuts"
     ],
@@ -747,7 +705,6 @@
     "version": "6.2.0",
     "date": "2022",
     "badge": null,
-    "badge_en": null,
     "highlights": [
       "Nuove Siri Shortcuts"
     ],
@@ -760,7 +717,6 @@
     "version": "6.1.0",
     "date": "2022",
     "badge": null,
-    "badge_en": null,
     "highlights": [
       "Test Touch ID / Face ID",
       "Nuove animazioni",
@@ -777,7 +733,6 @@
     "version": "6.0.1",
     "date": "2022",
     "badge": null,
-    "badge_en": null,
     "highlights": [
       "Fix UI iPad",
       "Fix light/dark mode"
@@ -792,7 +747,6 @@
     "version": "6.0.0",
     "date": "2022",
     "badge": null,
-    "badge_en": null,
     "highlights": [
       "Riordinamento pannelli schermata principale",
       "Fix storage"
@@ -807,7 +761,6 @@
     "version": "5.5.1",
     "date": "2022",
     "badge": null,
-    "badge_en": null,
     "highlights": [
       "Bug fix iPad"
     ],
@@ -820,7 +773,6 @@
     "version": "5.5.0",
     "date": "2022",
     "badge": null,
-    "badge_en": null,
     "highlights": [
       "Supporto nuovi iPad",
       "Bug fix"
@@ -835,7 +787,6 @@
     "version": "5.4.1",
     "date": "2022",
     "badge": null,
-    "badge_en": null,
     "highlights": [
       "Impostazione manuale Light/Dark mode",
       "Data creazione nel report PDF"
@@ -850,7 +801,6 @@
     "version": "5.4.0",
     "date": "2022",
     "badge": null,
-    "badge_en": null,
     "highlights": [
       "Auto Light/Dark mode",
       "Verifica connettività 5G",
@@ -871,7 +821,6 @@
     "version": "5.3.0",
     "date": "2022",
     "badge": null,
-    "badge_en": null,
     "highlights": [
       "Test bussola nel Test Kit"
     ],
@@ -884,7 +833,6 @@
     "version": "5.2.0",
     "date": "2022",
     "badge": null,
-    "badge_en": null,
     "highlights": [
       "Rich Notification RAM",
       "Pulizia profonda RAM (PRO Kit)"
@@ -899,7 +847,6 @@
     "version": "5.1.1",
     "date": "2022",
     "badge": null,
-    "badge_en": null,
     "highlights": [
       "Piccoli fix"
     ],
@@ -912,7 +859,6 @@
     "version": "5.1.0",
     "date": "2022",
     "badge": null,
-    "badge_en": null,
     "highlights": [
       "Widget Lock Screen (iOS 16)",
       "Supporto iPhone 14"
@@ -927,7 +873,6 @@
     "version": "5.0.1",
     "date": "2022",
     "badge": null,
-    "badge_en": null,
     "highlights": [
       "Fix pulizia RAM"
     ],
@@ -940,7 +885,6 @@
     "version": "5.0.0",
     "date": "2022",
     "badge": null,
-    "badge_en": null,
     "highlights": [
       "Nuovi widget iOS 16"
     ],
@@ -953,7 +897,6 @@
     "version": "4.4.0",
     "date": "2022",
     "badge": null,
-    "badge_en": null,
     "highlights": [
       "Network Device Scanner",
       "Test NFC",
@@ -970,7 +913,6 @@
     "version": "4.3.1",
     "date": "2022",
     "badge": null,
-    "badge_en": null,
     "highlights": [
       "Personalizzazione colore testi widget"
     ],
@@ -983,7 +925,6 @@
     "version": "4.3.0",
     "date": "2022",
     "badge": null,
-    "badge_en": null,
     "highlights": [
       "Grafici nel report PDF"
     ],
@@ -996,7 +937,6 @@
     "version": "4.2.0",
     "date": "2022",
     "badge": null,
-    "badge_en": null,
     "highlights": [
       "Nuovi widget iOS 14/15",
       "Velocità download/upload nel widget iOS 13",
@@ -1013,7 +953,6 @@
     "version": "4.1.0",
     "date": "2021",
     "badge": null,
-    "badge_en": null,
     "highlights": [
       "Info Storage e CPU nel Today Widget",
       "Notifiche temperatura"
@@ -1028,7 +967,6 @@
     "version": "4.0.1",
     "date": "2021",
     "badge": null,
-    "badge_en": null,
     "highlights": [
       "Fix grafico batteria",
       "+50% velocità pulizia RAM"
@@ -1043,7 +981,6 @@
     "version": "4.0.0",
     "date": "2021",
     "badge": null,
-    "badge_en": null,
     "highlights": [
       "Grafica rinnovata per iPad"
     ],
@@ -1056,7 +993,6 @@
     "version": "3.12.0",
     "date": "2021",
     "badge": null,
-    "badge_en": null,
     "highlights": [
       "Notifiche temperatura dispositivo (Notification Kit)"
     ],
@@ -1069,7 +1005,6 @@
     "version": "3.11.0",
     "date": "2021",
     "badge": null,
-    "badge_en": null,
     "highlights": [
       "Mostra/nasconde pannelli homepage"
     ],
@@ -1082,7 +1017,6 @@
     "version": "3.10.0",
     "date": "2021",
     "badge": null,
-    "badge_en": null,
     "highlights": [
       "Visualizzazione spazio liberabile",
       "Communication Notification iOS 15"
@@ -1097,7 +1031,6 @@
     "version": "3.9.1",
     "date": "2021",
     "badge": null,
-    "badge_en": null,
     "highlights": [
       "Fix crash all'avvio"
     ],
@@ -1110,7 +1043,6 @@
     "version": "3.9.0",
     "date": "2021",
     "badge": null,
-    "badge_en": null,
     "highlights": [
       "Colori widget personalizzabili",
       "Soglia allarme Notification Kit"
@@ -1125,7 +1057,6 @@
     "version": "3.8.0",
     "date": "2021",
     "badge": null,
-    "badge_en": null,
     "highlights": [
       "Siri Shortcuts per pulizia RAM",
       "Grafico RAM nelle notifiche (iOS 15 + PRO/Notification Kit)"
@@ -1140,7 +1071,6 @@
     "version": "3.7.0",
     "date": "2021",
     "badge": null,
-    "badge_en": null,
     "highlights": [
       "Speed Test (Test Kit)"
     ],
@@ -1153,7 +1083,6 @@
     "version": "3.6.0",
     "date": "2021",
     "badge": null,
-    "badge_en": null,
     "highlights": [
       "Info display catturato",
       "Riscritto codice RAM",
@@ -1170,7 +1099,6 @@
     "version": "3.5.0",
     "date": "2021",
     "badge": null,
-    "badge_en": null,
     "highlights": [
       "Test Acid3 (Network)"
     ],
@@ -1183,7 +1111,6 @@
     "version": "3.4.0",
     "date": "2021",
     "badge": null,
-    "badge_en": null,
     "highlights": [
       "Ping Test",
       "Slider luminosità torcia",
@@ -1202,7 +1129,6 @@
     "version": "3.3.0",
     "date": "2021",
     "badge": null,
-    "badge_en": null,
     "highlights": [
       "Conteggio frame rate display"
     ],
@@ -1215,7 +1141,6 @@
     "version": "3.2.0",
     "date": "2021",
     "badge": null,
-    "badge_en": null,
     "highlights": [
       "Test sensore di prossimità",
       "Frequenza test haptic",
@@ -1232,7 +1157,6 @@
     "version": "3.1.0",
     "date": "2021",
     "badge": null,
-    "badge_en": null,
     "highlights": [
       "Rimossa pulizia RAM dal PRO Kit (spostata in free)",
       "Fix unità di misura sensori"
@@ -1247,7 +1171,6 @@
     "version": "3.0.0",
     "date": "2021",
     "badge": null,
-    "badge_en": null,
     "highlights": [
       "Test Kit (sensori hardware)",
       "Supporto Apple Pencil, torcia, coprocessore di movimento",
@@ -1264,7 +1187,6 @@
     "version": "2.11.0",
     "date": "2021",
     "badge": null,
-    "badge_en": null,
     "highlights": [
       "Fix minori"
     ],
@@ -1277,7 +1199,6 @@
     "version": "2.10.0",
     "date": "2021",
     "badge": null,
-    "badge_en": null,
     "highlights": [
       "Supporto nuovi iPhone e iPad"
     ],
@@ -1290,7 +1211,6 @@
     "version": "2.9.2",
     "date": "2021",
     "badge": null,
-    "badge_en": null,
     "highlights": [
       "Supporto iOS/iPadOS 15",
       "Fix Split View iPad"
@@ -1305,7 +1225,6 @@
     "version": "2.9.1",
     "date": "2021",
     "badge": null,
-    "badge_en": null,
     "highlights": [
       "Copia info con tap (PRO Kit)",
       "Fix pulsante pulizia"
@@ -1320,7 +1239,6 @@
     "version": "2.9.0",
     "date": "2021",
     "badge": null,
-    "badge_en": null,
     "highlights": [
       "Copia info con tap (PRO Kit)"
     ],
@@ -1333,7 +1251,6 @@
     "version": "2.8.1",
     "date": "2021",
     "badge": null,
-    "badge_en": null,
     "highlights": [
       "Info barometro"
     ],
@@ -1346,7 +1263,6 @@
     "version": "2.7.1",
     "date": "2021",
     "badge": null,
-    "badge_en": null,
     "highlights": [
       "Rimosso banner Televideo² Pro",
       "Fix widget"
@@ -1361,7 +1277,6 @@
     "version": "2.7.0",
     "date": "2021",
     "badge": null,
-    "badge_en": null,
     "highlights": [
       "Stima tempo rimanente carica/scarica batteria"
     ],
@@ -1374,7 +1289,6 @@
     "version": "2.6.0",
     "date": "2021",
     "badge": null,
-    "badge_en": null,
     "highlights": [
       "Shortcut pulizia RAM con pressione lunga sull'icona",
       "Info Hotspot personale"
@@ -1389,7 +1303,6 @@
     "version": "2.5.0",
     "date": "2021",
     "badge": null,
-    "badge_en": null,
     "highlights": [
       "Visualizzazione in-app report PDF",
       "Redirect widget iOS 13 al dettaglio RAM"
@@ -1404,7 +1317,6 @@
     "version": "2.4.0",
     "date": "2021",
     "badge": null,
-    "badge_en": null,
     "highlights": [
       "Rinnovata sezione Rete cellulare e Wi-Fi"
     ],
@@ -1417,7 +1329,6 @@
     "version": "2.3.0",
     "date": "2021",
     "badge": null,
-    "badge_en": null,
     "highlights": [
       "Info VPN, SSID, BSSID",
       "Info core attivi e architettura processore",
@@ -1434,7 +1345,6 @@
     "version": "2.2.0",
     "date": "2021",
     "badge": null,
-    "badge_en": null,
     "highlights": [
       "Introdotto PRO Kit",
       "Fix Bluetooth"
@@ -1449,7 +1359,6 @@
     "version": "2.1.1",
     "date": "2021",
     "badge": null,
-    "badge_en": null,
     "highlights": [
       "Fix acquisti in-app"
     ],
@@ -1462,7 +1371,6 @@
     "version": "2.1.0",
     "date": "2021",
     "badge": null,
-    "badge_en": null,
     "highlights": [
       "Notification Kit",
       "Icona batteria dinamica"
@@ -1477,7 +1385,6 @@
     "version": "2.0.0",
     "date": "2021",
     "badge": null,
-    "badge_en": null,
     "highlights": [
       "Report Kit (PDF)",
       "Info zoom schermo",
@@ -1494,7 +1401,6 @@
     "version": "1.9.0",
     "date": "2021",
     "badge": null,
-    "badge_en": null,
     "highlights": [
       "Info dettagliate partizioni RAM",
       "Nuove info sensori"
@@ -1509,7 +1415,6 @@
     "version": "1.8.0",
     "date": "2021",
     "badge": null,
-    "badge_en": null,
     "highlights": [
       "Grafico dettagliato RAM",
       "Auto-refresh indirizzo IP"
@@ -1524,7 +1429,6 @@
     "version": "1.7.0",
     "date": "2021",
     "badge": null,
-    "badge_en": null,
     "highlights": [
       "Info indirizzi IP",
       "Info sensori",
@@ -1541,7 +1445,6 @@
     "version": "1.6.0",
     "date": "2021",
     "badge": null,
-    "badge_en": null,
     "highlights": [
       "Notifiche quando RAM occupata supera il 95%"
     ],
@@ -1554,7 +1457,6 @@
     "version": "1.5.0",
     "date": "2021",
     "badge": null,
-    "badge_en": null,
     "highlights": [
       "Pulizia RAM"
     ],
@@ -1567,7 +1469,6 @@
     "version": "1.4.0",
     "date": "2021",
     "badge": null,
-    "badge_en": null,
     "highlights": [
       "Colorazione automatica grafici",
       "Icone al posto di Sì/No"
@@ -1582,7 +1483,6 @@
     "version": "1.3.0",
     "date": "2021",
     "badge": null,
-    "badge_en": null,
     "highlights": [
       "Info indirizzo IP",
       "Widget medium iOS 14 (CPU, RAM, Storage, Batteria)"
@@ -1597,7 +1497,6 @@
     "version": "1.2.0",
     "date": "2021",
     "badge": null,
-    "badge_en": null,
     "highlights": [
       "Personalizzazione colore grafici"
     ],
@@ -1610,7 +1509,6 @@
     "version": "1.1.0",
     "date": "2021",
     "badge": null,
-    "badge_en": null,
     "highlights": [
       "Versione iPad",
       "Fix localizzazioni",
@@ -1627,7 +1525,6 @@
     "version": "1.0.1",
     "date": "2021",
     "badge": null,
-    "badge_en": null,
     "highlights": [
       "Nuove localizzazioni",
       "Fix vari"
@@ -1641,8 +1538,7 @@
   {
     "version": "1.0.0",
     "date": "2021",
-    "badge": "Prima release",
-    "badge_en": "First release",
+    "badge": "first",
     "highlights": [
       "Release iniziale",
       "Pannelli: Device, RAM, Storage, CPU, Network, Batteria, Display, Fotocamera",
