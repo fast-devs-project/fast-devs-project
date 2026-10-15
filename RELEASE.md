@@ -90,4 +90,4 @@ git commit -m "Release Device Monitor² vX.X.X / iWindRose² vX.X.X"
 git push
 ```
 
-GitHub Pages updates automatically within 1-2 minutes after the push. The live site is served at **[fastdevsproject.com](https://fastdevsproject.com)**.
+GitHub Pages updates automatically within 1-2 minutes after the push, then the `Purge Cloudflare cache` workflow clears the Cloudflare CDN cache. The live site is served at **[fastdevsproject.com](https://fastdevsproject.com)**.

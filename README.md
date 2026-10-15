@@ -46,6 +46,7 @@ The repo root is the main site. Each app landing page lives in its own subfolder
 ├── AGENTS.md, CLAUDE.md    # Guidance for coding agents
 ├── README.md, RELEASE.md   # Project docs and release guide
 ├── scripts/                # Cache-busting + pre-commit hook scripts, diving-center maintenance scripts
+├── .github/workflows/      # Cloudflare cache purge after each GitHub Pages deploy
 │
 ├── device-monitor/         # Device Monitor² landing page
 │   ├── index.html
@@ -106,6 +107,8 @@ All sites are served from the same repo via GitHub Pages, behind the custom doma
 - `https://fastdevsproject.com/device-monitor/` — Device Monitor²
 - `https://fastdevsproject.com/iwindrose/` — iWindRose²
 - `https://fastdevsproject.com/televideo-pro/` — Televideo² Pro
+
+After every successful GitHub Pages deploy, the [`purge-cloudflare-cache.yml`](.github/workflows/purge-cloudflare-cache.yml) workflow purges the Cloudflare cache. It needs two repository secrets: `CLOUDFLARE_API_TOKEN` (an API token with the *Zone → Cache Purge* permission on the `fastdevsproject.com` zone) and `CLOUDFLARE_ZONE_ID`. It can also be run manually from the Actions tab.
 
 ---
 

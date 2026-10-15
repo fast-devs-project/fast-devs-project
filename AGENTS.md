@@ -47,6 +47,7 @@ CSS/JS/JSON are loaded with a `?v=` query string for GitHub Pages cache invalida
 - `js/app.js` reads its own `?v=` value from its script tag and forwards it to every JSON `fetch()`.
 - `scripts/cache-bust.sh` rewrites `?v=` values in the four `index.html` files.
 - A local `pre-commit` hook bumps the `?v=` values automatically when a commit touches site files. All logic lives in the tracked `scripts/pre-commit-cache-bust.sh`; the installed `.git/hooks/pre-commit` is only a wrapper. On a fresh clone, run `zsh scripts/install-pre-commit-hook.sh` once.
+- Cloudflare sits in front of GitHub Pages. `.github/workflows/purge-cloudflare-cache.yml` purges the whole Cloudflare cache after every successful `pages-build-deployment` run (or manually via `workflow_dispatch`), using the `CLOUDFLARE_API_TOKEN` and `CLOUDFLARE_ZONE_ID` repository secrets. The purge does not clear browser caches, so `?v=` values and new image filenames are still required.
 
 Do not hand-edit `?v=` values; let the script/hook manage them.
 
@@ -91,7 +92,7 @@ The content of every kit in `device-monitor/data/kits.json` (`description`, `fea
 
 ## Releasing
 
-See [RELEASE.md](RELEASE.md). Short version per app: prepend a new entry at the top of that app's `data/changelog.json`, move the `"latest"` badge key to it, update any changed content JSON, then commit. Deploy is just `git push`; GitHub Pages publishes within a couple of minutes.
+See [RELEASE.md](RELEASE.md). Short version per app: prepend a new entry at the top of that app's `data/changelog.json`, move the `"latest"` badge key to it, update any changed content JSON, then commit. Deploy is just `git push`; GitHub Pages publishes within a couple of minutes, then the Cloudflare purge workflow runs.
 
 ## Conventions
 
