@@ -1,0 +1,36 @@
+# Fast-Devs Project
+
+> Fast-Devs Project is the brand of Marco Ricca, an independent Italian developer of native apps for the Apple ecosystem: iPhone, iPad, Apple Watch and Mac. Active since 2010, with a privacy-first approach.
+
+The site is bilingual: Italian by default, English through the language switch. Page content is rendered client-side from JSON files, so the JSON links below hold the full copy in both languages (fields ending in `_en` are the English text). For support, questions or bug reports, use the contact form on the home page.
+
+## Home
+
+- [Fast-Devs Project](https://fastdevsproject.com/): home page with the full app catalogue, blog and contact form
+- [Apps catalogue](https://fastdevsproject.com/data/apps.json): every app, current and past, with description, platforms, App Store link and availability (`"removed"` marks apps no longer on the App Store)
+- [Blog](https://fastdevsproject.com/data/blog.json): news posts about the apps and the developer
+- [App Store developer page](https://apps.apple.com/us/developer/fast-devs-project/id380985711): all published apps
+
+## Device Monitor²
+
+- [Landing page](https://fastdevsproject.com/device-monitor/): free, privacy-first app for monitoring RAM, CPU, GPU, battery, network, storage and sensors in real time on iPhone, iPad, Apple Watch and Mac, with no data collection
+- [App Store](https://apps.apple.com/app/device-monitor/id1522870046): download page
+- [Features](https://fastdevsproject.com/device-monitor/data/features.json): main features
+- [Kits](https://fastdevsproject.com/device-monitor/data/kits.json): optional in-app Kits, one-time purchases with no subscriptions; features can differ by platform
+- [Compatibility](https://fastdevsproject.com/device-monitor/data/compatibility.json): supported devices and minimum OS versions
+- [Changelog](https://fastdevsproject.com/device-monitor/data/changelog.json): release history, newest first; entries are split by `platform` (`ios`, `macos`) and the first entry of each platform is the current version
+
+## iWindRose²
+
+- [Landing page](https://fastdevsproject.com/iwindrose/): app for sea enthusiasts on iPhone, iPad and Apple Watch, with wind rose, weather forecasts, marine bulletins, tides, scales and more
+- [App Store](https://apps.apple.com/app/iwindrose/id1403142267): download page
+- [Features](https://fastdevsproject.com/iwindrose/data/features.json): main features
+- [Compatibility](https://fastdevsproject.com/iwindrose/data/compatibility.json): supported devices and minimum OS versions
+- [Changelog](https://fastdevsproject.com/iwindrose/data/changelog.json): release history, newest first; the first entry is the current version
+
+## Optional
+
+- [Device Monitor² press](https://fastdevsproject.com/device-monitor/data/press.json): articles and videos about the app
+- [iWindRose² press](https://fastdevsproject.com/iwindrose/data/press.json): articles and videos about the app
+- [Televideo² Pro](https://fastdevsproject.com/televideo-pro/): archived landing page of the app for reading RAI Televideo (Italian teletext) news on iPhone, iPad, Apple Watch and Apple TV; it was removed from the App Store in 2021 at the request of FAPAV, acting on behalf of RAI, and is no longer available
+- [Televideo² Pro changelog](https://fastdevsproject.com/televideo-pro/data/changelog.json): full release history for iOS and tvOS
