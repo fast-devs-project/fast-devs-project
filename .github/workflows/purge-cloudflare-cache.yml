@@ -26,8 +26,15 @@ jobs:
           CLOUDFLARE_ZONE_ID: ${{ secrets.CLOUDFLARE_ZONE_ID }}
         run: |
           : "${CLOUDFLARE_API_TOKEN:?missing secret}" "${CLOUDFLARE_ZONE_ID:?missing secret}"
-          curl --fail-with-body --silent --show-error --retry 3 \
+          # No --fail: on errors Cloudflare still answers with a JSON body
+          # ("success": false plus "errors"), which is printed and checked below.
+          response=$(curl --silent --show-error --retry 3 \
             -X POST "https://api.cloudflare.com/client/v4/zones/${CLOUDFLARE_ZONE_ID}/purge_cache" \
             -H "Authorization: Bearer ${CLOUDFLARE_API_TOKEN}" \
             -H "Content-Type: application/json" \
-            --data '{"purge_everything":true}'
+            --data '{"purge_everything":true}')
+          echo "$response"
+          if ! jq -e '.success == true' <<<"$response" > /dev/null; then
+            echo "::error::Cloudflare cache purge failed"
+            exit 1
+          fi
